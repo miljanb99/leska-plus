@@ -1,0 +1,1551 @@
+{
+ "univer": [
+  {
+   "kod": "110 Bela MAT",
+   "file": "at-univer-110-bela-mat.jpg"
+  },
+  {
+   "kod": "K001",
+   "file": "at-univer-k001.jpg"
+  },
+  {
+   "kod": "K002",
+   "file": "at-univer-k002.jpg"
+  },
+  {
+   "kod": "K003",
+   "file": "at-univer-k003.jpg"
+  },
+  {
+   "kod": "ARTISAN",
+   "file": "at-univer-artisan.jpg"
+  },
+  {
+   "kod": "325",
+   "file": "at-univer-325.jpg"
+  },
+  {
+   "kod": "K007",
+   "file": "at-univer-k007.jpg"
+  },
+  {
+   "kod": "K365",
+   "file": "at-univer-k365.jpg"
+  }
+ ],
+ "medijapan": [
+  {
+   "kod": "068",
+   "file": "at-medijapan-068.jpg"
+  },
+  {
+   "kod": "631",
+   "file": "at-medijapan-631.jpg"
+  }
+ ],
+ "exclusiv": [
+  {
+   "kod": "Hrast klasik",
+   "file": "at-exclusiv-hrast-klasik.jpg"
+  },
+  {
+   "kod": "Oniks siva",
+   "file": "at-exclusiv-oniks-siva.jpg"
+  },
+  {
+   "kod": "Paprat zelena",
+   "file": "at-exclusiv-paprat-zelena.jpg"
+  },
+  {
+   "kod": "Snežno bela",
+   "file": "at-exclusiv-snezno-bela.jpg"
+  },
+  {
+   "kod": "Zelena premijer mat",
+   "file": "at-exclusiv-zelena-premijer-mat.jpg"
+  }
+ ],
+ "ploca28": [
+  {
+   "kod": "T 5041",
+   "file": "at-ploca28-t-5041.jpg"
+  },
+  {
+   "kod": "T 13",
+   "file": "at-ploca28-t-13.jpg"
+  },
+  {
+   "kod": "T 44",
+   "file": "at-ploca28-t-44.jpg"
+  },
+  {
+   "kod": "T 30",
+   "file": "at-ploca28-t-30.jpg"
+  }
+ ],
+ "ploca38": [
+  {
+   "kod": "K003",
+   "file": "at-ploca38-k003.jpg"
+  },
+  {
+   "kod": "T 32",
+   "file": "at-ploca38-t-32.jpg"
+  },
+  {
+   "kod": "T 54",
+   "file": "at-ploca38-t-54.jpg"
+  },
+  {
+   "kod": "4631",
+   "file": "at-ploca38-4631.jpg"
+  },
+  {
+   "kod": "209",
+   "file": "at-ploca38-209.jpg"
+  },
+  {
+   "kod": "T 45",
+   "file": "at-ploca38-t-45.jpg"
+  },
+  {
+   "kod": "T 46",
+   "file": "at-ploca38-t-46.jpg"
+  }
+ ],
+ "kuhinje": {
+  "attrium-hit-4f-kuhinja.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-hit-kip-4f-kuhinja.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-hit-kuhinja-1-2-m.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-hit-kuhinja-kip.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-kuhinja-djurdja-exclusiv-1-8m.jpg": {
+   "elementi": null,
+   "izbor": [
+    {
+     "naslov": "Frontovi (exclusiv)",
+     "grupa": "exclusiv"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 38 mm",
+     "grupa": "ploca38"
+    }
+   ]
+  },
+  "attrium-kuhinja-jelena-1-8-m.jpg": {
+   "elementi": "Attrium LUX medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 38 mm",
+     "grupa": "ploca38"
+    }
+   ]
+  },
+  "attrium-kuhinja-jelena-exclusiv-1-8m.jpg": {
+   "elementi": null,
+   "izbor": [
+    {
+     "naslov": "Frontovi (exclusiv)",
+     "grupa": "exclusiv"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 38 mm",
+     "grupa": "ploca38"
+    }
+   ]
+  },
+  "attrium-kuhinja-lela-2-4-m.jpg": {
+   "elementi": "Attrium LUX medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 38 mm",
+     "grupa": "ploca38"
+    }
+   ]
+  },
+  "attrium-kuhinja-lela-exclusiv-2-4m.jpg": {
+   "elementi": null,
+   "izbor": [
+    {
+     "naslov": "Frontovi (exclusiv)",
+     "grupa": "exclusiv"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 38 mm",
+     "grupa": "ploca38"
+    }
+   ]
+  },
+  "attrium-kuhinja-mila-2m.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-kuhinja-ur-a.jpg": {
+   "elementi": "Attrium LUX medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 38 mm",
+     "grupa": "ploca38"
+    }
+   ]
+  },
+  "attrium-lana-kuhinja.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-lana-kuhinja-kip.jpg": {
+   "elementi": "Attrium univer",
+   "izbor": [
+    {
+     "naslov": "Korpus i frontovi (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-najdja-kip-4f.jpg": {
+   "elementi": "Attrium medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-nadja-4f-medijapan.jpg": {
+   "elementi": "Attrium medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-na-a-kuhinja-kip-medijapan.jpg": {
+   "elementi": "Attrium medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-na-a-kuhinja-medijapan.jpg": {
+   "elementi": "Attrium medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-ina-kuhinja-medijapan.jpg": {
+   "elementi": "Attrium medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  },
+  "attrium-ina-kuhinja-kip-medijapan.jpg": {
+   "elementi": "Attrium medijapan",
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Radna ploča 28 mm",
+     "grupa": "ploca28"
+    }
+   ]
+  }
+ },
+ "medijapan-b": [
+  {
+   "kod": "068",
+   "file": "at-medijapan-b-068.jpg"
+  },
+  {
+   "kod": "631",
+   "file": "at-medijapan-b-631.jpg"
+  },
+  {
+   "kod": "037",
+   "file": "at-medijapan-b-037.jpg"
+  }
+ ],
+ "medijapan-c": [
+  {
+   "kod": "068",
+   "file": "at-medijapan-c-068.jpg"
+  },
+  {
+   "kod": "631",
+   "file": "at-medijapan-c-631.jpg"
+  }
+ ],
+ "univer-a": [
+  {
+   "kod": "110",
+   "file": "at-univer-a-110.jpg"
+  },
+  {
+   "kod": "K001",
+   "file": "at-univer-a-k001.jpg"
+  },
+  {
+   "kod": "K002",
+   "file": "at-univer-a-k002.jpg"
+  },
+  {
+   "kod": "K003",
+   "file": "at-univer-a-k003.jpg"
+  },
+  {
+   "kod": "K006",
+   "file": "at-univer-a-k006.jpg"
+  },
+  {
+   "kod": "325",
+   "file": "at-univer-a-325.jpg"
+  },
+  {
+   "kod": "K007",
+   "file": "at-univer-a-k007.jpg"
+  },
+  {
+   "kod": "204",
+   "file": "at-univer-a-204.jpg"
+  },
+  {
+   "kod": "164",
+   "file": "at-univer-a-164.jpg"
+  },
+  {
+   "kod": "A10",
+   "file": "at-univer-a-a10.jpg"
+  },
+  {
+   "kod": "A11",
+   "file": "at-univer-a-a11.jpg"
+  }
+ ],
+ "univer-b": [
+  {
+   "kod": "110",
+   "file": "at-univer-b-110.jpg"
+  },
+  {
+   "kod": "K001",
+   "file": "at-univer-b-k001.jpg"
+  },
+  {
+   "kod": "K002",
+   "file": "at-univer-b-k002.jpg"
+  },
+  {
+   "kod": "K003",
+   "file": "at-univer-b-k003.jpg"
+  },
+  {
+   "kod": "K006",
+   "file": "at-univer-b-k006.jpg"
+  },
+  {
+   "kod": "325",
+   "file": "at-univer-b-325.jpg"
+  },
+  {
+   "kod": "K007",
+   "file": "at-univer-b-k007.jpg"
+  },
+  {
+   "kod": "164",
+   "file": "at-univer-b-164.jpg"
+  },
+  {
+   "kod": "K365",
+   "file": "at-univer-b-k365.jpg"
+  },
+  {
+   "kod": "Hifa",
+   "file": "at-univer-b-hifa.jpg"
+  },
+  {
+   "kod": "Vanila",
+   "file": "at-univer-b-vanila.jpg"
+  }
+ ],
+ "univer-c": [
+  {
+   "kod": "110",
+   "file": "at-univer-c-110.jpg"
+  },
+  {
+   "kod": "K001",
+   "file": "at-univer-c-k001.jpg"
+  },
+  {
+   "kod": "K002",
+   "file": "at-univer-c-k002.jpg"
+  },
+  {
+   "kod": "K003",
+   "file": "at-univer-c-k003.jpg"
+  },
+  {
+   "kod": "K006",
+   "file": "at-univer-c-k006.jpg"
+  },
+  {
+   "kod": "325",
+   "file": "at-univer-c-325.jpg"
+  },
+  {
+   "kod": "K007",
+   "file": "at-univer-c-k007.jpg"
+  },
+  {
+   "kod": "204",
+   "file": "at-univer-c-204.jpg"
+  },
+  {
+   "kod": "164",
+   "file": "at-univer-c-164.jpg"
+  }
+ ],
+ "univer-d": [
+  {
+   "kod": "325",
+   "file": "at-univer-d-325.jpg"
+  },
+  {
+   "kod": "110",
+   "file": "at-univer-d-110.jpg"
+  },
+  {
+   "kod": "K001",
+   "file": "at-univer-d-k001.jpg"
+  },
+  {
+   "kod": "K002",
+   "file": "at-univer-d-k002.jpg"
+  },
+  {
+   "kod": "K003",
+   "file": "at-univer-d-k003.jpg"
+  },
+  {
+   "kod": "K006",
+   "file": "at-univer-d-k006.jpg"
+  },
+  {
+   "kod": "K007",
+   "file": "at-univer-d-k007.jpg"
+  }
+ ],
+ "proizvodi": {
+  "attrium-klub-sto-54.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-klub-sto-56-1.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-klub-sto-56-2.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-klub-sto-76-kocka.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-klub-sto-luna.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-klub-sto-monako.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-klub-sto-attrio-60x60.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-klub-sto-lela.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-klub-sto-luna-60x60.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-klub-sto-oskar.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-trio-klub-sto.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-tv-blok-bilja-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-tv-blok-ika-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-tv-blok-luna-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-tv-blok-mina-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-tv-blok-retro-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-tv-blok-zoka-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-1k-ormar-univer-visoki-sjaj.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-1k-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-2k-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-2k-ormar-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-2k2f-ormar-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-2k2f-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-2k2f-ormar-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-3k-ormar-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-3k-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-3k-ormar-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-3k2f-ormar-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-3k2f-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-3k2f-ormar-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-4k-2f-ormar-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-4k-2f-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-4k-2f-ormar-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-4k-ormar-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-4k-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-ormar-4k-visoki-sjaj-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-ugaoni-1k-garderober-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-ema-klizni-garderober-sa-ogledalom-2-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-ema-klizni-ormar-2-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-praktik-klizni-ormar-univer-medijapan-sa-ogledalom.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-praktik-klizni-garderober-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-praktik-klizni-ormar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-praktik-klizni-ormar-2-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-rea-klizni-ormar-univer-medijapan-sa-ogledalom.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-rea-klizni-garderober-sa-ogledalom-2-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-rea-klizni-ormar-2-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    },
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-biblioteka-polica-za-knjige.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-kaseta-sa-dve-fioke.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-2k1f-violeta.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan-c"
+    }
+   ]
+  },
+  "attrium-komoda-3f-helena.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-4k3f-loka.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-ela-frontovi-mogu-biti-u-medijapanu.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-komoda-grand.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-komoda-lea-2k4f.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-lara.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-komoda-lisa.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-komoda-meri.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-komoda-mila.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-milica-2k.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-nica.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-komoda-quattro.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan-c"
+    }
+   ]
+  },
+  "attrium-komoda-tatjana-2k3f-i-vertikala-tatjana-2k2f.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-tria-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-komoda-tria-univer-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan-c"
+    }
+   ]
+  },
+  "attrium-komoda-verona.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan-c"
+    }
+   ]
+  },
+  "attrium-nocni-ormaric-1f.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-nocni-ormaric-2f.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-nocni-ormaric-2f-bez-rucica.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-nocni-ormaric-3f.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan-c"
+    }
+   ]
+  },
+  "attrium-trif-komoda-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-vertikala-iris-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-a-trpezarijski-sto-mia-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (medijapan)",
+     "grupa": "medijapan-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-attris-130x80.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-attris-130x80-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (medijapan)",
+     "grupa": "medijapan-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-attris-80x80.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-attris-80x80-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (medijapan)",
+     "grupa": "medijapan-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-mia.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-panama-na-razvlacenje.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-panama-na-razvlacenje-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (medijapan)",
+     "grupa": "medijapan-b"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-sigma-na-razvlacenje.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-a"
+    }
+   ]
+  },
+  "attrium-trpezarijski-sto-sigma-na-razvlacenje-medijapan.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (medijapan)",
+     "grupa": "medijapan-b"
+    }
+   ]
+  },
+  "attrium-predsoblje-2k-dva-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-predsoblje-2k-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-predsoblje-2k2f.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-predsoblje-2k2f-dva-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-predsoblje-arija-dva-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-predsoblje-aurora-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-predsoblje-kapri-dva-dekora.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-predsoblje-marina-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-predsoblje-sofija-sa-ogledalom-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-big-cipelar.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-cipelar-stela-mali.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-cipelar-stela-veliki-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-cipelar-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-civiluk-helena.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-civiluk-zeka-4.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-b"
+    }
+   ]
+  },
+  "attrium-civiluk-zeka-5.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-kancelarijski-sto-sale-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-radni-sto-1k-1f-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer"
+    }
+   ]
+  },
+  "attrium-radni-sto-union-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-c"
+    }
+   ]
+  },
+  "attrium-kancelarijski-fiokar-sale.jpg": {
+   "izbor": [
+    {
+     "naslov": "Korpus (univer)",
+     "grupa": "univer"
+    },
+    {
+     "naslov": "Frontovi (medijapan)",
+     "grupa": "medijapan"
+    }
+   ]
+  },
+  "attrium-ormar-za-puske-univer.jpg": {
+   "izbor": [
+    {
+     "naslov": "Dekor (univer)",
+     "grupa": "univer-d"
+    }
+   ]
+  }
+ }
+}

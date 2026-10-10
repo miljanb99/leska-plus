@@ -1,0 +1,532 @@
+[
+ {
+  "ime": "Barrel",
+  "klasa": "standard",
+  "boje": [
+   {
+    "oznaka": "1",
+    "slika": "barrel-1.jpg"
+   },
+   {
+    "oznaka": "2",
+    "slika": "barrel-2.jpg"
+   },
+   {
+    "oznaka": "3",
+    "slika": "barrel-3.jpg"
+   },
+   {
+    "oznaka": "4",
+    "slika": "barrel-4.jpg"
+   },
+   {
+    "oznaka": "5",
+    "slika": "barrel-5.jpg"
+   },
+   {
+    "oznaka": "6",
+    "slika": "barrel-6.jpg"
+   },
+   {
+    "oznaka": "7",
+    "slika": "barrel-7.jpg"
+   },
+   {
+    "oznaka": "8",
+    "slika": "barrel-8.jpg"
+   },
+   {
+    "oznaka": "9",
+    "slika": "barrel-9.jpg"
+   },
+   {
+    "oznaka": "10",
+    "slika": "barrel-10.jpg"
+   },
+   {
+    "oznaka": "11",
+    "slika": "barrel-11.jpg"
+   },
+   {
+    "oznaka": "12",
+    "slika": "barrel-12.jpg"
+   },
+   {
+    "oznaka": "13",
+    "slika": "barrel-13.jpg"
+   },
+   {
+    "oznaka": "14",
+    "slika": "barrel-14.jpg"
+   },
+   {
+    "oznaka": "15",
+    "slika": "barrel-15.jpg"
+   },
+   {
+    "oznaka": "16",
+    "slika": "barrel-16.jpg"
+   },
+   {
+    "oznaka": "17",
+    "slika": "barrel-17.jpg"
+   },
+   {
+    "oznaka": "18",
+    "slika": "barrel-18.jpg"
+   },
+   {
+    "oznaka": "19",
+    "slika": "barrel-19.jpg"
+   },
+   {
+    "oznaka": "20",
+    "slika": "barrel-20.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Canary",
+  "klasa": "standard",
+  "boje": [
+   {
+    "oznaka": "430",
+    "slika": "canary-430.jpg"
+   },
+   {
+    "oznaka": "431",
+    "slika": "canary-431.jpg"
+   },
+   {
+    "oznaka": "432",
+    "slika": "canary-432.jpg"
+   },
+   {
+    "oznaka": "433",
+    "slika": "canary-433.jpg"
+   },
+   {
+    "oznaka": "434",
+    "slika": "canary-434.jpg"
+   },
+   {
+    "oznaka": "435",
+    "slika": "canary-435.jpg"
+   },
+   {
+    "oznaka": "436",
+    "slika": "canary-436.jpg"
+   },
+   {
+    "oznaka": "437",
+    "slika": "canary-437.jpg"
+   },
+   {
+    "oznaka": "438",
+    "slika": "canary-438.jpg"
+   },
+   {
+    "oznaka": "439",
+    "slika": "canary-439.jpg"
+   },
+   {
+    "oznaka": "440",
+    "slika": "canary-440.jpg"
+   },
+   {
+    "oznaka": "441",
+    "slika": "canary-441.jpg"
+   },
+   {
+    "oznaka": "442",
+    "slika": "canary-442.jpg"
+   },
+   {
+    "oznaka": "443",
+    "slika": "canary-443.jpg"
+   },
+   {
+    "oznaka": "444",
+    "slika": "canary-444.jpg"
+   },
+   {
+    "oznaka": "445",
+    "slika": "canary-445.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Point",
+  "klasa": "standard",
+  "boje": [
+   {
+    "oznaka": "420",
+    "slika": "point-420.jpg"
+   },
+   {
+    "oznaka": "421",
+    "slika": "point-421.jpg"
+   },
+   {
+    "oznaka": "422",
+    "slika": "point-422.jpg"
+   },
+   {
+    "oznaka": "423",
+    "slika": "point-423.jpg"
+   },
+   {
+    "oznaka": "424",
+    "slika": "point-424.jpg"
+   },
+   {
+    "oznaka": "425",
+    "slika": "point-425.jpg"
+   },
+   {
+    "oznaka": "426",
+    "slika": "point-426.jpg"
+   },
+   {
+    "oznaka": "427",
+    "slika": "point-427.jpg"
+   },
+   {
+    "oznaka": "428",
+    "slika": "point-428.jpg"
+   },
+   {
+    "oznaka": "429",
+    "slika": "point-429.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Siena",
+  "klasa": "standard",
+  "boje": [
+   {
+    "oznaka": "450",
+    "slika": "siena-450.jpg"
+   },
+   {
+    "oznaka": "452",
+    "slika": "siena-452.jpg"
+   },
+   {
+    "oznaka": "453",
+    "slika": "siena-453.jpg"
+   },
+   {
+    "oznaka": "454",
+    "slika": "siena-454.jpg"
+   },
+   {
+    "oznaka": "456",
+    "slika": "siena-456.jpg"
+   },
+   {
+    "oznaka": "457",
+    "slika": "siena-457.jpg"
+   },
+   {
+    "oznaka": "458",
+    "slika": "siena-458.jpg"
+   },
+   {
+    "oznaka": "459",
+    "slika": "siena-459.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Aragon",
+  "klasa": "S",
+  "boje": [
+   {
+    "oznaka": "S-1",
+    "slika": "aragon-s1.jpg"
+   },
+   {
+    "oznaka": "S-2",
+    "slika": "aragon-s2.jpg"
+   },
+   {
+    "oznaka": "S-3",
+    "slika": "aragon-s3.jpg"
+   },
+   {
+    "oznaka": "S-4",
+    "slika": "aragon-s4.jpg"
+   },
+   {
+    "oznaka": "S-5",
+    "slika": "aragon-s5.jpg"
+   },
+   {
+    "oznaka": "S-6",
+    "slika": "aragon-s6.jpg"
+   },
+   {
+    "oznaka": "S-7",
+    "slika": "aragon-s7.jpg"
+   },
+   {
+    "oznaka": "S-8",
+    "slika": "aragon-s8.jpg"
+   },
+   {
+    "oznaka": "S-9",
+    "slika": "aragon-s9.jpg"
+   },
+   {
+    "oznaka": "S-10",
+    "slika": "aragon-s10.jpg"
+   },
+   {
+    "oznaka": "S-11",
+    "slika": "aragon-s11.jpg"
+   },
+   {
+    "oznaka": "S-12",
+    "slika": "aragon-s12.jpg"
+   },
+   {
+    "oznaka": "S-13",
+    "slika": "aragon-s13.jpg"
+   },
+   {
+    "oznaka": "S-14",
+    "slika": "aragon-s14.jpg"
+   },
+   {
+    "oznaka": "S-15",
+    "slika": "aragon-s15.jpg"
+   },
+   {
+    "oznaka": "S-16",
+    "slika": "aragon-s16.jpg"
+   },
+   {
+    "oznaka": "S-17",
+    "slika": "aragon-s17.jpg"
+   },
+   {
+    "oznaka": "S-18",
+    "slika": "aragon-s18.jpg"
+   },
+   {
+    "oznaka": "S-19",
+    "slika": "aragon-s19.jpg"
+   },
+   {
+    "oznaka": "S-20",
+    "slika": "aragon-s20.jpg"
+   },
+   {
+    "oznaka": "S-21",
+    "slika": "aragon-s21.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Milano",
+  "klasa": "S",
+  "boje": [
+   {
+    "oznaka": "S-180",
+    "slika": "milano-s180.jpg"
+   },
+   {
+    "oznaka": "S-181",
+    "slika": "milano-s181.jpg"
+   },
+   {
+    "oznaka": "S-182",
+    "slika": "milano-s182.jpg"
+   },
+   {
+    "oznaka": "S-183",
+    "slika": "milano-s183.jpg"
+   },
+   {
+    "oznaka": "S-184",
+    "slika": "milano-s184.jpg"
+   },
+   {
+    "oznaka": "S-185",
+    "slika": "milano-s185.jpg"
+   },
+   {
+    "oznaka": "S-186",
+    "slika": "milano-s186.jpg"
+   },
+   {
+    "oznaka": "S-187",
+    "slika": "milano-s187.jpg"
+   },
+   {
+    "oznaka": "S-188",
+    "slika": "milano-s188.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Monolith",
+  "klasa": "S",
+  "boje": [
+   {
+    "oznaka": "S140",
+    "slika": "monolith-s140.jpg"
+   },
+   {
+    "oznaka": "S141",
+    "slika": "monolith-s141.jpg"
+   },
+   {
+    "oznaka": "S142",
+    "slika": "monolith-s142.jpg"
+   },
+   {
+    "oznaka": "S143",
+    "slika": "monolith-s143.jpg"
+   },
+   {
+    "oznaka": "S144",
+    "slika": "monolith-s144.jpg"
+   },
+   {
+    "oznaka": "S145",
+    "slika": "monolith-s145.jpg"
+   },
+   {
+    "oznaka": "S146",
+    "slika": "monolith-s146.jpg"
+   },
+   {
+    "oznaka": "S147",
+    "slika": "monolith-s147.jpg"
+   },
+   {
+    "oznaka": "S148",
+    "slika": "monolith-s148.jpg"
+   },
+   {
+    "oznaka": "S149",
+    "slika": "monolith-s149.jpg"
+   },
+   {
+    "oznaka": "S150",
+    "slika": "monolith-s150.jpg"
+   },
+   {
+    "oznaka": "S151",
+    "slika": "monolith-s151.jpg"
+   },
+   {
+    "oznaka": "S152",
+    "slika": "monolith-s152.jpg"
+   },
+   {
+    "oznaka": "S153",
+    "slika": "monolith-s153.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Polo",
+  "klasa": "S",
+  "boje": [
+   {
+    "oznaka": "S60",
+    "slika": "polo-s60.jpg"
+   },
+   {
+    "oznaka": "S61",
+    "slika": "polo-s61.jpg"
+   },
+   {
+    "oznaka": "S63",
+    "slika": "polo-s63.jpg"
+   },
+   {
+    "oznaka": "S64",
+    "slika": "polo-s64.jpg"
+   },
+   {
+    "oznaka": "S65",
+    "slika": "polo-s65.jpg"
+   },
+   {
+    "oznaka": "S69",
+    "slika": "polo-s69.jpg"
+   },
+   {
+    "oznaka": "S70",
+    "slika": "polo-s70.jpg"
+   }
+  ]
+ },
+ {
+  "ime": "Solar",
+  "klasa": "S",
+  "boje": [
+   {
+    "oznaka": "S101",
+    "slika": "solar-s101.jpg"
+   },
+   {
+    "oznaka": "S102",
+    "slika": "solar-s102.jpg"
+   },
+   {
+    "oznaka": "S103",
+    "slika": "solar-s103.jpg"
+   },
+   {
+    "oznaka": "S104",
+    "slika": "solar-s104.jpg"
+   },
+   {
+    "oznaka": "S105",
+    "slika": "solar-s105.jpg"
+   },
+   {
+    "oznaka": "S106",
+    "slika": "solar-s106.jpg"
+   },
+   {
+    "oznaka": "S107",
+    "slika": "solar-s107.jpg"
+   },
+   {
+    "oznaka": "S108",
+    "slika": "solar-s108.jpg"
+   },
+   {
+    "oznaka": "S109",
+    "slika": "solar-s109.jpg"
+   },
+   {
+    "oznaka": "S110",
+    "slika": "solar-s110.jpg"
+   },
+   {
+    "oznaka": "S111",
+    "slika": "solar-s111.jpg"
+   },
+   {
+    "oznaka": "S112",
+    "slika": "solar-s112.jpg"
+   },
+   {
+    "oznaka": "S113",
+    "slika": "solar-s113.jpg"
+   },
+   {
+    "oznaka": "S114",
+    "slika": "solar-s114.jpg"
+   }
+  ]
+ }
+]

@@ -1,0 +1,49 @@
+{
+"Alba": {
+"Maslina": "#b0a997",
+"Tamno sivo": "#3c3632",
+"Belo": "#d7d7d7"
+},
+"Aura": {
+"Bež": "#b0aba7",
+"Zelena": "#495656",
+"Belo": "#eaeaea"
+},
+"Lina": {
+"Bež": "#d1cbc0",
+"Belo": "#e2e2e2"
+},
+"Contempo": {
+"Pesak": "#beb8b4",
+"Sivo": "#4e4945",
+"Belo": "#e4e4e4",
+"Bež": "#dad7d0"
+},
+"IN": {
+"Kašmir sjaj": "#b6afa9",
+"Belo sjaj": "#eaeaeb",
+"Bež sjaj": "#e4e0d5",
+"Sivi hrast": "#b3a299",
+"Sivo": "#595450",
+"Artisan": "#aa8c70",
+"Snežni hrast": "#d8d7d2",
+"Pesak mat": "#cec9c0"
+},
+"Dečija soba Kinder": {
+"Belo - Pesak": "#ada1a1",
+"Belo - Plavo": "#bac0c1",
+"Belo - Violet": "#8f637a",
+"Belo - Zeleno": "#a8a672",
+"Premium hrast": "#b39885",
+"Premium hrast - Pesak": "#9f846f",
+"Premium hrast - Plavo": "#9f8570",
+"Kinder - Premium hrast": "#ad9888"
+},
+"Dečija soba Numero": {
+"Kameno sivo": "#cecac9",
+"Pink": "#e487a0",
+"Plavo": "#7ab8c9",
+"Zeleno": "#607a3a",
+"Ljubičasta": "#aca7b9"
+}
+}

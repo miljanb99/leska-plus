@@ -1,0 +1,975 @@
+{
+ "matis-americki-plakar-ap-180.jpg": {
+  "Snežni hrast - Sivo": "#b0b0b1",
+  "Artisan - Sivo": "#907967"
+ },
+ "matis-americki-plakar-ap-230.jpg": {
+  "Snežni hrast - Sivo": "#acacae",
+  "Artisan - Sivo": "#927a69"
+ },
+ "matis-americki-plakar-ap-270.jpg": {
+  "Snežni hrast - Sivo": "#b1b1b2",
+  "Artisan - Sivo": "#927969"
+ },
+ "matis-barska-stolica-line.jpg": {
+  "Crno": "#757478",
+  "Braon": "#817c7d",
+  "Belo": "#d5d4d7"
+ },
+ "matis-barska-stolica-neva.jpg": {
+  "Po izboru kupca": "#ac9e90",
+  "Orah - Bež": "#ac9e8f"
+ },
+ "matis-barska-stolica-wave.jpg": {
+  "Belo": "#dad9dd",
+  "Crno": "#9e9ca0"
+ },
+ "matis-bastenski-set-luna-2-1.jpg": {
+  "Roze": "#e3d9d4",
+  "Plavo": "#d1dbdb"
+ },
+ "matis-cipelarnik-odisej.jpg": {
+  "Snežni hrast": "#cecdcb",
+  "Hrast": "#d5c5b3",
+  "Artisan": "#b0927d"
+ },
+ "matis-civiluk-colour.jpg": {
+  "Belo": "#dddfe2",
+  "Zeleno": "#cfdba5",
+  "Pink": "#dc9bbc",
+  "Crno": "#8a8a88"
+ },
+ "matis-civiluk-imon.jpg": {
+  "Crno": "#726e6e",
+  "Belo": "#c7b7b9"
+ },
+ "matis-civiluk-itari.jpg": {
+  "Crno": "#7b7a7b",
+  "Belo": "#d7d6d5"
+ },
+ "matis-civiluk-matis.jpg": {
+  "Snežni hrast": "#cdccca",
+  "Hrast": "#c8af9e",
+  "Artisan": "#b2937e"
+ },
+ "matis-civiluk-tree.jpg": {
+  "Belo": "#dededf",
+  "Crno": "#8f8f8f"
+ },
+ "matis-decija-radna-stolica-disco.jpg": {
+  "Plavo": "#686a91",
+  "Crno": "#67656c",
+  "Narandžasto": "#b09177",
+  "Crveno": "#835761"
+ },
+ "matis-decija-soba-kinder.jpg": {
+  "Kinder - Premium hrast": "#beb2a8"
+ },
+ "matis-alba-klub-sto.jpg": {
+  "Kanela - Maslina": "#9f8976",
+  "Kanela - Belo": "#c7b2a5"
+ },
+ "matis-alba-niska-vitrina.jpg": {
+  "Kanela - Maslina": "#887a69",
+  "Kanela - Belo": "#c2b6af"
+ },
+ "matis-alba-polica.jpg": {
+  "Kanela - Maslina": "#9a8e7b",
+  "Kanela - Belo": "#cdcac8"
+ },
+ "matis-alba-visoka-vitrina.jpg": {
+  "Kanela - Maslina": "#8a7a6a",
+  "Kanela - Belo": "#afa097"
+ },
+ "matis-astana-polica-128.jpg": {
+  "Belo sjaj - Crni mermer": "#cccaca"
+ },
+ "matis-astana-polica-154.jpg": {
+  "Orah - Kašmir": "#cac1ba"
+ },
+ "matis-astana-tv-komoda-128.jpg": {
+  "Belo sjaj - Crni mermer": "#bebebe"
+ },
+ "matis-barcelona-komoda.jpg": {
+  "Nordik hrast - Pesak sjaj": "#a09b96",
+  "Artisan - Sivo": "#897365",
+  "Sivi hrast - Belo sjaj": "#bebdb8"
+ },
+ "matis-barcelona-polica.jpg": {
+  "Nordik hrast - Pesak sjaj": "#96908b",
+  "Artisan - Sivo": "#7a6e62",
+  "Sivi hrast - Belo sjaj": "#aea9a0"
+ },
+ "matis-barcelona-vitrina.jpg": {
+  "Nordik hrast - Pesak sjaj": "#a8a19b",
+  "Sivi hrast - Belo sjaj": "#c9c8c4",
+  "Artisan - Sivo": "#937b67"
+ },
+ "matis-contempo-klub-sto.jpg": {
+  "Artisan - Sivo": "#6d6058",
+  "Artisan - Belo": "#c6beb6"
+ },
+ "matis-contempo-komoda.jpg": {
+  "Artisan - Belo": "#d7d5d3",
+  "Artisan - Sivo": "#66605b"
+ },
+ "matis-contempo-staklena-vitrina-niska.jpg": {
+  "Artisan - Sivo": "#625e5b",
+  "Artisan - Belo": "#d6d5d3"
+ },
+ "matis-contempo-staklena-vitrina-visoka.jpg": {
+  "Artisan - Sivo": "#5d5b58",
+  "Artisan - Belo": "#d2d1d0"
+ },
+ "matis-contempo-viseca-polica.jpg": {
+  "Artisan - Sivo": "#6e6660",
+  "Artisan - Belo": "#d6d2cd"
+ },
+ "matis-denver-niska-vitrina.jpg": {
+  "Hrast kalaj - Antracit": "#897a72"
+ },
+ "matis-denver-tv-komoda.jpg": {
+  "Hrast kalaj - Belo sjaj": "#bcb3ad"
+ },
+ "matis-porto-niska-vitrina.jpg": {
+  "Artisan - Sivo": "#807269",
+  "Artisan - Belo": "#b0a59f"
+ },
+ "matis-porto-visoka-vitrina.jpg": {
+  "Artisan - Sivo": "#84756c",
+  "Artisan - Belo": "#aa9d97"
+ },
+ "matis-smart-tv-komoda.jpg": {
+  "Orah - Kašmir": "#b5a79e",
+  "Kanela - Kašmir": "#c7b8ab"
+ },
+ "matis-dvosed-boss-new.jpg": {
+  "Sivo": "#848381",
+  "Braon": "#746c65"
+ },
+ "matis-dvosed-dalas.jpg": {
+  "Antracit": "#3e3a37",
+  "Cappuccino": "#8f7f66"
+ },
+ "matis-dvosed-living-new.jpg": {
+  "Living-1-Bež": "#978174",
+  "Living-2-Sivo": "#626168"
+ },
+ "matis-dvosed-malfas.jpg": {
+  "Malfas-Štof-Braon": "#635149",
+  "Malfas-Štof-Bež": "#9a938c",
+  "Malfas-Štof-Sivo": "#535153"
+ },
+ "matis-dvosed-sorento.jpg": {
+  "Bež": "#7b736c",
+  "Tamno sivo": "#4f5158"
+ },
+ "matis-dvosed-u264.jpg": {
+  "Bež": "#bab2a3",
+  "Tamno braon": "#6d5e5d"
+ },
+ "matis-dvosed-z240.jpg": {
+  "Tamno braon": "#5e4d49",
+  "Bež": "#c4baab"
+ },
+ "matis-dvosed-z326.jpg": {
+  "Crno": "#3e3e3e",
+  "Bež": "#c9c0b1"
+ },
+ "matis-elegance-line-americki-plakar-ap-180.jpg": {
+  "Belo sjaj": "#e5e5e5",
+  "Nordik hrast - Pesak sjaj": "#c2bfb5"
+ },
+ "matis-elegance-line-americki-plakar-ap-230.jpg": {
+  "Nordik hrast - Pesak sjaj": "#c4bfb5",
+  "Belo sjaj": "#e5e5e5"
+ },
+ "matis-elegance-line-americki-plakar-ap-270.jpg": {
+  "Nordik hrast - Pesak sjaj": "#c7c3b9",
+  "Belo sjaj": "#e6e6e6"
+ },
+ "matis-fotelja-boss-new.jpg": {
+  "Braon": "#746b64",
+  "Sivo": "#898785"
+ },
+ "matis-fotelja-bossa.jpg": {
+  "Svetlo zeleno": "#aa9f8d",
+  "Bež": "#c5b19a"
+ },
+ "matis-fotelja-cocco.jpg": {
+  "Zeleno": "#718a8d",
+  "Bež": "#b6b7b4"
+ },
+ "matis-fotelja-cosy.jpg": {
+  "Parma Plavo": "#3c4a5e",
+  "Žuto": "#ab7e3f",
+  "Sivo": "#818085",
+  "Parma Narandžasto": "#71402e",
+  "Parma Sivo": "#65676f",
+  "Parma Bež": "#a49c98",
+  "Crveno": "#a9342f"
+ },
+ "matis-fotelja-grazia-new.jpg": {
+  "Zelena": "#74775b",
+  "Bež": "#aba399",
+  "Sivo": "#818181"
+ },
+ "matis-fotelja-ida.jpg": {
+  "Sivo": "#827e7b",
+  "Roze": "#b3848f",
+  "Bež": "#bbb6b4"
+ },
+ "matis-fotelja-living-new.jpg": {
+  "Living-2-Sivo": "#5e5d63",
+  "Living-1-Bež": "#988477"
+ },
+ "matis-fotelja-luna.jpg": {
+  "Svetlo sivo": "#bdaea5",
+  "Terakota": "#a87b62"
+ },
+ "matis-fotelja-malfas.jpg": {
+  "Malfas-Štof-Bež": "#9b938c",
+  "Malfas-Štof-Braon": "#5a4942",
+  "Malfas-Štof-Sivo": "#515151"
+ },
+ "matis-fotelja-nika.jpg": {
+  "Sivo": "#798c9f",
+  "Karirano": "#b3b8bb"
+ },
+ "matis-fotelja-nino.jpg": {
+  "ATP": "#21555f",
+  "Sivo": "#6f6f6f",
+  "Tirkiz": "#21555f"
+ },
+ "matis-fotelja-paris.jpg": {
+  "Sivo": "#c4bec0",
+  "Plavo": "#5c6272"
+ },
+ "matis-fotelja-perla-new.jpg": {
+  "Sivo": "#979694",
+  "Bež": "#b5aca3",
+  "Plavo": "#767d87"
+ },
+ "matis-fotelja-petra.jpg": {
+  "Zelena": "#a1b8ad",
+  "Bež": "#c7c8bd"
+ },
+ "matis-fotelja-potkovica.jpg": {
+  "Braon": "#6a4c3d"
+ },
+ "matis-fotelja-queen.jpg": {
+  "Bež": "#9c958d",
+  "Sivo": "#868686"
+ },
+ "matis-fotelja-ricco-u108.jpg": {
+  "Crno": "#5a5a5a",
+  "Belo": "#bbbbbd",
+  "Tamno braon": "#756563",
+  "Bež": "#a8a49c"
+ },
+ "matis-fotelja-rimini.jpg": {
+  "Sivo": "#5b5a5f",
+  "Bež": "#999798"
+ },
+ "matis-fotelja-u264.jpg": {
+  "Bež": "#bab2a4",
+  "Tamno braon": "#6b5c5b"
+ },
+ "matis-fotelja-vanilica.jpg": {
+  "Bež": "#ccc7c3",
+  "Roze": "#4b5057",
+  "Sivo": "#ac7e86"
+ },
+ "matis-fotelja-z210.jpg": {
+  "Sivo": "#4b4747"
+ },
+ "matis-fotelja-z240.jpg": {
+  "Bež": "#c7bdae",
+  "Tamno braon": "#63524e"
+ },
+ "matis-fotelja-z326.jpg": {
+  "Crno": "#3c3c3c",
+  "Bež": "#cdc5b6"
+ },
+ "matis-francuski-lezaj-korleone-new.jpg": {
+  "Bež": "#b2aeab",
+  "Tamno bež": "#908c87",
+  "Sivo": "#716d6a"
+ },
+ "matis-francuski-lezaj-mint.jpg": {
+  "Bež": "#c7c3be",
+  "Sivo": "#7d817e"
+ },
+ "matis-garderober-fortuna-soft-f1.jpg": {
+  "Snežni hrast": "#cecdcc",
+  "Hrast": "#c2a48e",
+  "Artisan": "#b69881"
+ },
+ "matis-garderober-fortuna-soft-f2-pol.jpg": {
+  "Hrast": "#bea08a",
+  "Artisan": "#b1947e",
+  "Snežni hrast": "#cdcccc"
+ },
+ "matis-garderober-fortuna-soft-f2.jpg": {
+  "Artisan": "#b49882",
+  "Snežni hrast": "#cdcccc",
+  "Hrast": "#bea08a"
+ },
+ "matis-garderober-fortuna-soft-f3.jpg": {
+  "Snežni hrast": "#cdcccb",
+  "Hrast": "#ceb09b",
+  "Artisan": "#b39781"
+ },
+ "matis-garderober-fortuna-soft-f75.jpg": {
+  "Hrast": "#bfa18b",
+  "Artisan": "#b89c85",
+  "Snežni hrast": "#d1d0d0"
+ },
+ "matis-garderober-fortuna-soft-fu.jpg": {
+  "Artisan": "#b69b87",
+  "Snežni hrast": "#cdcdcc",
+  "Hrast": "#bd9d82"
+ },
+ "matis-garderober-lara.jpg": {
+  "Premium hrast - Belo": "#c4bfc1",
+  "Artisan - Sivo": "#a48c79",
+  "Snežni hrast - Antracit": "#b7b2af"
+ },
+ "matis-kancelarijska-stolica-polar.jpg": {
+  "Zeleno": "#656b65"
+ },
+ "matis-klub-sto-aida-m.jpg": {
+  "Belo - Crno": "#7c7c7e",
+  "Crno - Bež": "#666769"
+ },
+ "matis-klub-sto-hermes.jpg": {
+  "Snežni hrast": "#b8b4b1",
+  "Belo": "#dedcd8",
+  "Hrast": "#c1ab91",
+  "Artisan": "#a58873"
+ },
+ "matis-klub-sto-leo.jpg": {
+  "Sivi hrast - Belo": "#bfb9b4",
+  "Artisan - Sivo": "#847163"
+ },
+ "matis-klub-sto-linkastyle.jpg": {
+  "Zeleno": "#6e7371",
+  "Indigo": "#686d76",
+  "Cashmere": "#ab9f9d"
+ },
+ "matis-klub-sto-pegaz.jpg": {
+  "Artisan - Sivo": "#9c816e",
+  "Sivi hrast - Belo": "#c0bcb8",
+  "Nordik - Pesak": "#a79e98"
+ },
+ "matis-klub-sto-saturn-new-h37.jpg": {
+  "Artisan": "#827266",
+  "Crni mermer": "#5e5d5e",
+  "Beli mermer": "#888787"
+ },
+ "matis-klub-sto-saturn-new-h42.jpg": {
+  "Artisan": "#8a7768",
+  "Beli mermer": "#9e9c9d",
+  "Crni mermer": "#504f51"
+ },
+ "matis-klub-sto-valencia.jpg": {
+  "Artisan": "#968377",
+  "Crni mermer": "#717072",
+  "Beli mermer": "#acabab"
+ },
+ "matis-komoda-1v-sa-kliznim-vratima-leonidas.jpg": {
+  "Artisan - Sivo": "#78665a",
+  "Premium hrast - Belo": "#bdb2aa"
+ },
+ "matis-komoda-1v3f-leonidas.jpg": {
+  "Artisan - Sivo": "#7d6c61"
+ },
+ "matis-komoda-2v3f-leonidas.jpg": {
+  "Premium hrast - Belo": "#c3b6ad"
+ },
+ "matis-komoda-dream.jpg": {
+  "Belo": "#dcdadc",
+  "Artisan": "#ccac95"
+ },
+ "matis-komoda-kaliopa.jpg": {
+  "Artisan - Sivo": "#806a5a",
+  "Premium hrast - Belo": "#c8c2bd"
+ },
+ "matis-komoda-roma.jpg": {
+  "Snežni hrast": "#cccac8",
+  "Hrast": "#d1bdaa",
+  "Artisan": "#b0937c"
+ },
+ "matis-komoda-roma-u.jpg": {
+  "Hrast": "#b69e88",
+  "Artisan": "#a88b76",
+  "Snežni hrast": "#afafae"
+ },
+ "matis-krevet-bali.jpg": {
+  "Bež": "#d7cfc7",
+  "Sivo": "#acaba9"
+ },
+ "matis-krevet-dream.jpg": {
+  "Artisan - Crno": "#9f948e",
+  "Belo - Crno": "#b0afb0"
+ },
+ "matis-krevet-marta.jpg": {
+  "Belo": "#d9d7d5"
+ },
+ "matis-krevet-master-basic.jpg": {
+  "Hrast": "#c0ad99",
+  "Belo": "#c5c2be"
+ },
+ "matis-krevet-nex.jpg": {
+  "Bukva": "#a48a68",
+  "Belo": "#c5bfba"
+ },
+ "matis-krevet-nika.jpg": {
+  "Po izboru kupca": "#b4aba1"
+ },
+ "matis-krevet-samac-nex.jpg": {
+  "Belo": "#aaa6a2",
+  "Bukva": "#a38662"
+ },
+ "matis-krevet-samac.jpg": {
+  "Bukva": "#d5ad89",
+  "Wenge": "#8f7c73",
+  "Orah": "#aa846b"
+ },
+ "matis-krevet-texas-160-200.jpg": {
+  "Svetlo sivo": "#8f8f8f",
+  "Bež": "#b8b1a9"
+ },
+ "matis-krevet-verona.jpg": {
+  "Plavo": "#3f4e61"
+ },
+ "matis-lezaj-eden.jpg": {
+  "Bež": "#8e8879",
+  "Sivo": "#686462",
+  "Konjak": "#806252"
+ },
+ "matis-lezaj-lagos.jpg": {
+  "Bež": "#b09e92",
+  "Sivo": "#9a9593"
+ },
+ "matis-lezaj-lima.jpg": {
+  "Roze": "#958785",
+  "Zeleno": "#929d9c",
+  "Svetlo sivo": "#a5a09e"
+ },
+ "matis-lezaj-magnum.jpg": {
+  "Sivo": "#817a73",
+  "Bež": "#c6b1a2"
+ },
+ "matis-lezaj-monaco.jpg": {
+  "Sivo": "#999899",
+  "Bež": "#a4988d"
+ },
+ "matis-lezaj-perla-new.jpg": {
+  "Plavo": "#838b8c",
+  "Bež": "#b7aca1",
+  "Sivo": "#979898"
+ },
+ "matis-lezaj-soho.jpg": {
+  "Bež": "#a0948c",
+  "Zeleno": "#747349"
+ },
+ "matis-malaga-komoda.jpg": {
+  "Kanela": "#c6aa92"
+ },
+ "matis-nocni-ormaric-alfa.jpg": {
+  "Snežni hrast": "#b3aeab",
+  "Artisan": "#947865",
+  "Hrast": "#b69887"
+ },
+ "matis-nocni-ormaric-deluxe.jpg": {
+  "Orah - Kašmir": "#a49287"
+ },
+ "matis-nocni-ormaric-kaliopa.jpg": {
+  "Premium hrast - Belo": "#c6c1bc",
+  "Artisan - Sivo": "#917a67"
+ },
+ "matis-nocni-ormaric-magnum.jpg": {
+  "Sivo": "#7d756f",
+  "Bež": "#c2ab9c"
+ },
+ "matis-nocni-ormaric-matis.jpg": {
+  "Hrast": "#ccbaa8",
+  "Artisan": "#a7886f",
+  "Belo": "#b8b8b8",
+  "Snežni hrast - Antracit": "#939394"
+ },
+ "matis-ormar-dream.jpg": {
+  "Belo": "#dbdbdb",
+  "Artisan": "#c19d86"
+ },
+ "matis-ormar-iva.jpg": {
+  "Artisan": "#977f70",
+  "Snežni hrast": "#c5c4c2",
+  "Hrast": "#ccaf97"
+ },
+ "matis-ormar-iva-k2-pol.jpg": {
+  "Artisan": "#b69881",
+  "Snežni hrast": "#c6c5c3",
+  "Hrast": "#caab91"
+ },
+ "matis-ormar-kaliopa.jpg": {
+  "Artisan - Sivo": "#9e7f67",
+  "Premium hrast - Belo": "#d8d8d7"
+ },
+ "matis-plakar-kaliopa-230.jpg": {
+  "Belo - Hrast": "#d7d1ca",
+  "Artisan - Sivo": "#978070"
+ },
+ "matis-plakar-kaliopa-270.jpg": {
+  "Premium hrast - Belo": "#c9c4c2",
+  "Artisan - Sivo": "#988170"
+ },
+ "matis-predsoblje-apolon-pa1.jpg": {
+  "Artisan": "#b69a85",
+  "Snežni hrast": "#c9c8c7",
+  "Hrast": "#c0a48d"
+ },
+ "matis-predsoblje-apolon-pa2.jpg": {
+  "Artisan": "#b69b87",
+  "Snežni hrast": "#d0cfce",
+  "Hrast": "#baa395"
+ },
+ "matis-predsoblje-apolon-pa3-komoda.jpg": {
+  "Snežni hrast": "#c9c7c5",
+  "Hrast": "#b49a86",
+  "Artisan": "#b79983"
+ },
+ "matis-predsoblje-apolon-pa3-ogledalo.jpg": {
+  "Snežni hrast": "#dfdfdf",
+  "Hrast": "#dad3cd",
+  "Artisan": "#d5cdc7"
+ },
+ "matis-ogledalo-contempo.jpg": {
+  "Artisan - Belo": "#dad7d7",
+  "Artisan - Sivo": "#b6b1b1"
+ },
+ "matis-predsoblje-contempo.jpg": {
+  "Artisan - Belo": "#cbc8c9",
+  "Artisan - Sivo": "#766c6d"
+ },
+ "matis-predsoblje-elegance-line-cipelar.jpg": {
+  "Nordik hrast - Pesak sjaj": "#b8b09f",
+  "Belo sjaj": "#dedede"
+ },
+ "matis-predsoblje-elegance-line-komoda-sa-civilukom.jpg": {
+  "Nordik hrast - Pesak sjaj": "#ada199",
+  "Belo sjaj": "#d0cfce"
+ },
+ "matis-predsoblje-elegance-line-ogledalo.jpg": {
+  "Nordik hrast - Pesak sjaj": "#d8d5d7",
+  "Belo sjaj": "#e6e5ea"
+ },
+ "matis-predsoblje-elegance-line-ormar-80-o.jpg": {
+  "Belo sjaj": "#e5e5e5",
+  "Nordik hrast - Pesak sjaj": "#d4d0ca"
+ },
+ "matis-predsoblje-elegance-line-ormar.jpg": {
+  "Belo sjaj": "#e2e2e2",
+  "Nordik hrast - Pesak sjaj": "#c4bdb7"
+ },
+ "matis-predsoblje-leonidas.jpg": {
+  "Premium hrast - Belo": "#bfb2a7",
+  "Artisan - Sivo": "#8e735c"
+ },
+ "matis-predsoblje-smart.jpg": {
+  "Kašmir": "#dad9d9"
+ },
+ "matis-trpezarijska-stolica-cutos.jpg": {
+  "Konjak": "#7a4741",
+  "Zeleno": "#525b56"
+ },
+ "matis-trpezarijska-stolica-dora.jpg": {
+  "Natur - Sivo": "#b5a28c",
+  "Natur - Bež": "#bda992",
+  "Natur - Crveno": "#a5826c",
+  "Natur - Žuto": "#b19261",
+  "Crno - Bež": "#888684"
+ },
+ "matis-trpezarijska-stolica-drina.jpg": {
+  "Belo - Sivo": "#b7b4b1",
+  "Belo - Braon": "#b6b4ba",
+  "Tamni hrast - Bež": "#7f7671"
+ },
+ "matis-trpezarijska-stolica-malangoli.jpg": {
+  "Zeleno": "#525d55",
+  "Tamno sivo": "#6f6f6f",
+  "Bež": "#b19f87"
+ },
+ "matis-trpezarijska-stolica-max.jpg": {
+  "Bež": "#c5b3b1",
+  "Tamno bež": "#b0a2a0"
+ },
+ "matis-trpezarijska-stolica-moon.jpg": {
+  "Crno": "#564c45",
+  "Belo": "#d3cbc3",
+  "Taupe": "#a59384",
+  "Terakota": "#c09984"
+ },
+ "matis-trpezarijska-stolica-nela.jpg": {
+  "Zeleno": "#455f52",
+  "Orah - Bež": "#9c938c"
+ },
+ "matis-trpezarijska-stolica-neva.jpg": {
+  "Orah - Bež": "#a89a8c",
+  "Po izboru kupca": "#a89a8c"
+ },
+ "matis-trpezarijska-stolica-patia.jpg": {
+  "Zeleno": "#7e7552",
+  "Svetlo sivo": "#b1a8a0"
+ },
+ "matis-trpezarijska-stolica-ra.jpg": {
+  "Sivo": "#818289",
+  "Bež": "#bdb3b0",
+  "Zeleno": "#5c7e7c"
+ },
+ "matis-trpezarijska-stolica-riva.jpg": {
+  "Crno - Sivo": "#82786f",
+  "Crno - Narandžasto": "#81553d"
+ },
+ "matis-trpezarijska-stolica-river.jpg": {
+  "River Tamno sivo": "#565753",
+  "River Bež": "#a39788"
+ },
+ "matis-trpezarijska-stolica-sienne.jpg": {
+  "Bež - Amaro": "#cdb5a6",
+  "Cacao - Amaro": "#b99073"
+ },
+ "matis-trpezarijska-stolica-varel.jpg": {
+  "Sivo": "#757575",
+  "Bež": "#908a88"
+ },
+ "matis-trpezarijska-stolica-vision.jpg": {
+  "Orah art - Bordo": "#5a3c37",
+  "Crno - Žuto": "#a2844c",
+  "Bež": "#c8c4bf",
+  "Natur - Zeleno": "#9c917f",
+  "Natur - Crveno": "#755347",
+  "Natur - Narandžasto": "#a67d69",
+  "Natur - Sivo": "#bfb6ad",
+  "Natur - Bež": "#c6b8aa"
+ },
+ "matis-trpezarijska-stolica-viva.jpg": {
+  "Bež": "#c6a895",
+  "Braon": "#7e5b4c"
+ },
+ "matis-trpezarijski-sto-dobok.jpg": {
+  "Lagina Glossy": "#b6b3af",
+  "Traverten": "#afa59a",
+  "Barok": "#6c5242"
+ },
+ "matis-trpezarijski-sto-filis.jpg": {
+  "Sonata": "#3b3b3d",
+  "Traverten": "#aea69a",
+  "Marmo": "#808080"
+ },
+ "matis-trpezarijski-sto-hikme.jpg": {
+  "Marmo": "#a5a3a1",
+  "Sonata": "#444444",
+  "Barok": "#66554c"
+ },
+ "matis-trpezarijski-sto-pablo-plus.jpg": {
+  "Artisan": "#6b5e50",
+  "Beli mermer": "#838280",
+  "Crni mermer": "#555555"
+ },
+ "matis-trpezarijski-sto-pablo-tr.jpg": {
+  "Snežni hrast": "#9d9d9d",
+  "Artisan": "#83776e",
+  "Crni mermer": "#5d5b59",
+  "Beli mermer": "#9d9b99"
+ },
+ "matis-trpezarijski-sto-pablo-x.jpg": {
+  "Artisan": "#867870",
+  "Beli mermer": "#a2a1a0",
+  "Crni mermer": "#575655",
+  "Snežni hrast": "#969697"
+ },
+ "matis-trpezarijski-sto-rondo.jpg": {
+  "Natur": "#b39877",
+  "Orah arti": "#8b7261",
+  "Špansko crno": "#55534f",
+  "Crno - Natur": "#7a6f5d"
+ },
+ "matis-ugaona-garnitura-atina.jpg": {
+  "Tamno sivo": "#605c60",
+  "Sivo": "#696768"
+ },
+ "matis-ugaona-garnitura-brisel.jpg": {
+  "Tamno sivo": "#5f5c60"
+ },
+ "matis-ugaona-garnitura-casablanca.jpg": {
+  "Sivo": "#8a8683",
+  "Bež": "#beb6aa"
+ },
+ "matis-ugaona-garnitura-diego.jpg": {
+  "Bež": "#ab9784",
+  "Zeleno": "#5e5d45",
+  "Sivo": "#555048"
+ },
+ "matis-ugaona-garnitura-dora.jpg": {
+  "Svetlo braon": "#8b7d6e"
+ },
+ "matis-ugaona-garnitura-dorina.jpg": {
+  "Plavo": "#578689",
+  "Sivo": "#625f59",
+  "Bež": "#ad9b7f"
+ },
+ "matis-ugaona-garnitura-gabi.jpg": {
+  "Sivo": "#555459",
+  "Bež": "#958b89"
+ },
+ "matis-ugaona-garnitura-havana.jpg": {
+  "Sivo": "#727274",
+  "Bež": "#aba193"
+ },
+ "matis-ugaona-garnitura-linea.jpg": {
+  "Sivo": "#787574",
+  "Roze": "#a28d89"
+ },
+ "matis-ugaona-garnitura-naomi.jpg": {
+  "Bež": "#beb6af",
+  "Sivo": "#7f8084"
+ },
+ "matis-ugaona-garnitura-noel.jpg": {
+  "Bež": "#d0c9c0",
+  "Sivo": "#868583"
+ },
+ "matis-ugaona-garnitura-queen.jpg": {
+  "Bež": "#a1988f",
+  "Sivo": "#848484"
+ },
+ "matis-ugaona-garnitura-rene.jpg": {
+  "Svetlo sivo": "#a6a3a7"
+ },
+ "matis-ugaona-garnitura-ricco-u108.jpg": {
+  "Tamno braon": "#5f4b48",
+  "Bež": "#b0aa9e",
+  "Belo": "#c3c1bd",
+  "Crno": "#363636"
+ },
+ "matis-ugaona-garnitura-royal.jpg": {
+  "Tamno sivo": "#60605e",
+  "Bež": "#b7a698"
+ },
+ "matis-ugaona-garnitura-u118.jpg": {
+  "Braon": "#524641",
+  "Sivo": "#c0bfba",
+  "Crno": "#434343"
+ },
+ "matis-ugaona-garnitura-xenia-new.jpg": {
+  "Braon": "#635455"
+ },
+ "matis-ugaona-garnitura-z210-braon.jpg": {
+  "Braon": "#573e33"
+ },
+ "matis-ugaona-garnitura-z210-sivo.jpg": {
+  "Sivo": "#514b4c"
+ },
+ "matis-front-30x101-kuhinja-alba.jpg": {
+  "Tamno sivo": "#40403e",
+  "Maslina": "#a89f8d",
+  "Belo": "#dbdbdb"
+ },
+ "matis-front-30x101-kuhinja-in-in-front-30.jpg": {
+  "Pesak mat": "#d0cbc3",
+  "Snežni hrast": "#bbbab5",
+  "Sivi hrast": "#9d8e83"
+ },
+ "matis-front-30x101-kuhinja-in-mdf-mdf-front-30.jpg": {
+  "Belo sjaj": "#d6d6d7",
+  "Kašmir sjaj": "#bab4ae",
+  "Bež sjaj": "#e1dbd0"
+ },
+ "matis-front-30x101-kuhinja-lina.jpg": {
+  "Bež": "#e7e7e7",
+  "Belo": "#d4cec3"
+ },
+ "matis-front-40-101-kuhinja-in.jpg": {
+  "Pesak mat": "#cfcac2",
+  "Snežni hrast": "#bab9b4",
+  "Sivi hrast": "#9c8d81"
+ },
+ "matis-front-40x101-kuhinja-alba.jpg": {
+  "Tamno sivo": "#3d3d3b",
+  "Maslina": "#aaa18f",
+  "Belo": "#dbdbdb"
+ },
+ "matis-front-40x101-kuhinja-in-mdf-mdf-front-40.jpg": {
+  "Kašmir sjaj": "#bab3ad",
+  "Bež sjaj": "#e1dace",
+  "Belo sjaj": "#d7d7d7"
+ },
+ "matis-front-40x101-kuhinja-lina.jpg": {
+  "Belo": "#e7e7e7",
+  "Bež": "#d3cdc1"
+ },
+ "matis-kuhinja-aura-radna-ploca-za-pult-sa-pripadajucim-ledima-38mm-1-m.jpg": {
+  "Crni mermer": "#868383",
+  "Perlino": "#ebe7e0"
+ },
+ "matis-kuhinja-aura-vinarija.jpg": {
+  "Crno": "#5f5f5e",
+  "Belo": "#cacaca"
+ },
+ "matis-metalac-granitna-sudopera-xquadro-40.jpg": {
+  "Bež": "#9c948c",
+  "Bela": "#c6c6c5",
+  "Crna": "#323032"
+ },
+ "matis-metalac-granitna-sudopera-xquadro-m.jpg": {
+  "Crna": "#423d3c",
+  "Bela": "#d9d9d8",
+  "Bež": "#b2a3a4"
+ },
+ "matis-metalac-granitna-sudopera-xquadro-plus.jpg": {
+  "Bež": "#b0a8a5",
+  "Bela": "#d2cfcf",
+  "Crna": "#555050"
+ },
+ "matis-metalac-granitna-sudopera-xvenera.jpg": {
+  "Bež": "#b5a38e",
+  "Crna": "#494949",
+  "Bela": "#d1d1d1",
+  "Sivo": "#919191"
+ },
+ "matis-par-bocnih-stranica-pulta.jpg": {
+  "Belo": "#d2d3d2"
+ },
+ "matis-par-bocnih-stranica-pulta-kuhinja-aura.jpg": {
+  "Crni mermer": "#222222",
+  "Perlino": "#eae3d9"
+ },
+ "matis-slavina-elleci-caddy-elleci-caddy.jpg": {
+  "Nero": "#484848",
+  "Bianco Antico": "#bcb7a3",
+  "Avena": "#b1a89d",
+  "Cemento": "#989898"
+ },
+ "matis-slavina-elleci-drive.jpg": {
+  "Nero": "#4b4b4b"
+ },
+ "matis-slavina-elleci-shell.jpg": {
+  "Nero": "#585858"
+ },
+ "matis-slavina-elleci-shell-plus-elleci-shell-plus.jpg": {
+  "Cemento": "#919191",
+  "Avena": "#a5998c",
+  "Nero": "#464646",
+  "Bianco Antico": "#d1ccba"
+ },
+ "matis-sudopera-elleci-ego-round-485.jpg": {
+  "Nero": "#3b3b3b",
+  "Bianco Antico": "#b8b3a5",
+  "Avena": "#a29789",
+  "Cemento": "#727272"
+ },
+ "matis-sudopera-elleci-life-310-790x500.jpg": {
+  "Avena": "#b4a79b",
+  "Bianco Antico": "#cfccbb",
+  "Cemento": "#919191",
+  "Nero": "#383838"
+ },
+ "matis-sudopera-elleci-quadra-102-470x500.jpg": {
+  "Bianco Antico": "#bdb8a6",
+  "Avena": "#a69a8e",
+  "Cemento": "#7e7e7e",
+  "Nero": "#404040"
+ },
+ "matis-sudopera-elleci-time-105-570x510.jpg": {
+  "Cemento": "#777777",
+  "Nero": "#313131",
+  "Bianco Antico": "#cdc7b9"
+ },
+ "matis-t-lajsna-za-spoj-radnih-ploca-28-mm.jpg": {
+  "Sivo": "#c8c8c8",
+  "Crno": "#484039",
+  "Belo": "#dfdfdf"
+ },
+ "matis-t-lajsna-za-spoj-radnih-ploca-38-mm.jpg": {
+  "Belo": "#dfdfdf",
+  "Sivo": "#c8c8c8",
+  "Crno": "#484039"
+ },
+ "matis-ugaona-lajsna-za-spoj-radnih-ploca-28-mm.jpg": {
+  "Sivo": "#d3d3d0",
+  "Crno": "#4a453e",
+  "Belo": "#e4e4e4"
+ },
+ "matis-ugaona-lajsna-za-spoj-radnih-ploca-38-mm.jpg": {
+  "Belo": "#e4e4e4",
+  "Sivo": "#d3d3d0",
+  "Crno": "#4a453e"
+ },
+ "matis-zavrsna-lajsna-za-radnu-plocu-28-mm.jpg": {
+  "Belo": "#e3e3e3",
+  "Sivo": "#c6c6c6",
+  "Crno": "#56514b"
+ },
+ "matis-zavrsna-lajsna-za-radnu-plocu-38-mm.jpg": {
+  "Belo": "#e3e3e3",
+  "Sivo": "#c6c6c6",
+  "Crno": "#56514b"
+ },
+ "matis-klizni-plakar-lumo-270.jpg": {
+  "Bež": "#af9a8e"
+ },
+ "matis-klizni-plakar-slide-200.jpg": {
+  "Premium hrast - Belo New": "#e3e4e1",
+  "Kanela": "#bba692",
+  "Kašmir New": "#c5c4c4"
+ },
+ "matis-klizni-plakar-slide-240.jpg": {
+  "Premium hrast - Belo New": "#e2dfdd",
+  "Kašmir New": "#c6c5c5",
+  "Kanela": "#bba28e"
+ },
+ "matis-ormar-dream-3k.jpg": {
+  "Belo": "#dfdfdf",
+  "Artisan": "#d2ac90"
+ },
+ "matis-ormar-dream-4k.jpg": {
+  "Belo": "#dfdfdf",
+  "Artisan": "#cda88c"
+ },
+ "matis-ormar-iva-2k.jpg": {
+  "Hrast": "#d2b297",
+  "Artisan": "#bc9d86",
+  "Snežni hrast": "#c9c8c6"
+ },
+ "matis-ormar-iva-3k.jpg": {
+  "Hrast": "#d5b69d",
+  "Snežni hrast": "#c8c7c7",
+  "Artisan": "#b59781"
+ },
+ "matis-ormar-iva-4k2f.jpg": {
+  "Artisan": "#a6866f",
+  "Snežni hrast": "#cac9c7",
+  "Hrast": "#d3b398"
+ },
+ "matis-ormar-kaliopa-3v2f.jpg": {
+  "Artisan - Sivo": "#9e7b61",
+  "Premium hrast - Belo": "#dddddd"
+ },
+ "matis-ormar-kaliopa-4v3f.jpg": {
+  "Artisan - Sivo": "#96715a",
+  "Premium hrast - Belo": "#dddddd"
+ },
+ "matis-vitrina-kaliopa-1v2f.jpg": {
+  "Premium hrast - Belo": "#dadada",
+  "Artisan - Sivo": "#a17e64"
+ },
+ "matis-komoda-contempo-komodica.jpg": {
+  "Artisan - Sivo": "#6d6467",
+  "Artisan - Belo": "#dcdbdd"
+ },
+ "matis-trosed-u264.jpg": {
+  "Tamno braon": "#969090",
+  "Bež": "#b5b1ad"
+ }
+}

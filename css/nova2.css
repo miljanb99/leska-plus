@@ -1,0 +1,1754 @@
+/* ==========================================================================
+   Početna, verzija 2 — što manje delova. Fotografija stoji kao podloga iza
+   vrha strane, izbledela do te mere da tekst preko nje ostaje crn i čitljiv.
+   Učitava se POSLE style.css i ništa iz njega ne menja.
+   ========================================================================== */
+
+/* ---------- vrh strane sa fotografijom kao podlogom ---------- */
+.v2-vrh{position:relative;isolation:isolate;overflow:hidden;
+  padding-block:clamp(2rem,5vw,4rem) clamp(1.8rem,4vw,3.2rem)}
+.v2-vrh .v2-slika{position:absolute;inset:0;z-index:0;pointer-events:none}
+.v2-vrh .v2-slika img{width:100%;height:100%;object-fit:cover;display:block;
+  /* fotografija je samo podloga — spušta se skoro do nivoa papira */
+  opacity:.62;filter:saturate(1)}
+/* belina preko fotografije: puna dole gde je tekst, providnija gore */
+.v2-vrh .v2-slika::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(255,255,255,.18) 0%,rgba(255,255,255,.62) 48%,rgba(255,255,255,.94) 88%,var(--ground) 100%)}
+.v2-vrh > *{position:relative;z-index:1}
+
+.v2-naslov{max-width:22ch;font-size:var(--t-3xl);line-height:1.05;letter-spacing:-.015em}
+.v2-naslov em{font-style:normal;color:var(--plum)}
+.v2-lead{margin-top:1rem;max-width:46ch;font-size:var(--t-lg);color:var(--ink-soft);line-height:1.6}
+.v2-akcije{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.6rem}
+
+
+/* ---------- jedan red sa onim što radimo ---------- */
+/* Red se puni sam: sa četiri stavke staju četiri stupca, sa pet — pet. */
+.v2-red{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:clamp(.8rem,2vw,1.6rem);
+  padding-top:clamp(1.4rem,3vw,2.2rem);border-top:1px solid var(--line)}
+.v2-red div b{display:block;font-family:"Nunito",sans-serif;font-weight:900;
+  font-size:var(--t-base);color:var(--ink)}
+.v2-red div span{display:block;margin-top:.3rem;color:var(--ink-soft);
+  font-size:var(--t-sm);line-height:1.55}
+@media (max-width:760px){.v2-red{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- usluge i „po meri" su jedna traka ----------
+   Bili su dva odvojena pojasa sa praznim pojasom između, pa je izgledalo kao da
+   je nešto izostavljeno. Sad stoje jedno ispod drugog u istoj traci. Linije
+   između njih više nema: otkad blok „po meri" ima istu crtu uz levu ivicu i
+   istu značku kao stavke iznad, to je jedna porodica — a linija je delila
+   upravo ono što treba da se čita zajedno. */
+.v2-usluge{border-top:0;padding-top:0;margin-bottom:clamp(1.8rem,3.5vw,2.8rem);
+  padding-bottom:clamp(1.6rem,3vw,2.4rem)}
+/* Zaglavlje se lepi samo dok traje vrh strane — niže ga nema, pa odmak sme da
+   bude mali. Sa velikim je iznad naslova ostajao prazan pojas i skok je
+   izgledao kao da je promašio. Vazduh daje sam razmak trake. */
+#usluge,#po-meri,#salon{scroll-margin-top:1.2rem}
+/* ---------- kontakt zauzima ceo ekran ----------
+   Racunanje odmaka od vrha nije moglo da uspe: odeljak je nizi od ekrana, pa
+   kad mu naslov stoji gore, podnozje samo ude u kadar. Umesto da se to gonja
+   brojkama — koje zavise od pregledaca, zuma i visine prozora — traka je sada
+   visoka bar koliko ekran, a sadrzaj joj stoji po sredini. Skok na vrh trake
+   tada uvek pokazuje ceo kontakt i nista od podnozja, u svakom pregledacu i
+   bez ijedne linije programa. */
+.kontakt-traka{min-height:100svh;display:flex;flex-direction:column;
+  justify-content:center}
+#kontakt{scroll-margin-top:0}
+@media (max-width:900px){.kontakt-traka{min-height:0;display:block}}
+/* Sidro „Usluge" stoji na samom redu, ne na sekciji: sekcija počinje razmakom,
+   pa je skok završavao iznad reda, u praznom. */
+#usluge{scroll-margin-top:2.4rem}
+
+/* Red je bio samo nabrojan, bez ijednog grafičkog poteza. Kratka crta u boji
+   firme iznad svake stavke i redni broj daju mu ritam — bez ikonica, okvira i
+   podloga, koje su na ovom mestu delovale kao ukras viška. */
+/* Crta je prešla sa vrha na levu stranu: stavka sada stoji kao izvod uz
+   marginu, broj i naslov su krupniji, a rečenica ispod je tamnija i čita se
+   kao deo celine, a ne kao sitan dodatak. */
+.v2-usluge{gap:clamp(1rem,2.4vw,2.2rem)}
+.v2-usluge > div{padding:.15rem 0 .15rem clamp(.9rem,1.6vw,1.25rem);
+  border-left:2px solid var(--plum);border-top:0}
+/* Umesto rednih brojeva ide ista značka kao na kartici „šta radimo" na strani
+   po meri: ikonica u bledoljubičastom krugu. */
+.v2-usluge .ico{display:grid;place-items:center;width:2.6rem;height:2.6rem;
+  margin-bottom:.75rem;border-radius:var(--r-pill);
+  background:var(--plum-wash-2);color:var(--plum-dark)}
+.v2-usluge .ico svg{width:1.3rem;height:1.3rem;fill:none;stroke:currentColor;
+  stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.v2-usluge > div b{font-size:var(--t-lg);line-height:1.2;letter-spacing:-.01em}
+/* Svih pet opisa se prelama u dva reda, da red bude ujednačen. */
+.v2-usluge > div span{margin-top:.45rem;color:var(--ink-soft);font-size:var(--t-sm);
+  line-height:1.6;display:block;max-width:23ch}
+
+/* ---------- po meri: fotografija uz tekst, u istom svetlom tonu ---------- */
+/* Kartica je uvek za širinu preklapanja šira nego što joj kolona kaže, pa su
+   kolone namerno malo nejednake: vidljivo belo i vidljiva slika ispadnu isti. */
+.v2-pm{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1fr);
+  gap:clamp(1.4rem,3vw,2.8rem);align-items:stretch}
+.v2-pm-foto{border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-m);
+  aspect-ratio:4/3;background:var(--tint)}
+.v2-pm-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.v2-pm ul{margin-top:1.1rem;display:flex;flex-wrap:wrap;gap:.45rem}
+/* Nisu dugmad — ništa se ne klikće, pa neka budu tiha lista sa tačkicom
+   umesto belih pilula koje su vikale jače od naslova. */
+.v2-pm ul{gap:.35rem 1.5rem}
+.v2-pm ul li{list-style:none;padding:0;background:none;border:0;
+  font-size:var(--t-sm);color:var(--ink-soft);display:inline-flex;align-items:center;gap:.45rem}
+.v2-pm ul li::before{content:"";width:.34rem;height:.34rem;border-radius:50%;
+  background:var(--plum-light);flex:none}
+@media (max-width:860px){.v2-pm{grid-template-columns:1fr}}
+
+/* ---------- mesto za fotografije iz salona ---------- */
+/* Prazna polja stoje namerno: ovde idu snimci salona, njih ne može da zameni
+   nijedna fotografija iz kataloga proizvođača. */
+.v2-salon{display:grid;gap:clamp(.6rem,1.2vw,1rem);
+  grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(130px,14vw,190px)}
+.v2-salon .mesto{display:grid;place-content:center;gap:.3rem;text-align:center;
+  border:2px dashed var(--line-2);border-radius:var(--r);background:var(--tint);
+  color:var(--ink-faint);padding:1rem}
+.v2-salon .mesto b{font-family:"Nunito",sans-serif;font-size:var(--t-sm);color:var(--ink-soft)}
+.v2-salon .mesto span{font-size:var(--t-xs);line-height:1.4;max-width:22ch}
+.v2-salon .v2{grid-column:span 2;grid-row:span 2}
+@media (max-width:760px){.v2-salon{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- zaglavlje sa pretragom (logo · traži · kontakt) ---------- */
+/* Isti raspored kao kod velikih prodavaca: znak levo, polje za pretragu po
+   sredini gde je oko, a poziv i upit desno. Navigacija pada u red ispod, da
+   pretraga dobije prostor a meni ne bude zbijen. */
+/* samo prvi red zaglavlja — meni „Ponuda" je takođe u .v2-glava i ovaj
+   raspored bi mu razvukao dugme preko cele širine */
+.v2-glava > .wrap{display:grid;grid-template-columns:auto minmax(0,1fr) auto;
+  align-items:center;gap:clamp(.8rem,2vw,2rem);padding-block:.85rem}
+.v2-trazi{position:relative;max-width:560px;width:100%;justify-self:center}
+.v2-trazi input{width:100%;height:2.9rem;padding:0 2.9rem 0 2.9rem;
+  border:1px solid var(--line-2);border-radius:var(--r-pill);background:var(--tint);
+  font:inherit;font-size:var(--t-sm);color:var(--ink);transition:border-color .2s,background .2s,box-shadow .2s}
+.v2-trazi input::placeholder{color:var(--ink-faint)}
+.v2-trazi input:focus{outline:none;background:var(--card);border-color:var(--plum-light);
+  box-shadow:0 0 0 4px var(--plum-wash-2)}
+.v2-trazi .lupa{position:absolute;left:1rem;top:50%;transform:translateY(-50%);
+  width:1.05rem;height:1.05rem;fill:none;stroke:var(--ink-faint);stroke-width:2;
+  stroke-linecap:round;pointer-events:none}
+.v2-trazi button{position:absolute;right:.35rem;top:50%;transform:translateY(-50%);
+  height:2.2rem;padding:0 1rem;border:0;border-radius:var(--r-pill);cursor:pointer;
+  background:var(--plum);color:#fff;font-family:"Nunito",sans-serif;font-weight:800;
+  font-size:var(--t-xs);transition:background .2s}
+.v2-trazi button:hover{background:var(--plum-dark)}
+.v2-glava-desno{display:flex;align-items:center;gap:.6rem}
+.v2-glava-tel{font-family:"Nunito",sans-serif;font-weight:800;font-size:var(--t-sm);
+  color:var(--ink);text-decoration:none;white-space:nowrap}
+.v2-glava-tel:hover{color:var(--plum)}
+/* navigacija u zasebnom redu ispod */
+.v2-nav{border-top:1px solid var(--line)}
+.v2-nav .wrap{display:flex;align-items:center;gap:clamp(.2rem,.8vw,.6rem);
+  padding-block:.5rem;overflow-x:auto;scrollbar-width:none}
+.v2-nav .wrap::-webkit-scrollbar{display:none}
+/* pilula kao i ranije: aktivna strana je puna, ostalo se boji pri prelasku */
+.v2-nav a,.v2-nav .nav-btn{font-family:"Nunito",sans-serif;font-weight:700;
+  font-size:var(--t-sm);color:var(--ink-soft);text-decoration:none;white-space:nowrap;
+  background:none;border:0;padding:.42rem .85rem;border-radius:var(--r-pill);cursor:pointer;
+  display:inline-flex;align-items:center;gap:.3rem;transition:background .18s,color .18s}
+.v2-nav a:hover,.v2-nav .nav-btn:hover{color:var(--plum-dark);background:var(--plum-wash)}
+/* tekuća strana je puna pilula — i kad je to dugme „Ponuda", ne samo link */
+.v2-nav a[aria-current="page"],.v2-nav .nav-btn[aria-current="page"]{background:var(--plum);color:#fff}
+.v2-nav a[aria-current="page"]:hover,.v2-nav .nav-btn[aria-current="page"]:hover{background:var(--plum-dark);color:#fff}
+.v2-nav .nav-btn[aria-current="page"][aria-expanded="true"]{background:var(--plum-dark);color:#fff}
+.v2-nav .nav-btn[aria-expanded="true"]{background:var(--plum-wash);color:var(--plum-dark)}
+.v2-nav .nav-btn svg{width:.9rem;height:.9rem;fill:none;stroke:currentColor;stroke-width:2.2}
+@media (max-width:900px){
+  .v2-glava > .wrap{grid-template-columns:auto auto;grid-template-areas:"znak desno" "trazi trazi"}
+  .v2-glava .brand{grid-area:znak}
+  .v2-trazi{grid-area:trazi;max-width:none}
+  .v2-glava-desno{grid-area:desno}
+  .v2-glava-tel{display:none}
+}
+
+/* ---------- meki prelazi između traka ---------- */
+/* Umesto da se boja preseče u liniji, traka se na oba kraja stapa sa belinom.
+   Sadržaj se ne pomera — menja se samo podloga. */
+.v2 .band--wash, .band.v2-meko{
+  background:linear-gradient(180deg,
+    var(--ground) 0%, var(--plum-wash) 9%, var(--plum-wash) 91%, var(--ground) 100%)}
+.band.v2-meko-tint{
+  background:linear-gradient(180deg,
+    var(--ground) 0%, var(--tint) 9%, var(--tint) 91%, var(--ground) 100%)}
+
+/* ---------- po meri: ista fotografija kao podloga, pa se nastavlja na vrh ---------- */
+.v2-pm-traka{position:relative;isolation:isolate;overflow:hidden}
+.v2-pm-traka .v2-slika{position:absolute;inset:0;z-index:0;pointer-events:none}
+.v2-pm-traka .v2-slika img{width:100%;height:100%;object-fit:cover;display:block;
+  opacity:.3;filter:saturate(.9)}
+.v2-pm-traka .v2-slika::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,var(--ground) 0%,rgba(252,242,249,.86) 16%,
+    rgba(252,242,249,.9) 84%,var(--ground) 100%)}
+.v2-pm-traka > *{position:relative;z-index:1}
+
+/* ---------- 8. vrh strane kao jedna celina ---------- */
+/* Traka sa adresom i zaglavlje su bili dve odvojene boje sa oštrom linijom.
+   Sada prelaze jedno u drugo, pa deluju kao jedan komad. */
+/* Vrh strane ima jasnu podelu umesto tri slična roza pojasa: tanka traka u
+   punoj ljubičastoj, pa belo zaglavlje. Tako se odmah vidi šta je šta. */
+/* Ista dijagonalna gradacija kao u podnožju — tamno levo, svetlije desno.
+   Traka je niska pa se čita kao prelaz sleva nadesno; strana je tako
+   uokvirena istim potezom i gore i dole. */
+body:has(.v2-glava) .topbar{color:rgba(255,255,255,.88);border-bottom:0;
+  background:linear-gradient(135deg, #3f0e37 0%, var(--plum-dark) 40%, var(--plum) 100%)}
+body:has(.v2-glava) .topbar span{color:rgba(255,255,255,.88)}
+body:has(.v2-glava) .topbar a{color:#fff}
+body:has(.v2-glava) .topbar a:hover{color:var(--plum-wash)}
+body:has(.v2-glava) .topbar b{color:#fff}
+/* Otvoreno je zeleno, zatvoreno peskovito — na ljubičastoj traci su se obe
+   poruke ispisivale istom bojom, pa se na prvi pogled nije videlo koja je. */
+body:has(.v2-glava) .topbar .radno{color:#9BE3AE}
+body:has(.v2-glava) .topbar .radno::before{background:#3FCE7A;box-shadow:0 0 0 3px rgba(63,206,122,.22)}
+body:has(.v2-glava) .topbar .radno.zatvoreno{color:#F6C177}
+body:has(.v2-glava) .topbar .radno.zatvoreno::before{background:#E8A33D;box-shadow:0 0 0 3px rgba(232,163,61,.24)}
+.v2-vrh-omot{background:var(--ground)}
+body:has(.v2-glava) .v2-glava{background:var(--ground);border-bottom:0}
+body:has(.v2-glava) .v2-nav{background:var(--ground);border-top:1px solid var(--line);
+  box-shadow:0 1px 0 var(--line)}
+body:has(.v2-glava) .v2-trazi input{background:var(--tint);border-color:var(--line-2)}
+body:has(.v2-glava) .v2-trazi input:focus{background:#fff;border-color:var(--plum-light)}
+
+/* ---------- 2. karusel: kartice se stapaju sa podlogom ---------- */
+/* Pune bele kartice su na svetloj podlozi delovale kao nalepljeni papirići.
+   Sada su providne sa blagim zamućenjem, pa podloga prolazi kroz njih. */
+.v2 .cv-slide, body:has(.v2-vrh) .cv-slide{
+  background:rgba(255,255,255,.62);
+  backdrop-filter:blur(10px) saturate(1.08);
+  -webkit-backdrop-filter:blur(10px) saturate(1.08);
+  border:1px solid rgba(255,255,255,.7);
+  box-shadow:0 10px 30px rgba(46,39,51,.10)}
+/* Kartice karusela nose zamućenje, a karusel se pomera sve vreme — svaka od njih
+   za svaki kadar iznova zamućuje podlogu. Dok se strana klizi, to se gasi. */
+/* Ostaju samo kartice karusela: pomeraju se neprekidno i nisu zalepljene za
+   vrh, pa se promena podloge dok strana klizi ne primećuje. */
+html.klizi .cv-slide{backdrop-filter:none;-webkit-backdrop-filter:none;
+  background:rgba(255,255,255,.82)}
+body:has(.v2-vrh) .cv-slide[data-off="0"]{
+  background:rgba(255,255,255,.78);
+  box-shadow:0 18px 46px rgba(46,39,51,.16)}
+body:has(.v2-vrh) .cv-img{background:transparent}
+body:has(.v2-vrh) .cv-img.foto{background:transparent}
+body:has(.v2-vrh) .cv-foot{background:transparent;border-top:1px solid rgba(239,232,238,.8)}
+
+/* ---------- 4./6. podloga se provlači kroz sve trake ---------- */
+/* Jedna fotografija stoji iza cele strane; svaka traka je samo drugačije
+   jako zabeljena preko nje, pa se prelazi ne vide kao rezovi. */
+.v2-pozadina{position:fixed;inset:0;z-index:-2;pointer-events:none;background:var(--tint-2)}
+/* Tinta ispod fotografije stoji samo dok fotografija ne stigne: prvi kadar nove
+   strane bio je beo (bljesak u gornjem levom uglu) jer se crta pre nje. Čim
+   slika legne, podloga se sklanja — osvetljenje i sav utisak ostaju kao pre. */
+.v2-pozadina.stigla{background:transparent}
+.v2-pozadina img{width:100%;height:100%;object-fit:cover;opacity:.5}
+.v2-pozadina::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(255,255,255,.34) 0%,rgba(255,255,255,.8) 38%,
+    rgba(255,255,255,.92) 70%,rgba(255,255,255,.97) 100%)}
+body:has(.v2-pozadina) .band{background:transparent}
+body:has(.v2-pozadina) .band.v2-meko{
+  background:linear-gradient(180deg,rgba(252,242,249,0) 0%,rgba(252,242,249,.72) 14%,
+    rgba(252,242,249,.72) 86%,rgba(252,242,249,0) 100%)}
+body:has(.v2-pozadina) .band.v2-meko-tint{
+  background:linear-gradient(180deg,rgba(251,247,250,0) 0%,rgba(251,247,250,.85) 14%,
+    rgba(251,247,250,.85) 86%,rgba(251,247,250,0) 100%)}
+body:has(.v2-pozadina) .site-footer{position:relative;z-index:1}
+
+/* ---------- 5. fotografija u traci „po meri" se stapa, bez oštrog okvira ---------- */
+.v2-pm-foto{border-radius:var(--r);overflow:hidden;box-shadow:none;background:transparent;
+  aspect-ratio:4/3;position:relative}
+.v2-pm-foto img{width:100%;height:100%;object-fit:cover;display:block;
+  -webkit-mask-image:radial-gradient(120% 105% at 50% 45%,#000 52%,transparent 96%);
+          mask-image:radial-gradient(120% 105% at 50% 45%,#000 52%,transparent 96%)}
+
+/* ---------- 1. mega meni: bez praznog polja ---------- */
+body:has(.v2-glava) .mega{background:rgba(255,255,255,.97);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+body:has(.v2-glava) .mega-wrap{padding-block:1.1rem 1.2rem}
+body:has(.v2-glava) .mega-panel{align-items:stretch}
+body:has(.v2-glava) .mega-rail{max-height:none}
+
+/* ---------- 5. karusel: kartica je fotografija, ne beo papir ---------- */
+/* Ranije je slika stajala na velikoj beloj površini sa razmakom okolo, pa je
+   kartica bila uglavnom prazna. Sada fotografija ispuni karticu, a naziv stoji
+   preko nje na blagom zatamnjenju — isto kao pločice kategorija. */
+body:has(.v2-vrh) .cv-slide{
+  background:var(--tint);border:1px solid rgba(255,255,255,.55);
+  box-shadow:0 10px 30px rgba(46,39,51,.12);overflow:hidden}
+body:has(.v2-vrh) .cv-slide[data-off="0"]{box-shadow:0 20px 50px rgba(46,39,51,.2)}
+body:has(.v2-vrh) .cv-img{padding:0;background:transparent;position:relative}
+body:has(.v2-vrh) .cv-img img{width:100%;height:100%;max-width:none;max-height:none;
+  object-fit:cover}
+body:has(.v2-vrh) .cv-foot{
+  position:absolute;left:0;right:0;bottom:0;border-top:0;
+  padding:2.6rem .95rem .85rem;
+  background:linear-gradient(180deg,rgba(20,15,22,0) 0%,rgba(20,15,22,.62) 62%,rgba(20,15,22,.8) 100%)}
+body:has(.v2-vrh) .cv-foot b{color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+body:has(.v2-vrh) .cv-foot em{color:#fff;opacity:.88}
+body:has(.v2-vrh) .cv-slide{display:block;position:absolute}
+body:has(.v2-vrh) .cv-img{position:absolute;inset:0}
+
+/* ---------- 3. mega meni: bez praznine i bez ogromnog dugmeta ---------- */
+/* Leva šina ima 11 kategorija pa je visoka; sadržaj desno je kratak i visio je
+   po sredini te visine. Sada se lepi uz vrh, a šina je zbijenija — meni je
+   niži i oko odmah nađe naslov kategorije. */
+body:has(.v2-glava) .mega-wrap{padding-block:1rem 1.1rem;align-items:start}
+body:has(.v2-glava) .mega-panel{align-content:start;align-items:start}
+body:has(.v2-glava) .mega-rail button{padding-block:.42rem}
+body:has(.v2-glava) .mega-rail{gap:0}
+body:has(.v2-glava) .mega-karta .sl{aspect-ratio:5/4}
+/* dugme „Cela ponuda" je prirodne širine, ne preko pola menija */
+body:has(.v2-glava) .mega-foot{padding-block:.7rem .8rem}
+body:has(.v2-glava) .mega-foot .btn{flex:0 0 auto;width:auto;align-self:center}
+body:has(.v2-glava) .mega-foot span{flex:1 1 auto;min-width:0}
+
+/* ---------- karusel: kartice su šire, da soba stane u kadar ---------- */
+/* Uspravna kartica je od položene fotografije sobe pokazivala samo sredinu —
+   stolice i krevet su ispadali iz kadra. Šira i niža kartica hvata ceo prizor. */
+body:has(.v2-vrh) .cv-stage{height:clamp(230px,24vw,340px)}
+body:has(.v2-vrh) .cv-slide{
+  width:clamp(228px,23.5vw,336px);margin-left:calc(clamp(228px,23.5vw,336px) / -2)}
+
+/* ---------- mega meni: panel ispod „Ponude", a ne traka preko cele strane ---------- */
+/* Preko cele širine je ostajala velika praznina desno. Sada je meni panel
+   prirodne širine, zaobljen i odvojen senkom — kao svaki padajući meni. */
+body:has(.v2-glava) .mega{
+  left:var(--gut);right:auto;top:calc(100% + .35rem);
+  width:min(980px, calc(100vw - 2 * var(--gut)));
+  background:#fff;border:1px solid var(--line);border-radius:var(--r);
+  box-shadow:0 24px 60px rgba(46,39,51,.18);overflow:hidden}
+body:has(.v2-glava) .mega .wrap{padding-inline:clamp(1rem,2vw,1.6rem);max-width:none}
+body:has(.v2-glava) .mega-wrap{grid-template-columns:198px minmax(0,1fr);
+  gap:clamp(1rem,2vw,1.8rem);padding-block:1rem 1.1rem;align-items:start}
+body:has(.v2-glava) .mega-panel{grid-template-columns:minmax(0,1fr) 190px;align-content:start}
+body:has(.v2-glava) .mega-pod{grid-template-columns:repeat(auto-fill,minmax(132px,1fr))}
+body:has(.v2-glava) .mega-foot{padding-block:.7rem .85rem;justify-content:space-between}
+body:has(.v2-glava) .mega-foot .btn{flex:0 0 auto;width:auto;white-space:nowrap}
+body:has(.v2-glava) .mega-foot span{flex:1 1 auto;min-width:0}
+
+/* ---------- karusel: manje preklapanja, susedi čitljiviji ---------- */
+/* Široke kartice su se preklapale pa se nije videlo gde jedna staje. Razmak je
+   veći, a bočne kartice su svetlije samo koliko treba da se izdvoji srednja. */
+body:has(.v2-vrh) .cv-stage{mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+
+/* ---------- postupak: koraci u kartici, ne brojevi u praznini ---------- */
+.np-koraci{grid-template-columns:repeat(4,1fr);gap:.9rem}
+.np-koraci li{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);
+  padding:1.1rem 1.15rem;border-top:1px solid var(--line)}
+.np-koraci li::before{display:inline-grid;place-items:center;width:1.7rem;height:1.7rem;
+  border-radius:50%;background:var(--plum-wash);color:var(--plum-dark);
+  font-size:var(--t-xs);margin-bottom:.6rem}
+.np-koraci b{margin:0 0 .25rem}
+
+/* Napomena je sporedna — ne sme da bude krupnija ni šira od samih koraka. */
+.note--karta{max-width:58ch;margin-inline:auto;padding:.9rem 1.1rem;
+  font-size:var(--t-sm);line-height:1.55;background:var(--tint);
+  border:1px solid var(--line);box-shadow:none}
+
+/* ---------- nabrajanje u „po meri" ----------
+   Red koji se prelama ostavljao je poslednju stavku samu u novom redu, pa je
+   spisak izgledao kao da je nešto ispalo. Dve kolone fiksne širine: stavke se
+   poklapaju jedna ispod druge i spisak se čita kao spisak, a ne kao rečenica. */
+.v2-pm ul.v2-pm-spisak{margin-top:1.15rem;display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem 1.6rem;
+  padding-top:1.05rem;border-top:1px solid var(--line)}
+.v2-pm ul.v2-pm-spisak li{font-size:var(--t-sm);color:var(--ink);
+  display:flex;align-items:baseline;gap:.55rem}
+.v2-pm ul.v2-pm-spisak li::before{content:"";width:.36rem;height:.36rem;
+  border-radius:50%;background:var(--plum);flex:none;transform:translateY(-.15em)}
+@media (max-width:520px){.v2-pm ul.v2-pm-spisak{grid-template-columns:1fr}}
+
+/* ---------- koraci: puno pravilo (ranije je stajalo u prvom probnom stilu) ---------- */
+.np-koraci{list-style:none;margin:0;padding:0;counter-reset:k;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(.7rem,1.5vw,1.1rem)}
+.np-koraci li{counter-increment:k;list-style:none;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);
+  padding:1.15rem 1.2rem}
+.np-koraci li::before{content:counter(k);
+  display:grid;place-items:center;width:1.8rem;height:1.8rem;border-radius:50%;
+  background:var(--plum-wash);color:var(--plum-dark);
+  font-family:"Nunito",sans-serif;font-weight:900;font-size:var(--t-sm);margin-bottom:.7rem}
+.np-koraci b{display:block;margin:0 0 .3rem;font-size:var(--t-base)}
+.np-koraci span{display:block;color:var(--ink-soft);font-size:var(--t-sm);line-height:1.55}
+@media (max-width:900px){.np-koraci{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.np-koraci{grid-template-columns:1fr}}
+
+/* ---------- podnožje u boji trake sa vrha ---------- */
+/* Ista puna ljubičasta kao gornja traka — strana je tako uokvirena istom
+   bojom, a lila sredina dobija jasan početak i kraj. */
+/* Jedna ravna ljubičasta ploča izgledala je kao obojen papir. Sad ide koso
+   produbljivanje iste boje, sa svetlijim uglom gore levo — podnožje dobija
+   dubinu a boja ostaje ista kao gornja traka. Preko vrha ide tanka šarena nit,
+   ista ona koja stoji i iznad zaglavlja, pa je podnožje vidno uokvireno. */
+body:has(.v2-glava) .site-footer{border-top:0;color:rgba(255,255,255,.8);
+  /* iznad znaka isto vazduha koliko ga ima ispod njega, do prve crte */
+  padding-block:1.05rem 0;position:relative;isolation:isolate;
+  /* Gradacija ide dijagonalno, iz gornjeg levog ugla u donji desni: levo tamna
+     ljubičasta, desno svetlija. Bez svetlog odsjaja preko toga — on je mutio
+     prelaz umesto da ga pojača. */
+  background:linear-gradient(135deg, #3f0e37 0%, var(--plum-dark) 40%,
+    var(--plum) 100%);}
+/* Tanka šarena nit je imala smisla dok je stajala iznad belog zaglavlja — bila
+   je jedina boja na belom. Sad je i traka i podnožje ljubičasto, pa je nit
+   ljubičasta na ljubičastom i čita se samo kao zalutala crta. Nema je ni gore
+   ni dole. */
+body:has(.v2-glava) .topbar::before{display:none}
+
+/* Donja traka sa sitnim slovima ostaje u ljubičastom, samo produbljena — belo
+   dno je seklo podnožje i strana se završavala prazno. */
+/* Donji red se ne odvaja bojom nego istom tankom crtom kao gornji, i ta crta
+   ide samo preko sadržaja, ne od ivice do ivice ekrana. Zasebna tamnija traka
+   je delovala kao da je zalepljena ispod podnožja. */
+.v2-pod-traka{margin-top:clamp(1.8rem,3vw,2.5rem);background:none}
+.v2-pod-dno{display:flex;flex-wrap:wrap;gap:.35rem 1.5rem;justify-content:space-between;
+  padding-block:1.05rem 1.3rem;border-top:1px solid rgba(255,255,255,.16)}
+.v2-pod-dno .legal{margin-top:0}
+body:has(.v2-glava) .site-footer a{color:#fff;text-decoration:none}
+body:has(.v2-glava) .site-footer a:hover{color:var(--plum-wash)}
+body:has(.v2-glava) .site-footer .legal{color:rgba(255,255,255,.5)}
+body:has(.v2-glava) .site-footer img{filter:invert(1) brightness(1.6)}
+
+/* ---------- podnožje ----------
+   Kontakt je ranije stajao kao četvrti stubac i bio dvaput viši od ostalih, pa
+   je ispod „Ponude" i „Salona" zjapilo prazno i celo podnožje delovalo
+   preveliko. Sad kontakt ide u vodoravnu traku uz znak, a ispod ostaju tri
+   stupca sličnih visina. */
+.v2-pod-vrh{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+  gap:.9rem 1.6rem;padding-bottom:1.05rem;margin-bottom:clamp(1.2rem,2.2vw,1.7rem);
+  border-bottom:1px solid rgba(255,255,255,.16)}
+.v2-pod-znak{display:block;flex:none}
+.v2-pod-znak img{height:34px;width:auto;display:block}
+.v2-pod-veze{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem}
+.v2-pod-veze .tel,.v2-pod-veze .mail{font-family:"Nunito",sans-serif;font-weight:800;
+  font-size:var(--t-sm);white-space:nowrap}
+.v2-pod-veze .pilula{padding:.3rem .85rem;border-radius:var(--r-pill);
+  border:1px solid rgba(255,255,255,.3);font-family:"Nunito",sans-serif;
+  font-weight:800;font-size:var(--t-xs);color:rgba(255,255,255,.92)}
+.v2-pod-veze .pilula:hover{background:rgba(255,255,255,.14);color:#fff}
+
+.v2-pod-mreza{display:grid;grid-template-columns:1.9fr 1fr 1.25fr;
+  gap:clamp(1.6rem,3vw,2.8rem);align-items:start}
+/* Tanka svetla crta ispred stupca — delovi su odvojeni bez novih boja. */
+.v2-pod-mreza > * + *{padding-left:clamp(1rem,2vw,1.8rem);
+  border-left:1px solid rgba(255,255,255,.13)}
+
+.v2-pod-kol b{display:block;font-family:"Nunito",sans-serif;font-weight:900;
+  font-size:var(--t-xs);letter-spacing:.12em;text-transform:uppercase;
+  color:rgba(255,255,255,.55);margin-bottom:.85rem}
+.v2-pod-kol ul{list-style:none;margin:0;padding:0;display:grid;gap:.42rem}
+.v2-pod-kol li{font-size:var(--t-sm);line-height:1.45}
+.v2-pod-kol a{color:rgba(255,255,255,.86);font-weight:400}
+.v2-pod-kol a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+/* Jedanaest kategorija u jednoj koloni bilo bi predugačko — idu u dva stupca,
+   a „Cela ponuda" preko oba, da se vidi da je to izlaz a ne još jedna stavka. */
+.v2-pod-ponuda ul{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1.2rem}
+.v2-pod-ponuda .v2-pod-sve{font-family:"Nunito",sans-serif;font-weight:800}
+.v2-pod-ponuda li:last-child{grid-column:1 / -1;margin-top:.35rem}
+
+.v2-pod-adr{display:inline-flex;align-items:center;gap:.4rem;
+  font-family:"Nunito",sans-serif;font-weight:800;font-size:var(--t-sm)}
+.v2-pod-adr svg{width:.85rem;height:.85rem;fill:none;stroke:currentColor;stroke-width:2.2;
+  stroke-linecap:round;stroke-linejoin:round;opacity:.7}
+.v2-pod-sati{border-collapse:collapse;width:100%;max-width:20rem;font-size:var(--t-sm);
+  margin-top:.85rem}
+.v2-pod-sati th{text-align:left;font-weight:400;color:rgba(255,255,255,.72);padding:.2rem 0}
+.v2-pod-sati td{text-align:right;font-family:"Nunito",sans-serif;font-weight:800;
+  color:#fff;padding:.2rem 0}
+.v2-pod-sati .zatvoreno th,.v2-pod-sati .zatvoreno td{color:rgba(255,255,255,.42);font-weight:400}
+.v2-pod-placanje{margin:.9rem 0 0;max-width:34ch;font-size:var(--t-sm);line-height:1.55;
+  color:rgba(255,255,255,.7)}
+
+@media (max-width:900px){.v2-pod-mreza{grid-template-columns:1fr 1fr}
+  .v2-pod-ponuda{grid-column:1 / -1}
+  .v2-pod-mreza > * + *{padding-left:0;border-left:0}}
+@media (max-width:560px){.v2-pod-mreza{grid-template-columns:1fr}
+  .v2-pod-ponuda ul{grid-template-columns:1fr}}
+
+/* ---------- meni „Ponuda" ----------
+   Raspored ostaje onaj sa početka: šina kategorija levo, vrste desno — tako se
+   ide pravo na podkategoriju. Nova je podloga: fotografija izabrane kategorije
+   pokriva ceo meni umesto male kartice u ćošku, koja je pravila utisak da je
+   nešto nabacano u prazan prostor. Slika se spušta skoro do nivoa papira, pa
+   slova preko nje ostaju crna. */
+body:has(.v2-glava) .mega{
+  width:min(1240px, calc(100vw - 2 * var(--gut)));
+  /* leva i desna ivica podjednako: .mega je razapeta preko cele širine, pa je
+     uz zadatu širinu automatska margina jedino što je stvarno centrira */
+  margin-inline:auto;
+  position:absolute;left:0;right:0;
+  border-radius:0 0 var(--r) var(--r);border-bottom:0;
+  overflow:hidden;isolation:isolate;background:var(--card);
+}
+body:has(.v2-glava) .mega{
+  /* levo od ove mere stoji šina sa kategorijama; fotografija počinje tačno na
+     crti koja ih deli i ide do desne ivice menija */
+  --nm-levo:calc(var(--gut) + 246px + 1.1rem);
+}
+@media (max-width:1180px){body:has(.v2-glava) .mega{--nm-levo:calc(var(--gut) + 220px + 1.1rem)}}
+body:has(.v2-glava) .mega::before{
+  content:"";position:absolute;top:0;bottom:0;left:var(--nm-levo);right:0;
+  z-index:0;pointer-events:none;
+  background-image:var(--nm-foto,none);background-size:cover;
+  background-position:var(--nm-ziza,center 42%);
+  /* Dok prva fotografija ne stigne, tu stoji blaga tinta a ne belina. */
+  background-color:var(--tint-2);
+  opacity:.9;
+}
+/* Belina preko fotografije: gusta pri vrhu, gde su naslov i spisak vrsta, i uz
+   levu ivicu odakle slika kreće. Soba izlazi na videlo pri dnu desno — taj deo
+   menija je prazan kod svake kategorije. */
+body:has(.v2-glava) .mega::after{
+  content:"";position:absolute;top:0;bottom:0;left:var(--nm-levo);right:0;
+  z-index:0;pointer-events:none;
+  /* Beline ima samo koliko treba da se čitaju naslov i spisak vrsta — po
+     visini. Sa leve strane se skoro i ne navlači, da soba krene odmah od crte
+     koja deli šinu od spiska, a ne tek negde po sredini menija. */
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.93) 0%,rgba(255,255,255,.86) 40%,
+      rgba(255,255,255,.42) 74%,rgba(255,255,255,.12) 100%),
+    linear-gradient(90deg,rgba(255,255,255,.34) 0%,rgba(255,255,255,0) 18%);
+}
+body:has(.v2-glava) .mega > *{position:relative;z-index:1}
+
+/* šina i spisak dobijaju vazduha, sad kad kartica više ne uzima desnu kolonu */
+body:has(.v2-glava) .mega-wrap{padding-block:1.5rem 1.7rem}
+body:has(.v2-glava) .mega-rail{border-right:1px solid rgba(46,39,51,.10)}
+body:has(.v2-glava) .mega-karta{display:none}
+body:has(.v2-glava) .mega-panel{grid-template-columns:minmax(0,1fr)}
+body:has(.v2-glava) .mega-pod{grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
+  gap:.15rem 1.1rem}
+body:has(.v2-glava) .mega-pod a:hover{background:rgba(255,255,255,.75)}
+body:has(.v2-glava) .mega-head{margin-bottom:1.1rem;padding-bottom:.7rem;
+  border-bottom:1px solid rgba(46,39,51,.10)}
+body:has(.v2-glava) .mega-foot{border-top:1px solid rgba(46,39,51,.10)}
+
+
+/* ---------- traka sa filterima na strani „Ponuda" ----------
+   Namerno je lepljiva: katalog je dugačak, pa se kategorija i proizvođač menjaju
+   bez vraćanja na vrh. Ali je visila 61px od vrha — toliko je bilo staro
+   zaglavlje, koje ovde više ne stoji lepljivo — pa je lebdela preko kartica, uz
+   to providna, i delovalo je kao greška. Sad se lepi za sam vrh i puna je. */
+body:has(.v2-glava) .filters{top:0;background:#fff;border-top:0;isolation:isolate;
+  margin-top:clamp(.8rem,1.6vw,1.2rem);box-shadow:0 8px 22px rgba(46,39,51,.10)}
+/* Bela traka je pre ovoga sekla pozadinsku fotografiju ravnom linijom. Sad se
+   iznad nje razliva ista belina, pa traka izranja iz podloge umesto da je
+   preseca. */
+body:has(.v2-glava) .filters::before{content:"";position:absolute;left:0;right:0;
+  bottom:100%;height:clamp(2rem,4vw,3.2rem);pointer-events:none;
+  background:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.85) 62%,#fff 100%)}
+/* mali razmak da prvi red kartica ne kreće odmah ispod trake */
+body:has(.v2-glava) #grid{margin-top:clamp(1.1rem,2.2vw,1.8rem)}
+
+
+/* ---------- znakovi Vibera i WhatsAppa ----------
+   Stoje jednom po strani u <defs>, a svuda se pozivaju preko <use>. Znak se
+   prepoznaje pre nego što se pročita ime, pa link lakše pada u oko. */
+.ik-izvor{position:absolute;width:0;height:0;overflow:hidden}
+.ik{width:1.05em;height:1.05em;fill:currentColor;flex:none;
+  vertical-align:-.18em;margin-right:.4rem}
+/* Viber i WhatsApp idu u svojim bojama — po njima se i prepoznaju. Ostali
+   znakovi (adresa, telefon, pošta, mapa) uzimaju boju teksta pored sebe. */
+.ik--viber{fill:#7360F2}
+.ik--wa{fill:#25D366}
+.kontakt-lista .k .ik{width:1.15em;height:1.15em;margin-right:.5rem;opacity:.55}
+/* Viber i WhatsApp su isti broj kao mobilni — stoje kao dva znaka uz njega,
+   umesto da zauzmu dva zasebna reda sa istim brojem po treći put. */
+.tel-red{display:inline-flex;align-items:center;gap:.5rem}
+.tel-ik{display:inline-flex;padding:.18rem;border-radius:8px;line-height:0;
+  transition:background .16s}
+.tel-ik .ik{width:1.25em;height:1.25em;margin:0}
+.tel-ik:hover{background:var(--tint)}
+.v2-pod-veze .pilula{display:inline-flex;align-items:center}
+.v2-pod-veze .pilula .ik{margin-right:.35rem}
+.kontakt-lista .k{display:inline-flex;align-items:center}
+
+/* Bez opisa ispod karusela tačkice ostaju same — idu desno, kao i do sad, ali
+   red više ne mora da drži visinu za dva reda teksta. */
+body:has(.v2-glava) .cv-below{margin-top:1rem;justify-content:flex-end}
+
+
+/* ---------- ambijentalna fotografija popunjava karticu ----------
+   Fotografija sobe nije uspravna kao kartica, pa bi uklopljena ostavljala bele
+   pojaseve sa strane. Ovde popunjava ceo okvir i višak se odseca — soba trpi
+   sečenje, proizvod na belom ne bi. */
+/* Posteljina je snimljena izbliza — razvučena preko celog okvira ostane joj u
+   kadru samo komad jorgana. Uklapa se cela, bez odmaka. */
+.prod-img.foto > img{max-width:100%;max-height:100%;object-fit:contain;border-radius:0}
+/* Kompletna soba se snima iz daljine — ona puni ceo okvir. Pravilo stoji posle
+   gornjeg jer soba nosi obe klase (.foto i .amb), pa mora da pretegne. */
+.prod-img.amb > img,
+.prod-img.foto.amb > img{width:100%;height:100%;max-width:none;max-height:none;
+  object-fit:cover;border-radius:0}
+
+
+/* Uspravna naslovna fotografija u položenoj kartici karusela: kadar se pomera
+   na žižu, da predmet ne ostane van slike. */
+/* Kadar se pomera na žižu. Bira se preko nasleđene promenljive, ne preko
+   [style*=...] — app.js pri svakom pomeranju karusela ponovo ispisuje style
+   atribut, pa se na takav izbor ne može osloniti. */
+.cv-img img{object-position:var(--ziza,50% 50%)}
+
+
+/* Sitna napomena ispod spiska usluga: obična rečenica, bez kutije. Roze polje
+   se nije uklapalo u izbledelu pozadinu iza trake. */
+.prose--sitno{margin-top:1.1rem;max-width:52ch;font-size:var(--t-sm);
+  line-height:1.6;color:var(--ink-soft)}
+
+
+/* Vrh strane: tekst uz istu ivicu kao pilule u navigaciji.
+   .hero-split sam sebi računa marginu, jer je pravljen da stoji preko cele
+   širine — a ovde već sedi unutar .wrap, pa se margina dodavala dvaput i tekst
+   je visio 44 px udesno od pilule „Početna". */
+body:has(.v2-vrh) .hero-split{padding-left:0}
+@media (max-width:1040px){body:has(.v2-vrh) .hero-split{padding-inline:0}}
+
+
+/* Uputa ispod izbora strane — isti oblik kao kod uzoraka i elemenata, samo
+   ovde stoji u svom redu ispod pilula. */
+#lb-orij .el-izbor-uput{display:block;margin:.5rem 0 0}
+
+
+/* ---------- recenzije sa Google mapa ----------
+   42 ocene i prosek 4,8 su jedina potvrda sa strane koju sajt ima, pa stoje
+   kao zaseban pojas. Kartice klize s leva na desno u beskrajnoj petlji —
+   dva ista niza jedan za drugim, pa se pomak od tačno jednog niza ne vidi.
+   Staje kad se pređe mišem, a kome smetaju pokreti dobija običan spisak
+   koji se pomera prstom. */
+.rec-glava{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;
+  gap:1rem clamp(1rem,2vw,2rem)}
+.rec-glava h2{font-size:var(--t-xl);line-height:1.2;letter-spacing:-.01em}
+.rec-ocena{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:inherit;
+  padding:.55rem .9rem;border:1px solid var(--line);border-radius:var(--r-pill);
+  background:var(--card);transition:border-color .2s,box-shadow .2s}
+.rec-ocena:hover{border-color:var(--plum-light);box-shadow:var(--shadow-s)}
+.rec-ocena > b{font-family:"Nunito",sans-serif;font-weight:900;font-size:var(--t-xl);
+  line-height:1;color:var(--ink)}
+.rec-ocena span{display:flex;flex-direction:column;gap:.1rem}
+.rec-ocena i{font-style:normal;font-size:var(--t-xs);color:var(--ink-soft)}
+.rec-zv{color:var(--plum);font-size:.8rem;letter-spacing:.1em;line-height:1}
+
+.rec-traka{margin-top:clamp(1.2rem,2.4vw,1.8rem);display:flex;gap:clamp(.7rem,1.5vw,1.1rem);
+  overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+.rec-niz{list-style:none;margin:0;padding:.2rem 0;display:flex;flex:0 0 auto;
+  gap:clamp(.7rem,1.5vw,1.1rem);animation:rec-klizi 80s linear infinite}
+.rec-traka:hover .rec-niz,.rec-traka:focus-within .rec-niz{animation-play-state:paused}
+@keyframes rec-klizi{to{transform:translateX(calc(-100% - clamp(.7rem,1.5vw,1.1rem)))}}
+.rec{flex:0 0 clamp(240px,23vw,320px);display:flex;flex-direction:column;gap:.65rem;
+  padding:clamp(1rem,2vw,1.25rem);background:var(--card);border:1px solid var(--line);
+  border-radius:var(--r-sm);box-shadow:var(--shadow-s)}
+.rec p{margin:0;font-size:var(--t-sm);line-height:1.6;color:var(--ink);
+  display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.rec-ko{margin-top:auto;display:flex;flex-wrap:wrap;align-items:baseline;gap:.45rem}
+.rec-ko b{font-family:"Nunito",sans-serif;font-weight:800;font-size:var(--t-sm);color:var(--ink)}
+.rec-ko i{font-style:normal;font-size:var(--t-xs);color:var(--ink-faint)}
+@media (prefers-reduced-motion:reduce){
+  .rec-niz{animation:none}
+  .rec-niz[aria-hidden="true"]{display:none}
+  .rec-traka{overflow-x:auto;mask-image:none;-webkit-mask-image:none}}
+
+/* ---------- fotografija „po meri": mali karusel ----------
+   Pet ležajeva iz istog snimanja klize u stranu, kao u karuselu na vrhu strane.
+   Bez okvira: slika beži desno do same ivice ekrana i tamo se seče, kao u
+   novinskom prelomu. Levo se gubi u podlogu prelivom, pa uglovi ne treba da
+   budu zaobljeni — zaobljenje bi opet napravilo pločicu, a preliv radi posao. */
+.pm-slajd{position:relative;overflow:hidden;
+  /* slika se zaustavlja na ivici kolone strane, tačno onoliko od desne ivice
+     koliko je bela kartica odmaknuta od leve — težište preklapanja time ide
+     malo ulevo, a desni kraj se gasi u podlogu */
+  margin-right:0;
+  aspect-ratio:auto;height:100%;min-height:400px;
+  /* levo pravo, jer se tamo slika gubi u preliv; desno oblo, isti radijus kao
+     na kartici — tamo ivica postoji i treba da prati oblik strane */
+  /* sva četiri ugla prava — kad su sve ivice jednako omekšane, zaobljenje
+     samo sa desne strane pravi nesimetriju koja se vidi */
+  border-radius:0;margin-left:0;
+  /* Gradacija se mora videti, a ne da se izgubi iza kartice: slika kreće tek
+     od desne ivice kartice, tiho, i puni ton hvata oko sredine. Desni kraj se
+     isto gasi, kao traka sa recenzijama, da se ne seče o ivicu ekrana. */
+  /* Kartice sa leve strane više nema, pa duboko gašenje nema u šta da uranja:
+     leva ivica se sada samo omekša, kao i desna, a gore i dole slika se stapa
+     sa podlogom. */
+  /* PROBA: uz levu ivicu se gasi kao i do sada, a sada i gore i dole —
+     slika se stapa sa podlogom umesto da se seče u pravouganik. Dve maske se
+     preklapaju, pa ostaje samo ono što je u obe. */
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.55) 1.5%,
+            #000 5%,#000 95%,rgba(0,0,0,.55) 98.5%,transparent 100%),
+          linear-gradient(180deg,transparent 0,rgba(0,0,0,.55) 2%,#000 7%,
+            #000 93%,rgba(0,0,0,.55) 98%,transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.55) 1.5%,
+            #000 5%,#000 95%,rgba(0,0,0,.55) 98.5%,transparent 100%),
+          linear-gradient(180deg,transparent 0,rgba(0,0,0,.55) 2%,#000 7%,
+            #000 93%,rgba(0,0,0,.55) 98%,transparent 100%);
+  /* poslednji sloj je najdonji i mora da se samo iscrta („add"); da i on
+     stoji na „intersect", presecao bi se sa praznim platnom i slika bi
+     nestala — na to sam prvo naleteo. */
+  -webkit-mask-composite:source-in,source-over;
+          mask-composite:intersect,add}
+.pm-slajd img{-webkit-mask-image:none;mask-image:none}
+.pm-traka{display:flex;height:100%;width:100%;
+  transition:transform .75s cubic-bezier(.65,.02,.2,1)}
+.pm-traka img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;display:block;
+  object-position:50% 62%}
+.pm-tacke{position:absolute;left:0;right:clamp(1rem,3vw,2rem);bottom:1.2rem;display:flex;
+  justify-content:flex-end;gap:.45rem;z-index:2}
+/* isti oblik i ista boja kao tačkice na velikom karuselu: aktivna je ljubičasta
+   i izdužena. Neaktivne su bele sa senkom, jer stoje na fotografiji, ne na
+   svetloj podlozi kao gore. */
+.pm-tacke button{width:.6rem;height:.6rem;padding:0;border:0;border-radius:var(--r-pill);
+  background:rgba(255,255,255,.75);box-shadow:0 1px 3px rgba(46,39,51,.35);
+  cursor:pointer;transition:background-color .2s,width .2s}
+.pm-tacke button[aria-current="true"]{background:var(--plum);width:1.7rem;box-shadow:none}
+@media (prefers-reduced-motion:reduce){.pm-traka{transition:none}}
+
+
+/* ---------- tekst „po meri" u staklenoj kartici ----------
+   Tekst je stajao go na podlozi, pa je slika desno delovala kao da pripada
+   drugoj strani. Sada je u kartici od mlečnog stakla koja malo prelazi preko
+   slike — dva sloja umesto dve polovine. Na uskom ekranu preklapanja nema. */
+.v2-pm > div:first-child{position:relative;z-index:2;
+  padding:clamp(1.5rem,3vw,2.4rem);
+  margin-right:clamp(-3.5rem,-2.5vw,-1rem);
+  background:rgba(255,255,255,.82);
+  -webkit-backdrop-filter:blur(16px) saturate(125%);
+          backdrop-filter:blur(16px) saturate(125%);
+  border:1px solid rgba(46,39,51,.07);border-radius:var(--r);
+  box-shadow:0 2px 8px rgba(46,39,51,.05), 0 26px 64px rgba(46,39,51,.13);
+  /* desna ivica kartice se ne završava oštro: gasi se u sliku, isto kao što
+     slika izranja u nju — dva preliva koja se sretnu u sredini */
+  /* PROBA: kao i slika, i kartica se gasi gore i dole, pa ni ona nema oštar
+     okvir. Gašenje je plitko — taman preko unutrašnje margine, da ne dodirne
+     slova. Poslednji sloj je najdonji i samo se iscrta. */
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.6) 2%,#000 6%,
+            #000 78%,rgba(0,0,0,.55) 92%,transparent 100%),
+          linear-gradient(180deg,transparent 0,rgba(0,0,0,.6) 3%,#000 8%,
+            #000 92%,rgba(0,0,0,.6) 97%,transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.6) 2%,#000 6%,
+            #000 78%,rgba(0,0,0,.55) 92%,transparent 100%),
+          linear-gradient(180deg,transparent 0,rgba(0,0,0,.6) 3%,#000 8%,
+            #000 92%,rgba(0,0,0,.6) 97%,transparent 100%);
+  -webkit-mask-composite:source-in,source-over;
+          mask-composite:intersect,add}
+@media (max-width:860px){.v2-pm > div:first-child{-webkit-mask-image:none;mask-image:none}}
+@media (max-width:860px){.v2-pm > div:first-child{margin-right:0}}
+
+
+/* ---------- poziv na kraju strane „po meri" ----------
+   Strana se ranije završavala praznim okvirima za fotografije i odmah
+   podnožjem, bez ijednog poziva da se javi. */
+.pm-poziv{display:grid;grid-template-columns:minmax(0,1.4fr) auto;
+  gap:clamp(1.2rem,3vw,2.5rem);align-items:center;
+  padding:clamp(1.5rem,3vw,2.2rem) clamp(1.5rem,3vw,2.4rem);
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  box-shadow:var(--shadow-s)}
+.pm-poziv h2{font-size:var(--t-xl);line-height:1.2;letter-spacing:-.01em}
+.pm-poziv .v2-akcije{display:flex;flex-wrap:wrap;gap:.6rem}
+@media (max-width:760px){.pm-poziv{grid-template-columns:1fr}}
+
+
+/* ---------- spisak „po meri" vodi u stranu sa detaljima ----------
+   Postupak, latoflex, uzglavlja i fioke ne staju na početnu, a ozbiljnom kupcu
+   baš to treba. Zato svaka stavka spiska vodi tačno na svoju karticu na strani
+   „Kreveti i dušeci po meri" — sadržaj ostaje gde mu je mesto, a sa početne se
+   do njega stiže jednim klikom. */
+/* Spisak je bio šest mrtvih natpisa, a svaki od njih je veza ka odeljku na
+   strani „po meri" — to se nije videlo. Sada se stavka na prelaz mišem odmakne
+   udesno, tačka poraste, a iza teksta uđe strelica: isti potez kao dugme
+   „Kako to ide →" ispod. Odmicanje ide preko „translate", jer „transform"
+   koristi pojavljivanje pri skrolu. */
+.v2-pm ul.v2-pm-spisak li{transition:translate .18s cubic-bezier(.22,.9,.3,1)}
+/* Spisak nema svoju animaciju — ulazi zajedno sa blokom u kom stoji. */
+.v2-pm ul.v2-pm-spisak li::before{transition:background-color .18s, scale .18s}
+.v2-pm ul.v2-pm-spisak li:hover{translate:4px 0}
+.v2-pm ul.v2-pm-spisak li:hover::before{scale:1.5;background:var(--plum-dark)}
+
+.v2-pm ul.v2-pm-spisak li a{color:inherit;text-decoration:none;
+  border-bottom:1px solid transparent;transition:color .18s,border-color .18s}
+.v2-pm ul.v2-pm-spisak li a:hover{color:var(--plum);border-bottom-color:var(--plum-wash-2)}
+.v2-pm ul.v2-pm-spisak li a::after{content:"→";display:inline-block;
+  margin-left:.3rem;opacity:0;translate:-.35rem 0;color:var(--plum);
+  transition:opacity .18s, translate .22s cubic-bezier(.22,.9,.3,1)}
+.v2-pm ul.v2-pm-spisak li:hover a::after{opacity:1;translate:0 0}
+@media (prefers-reduced-motion:reduce){
+  .v2-pm ul.v2-pm-spisak li,.v2-pm ul.v2-pm-spisak li::before,
+  .v2-pm ul.v2-pm-spisak li a::after{transition:none}
+  .v2-pm ul.v2-pm-spisak li:hover{translate:none}
+  .v2-pm ul.v2-pm-spisak li:hover::before{scale:1}}
+
+/* kartica na koju se stiglo klikom kratko zasvetli, da se vidi gde je skok stao */
+.svc li,.np-koraci,.note--karta{scroll-margin-top:2.4rem}
+.svc li:target{border-color:var(--plum-light);box-shadow:0 0 0 3px var(--plum-wash)}
+.note--karta:target{box-shadow:0 0 0 3px var(--plum-wash)}
+
+
+
+
+/* ---------- „po meri" na telefonu ----------
+   Na uskom ekranu kartica i slika stoje jedna ispod druge, pa preliv na
+   bočnim ivicama nema smisla — samo bledi tekst i sliku bez razloga.
+   Obe dobijaju pun oblik i zaobljene uglove sa sve četiri strane. */
+@media (max-width:860px){
+  .v2-pm > div:first-child{margin-right:0;
+    -webkit-mask-image:none;mask-image:none}
+  .pm-slajd{border-radius:var(--r);min-height:280px;
+    -webkit-mask-image:none;mask-image:none}
+  .pm-tacke{right:1rem;bottom:.9rem}
+}
+
+
+/* ---------- vrh strane na telefonu ----------
+   Adresa, radno vreme i dva broja lomili su se u tri reda i pojeli vrh ekrana.
+   Na uskom ekranu ostaje samo ono što koristi: da li je otvoreno i prvi broj. */
+@media (max-width:760px){
+  .topbar .wrap{justify-content:center}
+  .topbar > .wrap > span:first-child,
+  .topbar-radno,
+  .topbar-sep,
+  .topbar-info a[href$="1187264"]{display:none}
+  .topbar-info{gap:.6rem}
+}
+
+/* ---------- podnožje na telefonu: kolone se otvaraju ----------
+   Četiri duga spiska jedan ispod drugog pravila su podnožje od pola ekrana
+   visine. Na telefonu su sklopljeni, kao kod Matisa: naslov kolone je dugme,
+   uz njega stoji plus koji se pri otvaranju pretvara u minus. */
+@media (max-width:760px){
+  .v2-pod-kol > b{position:relative;display:flex;align-items:center;justify-content:space-between;
+    width:100%;padding:.95rem 0;margin:0;cursor:pointer;
+    border-top:1px solid rgba(255,255,255,.16)}
+  .v2-pod-kol > b::after{content:"";width:.8rem;height:.8rem;flex:none;
+    background:
+      linear-gradient(currentColor,currentColor) center/100% 1.5px no-repeat,
+      linear-gradient(currentColor,currentColor) center/1.5px 100% no-repeat;
+    transition:transform .2s}
+  .v2-pod-kol.otvorena > b::after{background:
+      linear-gradient(currentColor,currentColor) center/100% 1.5px no-repeat;
+    transform:rotate(180deg)}
+  .v2-pod-kol > *:not(b){display:none}
+  .v2-pod-kol.otvorena > ul,
+  .v2-pod-kol.otvorena > p,
+  .v2-pod-kol.otvorena > a{display:block}
+  .v2-pod-kol.otvorena > table{display:table;width:100%}
+  .v2-pod-kol.otvorena > *:last-child{padding-bottom:.9rem}
+  .v2-pod-mreza{gap:0}
+}
+
+
+/* ---------- kontakt u podnožju na telefonu ----------
+   U jednom redu koji se prelama, Viber je završavao uz mejl a WhatsApp sam u
+   novom redu. Sada je mreža: dva broja u redu, mejl preko cele širine,
+   pa Viber i WhatsApp kao par jednakih dugmadi. */
+@media (max-width:760px){
+  .v2-pod-vrh{gap:1rem}
+  .v2-pod-veze{display:grid;grid-template-columns:1fr 1fr;gap:.55rem .8rem;width:100%}
+  .v2-pod-veze .mail{grid-column:1 / -1}
+  .v2-pod-veze .pilula{justify-content:center;padding-block:.5rem}
+}
+
+/* ---------- sitan pokret na prelaz mišem ----------
+   Red usluga je bio potpuno statičan. Sada se na prelaz mišem značka blago
+   podigne i pojača boju, crta sa strane potamni, a svaka ikonica dobije pokret
+   koji ima veze sa onim što znači: kombi krene, ključ se okrene, metar se
+   izduži, kartica se nagne, zvezda se zavrti. Ništa od toga ne pomera tekst. */
+/* Cela stavka se blago podigne na prelaz mišem — isto kao kartice „šta radimo"
+   na strani po meri, samo bez okvira, jer ga ovde nema. Podizanje ide preko
+   „translate", a ne „transform", jer transform već koristi pojavljivanje pri
+   skrolu; pravilo mora biti specifičnije od njega da mu ne pregazi trajanja. */
+.v2-usluge > div{transition:border-color .25s, translate .28s cubic-bezier(.22,.85,.3,1)}
+/* Pojavljivanje preko prave animacije, ne preko prelaza. Prelaz se pokreće samo
+   ako pregledač stigne da nacrta kadar u početnom stanju — a blok koji posle
+   osvežavanja završi pri vrhu ekrana to često ne dočeka, pa bane bez pokreta.
+   Animacija se pušta uvek kad stigne klasa. Isti pokret kao svuda. */
+/* Pojavljivanje ide kroz jedno jedino pravilo za sve blokove („.otkrij" i
+   „.otkrij.vidljiv" niže u ovom fajlu). Ovde su ranije stajali poseban prelaz i
+   posebna animacija samo za usluge — tri načina su se tukla, pa su se pločice
+   nekad pretapale, a nekad banule bez pokreta („Prevoz blinka"). */
+@keyframes blokUlazi{ from{ opacity:0; transform:translateY(30px) } }
+.v2-usluge > div:hover{border-left-color:var(--plum-dark);translate:0 -4px}
+.v2-usluge .ico{transition:transform .28s cubic-bezier(.34,1.4,.5,1),
+  background-color .25s, color .25s, box-shadow .25s}
+.v2-usluge > div:hover .ico{background:var(--plum);color:#fff;
+  box-shadow:0 8px 18px rgba(155,47,134,.28)}
+.v2-usluge .ico svg{transition:transform .35s cubic-bezier(.34,1.3,.5,1)}
+
+/* isti pokret kao na karticama „šta radimo": značka se uveća i blago zarotira,
+   bez pet različitih smerova koji su delovali nesređeno */
+.v2-usluge > div:hover .ico{transform:scale(1.07) rotate(-4deg)}
+
+@media (prefers-reduced-motion:reduce){
+  .v2-usluge > div,.v2-usluge .ico,.v2-usluge .ico svg{transition:none}
+  .v2-usluge > div:hover{translate:none}
+  .v2-usluge > div:hover .ico{transform:none}
+  .v2-usluge > div:hover .ico svg{transform:none}
+}
+
+
+/* ---------- uvod prve strane ----------
+   Naslov u dva poteza (šta kupac bira / šta preuzimamo mi) i, ispod njega,
+   tri podatka o samom salonu koja se niže na strani ne ponavljaju. */
+.pr-uvod .v2-naslov{letter-spacing:-.03em;line-height:1.02}
+.pr-uvod .v2-lead{max-width:44ch}
+.pr-uvod .v2-akcije{display:flex;flex-wrap:wrap;gap:.7rem}
+
+/* sve tri stavke moraju u isti red — zato bez prelamanja i sa mernim
+   jedinicama koje se skupljaju zajedno sa kolonom */
+.pr-poverenje{list-style:none;margin:clamp(1.5rem,3vw,2.4rem) 0 0;padding:0;
+  display:flex;flex-wrap:nowrap;gap:clamp(.7rem,1.6vw,1.5rem)}
+.pr-poverenje li{display:flex;flex-direction:column;gap:.1rem;
+  padding-left:clamp(.7rem,1.4vw,1rem);border-left:2px solid var(--plum-wash-2)}
+.pr-poverenje b{font-family:"Nunito",sans-serif;font-weight:900;
+  font-size:clamp(.95rem,1.15vw,1.2rem);line-height:1.15;color:var(--ink);white-space:nowrap}
+.pr-poverenje span{font-size:clamp(.68rem,.78vw,.78rem);letter-spacing:.03em;
+  color:var(--ink-faint);white-space:nowrap}
+@media (max-width:620px){.pr-poverenje{flex-wrap:wrap;gap:.6rem 1.1rem}
+  .pr-poverenje b,.pr-poverenje span{white-space:normal}}
+
+/* ---------- vrh strane „po meri" ----------
+   Tekst levo, jedna mirna fotografija desno — bez karusela i bez preliva koji
+   su potpis početne strane. Slika se vrlo sporo uvećava, taman da se vidi da
+   nije mrtva, i zaobljena je sa sve četiri strane. */
+.pm-vrh-mreza{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);
+  gap:clamp(1.4rem,3vw,3rem);align-items:center}
+.pm-vrh-foto{margin:0;border-radius:var(--r);overflow:hidden;
+  aspect-ratio:4/3;background:var(--tint);box-shadow:var(--shadow-m);
+  border:1px solid var(--line-2)}
+/* Preseci dušeka: slika stoji na tamnoj podlozi, a naziv i slojevi su pravi
+   tekst preko providne trake — oštri na svakoj veličini, za razliku od sitnih
+   slova sa plakata. Aktivni slajd uđe uz blago uvećanje, natpis se podigne. */
+/* Podloga je izbačena: preseci su isečeni iz plakata i snimljeni sa
+   prozirnom pozadinom, pa dušek stoji direktno na strani. Time nestaje i
+   tamna tabla i potreba da joj se ivica gasi prelivom — nema ivice. */
+.pm-vrh-foto{background:transparent;border:0;box-shadow:none}
+.pm-vrh-foto.pm-slajd{position:relative;margin:0;height:auto;min-height:0;
+  aspect-ratio:4/3;border-radius:0;
+  -webkit-mask-image:none;mask-image:none}
+/* Traka nosi svoj sloj, da pomeranje ne prepisuje ceo okvir svaki kadar */
+.pm-vrh-foto .pm-traka{height:100%;transition:transform .85s cubic-bezier(.5,.02,.2,1);
+  will-change:transform;backface-visibility:hidden}
+.pm-presek{flex:0 0 100%;position:relative;display:grid;place-items:center;
+  padding:.2rem .2rem clamp(5.6rem,11vw,7.2rem)}
+/* Dušek se ne pomera nego se izoštrava: uđe malo krupniji i zamućen, pa se
+   smiri u fokus. Tako se ne vidi ni trzaj dok pregledač raspakuje sliku, a
+   pokret ne vuče oko nagore-nadole kao ranije. */
+.pm-presek img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;
+  display:block;opacity:0;transform:scale(1.045);filter:blur(10px);
+  transition:opacity .2s ease, transform .2s ease, filter .2s ease}
+.pm-presek.aktivan img{opacity:1;transform:none;filter:none;
+  transition:opacity .45s ease .12s,
+             transform .72s cubic-bezier(.22,.78,.3,1) .12s,
+             filter .55s ease .12s}
+/* Natpis čeka da slajd stane pa se tek onda podigne — dok traka klizi ništa
+   se ne pojavljuje, pa nema poskakivanja. Zamućenje je sklonjeno: preko
+   tamne trake nije ništa dodavalo, a svaki kadar je iznova računato. */
+/* Bez tamne table natpis ide u boji strane, bez ikakve svoje podloge — tekst
+   stoji direktno na strani, kao i sve ostalo oko njega. */
+.pm-presek-tekst{position:absolute;left:0;right:0;bottom:0;
+  padding:clamp(.9rem,2vw,1.2rem) 0 .2rem clamp(.6rem,1.6vw,1rem);
+  display:flex;flex-direction:column;gap:.2rem;color:var(--ink);text-align:left;
+  opacity:0;transform:translateY(10px);transition:opacity .28s ease, transform .28s ease}
+/* Natpis i slika dolaze zajedno: ranije je natpis čekao da traka stane (0,46 s),
+   pa se na osvežavanju i pri strelicama videlo kako kasni za duškom. */
+.pm-presek.aktivan .pm-presek-tekst{opacity:1;transform:none;
+  transition:opacity .5s ease .12s, transform .55s cubic-bezier(.2,.8,.3,1) .12s}
+.pm-presek-tekst > b{font-family:"Nunito",sans-serif;font-weight:900;font-size:var(--t-lg);
+  letter-spacing:-.01em}
+/* Slojevi su bili jedan dugačak red razdvojen tačkama, pa se nije videlo gde
+   se šta završava. Sada je svaki sloj zasebna pločica — isti raspored kao
+   spisak na plakatu, samo u širinu — a debljina u centimetrima je podebljana,
+   jer je to jedini podatak koji kupac zaista poredi. */
+.pm-slojevi{display:flex;flex-wrap:nowrap;gap:.3rem;margin:.1rem 0 0;padding:0 1.2rem .1rem 0;
+  list-style:none;overflow-x:auto;scrollbar-width:none;
+  /* poslednja pločica se gasi ako red ne stane, da se vidi da ima još */
+  -webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 2.2rem),transparent 100%);
+          mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 2.2rem),transparent 100%)}
+.pm-slojevi::-webkit-scrollbar{display:none}
+.pm-slojevi li{flex:0 0 auto;white-space:nowrap;
+  font-size:clamp(.62rem,.72vw,.7rem);line-height:1.35;color:var(--ink-2);
+  padding:.2rem .48rem;border-radius:var(--r-pill);
+  background:rgba(155,47,134,.07);border:1px solid rgba(155,47,134,.1)}
+.pm-slojevi li b{font-weight:800;color:var(--plum-dark)}
+/* tačkice sad stoje na svetloj podlozi, pa su tamne umesto belih; iz donjeg
+   reda su se sklonile gore, da spisak slojeva dobije celu širinu */
+.pm-vrh-foto .pm-tacke{right:.4rem;bottom:auto;top:.2rem}
+.pm-vrh-foto .pm-tacke button{background:rgba(46,39,51,.2);box-shadow:none}
+.pm-vrh-foto .pm-tacke button[aria-current="true"]{background:var(--plum)}
+@media (prefers-reduced-motion:reduce){
+  .pm-presek img,.pm-presek-tekst{transition:none;transform:none;opacity:1}}
+@media (max-width:860px){.pm-vrh-mreza{grid-template-columns:1fr}
+  .pm-vrh-foto{aspect-ratio:16/10}
+  }
+@media (prefers-reduced-motion:reduce){.pm-vrh-foto img{animation:none}}
+
+/* ---------- „šta radimo" i „postupak" na strani po meri ----------
+   Kartice su bile u mreži 2 + 3 različitih širina, pa je red delovao nabacano.
+   Sada su tri jednake kolone, iste visine, sa tankom ivicom umesto same senke.
+   Na prelaz mišem kartica se blago podigne, ivica potamni, a značka sa
+   ikonicom (ili brojem koraka) se popuni bojom firme. */
+@media (min-width:900px){
+  .svc{grid-template-columns:repeat(3,1fr)}
+  .svc li,.svc li:first-child,.svc li:nth-child(2){grid-column:auto}
+}
+.svc li,.np-koraci li{border:1px solid var(--line);
+  transition:transform .25s cubic-bezier(.34,1.2,.5,1), box-shadow .25s, border-color .25s}
+.svc li:hover,.np-koraci li:hover{transform:translateY(-4px);
+  border-color:var(--plum-wash-2);box-shadow:var(--shadow-m)}
+.svc .ico{transition:transform .28s cubic-bezier(.34,1.4,.5,1),
+  background-color .25s, color .25s, box-shadow .25s}
+.svc li:hover .ico{transform:scale(1.06) rotate(-4deg);
+  background:var(--plum);color:#fff;box-shadow:0 8px 18px rgba(155,47,134,.26)}
+.np-koraci li::before{transition:transform .28s cubic-bezier(.34,1.4,.5,1),
+  background-color .25s, color .25s}
+.np-koraci li:hover::before{transform:scale(1.1);background:var(--plum);color:#fff}
+@media (prefers-reduced-motion:reduce){
+  .svc li,.np-koraci li,.svc .ico,.np-koraci li::before{transition:none}
+  .svc li:hover,.np-koraci li:hover{transform:none}
+  .svc li:hover .ico,.np-koraci li:hover::before{transform:none}}
+
+/* ---------- ambijentalno osvetljenje ----------
+   Podloga je bila ravna svetlolila površina. Sada preko nje leže dva veoma
+   razblažena kruga svetla u boji firme, koji se vrlo sporo pomeraju — strana
+   dobija dubinu, a ništa se ne usporava jer je sve jedan sloj sa senkom.
+   Stoji iza celog sadržaja i ne hvata klik. */
+body:has(.v2-pozadina)::before{content:"";position:fixed;inset:-20%;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(34% 30% at 20% 16%, rgba(155,47,134,.26) 0%, rgba(155,47,134,0) 70%),
+    radial-gradient(30% 28% at 84% 58%, rgba(197,95,172,.22) 0%, rgba(197,95,172,0) 72%),
+    radial-gradient(36% 32% at 56% 94%, rgba(122,33,104,.18) 0%, rgba(122,33,104,0) 70%);
+  animation:v2-svetlo 44s ease-in-out infinite alternate}
+@keyframes v2-svetlo{
+  from{transform:translate3d(-2.5%,-1.5%,0) scale(1)}
+  to  {transform:translate3d(2.5%,2%,0) scale(1.06)}}
+@media (prefers-reduced-motion:reduce){body:has(.v2-pozadina)::before{animation:none}}
+
+/* ---------- redom se pojavljuju pri skrolu ----------
+   Klasu dodaje app.js, i to samo kad pregledač nije u režimu bez pokreta —
+   ako skripta ne radi, sadržaj se vidi normalno. */
+/* Bez umanjenja: uvećavanje sa 0.985 na 1 znači da tekst na kraju animacije
+   sleti na malo drugačiju mrežu piksela nego što je crtan dok je trajala, pa
+   se u poslednjem kadru vidi pomeraj od jednog piksela. Podizanje i pretapanje
+   rade isti posao, a bez tog trzaja na kraju. */
+.otkrij{opacity:0;transform:translateY(30px)}
+.otkrij.vidljiv{opacity:1;transform:none;
+  transition:opacity .7s ease var(--redom,0ms),
+             transform .8s cubic-bezier(.16,.84,.28,1) var(--redom,0ms)}
+
+/* Korak na koji se stiglo klikom kratko zasvetli, isto kao kartice iznad —
+   inače se posle skoka ne vidi gde je čitanje stalo. */
+.np-koraci li{scroll-margin-top:2.4rem}
+.np-koraci li:target{border-color:var(--plum-light);box-shadow:0 0 0 3px var(--plum-wash)}
+
+/* Spisak je bio uvučen za podrazumevanih 40 px liste, pa je stajao odmaknut
+   od teksta iznad sebe. Sada počinje na istoj liniji kao i ostatak kartice. */
+.v2-pm ul.v2-pm-spisak{padding-left:0}
+
+/* ---------- PROBA: leva strana bez bele kartice ----------
+   Tekst stoji direktno na podlozi strane, kao red usluga na vrhu — bez stakla,
+   bez okvira i bez senke. Preklapanja sa slikom više nema, jer nema kartice
+   koja bi je prekrivala; ostaje samo razmak da se slova ne sudare sa slikom.
+   Blok je zaseban i briše se u komadu ako ne valja. */
+.v2-pm > div:first-child{
+  background:none;border:0;border-radius:0;box-shadow:none;
+  -webkit-backdrop-filter:none;backdrop-filter:none;
+  -webkit-mask-image:none;mask-image:none;
+  margin-right:0;
+  /* ista crta uz levu ivicu kao kod usluga na vrhu — i ovo je usluga, samo
+     veća, pa pripada istoj porodici */
+  border-left:2px solid var(--plum);
+  padding:.15rem clamp(1.2rem,3vw,2.4rem) .15rem clamp(1.1rem,2vw,1.6rem)}
+/* značka sa ikonicom iznad natpisa, kao gore, samo krupnija za veći blok */
+.v2-pm > div:first-child .ico{display:grid;place-items:center;
+  width:3rem;height:3rem;margin-bottom:.9rem;border-radius:var(--r-pill);
+  background:var(--plum-wash-2);color:var(--plum-dark);
+  transition:transform .38s cubic-bezier(.34,1.35,.5,1),
+             background-color .3s, color .3s, box-shadow .3s}
+.v2-pm > div:first-child .ico svg{width:1.5rem;height:1.5rem;fill:none;
+  stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/* Ceo blok se podigne na prelaz mišem, kao i stavke usluga iznad, ali sporije
+   i za nijansu manje. To nije ukras nego pravilo kroz ceo sajt: što je element
+   veći, to teže kreće. Pilula reaguje za .18 s, stavka usluge za .28, ovaj
+   blok za .38 — pa se veličina oseti i u pokretu, ne samo u širini.
+   Podizanje ide preko „translate", jer „transform" koristi pojavljivanje. */
+.v2-pm > div{transition:border-color .25s,
+  translate .38s cubic-bezier(.2,.8,.3,1)}
+/* Ovaj blok nosi veliku fotografiju sa izbledelim ivicama (maskom). Kad se
+   pomera, maska se pri svakom kadru računa na novom mestu i na ivici se vidi
+   svetla linija koja podrhtava. Zato se on samo pretapa — bez pomeranja. Sve
+   ostalo ide kroz zajedničko pravilo „.otkrij.vidljiv". */
+.v2-pm > div.otkrij{transform:none}
+.v2-pm > div.otkrij.vidljiv{transform:none}
+
+/* Uvod početne se pojavljuje istim pravilom kao svi ostali blokovi. */
+/* Podiže se ceo blok, i tekst i slika — inače se polovina pomeri a polovina
+   ostane, pa deluje kao da su dve stvari a ne jedna. */
+.v2-pm:hover > div{translate:0 -3px}
+.v2-pm > div:first-child:hover{border-left-color:var(--plum-dark)}
+.v2-pm > div:first-child:hover .ico{background:var(--plum);color:#fff;
+  box-shadow:0 8px 18px rgba(155,47,134,.28);transform:scale(1.07) rotate(-4deg)}
+@media (prefers-reduced-motion:reduce){
+  .v2-pm > div,.v2-pm > div:first-child .ico{transition:none}
+  .v2-pm:hover > div{translate:none}
+  .v2-pm > div:first-child:hover .ico{transform:none}}
+
+/* ---------- mesto za karusel dok katalog ne stigne ----------
+   Karusel se crta tek kad stignu podaci, pa je strana do tada kraća za oko 370
+   px. Zbog toga je skok na sidro prvo padao previsoko, a onda se strana sama
+   pomerala kad karusel iskoči — vidljivo pri svakom prvom učitavanju. Sada mu
+   je mesto rezervisano unapred, istom merom koju i sam zauzme. */
+#karusel:empty{height:calc(clamp(230px,24vw,340px) + 2rem)}
+
+/* ===== u znački se pomera crtež, ne ceo krug =====
+   Krug miruje i samo se oboji, a crtež unutra se propne ulevo — nagne se i
+   malo poraste, ne pomera se (vlasnik, 1.10.2026). Ranije se naginjao ceo krug. Brojevi koraka
+   („.np-koraci") ostaju kako jesu — tamo nema crteža. */
+.ico svg{transition:transform .3s cubic-bezier(.34,1.4,.5,1)}
+/* „html" ispred: u style.css postoji pravilo veće težine („.v2-red.v2-usluge…",
+   „ul.svc…") koje krug uvećava 1.05 — ovo mora da ga nadjača. */
+html .svc li:hover .ico,html .svc li.pod-misem .ico,html ul.svc li:hover .ico,html ul.svc li.pod-misem .ico,
+html .v2-pm > div:first-child:hover .ico,html .v2-pm > div:first-child.pod-misem .ico,
+html .v2-pm-traka .v2-pm > div:first-child:hover .ico,html .v2-pm-traka .v2-pm > div:first-child.pod-misem .ico,
+html .v2-usluge > div:hover .ico,html .v2-usluge > div.pod-misem .ico,
+html .v2-red.v2-usluge > div:hover .ico,html .v2-red.v2-usluge > div.pod-misem .ico,
+html .salon-red:hover .ico,html #kontakt .band-head > div:hover .ico{transform:none}
+.svc li:hover .ico svg,.svc li.pod-misem .ico svg,
+.v2-pm > div:first-child:hover .ico svg,.v2-pm > div:first-child.pod-misem .ico svg,
+.v2-usluge > div:hover .ico svg,.v2-usluge > div.pod-misem .ico svg,
+.salon-red:hover .ico svg,#kontakt .band-head > div:hover .ico svg{transform:rotate(-12deg) scale(1.1)}
+@media (prefers-reduced-motion:reduce){
+  .ico svg{transition:none}
+  .svc li:hover .ico svg,.svc li.pod-misem .ico svg,
+  .v2-pm > div:first-child:hover .ico svg,.v2-pm > div:first-child.pod-misem .ico svg,
+  .v2-usluge > div:hover .ico svg,.v2-usluge > div.pod-misem .ico svg,
+  .salon-red:hover .ico svg,#kontakt .band-head > div:hover .ico svg{transform:none}}
+
+/* ===== dolazak na zapamćeno mesto: pozadina i podnožje ulaze pretapanjem =====
+   Pri osvežavanju ili povratku na sredinu/dno strane, fotografija u pozadini
+   crta se odmah, a sadržaj tek kad stigne (katalog) —
+   pa su na tren stajali sami i izgledali kao da se „prvo prikaže podnožje"
+   (snimak 22:30, kadrovi 142–150 i 53–70). Umesto da banu, ulaze za 0,6 s, pa
+   kadar nikad ne stoji, nego se postepeno puni. */
+/* Ni podnožje ni fotografija pozadine više ne ulaze pretapanjem — stoje od
+   prvog kadra (2.10.2026, v1070–1071). Podnožje: vlasniku više prija da „leži".
+   Fotografija: pregledačev snimak strane je pri povratku ima punu, a prvo
+   crtanje ju je spuštalo na nulu pa vraćalo za 0,6 s — „prikaže, obriše,
+   prikaže" (snimak 13:38, kadar 137). Razlog za pretapanje više ne važi:
+   podnožje stoji, a sadržaj iznad ulazi redom. */
+html.povratak .v2-pozadina{animation:none}
+
+/* ===== mreža čvorova u pozadini poglavlja (umesto tačkica) =====
+   Probano na proba-pocetna-2 (1.–2.10.2026), preneto 2.10.2026 na sve tri strane.
+   Pločica 260×260: 9 čvorova na blago pomerenoj mreži 3×3, spojnice samo ka
+   susedima — oblici pravilni (četvorouglovi i trouglovi sličnih veličina), ne
+   kruti. Bešavno se ponavlja. Ljubičasta: linije 15 %, čvorovi 40 %. Iza svakog
+   poglavlja u istoj meri kao iza uvoda: pojas ~30rem od vrha poglavlja, težište
+   gore-levo, bledi na sve strane; cela površina poglavlja bila je previše.
+   Stoji iznad podloge poglavlja, ispod sadržaja (isolation), pa je kartice sa
+   svojom podlogom prekrivaju. Sporo klizi. Tačkice iz style.css su ugašene. */
+.hero-split::after,.band-head::after,.salon-tekst::after,.rec-glava::after,.naslov-tackice::after{
+  background-image:none;animation:none}
+main > section{position:relative;isolation:isolate}
+/* Poglavlje unutar poglavlja: kad sekcija ima još jedan naslovni blok niže
+   („Postupak" na po-meri, ispod liste usluga), i on dobija svoju mrlju — inače
+   bi mreža bila samo na vrhu sekcije, a taj deo ostao go (vlasnik, 2.10.2026).
+   Naslovni blok nije direktno dete sekcije (stoji u omotaču), pa se gleda da
+   li ima nešto ispred sebe, a ne da li je dete sekcije. */
+main > section .band-head:not(:first-child){position:relative}
+main > section::before,
+main > section .band-head:not(:first-child)::before{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  left:0;right:0;top:-2rem;height:30rem;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' viewBox='0 0 260 260'%3E%3Cg stroke='rgb(155,47,134)' stroke-opacity='.15' stroke-width='1' fill='none'%3E%3Cline x1='220.7' y1='52.3' x2='211.7' y2='119.0'/%3E%3Cline x1='-48.3' y1='119.0' x2='46.3' y2='222.7'/%3E%3Cline x1='211.7' y1='119.0' x2='306.3' y2='222.7'/%3E%3Cline x1='36.3' y1='142.0' x2='139.0' y2='126.0'/%3E%3Cline x1='49.3' y1='35.3' x2='36.3' y2='142.0'/%3E%3Cline x1='49.3' y1='35.3' x2='120.0' y2='48.3'/%3E%3Cline x1='121.0' y1='-50.3' x2='220.7' y2='52.3'/%3E%3Cline x1='121.0' y1='209.7' x2='220.7' y2='312.3'/%3E%3Cline x1='46.3' y1='-37.3' x2='49.3' y2='35.3'/%3E%3Cline x1='46.3' y1='222.7' x2='49.3' y2='295.3'/%3E%3Cline x1='-48.3' y1='119.0' x2='36.3' y2='142.0'/%3E%3Cline x1='211.7' y1='119.0' x2='296.3' y2='142.0'/%3E%3Cline x1='121.0' y1='209.7' x2='224.7' y2='219.7'/%3E%3Cline x1='46.3' y1='222.7' x2='121.0' y2='209.7'/%3E%3Cline x1='224.7' y1='-40.3' x2='220.7' y2='52.3'/%3E%3Cline x1='224.7' y1='219.7' x2='220.7' y2='312.3'/%3E%3Cline x1='36.3' y1='142.0' x2='46.3' y2='222.7'/%3E%3Cline x1='49.3' y1='35.3' x2='139.0' y2='126.0'/%3E%3Cline x1='120.0' y1='48.3' x2='220.7' y2='52.3'/%3E%3Cline x1='211.7' y1='119.0' x2='224.7' y2='219.7'/%3E%3Cline x1='139.0' y1='126.0' x2='121.0' y2='209.7'/%3E%3Cline x1='139.0' y1='126.0' x2='211.7' y2='119.0'/%3E%3Cline x1='120.0' y1='48.3' x2='139.0' y2='126.0'/%3E%3Cline x1='121.0' y1='-50.3' x2='120.0' y2='48.3'/%3E%3Cline x1='121.0' y1='209.7' x2='120.0' y2='308.3'/%3E%3Cline x1='-39.3' y1='52.3' x2='49.3' y2='35.3'/%3E%3Cline x1='220.7' y1='52.3' x2='309.3' y2='35.3'/%3E%3Cline x1='-35.3' y1='219.7' x2='46.3' y2='222.7'/%3E%3Cline x1='224.7' y1='219.7' x2='306.3' y2='222.7'/%3E%3C/g%3E%3Cg fill='rgb(155,47,134)' fill-opacity='.40'%3E%3Ccircle cx='49.3' cy='35.3' r='2.4'/%3E%3Ccircle cx='120.0' cy='48.3' r='2.4'/%3E%3Ccircle cx='220.7' cy='52.3' r='2.4'/%3E%3Ccircle cx='36.3' cy='142.0' r='2.4'/%3E%3Ccircle cx='139.0' cy='126.0' r='2.4'/%3E%3Ccircle cx='211.7' cy='119.0' r='2.4'/%3E%3Ccircle cx='46.3' cy='222.7' r='2.4'/%3E%3Ccircle cx='121.0' cy='209.7' r='2.4'/%3E%3Ccircle cx='224.7' cy='219.7' r='2.4'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:260px 260px;
+  -webkit-mask-image:radial-gradient(60% 62% at 34% 42%, #000 0%, rgba(0,0,0,.6) 50%, transparent 86%);
+          mask-image:radial-gradient(60% 62% at 34% 42%, #000 0%, rgba(0,0,0,.6) 50%, transparent 86%);
+  animation:cvorovi-plove 70s linear infinite alternate}
+/* uvod početne: mreža sme i iznad, iza zaglavlja */
+main > section.v2-vrh::before{top:-4rem}
+main > section .band-head:not(:first-child)::before{top:-3rem;left:-2rem;right:-2rem}
+@keyframes cvorovi-plove{from{background-position:0 0}to{background-position:130px 65px}}
+/* Mreža (i svetlo, gore) vezani za sat (2.10.2026, v1072): zaglavlje strane
+   upiše negativno kašnjenje jednako proteklom delu ciklusa (--sat-mreza,
+   --sat-svetlo), pa posle osvežavanja ili povratka pozadina nastavlja tačno
+   odakle je bila, umesto da krene iz početnog položaja. */
+main > section::before,
+main > section .band-head:not(:first-child)::before{animation-delay:var(--sat-mreza,0ms)}
+body:has(.v2-pozadina)::before{animation-delay:var(--sat-svetlo,0ms)}
+/* Mreža vezana za prozor, ne za poglavlje (2.10.2026, v1072). Svako poglavlje
+   je crtalo svoju mrežu od svog vrha: pojas uvodnog poglavlja na ponudi (30 rem)
+   duži je od poglavlja, pa se prosipao preko trake filtera i vrha mreže
+   proizvoda, gde počinje mreža drugog poglavlja — dve mreže jedna preko druge
+   (snimak 14:13). A kad traka filtera pri učitavanju dobije red sa kategorijom,
+   drugo poglavlje siđe i njegova mreža se pomeri dok prva stoji. Vezana za
+   prozor, mreža je svuda isti obrazac: preklopi se sama sa sobom i ne zavisi
+   od rasporeda. Maska (bledenje ka ivicama) i dalje ide uz poglavlje. */
+main > section::before,
+main > section .band-head:not(:first-child)::before{background-attachment:fixed}
+/* Naslovni blok usred poglavlja („Postupak" na po-meri) nosi svoju mrežu, a pri
+   ulasku je klizio 30 px naviše pa je i mreža klizila. Sad samo bledi. */
+main > section .band-head:not(:first-child).otkrij{transform:none}
+@media (prefers-reduced-motion:reduce){main > section::before,main > section .band-head:not(:first-child)::before{animation:none}}
+
+/* ===== mreža čvorova: pojasevi, prvi kadar, naslovni blok usred poglavlja (v1073) =====
+   Probano na proba-animacije/ 2.10.2026, preneto istog dana. */
+/* (2.10.2026, v1073) mreža ostaje tamo gde je i bila — pojas
+   iznad naslova svakog poglavlja, sa istim bledenjem — a šara je (od v1072)
+   vezana za prozor, pa je na svim stranama i pri svakom učitavanju ista slika.
+   Novo: pojas jednog poglavlja ne sme da se prospe preko sledećeg. Na ponudi je
+   pojas uvodnog poglavlja (30 rem) duži od poglavlja, pa je išao preko trake
+   filtera i vrha mreže proizvoda, gde počinje pojas drugog poglavlja — tu su se
+   dve mreže crtale jedna preko druge (jače linije), a pri učitavanju, dok se
+   raspored slaže, i to preklapanje se menjalo kadar za kadrom (snimci 14:13 i
+   14:32). Pojas sad ide najviše do dna svog poglavlja (plus 2 rem iznad vrha). */
+main > section::before{max-height:calc(100% + 2rem)}
+
+/* (2.10.2026, v1073) na ponudi mreža samo uz naslov — poglavlje sa karticama
+   proizvoda nema svoj naslov, pa ni mrežu („neka budu samo u naslovu kao što
+   je pravilo svuda", snimak 15:12). Poglavlje „Radi se i po meri" niže ima
+   naslov, pa mreža tamo ostaje. */
+main > section:has(#grid)::before{content:none}
+
+/* (2.10.2026, v1073) blokovi koji ulaze animacijom sakriveni su VEĆ PRI PRVOM
+   CRTANJU, stilom — ne tek kad skripta sa kraja strane dođe na red. Chrome ume
+   da nacrta prvi kadar pre te skripte: natpis i naslov bljesnu, nestanu, pa
+   uđu animacijom (snimak 15:12, kadar 105 → 110). Dok je postojalo pretapanje
+   celog sadržaja na vrhu, ono je to pokrivalo. Klasu „pre-skripte" stavlja
+   zaglavlje strane, a app.js je skida odmah posle „sakrijRano" — od tada
+   posao vodi „otkrij". Spisak MORA da prati IZBOR_POJAVE u app.js. */
+@media (prefers-reduced-motion:no-preference){
+html.pre-skripte :is(.band-head:not(main > section .band-head:not(:first-child)),
+  main > section .band-head:not(:first-child) > *,
+  .v2-usluge > div,
+  .svc li,
+  .np-koraci li,
+  .v2-pm > div,
+  .pm-vrh-mreza > *,
+  .rec-glava,
+  .cat-grid > *,
+  .kontakt > *,
+  .note--karta,
+  .pm-poziv,
+  .brand-card,
+  .slot,
+  .v2-salon > .mesto,
+  .salon-slajd,
+  .salon-tekst,
+  .hero-split > .pr-uvod,
+  #karusel,
+  section > .naslov-tackice > *,
+  #grid .prod,
+  .filters,
+  .cv-pills,
+  .rec-traka,
+  .rec-ocena,
+  .taglist li,
+  .split > div,
+  .v2-pod-vrh > *,
+  .v2-pod-kol){opacity:0}
+}
+
+/* (4.10.2026, v1074) dok katalog nije iscrtan, poglavlje sa karticama je prazno
+   i kratko, pa poglavlja iza njega („Radi se i po meri" sa svojom mrežom uz
+   naslov) stoje usred ekrana — pri prvom crtanju posle osvežavanja mreža se
+   pojavi tamo gde je inače nema, pa kad kartice stignu ode 6000 px niže (snimak
+   4.10. 19:47, kadar 40 → 60). Zato su ta poglavlja nevidljiva dok katalog ne
+   stigne; raspored im ostaje. Oznaku „katalog-tu" stavlja app.js. */
+html:not(.katalog-tu) main > section:has(#grid) ~ section{visibility:hidden}
+
+/* ===== posle testiranja sajta (5.10.2026, v1075): sažeti filteri i nagoveštaj u navigaciji na telefonu ===== */
+.filteri-jos{display:none}
+@media (max-width:760px){
+  /* sažeta traka filtera kad se odskroluje: ostaju pretraga i kategorija */
+  html.filteri-sazeti .filters #birac-tip,
+  html.filteri-sazeti .filters #birac-brend,
+  html.filteri-sazeti .filters #ocisti,
+  html.filteri-sazeti .filters #aktivni{display:none}
+  .filteri-jos{display:none;border:1.5px solid var(--line-2);border-radius:var(--r-pill);padding:.42rem .85rem;
+    background:#fff;font:inherit;font-weight:700;color:var(--plum-dark);cursor:pointer}
+  html.filteri-sazeti .filteri-jos{display:inline-flex}
+  /* red navigacije: nagoveštaj da desno ima još stavki */
+  .v2-nav{position:relative}
+  .v2-nav::after{content:"";position:absolute;top:0;bottom:0;right:0;width:3rem;pointer-events:none;
+    background:linear-gradient(90deg,rgba(255,255,255,0),#fff 75%)}
+}
+
+/* ===== mobilni prikaz (5.–8.10.2026, v1076) ===== */
+/* (5.10.2026, v1076) — mobilni prikaz: lakše zaglavlje, sklanjanje pri skrolu,
+   meko podnožje, veći ciljevi za prst, kraći uvod, upit sa kartice */
+.lupa-dugme{display:none}
+.prod-upit{display:none}
+@media (max-width:760px){
+  /* 1) zaglavlje: pretraga iza lupe, bez reda pilula */
+  .lupa-dugme{display:grid;margin-left:.4rem}
+  .lupa-dugme svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+  .v2-trazi{display:none}
+  html.pretraga-otvorena .v2-trazi{display:block;grid-column:1 / -1;justify-self:stretch;max-width:none}
+  .v2-nav{display:none}
+  /* 2) zaglavlje i donja traka se sklanjaju pri skrolu naniže, vraćaju naviše */
+  /* zaglavlje stoji u omotaču sa ljubičastom trakom, pa se lepi omotač; vrh je
+     pomeren za visinu trake, da traka ode sa skrolom a zaglavlje ostane */
+  .v2-vrh-omot{position:sticky;top:calc(0px - var(--traka-h,37px));z-index:60;transition:transform .25s ease}
+  html.skrol-dole .v2-vrh-omot{transform:translateY(-100%)}
+  body:has(.lb:not([hidden])) .v2-vrh-omot{position:relative}
+  .mobile-bar{transition:transform .25s ease}
+  html.skrol-dole .mobile-bar{transform:translateY(100%)}
+  body:has(.v2-glava) .filters{top:var(--glava-h,0px);transition:top .25s ease}
+  html.skrol-dole body:has(.v2-glava) .filters{top:0}
+  /* 3) podnožje: sadržaj kolone meko uđe (sklapanje ostaje rez) */
+  @keyframes podUlazi{from{opacity:0;transform:translateY(-6px)}}
+  .v2-pod-kol.otvorena > *:not(b){animation:podUlazi .28s ease both}
+  /* 4) veći ciljevi za prst bez promene izgleda */
+  .topbar-info a,.cv-dot,.pm-tacke button{position:relative}
+  .topbar-info a::before{content:"";position:absolute;inset:-12px -8px}
+  .cv-dot::before,.pm-tacke button::before{content:"";position:absolute;inset:-14px -6px}
+  /* 5) kraći uvod na početnoj: dugme iznad pregiba */
+  .hero-split .v2-naslov{font-size:clamp(1.75rem,8vw,2.1rem)}
+  .hero-split .v2-lead{font-size:1rem;margin-top:.6rem}
+  .hero-split .pr-poverenje{display:none}
+  /* 6) upit pravo sa kartice */
+  .prod .prod-upit{display:inline-flex;align-items:center;justify-content:center;margin-top:.55rem;
+    padding:.55rem 1rem;border-radius:var(--r-pill);background:var(--plum);color:#fff;font-weight:700;font-size:var(--t-sm)}
+}
+@media (prefers-reduced-motion:reduce){.v2-vrh-omot,.mobile-bar{transition:none}.v2-pod-kol.otvorena > *:not(b){animation:none}}
+
+/* ===== (5.10.2026, v1076): meni na telefonu — panel sa desne strane ===== */
+@media (max-width:760px){
+  .mmenu{inset:0 0 0 auto;width:min(88vw,22rem);padding:1rem 1.15rem 2rem;gap:0;
+    background:#fff;box-shadow:-18px 0 50px rgba(46,39,51,.22);
+    animation:mmenuUlaz .28s cubic-bezier(.2,.8,.3,1)}
+  @keyframes mmenuUlaz{from{opacity:0;transform:translateX(12%)}to{opacity:1;transform:none}}
+  body:has(.mmenu:not([hidden]))::after{content:"";position:fixed;inset:0;z-index:79;background:rgba(46,39,51,.42);
+    animation:mmenuSenka .28s ease both}
+  @keyframes mmenuSenka{from{opacity:0}}
+  .mmenu-top{padding-bottom:.9rem;margin-bottom:.4rem}
+  .mmenu-top img{height:38px}
+  .mmenu-glavno{display:flex;flex-direction:column}
+  .mmenu a.glavni{display:flex;align-items:center;justify-content:space-between;font-size:1.08rem;padding:.78rem .15rem;border-bottom:1px solid var(--line)}
+  .mmenu a.glavni::after{content:"";width:.5rem;height:.5rem;border-right:2px solid var(--ink-faint);border-bottom:2px solid var(--ink-faint);transform:rotate(-45deg);opacity:.8}
+  .mmenu .mgrupa{padding:1.1rem 0 .4rem}
+  .mmenu .mkat{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.7rem}
+  .mmenu .mkat a{display:flex;align-items:center;gap:.55rem;padding:.65rem .7rem;border-radius:var(--r-sm);
+    background:var(--tint-2);color:var(--ink);font-size:.9rem;font-weight:700;line-height:1.15}
+  .mmenu .mkat a svg{width:1.25rem;height:1.25rem;flex:none;fill:none;stroke:var(--plum);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .mmenu .mkat a:hover,.mmenu .mkat a:active{background:var(--plum);color:#fff}
+  .mmenu .mkat a:active svg{stroke:#fff}
+  .mmenu .mtel{margin-top:1.3rem;gap:.55rem}
+  .mmenu .mtel-red{display:grid;grid-template-columns:1fr 1fr;gap:.55rem}
+  .mmenu .mradno{margin:.5rem 0 0;font-size:.82rem;color:var(--ink-soft);text-align:center}
+  @media (prefers-reduced-motion:reduce){.mmenu,body:has(.mmenu:not([hidden]))::after{animation:none}}
+}
+
+/* ===== (5.10.2026, v1076): kraća početna na telefonu — manje nabrajanja ===== */
+@media (max-width:760px){
+  /* usluge: red pločica sa ikonicom i nazivom, bez opisa, prevlači se */
+  .v2-red.v2-usluge{display:flex;overflow-x:auto;gap:.6rem;scroll-snap-type:x mandatory;padding:.2rem .1rem .6rem;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .v2-red.v2-usluge::-webkit-scrollbar{display:none}
+  .v2-usluge > div{flex:0 0 auto;width:9.6rem;scroll-snap-align:start;padding:.75rem .85rem;
+    border:1px solid var(--line);border-left:1px solid var(--line);border-radius:var(--r);background:rgba(255,255,255,.72)}
+  .v2-usluge > div p,.v2-usluge > div > span:not(.ico){display:none}
+  .v2-usluge > div b,.v2-usluge > div h3{font-size:.95rem}
+  /* kreveti po meri: bez spiska od šest tačaka */
+  .v2-pm .v2-pm-spisak,.v2-pm-spisak{display:none !important}
+  /* salon: samo prvi pasus */
+  .salon-tekst .prose ~ .prose{display:none}
+  /* kontakt: bez cele forme — upit je u donjoj traci i u zaglavlju */
+  .kontakt .forma-kartica{display:none}
+  /* podnožje: telefoni, mejl, Viber i WhatsApp su već u kontaktu i donjoj traci */
+  .v2-pod-veze{display:none}
+}
+
+/* ---------- v1080: jasnija fotografija u pozadini (sve tri strane) ----------
+   Probano na proba-animacije/index.html kao „B jasnija", vlasnik izabrao 10.10.2026.
+   Soba se na vrhu vidi skoro kao prava fotografija (desno jasna), ispod teksta
+   levo je zabeljena da se naslov čita, a niže se pretapa u belo kao i pre. */
+.v2-pozadina img{opacity:.85;filter:saturate(1.05)}
+.v2-pozadina::after{background:
+  linear-gradient(90deg,rgba(255,255,255,.82) 0%,rgba(255,255,255,.55) 38%,rgba(255,255,255,.08) 70%,rgba(255,255,255,0) 100%),
+  linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.25) 40%,rgba(255,255,255,.88) 72%,rgba(255,255,255,.96) 100%)}
+
+/* ---------- v1081: zaključan birač teme u prozoru upita ----------
+   Kad je upit otvoren iz konkretnog proizvoda (panel ili dugme na kartici),
+   „Šta vas zanima" je fiksirano na njegovu kategoriju; app.js dodaje klasu. */
+.birac--fiksno .birac-dug{opacity:1;cursor:default;background:var(--plum-wash);border-color:transparent}
+.birac--fiksno .birac-dug .kljun{display:none}
+
+/* ---------- v1082: čitljivost teksta preko fotografije (sve tri strane) ----------
+   Probano na proba-animacije/* kao „Oba", vlasnik izabrao 10.10.2026.
+   1) Traka pitanja ima istu podlogu kao sve ostale trake (0,72), nije izuzetak.
+   2) „Staklo": iza svake trake sa tekstom fotografija je zamućena (mat staklo);
+      ivice trake meko prelaze u oštru sliku. Ide na ::after, jer ::before crta
+      mrežu čvorova. Uvodna traka na po-meri (pm-vrh) ostaje bez stakla.
+      Na po-meri su „Šta radimo" i „Postupak" razdvojeni u dve trake, da između
+      njih ostane čista fotografija.
+   3) Sivi tekst i naslovi tamniji, bez oreola. */
+body:has(.v2-pozadina) .band.v2-meko-tint{
+  background:linear-gradient(180deg,rgba(252,242,249,0) 0%,rgba(252,242,249,.72) 14%,
+    rgba(252,242,249,.72) 86%,rgba(252,242,249,0) 100%)}
+main > section.band:not(.pm-vrh){position:relative;isolation:isolate}
+main > section.band:not(.pm-vrh)::after{
+  content:"";position:absolute;inset:0;z-index:-2;pointer-events:none;
+  backdrop-filter:blur(18px) saturate(1.1);-webkit-backdrop-filter:blur(18px) saturate(1.1);
+  mask-image:linear-gradient(180deg,transparent,#000 9%,#000 91%,transparent);
+  -webkit-mask-image:linear-gradient(180deg,transparent,#000 9%,#000 91%,transparent)}
+:root{--ink-soft:#4F4658;--ink-faint:#7D7486}
+main h1,main h2{color:#241c28}
+
+/* ---------- v1083: telefon, drugi krug (10.10.2026) ----------
+   Probano na proba-animacije/* kroz 11 krugova sa vlasnikom, preneto 10.10.2026.
+   Sve ispod je samo ≤760 px, osim nekoliko pravila na kraju označenih „(obe verzije)". */
+@media (max-width:760px){
+
+  /* ===== 0. LAGANI REŽIM — ono što je vlasnik potvrdio da pomaže ===== */
+  /* staklo iz v1082 ima jači selektor (:not(.pm-vrh)), pa se gasi istim selektorom + !important */
+  main > section.band::after,main > section.band:not(.pm-vrh)::after{content:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+  .site-header,.filters,.v2-vrh-omot,.cv-slide,.mmenu{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+  .site-header{background:#fff!important}
+  .filters{background:#fff!important}
+  main > section::before,main > section .band-head:not(:first-child)::before{background-attachment:scroll!important;animation:none!important}
+  .v2-pozadina img,.v2-pozadina::before,body:has(.v2-pozadina)::before{animation:none!important;will-change:auto!important}
+  .v2-pozadina::before{mix-blend-mode:normal!important;opacity:.5}
+  body:has(.v2-pozadina)::before{content:none!important}
+
+  /* 0b. drugi krug: fotografija iza strane nije više „fiksna" (veliki sloj koji se
+     ponovo slaže pri svakom pomaku) nego stoji na vrhu strane i skroluje sa njom;
+     svetla preko nje ugašena; donja traka bez zamućenja. */
+  .v2-pozadina{position:absolute!important;inset:auto!important;top:0;left:0;right:0;height:130vh}
+  .v2-pozadina::before{content:none!important}
+  .v2-pozadina::after{background:linear-gradient(180deg,rgba(255,255,255,.2) 0%,rgba(255,255,255,.55) 45%,rgba(255,255,255,.9) 85%,#fff 100%)}
+  .mobile-bar{backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background:#fff}
+  .v2-vrh-omot{background:#fff}
+
+  /* ===== 1. LOGO manji u zaglavlju i u meniju ===== */
+  .brand img{height:30px!important}
+  .site-header.zbito .brand img{transform:none}
+  .mmenu-top img{height:28px}
+
+  /* ===== 2. MENI: preko celog ekrana, bez senke i pretapanja, klizi samo transformom ===== */
+  .mmenu{inset:0!important;width:auto!important;padding:.9rem 1.1rem calc(1.4rem + env(safe-area-inset-bottom))!important;
+    gap:0;background:#fff;animation:mmenuKlizi .22s ease-out both;will-change:transform;
+    -webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+  @keyframes mmenuKlizi{from{transform:translateX(100%)}to{transform:none}}
+  body:has(.mmenu:not([hidden]))::after{content:none!important}
+  .mmenu-top{padding-bottom:.7rem;margin-bottom:.2rem;border-bottom:1px solid var(--line)}
+  .mmenu-top .burger{width:2.6rem;height:2.6rem;border-radius:50%;background:var(--tint)}
+  .mmenu a.glavni{font-size:1.05rem;padding:.9rem .1rem;min-height:3rem;touch-action:manipulation}
+  .mmenu a.glavni:active{color:var(--plum)}
+  .mmenu .mgrupa{padding:1rem 0 .3rem}
+  .mmenu .mkat{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.6rem}
+  .mmenu .mkat a{display:flex;align-items:center;gap:.6rem;padding:.7rem .75rem;min-height:3rem;border-radius:12px;
+    background:var(--plum-wash);color:var(--ink);font-weight:700;font-size:.9rem;touch-action:manipulation}
+  .mmenu .mkat a svg{width:1.9rem;height:1.9rem;padding:.35rem;border-radius:50%;background:#fff;flex:none;
+    fill:none;stroke:var(--plum);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .mmenu .mkat a:active{background:var(--plum);color:#fff}
+  .mmenu .mtel{margin-top:1.2rem;gap:.5rem;padding-top:1rem;border-top:1px solid var(--line)}
+  .mmenu .mtel .btn{min-height:3rem;border-radius:999px}
+  .mmenu .mtel .btn .ik{width:1.1rem;height:1.1rem;margin-right:.4rem}
+  .mmenu .mradno{margin:.5rem 0 0;font-size:.8rem;color:var(--ink-soft);text-align:center}
+
+  /* ===== 3. PODNOŽJE: bez harmonike. Kategorije su u meniju; Salon kao pilule; adresa i sati otvoreni ===== */
+  .v2-pod-ponuda{display:none}
+  .v2-pod-kol > b{cursor:default;border-top:0;padding:.2rem 0 .55rem;pointer-events:none}
+  .v2-pod-kol > b::after{content:none}
+  .v2-pod-kol > *:not(b){display:block}
+  .v2-pod-kol > table{display:table;width:100%}
+  .v2-pod-mreza{gap:1.4rem;display:grid}
+  .v2-pod-kol[aria-label="Salon"] ul{display:flex;flex-wrap:wrap;gap:.45rem}
+  .v2-pod-kol[aria-label="Salon"] li a{display:inline-block;padding:.45rem .8rem;border-radius:999px;
+    border:1px solid rgba(255,255,255,.28);color:#fff;font-size:.82rem;text-decoration:none}
+  .v2-pod-kol[aria-label="Salon"] li a:active{background:rgba(255,255,255,.16)}
+  .v2-pod-gde{padding-top:.2rem}
+  .v2-pod-sati td,.v2-pod-sati th{padding:.18rem 0}
+  .v2-pod-placanje{margin-top:.6rem;opacity:.85;font-size:.82rem}
+
+  /* ===== 4. VIBER i WHATSAPP samo kao ikonice u krugu — bez naziva (kontakt, donja traka, meni) ===== */
+  .tel-ik{display:inline-grid;place-items:center;width:2rem;height:2rem;padding:0;border-radius:50%;background:var(--tint);vertical-align:middle}
+  .tel-ik .ik{width:1.05rem;height:1.05rem;margin:0}
+  .mobile-bar{gap:.45rem;align-items:center}
+  .mobile-bar .btn{display:inline-flex;align-items:center;justify-content:center;min-height:2.9rem}
+  .mobile-bar .btn:has(.ik){flex:0 0 2.9rem;width:2.9rem;height:2.9rem;padding:0;border-radius:50%;font-size:0;line-height:0}
+  .mobile-bar .btn .ik{width:1.35rem;height:1.35rem;margin:0;flex:none}
+  .mmenu .mtel-red{display:flex;justify-content:center;gap:.8rem}
+  .mmenu .mtel-red .btn{flex:0 0 3.2rem;width:3.2rem;height:3.2rem;min-height:0;padding:0;border-radius:50%;font-size:0;line-height:0;display:inline-grid;place-items:center}
+  .mmenu .mtel-red .btn .ik{width:1.5rem;height:1.5rem;margin:0}
+
+  /* ===== 4b. USLUGE (Prevoz, Montaža…) u jednoj providnoj beloj podlozi, kao blok „Kreveti i dušeci po meri" ===== */
+  .v2-red.v2-usluge{background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.85);border-radius:var(--r);
+    padding:.65rem .6rem;margin-inline:0;box-shadow:0 1px 2px rgba(46,39,51,.04)}
+  .v2-usluge > div{background:transparent;border:1px solid var(--line);border-left:1px solid var(--line)}
+
+  /* ===== 4c. RECENZIJE: ne klize same, prevlače se prstom ===== */
+  .rec-niz{animation:none!important}
+  .rec-niz[aria-hidden="true"]{display:none}
+  .rec-traka{overflow-x:auto;mask-image:none;-webkit-mask-image:none;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:.3rem}
+  .rec-traka::-webkit-scrollbar{display:none}
+  .rec{scroll-snap-align:start}
+
+  /* ===== 4d. FILTERI: padajući spisak („Vrsta") ostaje u ekranu ===== */
+  .filters .birac-panel{left:0;right:auto;min-width:0;width:max-content;max-width:calc(100vw - 2rem)}
+
+  /* ===== 4e. PODNOŽJE: ljubičasto ide do dna, ispod njega nema beline (belina je bila
+     prostor ostavljen za donju traku) ===== */
+  body{padding-bottom:0!important}
+  .site-footer{padding-bottom:5rem!important}
+
+  /* ===== 5. DUŠEK na po-meri: bez zamućenja i uvećanja pri ulasku (filter:blur je kočio), samo klizanje ===== */
+  .pm-presek img{filter:none!important;transform:none!important;opacity:1!important;transition:none!important}
+  .pm-vrh-foto .pm-traka{transition:transform .5s ease}
+  /* tačkice iznad dušeka su išle preko slike — sad stoje u svom redu iznad nje, na sredini */
+  .pm-vrh-foto .pm-presek{padding-top:2rem}
+  .pm-vrh-foto .pm-tacke{top:.45rem;bottom:auto;left:0;right:0;justify-content:center}
+
+  /* ===== 6. KARUSEL kategorija: ravan, bez 3D dubine ===== */
+  .cv-stage{perspective:none;transform-style:flat}
+  .cv-slide{transform-style:flat;filter:none!important}
+
+  /* ===== 7. UPIT preko celog ekrana ===== */
+  .upit-modal{width:100vw!important;max-width:100vw!important;height:100dvh;max-height:100dvh;margin:0;
+    inset:0!important;border-radius:0}
+  .upit-modal .kutija{height:100dvh;border-radius:0;box-shadow:none;gap:.7rem;
+    padding:.6rem 1rem calc(.8rem + env(safe-area-inset-bottom));overflow:auto;-webkit-overflow-scrolling:touch}
+  .upit-modal .vrh{position:sticky;top:-.6rem;z-index:2;background:#fff;margin:0 -1rem;padding:.8rem 1rem .6rem;border-bottom:1px solid var(--line)}
+  .upit-modal .vrh b{font-size:1.1rem}
+  .upit-modal .zatvori{width:2.6rem;height:2.6rem;border-radius:50%;background:var(--tint);font-size:1.5rem;display:grid;place-items:center;padding:0;color:var(--ink)}
+  .upit-modal .form-grid{gap:.75rem}
+  .upit-modal .fld label,.upit-modal .fld .nalik-labeli{font-size:.78rem}
+  .upit-modal input,.upit-modal textarea,.upit-modal .birac-dug{font-size:16px;min-height:3rem;border-radius:12px}
+  .upit-modal textarea{min-height:7rem;max-height:none!important}
+  .upit-modal .dno{position:sticky;bottom:-.8rem;z-index:2;background:#fff;margin:0 -1rem;padding:.7rem 1rem calc(.7rem + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+  .upit-modal .dno .btn{width:100%;min-height:3.2rem;border-radius:999px;font-size:1rem}
+  .upit-modal .upit-stanje{margin:0}
+  @keyframes upitOdozdo{from{transform:translateY(8%);opacity:0}to{transform:none;opacity:1}}
+  .upit-modal[open]{animation:upitOdozdo .26s ease-out both!important}
+  .upit-modal::backdrop{backdrop-filter:none;-webkit-backdrop-filter:none}
+
+  /* ===================== 3. KRUG ===================== */
+
+  /* 2) USLUGE kao na desktopu: ikonica, naslov i opis, ljubičasta crta levo; jedna ispod druge u providnoj podlozi */
+  .v2-red.v2-usluge{display:grid;grid-template-columns:1fr;gap:1rem;overflow:visible;scroll-snap-type:none;padding:1rem 1rem 1.1rem}
+  .v2-usluge > div{flex:none;width:auto;scroll-snap-align:none;padding:.1rem 0 .1rem .9rem;
+    border:0;border-left:2px solid var(--plum);border-radius:0;background:transparent}
+  .v2-usluge > div > span:not(.ico),.v2-usluge > div p{display:block;max-width:none;margin-top:.3rem}
+  .v2-usluge .ico{margin-bottom:.55rem}
+  .v2-usluge > div b,.v2-usluge > div h3{font-size:1.02rem}
+
+  /* 3) ZAGLAVLJE: logo sa natpisom levo, lupa i meni kao dva jednaka kruga desno; bez dugmeta „Pošalji upit" (ima ga donja traka) */
+  .site-header .btn[data-upit-pop]{display:none}
+  .site-header > .wrap{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:.5rem;padding-block:.55rem}
+  .brand{display:flex;align-items:center;gap:.55rem}
+  .brand img{height:34px!important}
+  .brand-txt{display:block!important;font-family:"Nunito",sans-serif;font-size:.6rem;line-height:1.15;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--ink-faint);padding-left:.55rem;border-left:1px solid var(--line)}
+  .lupa-dugme,#burger{width:2.7rem;height:2.7rem;margin:0;border-radius:50%;background:var(--plum-wash);color:var(--plum-dark);display:grid;place-items:center}
+  .lupa-dugme svg,#burger svg{width:1.3rem;height:1.3rem}
+  .site-header{border-bottom:1px solid var(--line)}
+  html.pretraga-otvorena .v2-trazi{margin-top:.2rem}
+
+  /* 4) VIBER i WHATSAPP: ikonica tačno u sredini kruga */
+  .mobile-bar .btn:has(.ik),.mmenu .mtel-red .btn{display:flex!important;align-items:center;justify-content:center;gap:0!important;padding:0!important;line-height:0;box-sizing:border-box}
+  .mobile-bar .btn:has(.ik)::before,.mobile-bar .btn:has(.ik)::after,.mmenu .mtel-red .btn::before,.mmenu .mtel-red .btn::after{content:none!important}
+  .mobile-bar .btn .ik,.mmenu .mtel-red .btn .ik{margin:0!important;display:block;vertical-align:middle;position:static;top:auto}
+
+  /* 5) SLIKE SALONA zaobljene, kao slika kod „Kreveti i dušeci po meri" */
+  .salon-slajd{border-radius:var(--r)!important;overflow:hidden}
+  .salon-slajd .pm-traka img{object-fit:cover}
+
+  /* 6) KONTAKT: pri skoku iz menija kartica ne sme da bude pod zaglavljem */
+  #kontakt{scroll-margin-top:calc(var(--glava-h,60px) + 1rem)!important}
+
+  /* 8) VAŠA MERA · ŠTOF I DRVO · DO MONTAŽE u jednom redu */
+  .pr-poverenje{display:grid!important;grid-template-columns:repeat(3,1fr);gap:.4rem;margin-top:1rem}
+  .pr-poverenje li{padding:.5rem .5rem;min-width:0}
+  .pr-poverenje li > *{font-size:.66rem;line-height:1.25;white-space:normal}
+  .pr-poverenje li > b{font-size:.8rem}
+
+  /* 9) FILTERI u ponudi: bez skrivanja i vraćanja — jedan red dugmadi (kategorija,
+     vrsta, brend, obriši, izabrano) koji se prevlači prstom i uvek stoji pri vrhu.
+     Polje za pretragu je skinuto iz trake: pretražuje se lupom u zaglavlju, koja na
+     ovoj strani odmah filtrira katalog (proba-app.js). */
+  .filteri-jos{display:none!important}
+  html.filteri-sazeti .filters #birac-tip,html.filteri-sazeti .filters #birac-brend,
+  html.filteri-sazeti .filters #ocisti,html.filteri-sazeti .filters #aktivni{display:revert-layer}
+  .filters .pretraga{display:none}
+  .filters .alatka{display:flex;flex-wrap:nowrap;align-items:center;gap:.4rem;padding-block:.5rem;
+    overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .filters .alatka::-webkit-scrollbar{display:none}
+  .filters .alatka > *{flex:0 0 auto}
+  .filters .birac-dug{min-height:2.4rem;padding:.35rem .7rem;white-space:nowrap}
+  .filters .birac-ozn{display:none}
+  .filters .birac-dug b{max-width:9rem}
+  .filters #ocisti{min-height:2.4rem;white-space:nowrap}
+  .filters #aktivni{display:inline-flex;flex-wrap:nowrap;gap:.3rem}
+
+  /* 10) KARUSEL KATEGORIJA: aktivna kartica cela na sredini ekrana, susedne vire sa strane */
+  body:has(.v2-vrh) .cv-stage{height:min(300px,76vw)}
+  body:has(.v2-vrh) .cv-slide{width:min(296px,76vw);margin-left:0}
+
+  /* ===================== 4. KRUG ===================== */
+  /* 1) usluge bez zajedničke bele podloge */
+  .v2-red.v2-usluge{background:transparent;border:0;padding:0;box-shadow:none}
+  /* 2) zaglavlje zbijenije: manje praznine ispod logotipa */
+  .site-header > .wrap{padding-block:.3rem;min-height:0}
+  .site-header{min-height:0}
+  .brand{align-items:center}
+  .brand img{height:32px!important;display:block}
+  /* 3) kontakt: bez dodatnog razmaka pri skoku (zaglavlje se ionako skloni) */
+  #kontakt{scroll-margin-top:.5rem!important}
+  /* 4) slike salona cele, u zaobljenom okviru sa svetlom podlogom */
+  .salon-slajd{background:rgba(255,255,255,.55)!important}
+  .salon-slajd .pm-traka img{object-fit:contain}
+  /* 6) filteri: svi vidljivi odjednom, u dva reda; bez skrola (skrol je sekao padajuće spiskove) */
+  .filters .alatka{flex-wrap:wrap;overflow:visible;row-gap:.45rem}
+  .filters .birac-panel{left:0;right:auto}
+  /* 7) kartice u ponudi: bela podloga, senka, veća slika */
+  #grid .prod{background:#fff;border:1px solid var(--line);box-shadow:0 8px 22px rgba(46,39,51,.08)}
+  #grid .prod-img{aspect-ratio:4/3;background:#fff}
+  #grid .prod-img img{transform:scale(1.22)}
+  /* 9) meni: blaga ljubičasta podloga umesto čisto bele; pločice kategorija bele */
+  .mmenu{background:linear-gradient(180deg,#f6e4f0 0%,#fbf3f8 38%,#fff 100%)!important}
+  .mmenu .mkat a{background:#fff;border:1px solid rgba(155,47,134,.12)}
+  .mmenu .mkat a svg{background:var(--plum-wash)}
+  .mmenu-top .burger{background:#fff}
+  /* 10) po meri: „Pošalji upit" i broj u istoj širini kao pilule ispod */
+  .pm-vrh .v2-akcije{display:grid!important;grid-template-columns:1fr 1fr;gap:.5rem}
+  .pm-vrh .v2-akcije .btn{width:100%;padding-inline:.5rem;white-space:nowrap}
+
+  /* ===================== 5. KRUG ===================== */
+  /* 1) lupa i meni: ikonica tačno u sredini kruga, krugovi na sredini zaglavlja */
+  .lupa-dugme,#burger{display:grid!important;place-items:center;padding:0!important;line-height:0;margin:0!important;align-self:center}
+  .lupa-dugme svg,#burger svg{display:block;margin:0}
+  #burger .zatvori{display:none!important}   /* drugi (X) znak u dugmetu ostaje skriven */
+  .site-header > .wrap{align-items:center}
+  /* 2) kontakt: malo niže pri skoku */
+  #kontakt{scroll-margin-top:2.4rem!important}
+  /* 4) slike salona: samo zaobljene ivice, slika ista kao pre (bez podloge, bez sečenja) */
+  .salon-slajd{background:transparent!important;border-radius:var(--r)!important;overflow:hidden}
+  .salon-slajd .pm-traka img{object-fit:contain}
+  /* 5) red poverenja ispod karusela (skripta ga premešta): razmak i tri u redu */
+  .v2-vrh #karusel + .pr-poverenje{margin-top:1rem}
+  /* 6) ponuda: kraći uvod — naslov pa odmah filteri i proizvodi; pasus i napomena o cenama sklonjeni */
+  .naslov-tackice .uvod-dvokolona{display:none}
+  .naslov-tackice h1{margin-bottom:.4rem}
+
+  /* ===================== 6. KRUG ===================== */
+  /* 2) salon: bez maske koja gasi ivice — tek tada se vide zaobljeni uglovi */
+  .salon-slajd{-webkit-mask-image:none!important;mask-image:none!important;-webkit-mask-composite:initial;mask-composite:initial}
+  /* 3) zaglavlje: razmak između redova je ostajao i kad je red pretrage prazan — zato je dole bilo više beline */
+  .site-header > .wrap{row-gap:0;padding-block:.5rem}
+  /* 4) ponuda: naslov na svetloj podlozi i sa malo vazduha, da se ne seče uz filtere */
+  section:has(> .naslov-tackice){padding-top:1rem!important}
+  .naslov-tackice h1{margin-bottom:.6rem;padding-bottom:.1rem}
+
+  /* ===================== 7. KRUG ===================== */
+  /* traka na vrhu: samo otvoreno/zatvoreno — broj je prelazio u novi red */
+  .topbar-info > span:not(.radno){display:none}
+  /* elementi: bez plavog bljeska pri dodiru */
+  .el,.el *,.prod,.mkat a,.btn{-webkit-tap-highlight-color:transparent}
+  /* salon: okvir ne sme biti viši od slike (min-height je ostavljao prazno iznad i ispod, pa uglovi nisu bili na slici) */
+  .salon-slajd{min-height:0!important;aspect-ratio:1.75/1}
+  .salon-slajd .pm-traka img{border-radius:var(--r)}
+  /* ponuda: dve kartice u redu, kvadratna slika koja puni okvir, kraći tekst */
+  #grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:.7rem!important}
+  #grid .prod{border-radius:14px;box-shadow:0 4px 14px rgba(46,39,51,.08)}
+  #grid .prod-img{aspect-ratio:1/1;background:#fff}
+  #grid .prod-img img{transform:none;width:100%;height:100%;object-fit:cover}
+  #grid .prod-img:not(.amb):not(.foto) img{object-fit:contain;padding:.35rem;box-sizing:border-box;transform:scale(1.24)}
+  #grid .prod-body{padding:.6rem .7rem .7rem;gap:.15rem}
+  #grid .prod-body .meta{font-size:.66rem}
+  #grid .prod-body h3{font-size:.86rem;line-height:1.25;margin:0}
+  #grid .prod-body .open{display:none}
+  #grid .prod .prod-upit{margin-top:.45rem;min-height:2.1rem;font-size:.76rem;padding:.3rem .5rem;border-radius:999px}
+
+  /* ===================== 8. KRUG ===================== */
+  /* ponuda: naslov i traka filtera su jedna bela površina, bez reza i bez mreže iza naslova */
+  section:has(> .naslov-tackice){background:none!important;padding-bottom:.4rem!important;margin-bottom:0}
+  .naslov-tackice h1{margin-bottom:.2rem}
+  body:has(.v2-glava) .filters{margin-top:0!important;border-top:0!important;box-shadow:0 8px 16px -12px rgba(46,39,51,.25)}
+  /* usluge: mali natpis „Usluge" iznad stavki, da skok iz menija izgleda kao kod Kontakta */
+  .v2-red.v2-usluge::before{content:"Usluge";display:block;grid-column:1 / -1;margin:0 0 .2rem;
+    font-family:"Nunito",sans-serif;font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--plum)}
+  #usluge,#kontakt,section#salon{scroll-margin-top:1.5rem!important}
+
+  /* ===================== 9. KRUG ===================== */
+  /* 1) podnožje: gore i dole isti vazduh; dole samo koliko traka Pozovi/Viber zaklanja */
+  .site-footer{padding-top:1.5rem!important;padding-bottom:calc(66px + 1rem)!important}
+  .v2-pod-traka{margin-top:1.1rem}
+  .v2-pod-dno{padding-bottom:0}
+  /* 3) bez plavog bljeska i bez „zalepljenog" hovera na dodir (strelice karusela, logo, dugmad) */
+  *{-webkit-tap-highlight-color:transparent}
+  .cv-nav:hover,.cv-nav:focus{background:#fff;color:var(--ink);transform:none}
+  .cv-nav:active{background:var(--plum);color:#fff}
+  .cv-nav:focus,.brand:focus,.lupa-dugme:focus,#burger:focus,.el-str:focus{outline:none}
+  /* 6) ponuda: zaglavlje se na ovoj strani ne sklanja, pa traka filtera stoji tačno ispod njega
+     — naslov više ne viri odsečen u prazninu iznad trake */
+
+  /* ===================== 10. KRUG ===================== */
+  /* zaglavlje je na svim stranama uvek vidljivo (ne sklanja se pri skrolu); donja traka i dalje može */
+
+  /* ponuda: traka filtera ima iznad sebe beli preliv (::before) koji omekšava sadržaj
+     dok klizi pod nju — kad traka stoji odmah ispod naslova, taj preliv je bledeo
+     drugu liniju naslova. Na telefonu je ugašen; traka je bela i neprovidna. */
+  /* traka filtera izranja iz fotografije mekim belim prelivom kao na desktopu; naslov iznad
+     ima toliko praznine da preliv ne pada preko teksta */
+  body:has(.v2-glava) .filters::before{content:"";display:block;height:2.6rem;
+    background:linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.8) 60%,#fff 100%)}
+  section:has(> .naslov-tackice){padding-bottom:2.8rem!important}
+  .naslov-tackice h1{margin-bottom:0}
+
+  /* ===================== 11. KRUG ===================== */
+  /* ponuda: bez „rupe" između trake filtera i proizvoda — ceo katalog stoji na istoj
+     svetloj podlozi kao naslov i filteri, kartice se nižu odmah ispod trake */
+  main > section:has(#grid){background:rgba(255,255,255,.9);padding-top:.6rem}
+  body:has(#filteri) .filters{background:#fff!important}
+  body:has(.v2-glava) #grid{margin-top:.6rem!important}
+  .filters{box-shadow:none!important;border-bottom:1px solid var(--line)!important}
+
+  /* panel proizvoda: preko celog ekrana (i preko zaglavlja), jednako odozgo i odozdo */
+  body:has(.lb:not([hidden])) .v2-vrh-omot{z-index:auto!important}
+  .lb{padding:.6rem!important;place-items:center!important;align-content:center}
+  .lb-box{max-height:calc(100dvh - 1.2rem)!important;margin:0 auto;width:100%}
+
+  /* ponuda: između trake filtera i kartica virila je fotografija (traka nije u istoj
+     sekciji kao katalog) — cela strana ponude stoji na svetloj podlozi, pa rupe nema */
+  .filters{margin-bottom:0!important}
+  main > section:has(#grid){margin-top:0!important}
+
+  /* ponuda: posle promene filtera kartice se pokažu odmah, bez pojavljivanja redom (na telefonu je to izgledalo kao preskakanje) */
+  #grid .prod.otkrij{opacity:1!important;transform:none!important;transition:none!important}
+
+  /* ponuda: dok slika kartice stiže, okvir je blago siv umesto belog bljeska */
+  #grid .prod-img{background:#f3edf1}
+  #grid .prod-img img{background:#fff}
+}
+/* (obe verzije) slike salona nisu dugme za uvećanje */
+.salon-slajd{cursor:default!important}
+
+/* (obe verzije) panel proizvoda sa elementima: kolona je bila široka koliko i
+   cela traka elemenata (40 kuhinjskih elemenata = 4600 px), pa su slika, dugmad
+   i dezeni ispadali iz panela — grid „1fr" ima najmanju širinu po sadržaju.
+   Sa minmax(0, …) kolona ne može biti šira od panela, a traka se pomera unutra. */
+.lb-box--el{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}
+@media (max-width:720px){.lb-box--el{grid-template-columns:minmax(0,1fr)}}
+.lb-box--el .lb-el,.lb-box--el .el-kolona{min-width:0;max-width:100%}
+
+/* (dodir) elementi programa: bez „hover" na dodir; podizanje, naziv i veliki
+   pregled samo dok se prst drži (klasa „dugo" / „dugo-vidljiv" iz skripte) */
+@media (hover:none){
+  .el:hover{transform:none;box-shadow:none;z-index:auto}
+  .el:hover .el-ime{opacity:0;transform:translateY(3px)}
+  .el,.el img{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+}
+.el.dugo{transform:translateY(-3px)!important;z-index:4;box-shadow:var(--shadow-m)!important}
+.el.dugo .el-ime{opacity:1!important;transform:none!important}
+.el-pregled.dugo-vidljiv{display:flex!important;max-width:min(17rem,80vw)}
+.el-pregled.dugo-vidljiv img{height:9rem}
+
+/* (telefon) strelice uz traku elemenata */
+@media (max-width:760px){
+  .el-kolona--str{position:relative}
+  .el-str{position:absolute;z-index:7;width:2.3rem;height:2.3rem;margin-top:-1.15rem;border:0;border-radius:50%;
+    background:rgba(255,255,255,.95);color:var(--plum-dark);font-size:1.5rem;line-height:1;
+    box-shadow:0 4px 14px rgba(46,39,51,.22);display:grid;place-items:center;padding:0 0 .15rem}
+  .el-str-l{left:-.5rem}
+  .el-str-d{right:-.5rem}
+  .el-str[hidden]{display:none}
+  .lb-el{padding-inline:1.1rem}
+}

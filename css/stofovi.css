@@ -1,0 +1,46 @@
+/* Karta štofova — probna strana.
+   Uzorci su mali, pa mreža mora da bude gusta ali ne i zbijena: kvadrat
+   uzorka, ispod njega naziv karte i broj. Boja okvira nasleđuje prosečnu boju
+   uzorka, da se i pri filtriranju vidi o čemu je reč. */
+.sf-filter{display:flex;flex-wrap:wrap;gap:.9rem 1.6rem;align-items:center;
+  justify-content:space-between}
+.pills{display:flex;flex-wrap:wrap;gap:.45rem}
+.pills .pill{display:inline-flex;align-items:center;gap:.4rem;
+  padding:.5rem .9rem;border-radius:var(--r-pill);border:1px solid var(--line-2);
+  background:var(--card);color:var(--ink);cursor:pointer;
+  font-family:"Nunito",sans-serif;font-weight:700;font-size:var(--t-sm);
+  transition:border-color .18s,background-color .18s,color .18s}
+.pills .pill em{font-style:normal;font-size:var(--t-xs);color:var(--ink-faint)}
+.pills .pill:hover:not(.pill--on){border-color:var(--plum-light);color:var(--plum)}
+.pills .pill--on{background:var(--plum);border-color:var(--plum);color:#fff}
+.pills .pill--on em{color:rgba(255,255,255,.75)}
+.pills--tiho .pill{font-weight:600}
+
+.sf-mreza{display:grid;gap:clamp(.6rem,1.4vw,1rem);
+  grid-template-columns:repeat(auto-fill,minmax(128px,1fr))}
+.sf{display:flex;flex-direction:column;gap:.5rem;padding:0;border:0;background:none;
+  cursor:pointer;text-align:left;font:inherit}
+.sf img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;
+  border-radius:var(--r-sm);border:1px solid var(--line);
+  box-shadow:var(--shadow-s);transition:transform .2s,box-shadow .2s,border-color .2s}
+.sf:hover img{transform:translateY(-2px);box-shadow:var(--shadow-m);
+  border-color:var(--sf-boja,var(--plum-light))}
+.sf span{font-size:var(--t-xs);color:var(--ink-soft);letter-spacing:.02em}
+.sf span b{font-family:"Nunito",sans-serif;font-weight:800;color:var(--ink)}
+.sf[hidden]{display:none}
+
+/* uvećan uzorak preko strane */
+.sf-lupa{position:fixed;inset:0;z-index:120;display:grid;place-items:center;
+  background:rgba(46,39,51,.55);padding:1.2rem}
+.sf-lupa[hidden]{display:none}
+.sf-lupa-okvir{background:var(--card);border-radius:var(--r);overflow:hidden;
+  box-shadow:var(--shadow-l);max-width:min(560px,92vw)}
+.sf-lupa img{display:block;width:100%;height:auto}
+.sf-lupa-red{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;
+  justify-content:space-between;padding:1rem 1.2rem}
+.sf-lupa-red b{font-family:"Nunito",sans-serif;font-weight:900;font-size:var(--t-lg)}
+.sf-lupa-red span{font-size:var(--t-sm);color:var(--ink-soft)}
+.sf-zatvori{border:0;background:var(--tint-2);border-radius:var(--r-pill);
+  padding:.5rem 1rem;cursor:pointer;font-family:"Nunito",sans-serif;font-weight:800;
+  font-size:var(--t-sm);color:var(--ink)}
+.sf-zatvori:hover{background:var(--plum);color:#fff}

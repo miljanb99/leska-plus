@@ -1,0 +1,478 @@
+{
+"barrel-1.jpg": {
+"hex": "#c2beb6",
+"grupa": "siva"
+},
+"barrel-2.jpg": {
+"hex": "#c8c1b4",
+"grupa": "bela"
+},
+"barrel-3.jpg": {
+"hex": "#9a9281",
+"grupa": "bez"
+},
+"barrel-4.jpg": {
+"hex": "#8f8579",
+"grupa": "bez"
+},
+"barrel-5.jpg": {
+"hex": "#746a62",
+"grupa": "bez"
+},
+"barrel-6.jpg": {
+"hex": "#463029",
+"grupa": "crvena"
+},
+"barrel-7.jpg": {
+"hex": "#633523",
+"grupa": "crvena"
+},
+"barrel-8.jpg": {
+"hex": "#7f6432",
+"grupa": "braon"
+},
+"barrel-9.jpg": {
+"hex": "#514f3b",
+"grupa": "zuta"
+},
+"barrel-10.jpg": {
+"hex": "#3f493f",
+"grupa": "zelena"
+},
+"barrel-11.jpg": {
+"hex": "#1e312d",
+"grupa": "crna"
+},
+"barrel-12.jpg": {
+"hex": "#485a5e",
+"grupa": "tirkiz"
+},
+"barrel-13.jpg": {
+"hex": "#313a43",
+"grupa": "plava"
+},
+"barrel-14.jpg": {
+"hex": "#3a1d25",
+"grupa": "crvena"
+},
+"barrel-15.jpg": {
+"hex": "#bcbcbc",
+"grupa": "siva"
+},
+"barrel-16.jpg": {
+"hex": "#70726f",
+"grupa": "siva"
+},
+"barrel-17.jpg": {
+"hex": "#616161",
+"grupa": "siva"
+},
+"barrel-18.jpg": {
+"hex": "#373938",
+"grupa": "siva"
+},
+"barrel-19.jpg": {
+"hex": "#4c4847",
+"grupa": "siva"
+},
+"barrel-20.jpg": {
+"hex": "#181718",
+"grupa": "crna"
+},
+"canary-430.jpg": {
+"hex": "#e8f3e4",
+"grupa": "bela"
+},
+"canary-431.jpg": {
+"hex": "#cbd0ba",
+"grupa": "bez"
+},
+"canary-432.jpg": {
+"hex": "#afad96",
+"grupa": "bez"
+},
+"canary-433.jpg": {
+"hex": "#836e56",
+"grupa": "braon"
+},
+"canary-434.jpg": {
+"hex": "#284354",
+"grupa": "plava"
+},
+"canary-435.jpg": {
+"hex": "#4d7e7b",
+"grupa": "tirkiz"
+},
+"canary-436.jpg": {
+"hex": "#39443a",
+"grupa": "zelena"
+},
+"canary-437.jpg": {
+"hex": "#94a266",
+"grupa": "zelena"
+},
+"canary-438.jpg": {
+"hex": "#d4ad65",
+"grupa": "bez"
+},
+"canary-439.jpg": {
+"hex": "#d9202c",
+"grupa": "crvena"
+},
+"canary-440.jpg": {
+"hex": "#c7aaac",
+"grupa": "bez"
+},
+"canary-441.jpg": {
+"hex": "#742b55",
+"grupa": "roze"
+},
+"canary-442.jpg": {
+"hex": "#8f998a",
+"grupa": "siva"
+},
+"canary-443.jpg": {
+"hex": "#6f766b",
+"grupa": "siva"
+},
+"canary-444.jpg": {
+"hex": "#676e63",
+"grupa": "zelena"
+},
+"canary-445.jpg": {
+"hex": "#242622",
+"grupa": "crna"
+},
+"point-420.jpg": {
+"hex": "#30413e",
+"grupa": "tirkiz"
+},
+"point-421.jpg": {
+"hex": "#6a7565",
+"grupa": "bez"
+},
+"point-422.jpg": {
+"hex": "#6c737d",
+"grupa": "bez"
+},
+"point-423.jpg": {
+"hex": "#32363d",
+"grupa": "plava"
+},
+"point-424.jpg": {
+"hex": "#775450",
+"grupa": "crvena"
+},
+"point-425.jpg": {
+"hex": "#a98646",
+"grupa": "bez"
+},
+"point-426.jpg": {
+"hex": "#e2d6bf",
+"grupa": "bez"
+},
+"point-427.jpg": {
+"hex": "#9a8b79",
+"grupa": "bez"
+},
+"point-428.jpg": {
+"hex": "#7e756c",
+"grupa": "bez"
+},
+"point-429.jpg": {
+"hex": "#403f3f",
+"grupa": "siva"
+},
+"siena-450.jpg": {
+"hex": "#eff4eb",
+"grupa": "bela"
+},
+"siena-452.jpg": {
+"hex": "#868578",
+"grupa": "bez"
+},
+"siena-453.jpg": {
+"hex": "#c37b47",
+"grupa": "bez"
+},
+"siena-454.jpg": {
+"hex": "#d2b875",
+"grupa": "zuta"
+},
+"siena-456.jpg": {
+"hex": "#7a9295",
+"grupa": "bez"
+},
+"siena-457.jpg": {
+"hex": "#3f444a",
+"grupa": "plava"
+},
+"siena-458.jpg": {
+"hex": "#c6cec2",
+"grupa": "bela"
+},
+"siena-459.jpg": {
+"hex": "#848c83",
+"grupa": "siva"
+},
+"aragon-s1.jpg": {
+"hex": "#e7e4dd",
+"grupa": "bela"
+},
+"aragon-s2.jpg": {
+"hex": "#d0c5b8",
+"grupa": "bez"
+},
+"aragon-s3.jpg": {
+"hex": "#ad9681",
+"grupa": "bez"
+},
+"aragon-s4.jpg": {
+"hex": "#ab8277",
+"grupa": "crvena"
+},
+"aragon-s5.jpg": {
+"hex": "#905e47",
+"grupa": "braon"
+},
+"aragon-s6.jpg": {
+"hex": "#7f524c",
+"grupa": "crvena"
+},
+"aragon-s7.jpg": {
+"hex": "#7e545a",
+"grupa": "crvena"
+},
+"aragon-s8.jpg": {
+"hex": "#9b9269",
+"grupa": "zuta"
+},
+"aragon-s9.jpg": {
+"hex": "#494c39",
+"grupa": "zuta"
+},
+"aragon-s10.jpg": {
+"hex": "#233446",
+"grupa": "plava"
+},
+"aragon-s11.jpg": {
+"hex": "#3a4f62",
+"grupa": "plava"
+},
+"aragon-s12.jpg": {
+"hex": "#616b74",
+"grupa": "bez"
+},
+"aragon-s13.jpg": {
+"hex": "#627b7e",
+"grupa": "tirkiz"
+},
+"aragon-s14.jpg": {
+"hex": "#aebfc2",
+"grupa": "bez"
+},
+"aragon-s15.jpg": {
+"hex": "#828a8d",
+"grupa": "siva"
+},
+"aragon-s16.jpg": {
+"hex": "#686d70",
+"grupa": "siva"
+},
+"aragon-s17.jpg": {
+"hex": "#adaca8",
+"grupa": "siva"
+},
+"aragon-s18.jpg": {
+"hex": "#9a9b95",
+"grupa": "siva"
+},
+"aragon-s19.jpg": {
+"hex": "#969086",
+"grupa": "bez"
+},
+"aragon-s20.jpg": {
+"hex": "#514c48",
+"grupa": "braon"
+},
+"aragon-s21.jpg": {
+"hex": "#28282a",
+"grupa": "crna"
+},
+"milano-s180.jpg": {
+"hex": "#eef7ec",
+"grupa": "bela"
+},
+"milano-s181.jpg": {
+"hex": "#bab79f",
+"grupa": "bez"
+},
+"milano-s182.jpg": {
+"hex": "#d9b36b",
+"grupa": "bez"
+},
+"milano-s183.jpg": {
+"hex": "#727c70",
+"grupa": "siva"
+},
+"milano-s184.jpg": {
+"hex": "#3e455b",
+"grupa": "plava"
+},
+"milano-s185.jpg": {
+"hex": "#b48c89",
+"grupa": "crvena"
+},
+"milano-s186.jpg": {
+"hex": "#c4ccbd",
+"grupa": "bela"
+},
+"milano-s187.jpg": {
+"hex": "#62655e",
+"grupa": "siva"
+},
+"milano-s188.jpg": {
+"hex": "#30312d",
+"grupa": "crna"
+},
+"monolith-s140.jpg": {
+"hex": "#d9ccaa",
+"grupa": "bez"
+},
+"monolith-s141.jpg": {
+"hex": "#79634c",
+"grupa": "braon"
+},
+"monolith-s142.jpg": {
+"hex": "#5a4c43",
+"grupa": "braon"
+},
+"monolith-s143.jpg": {
+"hex": "#531122",
+"grupa": "crvena"
+},
+"monolith-s144.jpg": {
+"hex": "#765625",
+"grupa": "braon"
+},
+"monolith-s145.jpg": {
+"hex": "#524d2f",
+"grupa": "zuta"
+},
+"monolith-s146.jpg": {
+"hex": "#022e25",
+"grupa": "crna"
+},
+"monolith-s147.jpg": {
+"hex": "#223641",
+"grupa": "plava"
+},
+"monolith-s148.jpg": {
+"hex": "#172937",
+"grupa": "crna"
+},
+"monolith-s149.jpg": {
+"hex": "#929699",
+"grupa": "siva"
+},
+"monolith-s150.jpg": {
+"hex": "#41423d",
+"grupa": "siva"
+},
+"monolith-s151.jpg": {
+"hex": "#8e8188",
+"grupa": "siva"
+},
+"monolith-s152.jpg": {
+"hex": "#56332d",
+"grupa": "crvena"
+},
+"monolith-s153.jpg": {
+"hex": "#a35b43",
+"grupa": "crvena"
+},
+"polo-s60.jpg": {
+"hex": "#dccb96",
+"grupa": "zuta"
+},
+"polo-s61.jpg": {
+"hex": "#c19d62",
+"grupa": "bez"
+},
+"polo-s63.jpg": {
+"hex": "#827f48",
+"grupa": "zuta"
+},
+"polo-s64.jpg": {
+"hex": "#d1a73f",
+"grupa": "zuta"
+},
+"polo-s65.jpg": {
+"hex": "#9f5328",
+"grupa": "bez"
+},
+"polo-s69.jpg": {
+"hex": "#7f6237",
+"grupa": "braon"
+},
+"polo-s70.jpg": {
+"hex": "#8f8976",
+"grupa": "bez"
+},
+"solar-s101.jpg": {
+"hex": "#66767d",
+"grupa": "bez"
+},
+"solar-s102.jpg": {
+"hex": "#918f94",
+"grupa": "siva"
+},
+"solar-s103.jpg": {
+"hex": "#cdccc9",
+"grupa": "bela"
+},
+"solar-s104.jpg": {
+"hex": "#8e877d",
+"grupa": "bez"
+},
+"solar-s105.jpg": {
+"hex": "#2d2727",
+"grupa": "crna"
+},
+"solar-s106.jpg": {
+"hex": "#a5665c",
+"grupa": "crvena"
+},
+"solar-s107.jpg": {
+"hex": "#927781",
+"grupa": "bez"
+},
+"solar-s108.jpg": {
+"hex": "#68222d",
+"grupa": "crvena"
+},
+"solar-s109.jpg": {
+"hex": "#bb9859",
+"grupa": "bez"
+},
+"solar-s110.jpg": {
+"hex": "#75807a",
+"grupa": "siva"
+},
+"solar-s111.jpg": {
+"hex": "#999278",
+"grupa": "bez"
+},
+"solar-s112.jpg": {
+"hex": "#057da2",
+"grupa": "tirkiz"
+},
+"solar-s113.jpg": {
+"hex": "#1c243b",
+"grupa": "plava"
+},
+"solar-s114.jpg": {
+"hex": "#47484d",
+"grupa": "siva"
+}
+}

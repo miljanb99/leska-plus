@@ -1,0 +1,1488 @@
+{
+"Alba": {
+"dezeni": [
+{
+"ime": "Maslina",
+"broj": 40
+},
+{
+"ime": "Tamno sivo",
+"broj": 40
+},
+{
+"ime": "Belo",
+"broj": 40
+}
+],
+"ukupno": 40,
+"elementi": {
+"D 60 R": {
+"Maslina": "alba-d-60-r-maslina.jpg",
+"Tamno sivo": "alba-d-60-r-tamno-sivo.jpg",
+"Belo": "alba-d-60-r-belo.jpg"
+},
+"D20": {
+"Tamno sivo": "alba-d20-tamno-sivo.jpg",
+"Belo": "alba-d20-belo.jpg",
+"Maslina": "alba-d20-maslina.jpg"
+},
+"D30": {
+"Maslina": "alba-d30-maslina.jpg",
+"Tamno sivo": "alba-d30-tamno-sivo.jpg",
+"Belo": "alba-d30-belo.jpg"
+},
+"D40 3F B": {
+"Maslina": "alba-d40-3f-b-maslina.jpg",
+"Tamno sivo": "alba-d40-3f-b-tamno-sivo.jpg",
+"Belo": "alba-d40-3f-b-belo.jpg"
+},
+"D40 K": {
+"Maslina": "alba-d40-k-maslina.jpg",
+"Belo": "alba-d40-k-belo.jpg",
+"Tamno sivo": "alba-d40-k-tamno-sivo.jpg"
+},
+"D45 KF B": {
+"Tamno sivo": "alba-d45-kf-b-tamno-sivo.jpg",
+"Belo": "alba-d45-kf-b-belo.jpg",
+"Maslina": "alba-d45-kf-b-maslina.jpg"
+},
+"D50": {
+"Maslina": "alba-d50-maslina.jpg",
+"Belo": "alba-d50-belo.jpg",
+"Tamno sivo": "alba-d50-tamno-sivo.jpg"
+},
+"D60": {
+"Belo": "alba-d60-belo.jpg",
+"Maslina": "alba-d60-maslina.jpg",
+"Tamno sivo": "alba-d60-tamno-sivo.jpg"
+},
+"D60 1V": {
+"Tamno sivo": "alba-d60-1v-tamno-sivo.jpg",
+"Maslina": "alba-d60-1v-maslina.jpg",
+"Belo": "alba-d60-1v-belo.jpg"
+},
+"D60 2F PL BOX": {
+"Tamno sivo": "alba-d60-2f-pl-box-tamno-sivo.jpg",
+"Maslina": "alba-d60-2f-pl-box-maslina.jpg",
+"Belo": "alba-d60-2f-pl-box-belo.jpg"
+},
+"D60 3F B": {
+"Maslina": "alba-d60-3f-b-maslina.jpg",
+"Tamno sivo": "alba-d60-3f-b-tamno-sivo.jpg",
+"Belo": "alba-d60-3f-b-belo.jpg"
+},
+"D60 RV": {
+"Maslina": "alba-d60-rv-maslina.jpg",
+"Tamno sivo": "alba-d60-rv-tamno-sivo.jpg",
+"Belo": "alba-d60-rv-belo.jpg"
+},
+"D80": {
+"Maslina": "alba-d80-maslina.jpg",
+"Tamno sivo": "alba-d80-tamno-sivo.jpg",
+"Belo": "alba-d80-belo.jpg"
+},
+"D80 2F PL BOX": {
+"Tamno sivo": "alba-d80-2f-pl-box-tamno-sivo.jpg",
+"Maslina": "alba-d80-2f-pl-box-maslina.jpg",
+"Belo": "alba-d80-2f-pl-box-belo.jpg"
+},
+"D80 3F B": {
+"Maslina": "alba-d80-3f-b-maslina.jpg",
+"Tamno sivo": "alba-d80-3f-b-tamno-sivo.jpg",
+"Belo": "alba-d80-3f-b-belo.jpg"
+},
+"D80 S": {
+"Maslina": "alba-d80-s-maslina.jpg",
+"Tamno sivo": "alba-d80-s-tamno-sivo.jpg",
+"Belo": "alba-d80-s-belo.jpg"
+},
+"DU100": {
+"Maslina": "alba-du100-maslina.jpg",
+"Tamno sivo": "alba-du100-tamno-sivo.jpg",
+"Belo": "alba-du100-belo.jpg"
+},
+"DU2K": {
+"Maslina": "alba-du2k-maslina.jpg",
+"Tamno sivo": "alba-du2k-tamno-sivo.jpg",
+"Belo": "alba-du2k-belo.jpg"
+},
+"Friz 2VB": {
+"Tamno sivo": "alba-friz-2vb-tamno-sivo.jpg",
+"Belo": "alba-friz-2vb-belo.jpg",
+"Maslina": "alba-friz-2vb-maslina.jpg"
+},
+"Friz 60B": {
+"Tamno sivo": "alba-friz-60b-tamno-sivo.jpg",
+"Maslina": "alba-friz-60b-maslina.jpg",
+"Belo": "alba-friz-60b-belo.jpg"
+},
+"Maska 45x72": {
+"Tamno sivo": "alba-maska-45x72-tamno-sivo.jpg",
+"Maslina": "alba-maska-45x72-maslina.jpg",
+"Belo": "alba-maska-45x72-belo.jpg"
+},
+"Maska 60x60": {
+"Belo": "alba-maska-60x60-belo.jpg",
+"Tamno sivo": "alba-maska-60x60-tamno-sivo.jpg",
+"Maslina": "alba-maska-60x60-maslina.jpg"
+},
+"Maska 60x72": {
+"Maslina": "alba-maska-60x72-maslina.jpg",
+"Belo": "alba-maska-60x72-belo.jpg",
+"Tamno sivo": "alba-maska-60x72-tamno-sivo.jpg"
+},
+"V20K": {
+"Belo": "alba-v20k-belo.jpg",
+"Tamno sivo": "alba-v20k-tamno-sivo.jpg",
+"Maslina": "alba-v20k-maslina.jpg"
+},
+"V30": {
+"Belo": "alba-v30-belo.jpg",
+"Tamno sivo": "alba-v30-tamno-sivo.jpg",
+"Maslina": "alba-v30-maslina.jpg"
+},
+"V40": {
+"Maslina": "alba-v40-maslina.jpg",
+"Belo": "alba-v40-belo.jpg",
+"Tamno sivo": "alba-v40-tamno-sivo.jpg"
+},
+"V45": {
+"Maslina": "alba-v45-maslina.jpg",
+"Belo": "alba-v45-belo.jpg",
+"Tamno sivo": "alba-v45-tamno-sivo.jpg"
+},
+"V50": {
+"Tamno sivo": "alba-v50-tamno-sivo.jpg",
+"Maslina": "alba-v50-maslina.jpg",
+"Belo": "alba-v50-belo.jpg"
+},
+"V60": {
+"Tamno sivo": "alba-v60-tamno-sivo.jpg",
+"Maslina": "alba-v60-maslina.jpg",
+"Belo": "alba-v60-belo.jpg"
+},
+"V60 1V": {
+"Maslina": "alba-v60-1v-maslina.jpg",
+"Belo": "alba-v60-1v-belo.jpg",
+"Tamno sivo": "alba-v60-1v-tamno-sivo.jpg"
+},
+"V80": {
+"Maslina": "alba-v80-maslina.jpg",
+"Belo": "alba-v80-belo.jpg",
+"Tamno sivo": "alba-v80-tamno-sivo.jpg"
+},
+"V80S": {
+"Maslina": "alba-v80s-maslina.jpg",
+"Belo": "alba-v80s-belo.jpg",
+"Tamno sivo": "alba-v80s-tamno-sivo.jpg"
+},
+"VA50": {
+"Tamno sivo": "alba-va50-tamno-sivo.jpg",
+"Maslina": "alba-va50-maslina.jpg",
+"Belo": "alba-va50-belo.jpg"
+},
+"VA60 1V": {
+"Belo": "alba-va60-1v-belo.jpg",
+"Tamno sivo": "alba-va60-1v-tamno-sivo.jpg",
+"Maslina": "alba-va60-1v-maslina.jpg"
+},
+"VA60-68 1V": {
+"Tamno sivo": "alba-va60-68-1v-tamno-sivo.jpg",
+"Maslina": "alba-va60-68-1v-maslina.jpg",
+"Belo": "alba-va60-68-1v-belo.jpg"
+},
+"VH60 B": {
+"Belo": "alba-vh60-b-belo.jpg",
+"Tamno sivo": "alba-vh60-b-tamno-sivo.jpg",
+"Maslina": "alba-vh60-b-maslina.jpg"
+},
+"VH60-36 B": {
+"Belo": "alba-vh60-36-b-belo.jpg",
+"Tamno sivo": "alba-vh60-36-b-tamno-sivo.jpg",
+"Maslina": "alba-vh60-36-b-maslina.jpg"
+},
+"VH80 B": {
+"Maslina": "alba-vh80-b-maslina.jpg",
+"Belo": "alba-vh80-b-belo.jpg",
+"Tamno sivo": "alba-vh80-b-tamno-sivo.jpg"
+},
+"VH80-36 B": {
+"Belo": "alba-vh80-36-b-belo.jpg",
+"Tamno sivo": "alba-vh80-36-b-tamno-sivo.jpg",
+"Maslina": "alba-vh80-36-b-maslina.jpg"
+},
+"VU60": {
+"Tamno sivo": "alba-vu60-tamno-sivo.jpg",
+"Maslina": "alba-vu60-maslina.jpg",
+"Belo": "alba-vu60-belo.jpg"
+}
+},
+"grupe": null
+},
+"Aura": {
+"dezeni": [
+{
+"ime": "Bež",
+"broj": 39
+},
+{
+"ime": "Zelena",
+"broj": 39
+},
+{
+"ime": "Belo",
+"broj": 39
+}
+],
+"ukupno": 39,
+"elementi": {
+"D20 Žica": {
+"Bež": "aura-d20-zica-bez.jpg",
+"Zelena": "aura-d20-zica-zelena.jpg",
+"Belo": "aura-d20-zica-belo.jpg"
+},
+"D30": {
+"Zelena": "aura-d30-zelena.jpg",
+"Bež": "aura-d30-bez.jpg",
+"Belo": "aura-d30-belo.jpg"
+},
+"D40 3F B": {
+"Zelena": "aura-d40-3f-b-zelena.jpg",
+"Bež": "aura-d40-3f-b-bez.jpg",
+"Belo": "aura-d40-3f-b-belo.jpg"
+},
+"D40 K": {
+"Belo": "aura-d40-k-belo.jpg",
+"Bež": "aura-d40-k-bez.jpg",
+"Zelena": "aura-d40-k-zelena.jpg"
+},
+"D45 KF B": {
+"Zelena": "aura-d45-kf-b-zelena.jpg",
+"Bež": "aura-d45-kf-b-bez.jpg",
+"Belo": "aura-d45-kf-b-belo.jpg"
+},
+"D50": {
+"Bež": "aura-d50-bez.jpg",
+"Zelena": "aura-d50-zelena.jpg",
+"Belo": "aura-d50-belo.jpg"
+},
+"D60": {
+"Zelena": "aura-d60-zelena.jpg",
+"Bež": "aura-d60-bez.jpg",
+"Belo": "aura-d60-belo.jpg"
+},
+"D60 1V": {
+"Zelena": "aura-d60-1v-zelena.jpg",
+"Bež": "aura-d60-1v-bez.jpg",
+"Belo": "aura-d60-1v-belo.jpg"
+},
+"D60 3F B": {
+"Zelena": "aura-d60-3f-b-zelena.jpg",
+"Belo": "aura-d60-3f-b-belo.jpg",
+"Bež": "aura-d60-3f-b-bez.jpg"
+},
+"D60 R": {
+"Zelena": "aura-d60-r-zelena.jpg",
+"Belo": "aura-d60-r-belo.jpg",
+"Bež": "aura-d60-r-bez.jpg"
+},
+"D60 RV": {
+"Zelena": "aura-d60-rv-zelena.jpg",
+"Belo": "aura-d60-rv-belo.jpg",
+"Bež": "aura-d60-rv-bez.jpg"
+},
+"D80": {
+"Zelena": "aura-d80-zelena.jpg",
+"Bež": "aura-d80-bez.jpg",
+"Belo": "aura-d80-belo.jpg"
+},
+"D80 3F B": {
+"Belo": "aura-d80-3f-b-belo.jpg",
+"Zelena": "aura-d80-3f-b-zelena.jpg",
+"Bež": "aura-d80-3f-b-bez.jpg"
+},
+"D80 S": {
+"Bež": "aura-d80-s-bez.jpg",
+"Zelena": "aura-d80-s-zelena.jpg",
+"Belo": "aura-d80-s-belo.jpg"
+},
+"DU100": {
+"Zelena": "aura-du100-zelena.jpg",
+"Bež": "aura-du100-bez.jpg",
+"Belo": "aura-du100-belo.jpg"
+},
+"DU2K": {
+"Bež": "aura-du2k-bez.jpg",
+"Zelena": "aura-du2k-zelena.jpg",
+"Belo": "aura-du2k-belo.jpg"
+},
+"Dekorativna stranica D222": {
+"Bež": "aura-dekorativna-stranica-d222-bez.jpg",
+"Zelena": "aura-dekorativna-stranica-d222-zelena.jpg",
+"Belo": "aura-dekorativna-stranica-d222-belo.jpg"
+},
+"Dekorativna stranica D82": {
+"Zelena": "aura-dekorativna-stranica-d82-zelena.jpg",
+"Bež": "aura-dekorativna-stranica-d82-bez.jpg",
+"Belo": "aura-dekorativna-stranica-d82-belo.jpg"
+},
+"Dekorativna stranica V72": {
+"Zelena": "aura-dekorativna-stranica-v72-zelena.jpg",
+"Belo": "aura-dekorativna-stranica-v72-belo.jpg",
+"Bež": "aura-dekorativna-stranica-v72-bez.jpg"
+},
+"Friz 2VB": {
+"Bež": "aura-friz-2vb-bez.jpg",
+"Zelena": "aura-friz-2vb-zelena.jpg",
+"Belo": "aura-friz-2vb-belo.jpg"
+},
+"Friz 60B": {
+"Zelena": "aura-friz-60b-zelena.jpg",
+"Bež": "aura-friz-60b-bez.jpg",
+"Belo": "aura-friz-60b-belo.jpg"
+},
+"MASKA 45×72": {
+"Zelena": "aura-maska-45-72-zelena.jpg",
+"Belo": "aura-maska-45-72-belo.jpg",
+"Bež": "aura-maska-45-72-bez.jpg"
+},
+"Maska 60×60": {
+"Belo": "aura-maska-60-60-belo.jpg",
+"Zelena": "aura-maska-60-60-zelena.jpg",
+"Bež": "aura-maska-60-60-bez.jpg"
+},
+"Maska 60×72": {
+"Bež": "aura-maska-60-72-bez.jpg",
+"Zelena": "aura-maska-60-72-zelena.jpg",
+"Belo": "aura-maska-60-72-belo.jpg"
+},
+"V30": {
+"Zelena": "aura-v30-zelena.jpg",
+"Bež": "aura-v30-bez.jpg",
+"Belo": "aura-v30-belo.jpg"
+},
+"V40": {
+"Belo": "aura-v40-belo.jpg",
+"Zelena": "aura-v40-zelena.jpg",
+"Bež": "aura-v40-bez.jpg"
+},
+"V45": {
+"Bež": "aura-v45-bez.jpg",
+"Zelena": "aura-v45-zelena.jpg",
+"Belo": "aura-v45-belo.jpg"
+},
+"V50": {
+"Bež": "aura-v50-bez.jpg",
+"Belo": "aura-v50-belo.jpg",
+"Zelena": "aura-v50-zelena.jpg"
+},
+"V60": {
+"Zelena": "aura-v60-zelena.jpg",
+"Bež": "aura-v60-bez.jpg",
+"Belo": "aura-v60-belo.jpg"
+},
+"V60 1V": {
+"Zelena": "aura-v60-1v-zelena.jpg",
+"Bež": "aura-v60-1v-bez.jpg",
+"Belo": "aura-v60-1v-belo.jpg"
+},
+"V80": {
+"Bež": "aura-v80-bez.jpg",
+"Zelena": "aura-v80-zelena.jpg",
+"Belo": "aura-v80-belo.jpg"
+},
+"VA50": {
+"Zelena": "aura-va50-zelena.jpg",
+"Bež": "aura-va50-bez.jpg",
+"Belo": "aura-va50-belo.jpg"
+},
+"VA60 1V": {
+"Belo": "aura-va60-1v-belo.jpg",
+"Zelena": "aura-va60-1v-zelena.jpg",
+"Bež": "aura-va60-1v-bez.jpg"
+},
+"VA60-68 1V": {
+"Zelena": "aura-va60-68-1v-zelena.jpg",
+"Bež": "aura-va60-68-1v-bez.jpg",
+"Belo": "aura-va60-68-1v-belo.jpg"
+},
+"VH60 B": {
+"Zelena": "aura-vh60-b-zelena.jpg",
+"Bež": "aura-vh60-b-bez.jpg",
+"Belo": "aura-vh60-b-belo.jpg"
+},
+"VH60-36 B": {
+"Bež": "aura-vh60-36-b-bez.jpg",
+"Belo": "aura-vh60-36-b-belo.jpg",
+"Zelena": "aura-vh60-36-b-zelena.jpg"
+},
+"VH80 B": {
+"Bež": "aura-vh80-b-bez.jpg",
+"Zelena": "aura-vh80-b-zelena.jpg",
+"Belo": "aura-vh80-b-belo.jpg"
+},
+"VH80-36 B": {
+"Bež": "aura-vh80-36-b-bez.jpg",
+"Zelena": "aura-vh80-36-b-zelena.jpg",
+"Belo": "aura-vh80-36-b-belo.jpg"
+},
+"VU60": {
+"Zelena": "aura-vu60-zelena.jpg",
+"Bež": "aura-vu60-bez.jpg",
+"Belo": "aura-vu60-belo.jpg"
+}
+},
+"grupe": null
+},
+"Lina": {
+"dezeni": [
+{
+"ime": "Bež",
+"broj": 36
+},
+{
+"ime": "Belo",
+"broj": 36
+}
+],
+"ukupno": 37,
+"elementi": {
+"D 60 R": {
+"Bež": "lina-d-60-r-bez.jpg",
+"Belo": "lina-d-60-r-belo.jpg"
+},
+"D20": {
+"Belo": "lina-d20-belo.jpg",
+"Bež": "lina-d20-bez.jpg"
+},
+"D30": {
+"Bež": "lina-d30-bez.jpg",
+"Belo": "lina-d30-belo.jpg"
+},
+"D40 3F B": {
+"Bež": "lina-d40-3f-b-bez.jpg",
+"Belo": "lina-d40-3f-b-belo.jpg"
+},
+"D40 K": {
+"Bež": "lina-d40-k-bez.jpg",
+"Belo": "lina-d40-k-belo.jpg"
+},
+"D45 KF B": {
+"Bež": "lina-d45-kf-b-bez.jpg",
+"Belo": "lina-d45-kf-b-belo.jpg"
+},
+"D50": {
+"Bež": "lina-d50-bez.jpg",
+"Belo": "lina-d50-belo.jpg"
+},
+"D60": {
+"Bež": "lina-d60-bez.jpg",
+"Belo": "lina-d60-belo.jpg"
+},
+"D60 1V": {
+"Belo": "lina-d60-1v-belo.jpg",
+"Bež": "lina-d60-1v-bez.jpg"
+},
+"D60 2F PL BOX": {
+"Belo": "lina-d60-2f-pl-box-belo.jpg",
+"Bež": "lina-d60-2f-pl-box-bez.jpg"
+},
+"D60 3F B": {
+"Belo": "lina-d60-3f-b-belo.jpg",
+"Bež": "lina-d60-3f-b-bez.jpg"
+},
+"D80": {
+"Belo": "lina-d80-belo.jpg",
+"Bež": "lina-d80-bez.jpg"
+},
+"D80 2F PL BOX": {
+"Bež": "lina-d80-2f-pl-box-bez.jpg",
+"Belo": "lina-d80-2f-pl-box-belo.jpg"
+},
+"D80 3F B": {
+"Bež": "lina-d80-3f-b-bez.jpg",
+"Belo": "lina-d80-3f-b-belo.jpg"
+},
+"D80 S": {
+"Bež": "lina-d80-s-bez.jpg",
+"Belo": "lina-d80-s-belo.jpg"
+},
+"DU100": {
+"Bež": "lina-du100-bez.jpg",
+"Belo": "lina-du100-belo.jpg"
+},
+"DU2K": {
+"Belo": "lina-du2k-belo.jpg",
+"Bež": "lina-du2k-bez.jpg"
+},
+"Friz 2VB": {
+"Belo": "lina-friz-2vb-belo.jpg",
+"Bež": "lina-friz-2vb-bez.jpg"
+},
+"Friz 60B": {
+"Belo": "lina-friz-60b-belo.jpg",
+"Bež": "lina-friz-60b-bez.jpg"
+},
+"MASKA 45x72": {
+"Belo": "lina-maska-45x72-belo.jpg",
+"Bež": "lina-maska-45x72-bez.jpg"
+},
+"MASKA 60x60": {
+"Bež": "lina-maska-60x60-bez.jpg",
+"Belo": "lina-maska-60x60-belo.jpg"
+},
+"MASKA 60x72": {
+"Bež": "lina-maska-60x72-bez.jpg",
+"Belo": "lina-maska-60x72-belo.jpg"
+},
+"V20K": {
+"Belo": "lina-v20k-belo.jpg",
+"Bež": "lina-v20k-bez.jpg"
+},
+"V30": {
+"Bež": "lina-v30-bez.jpg",
+"Belo": "lina-v30-belo.jpg"
+},
+"V40": {
+"Belo": "lina-v40-belo.jpg",
+"Bež": "lina-v40-bez.jpg"
+},
+"V45": {
+"Belo": "lina-v45-belo.jpg",
+"Bež": "lina-v45-bez.jpg"
+},
+"V50": {
+"Bež": "lina-v50-bez.jpg",
+"Belo": "lina-v50-belo.jpg"
+},
+"V60": {
+"Belo": "lina-v60-belo.jpg",
+"Bež": "lina-v60-bez.jpg"
+},
+"V60 1V": {
+"Bež": "lina-v60-1v-bez.jpg",
+"Belo": "lina-v60-1v-belo.jpg"
+},
+"V80": {
+"Bež": "lina-v80-bez.jpg",
+"Belo": "lina-v80-belo.jpg"
+},
+"VA50": {
+"Belo": "lina-va50-belo.jpg",
+"Bež": "lina-va50-bez.jpg"
+},
+"VA60 1V": {
+"Bež": "lina-va60-1v-bez.jpg",
+"Belo": "lina-va60-1v-belo.jpg"
+},
+"VA60-68 1V": {
+"Belo": "lina-va60-68-1v-belo.jpg",
+"Bež": "lina-va60-68-1v-bez.jpg"
+},
+"VH60 B": {
+"Bež": "lina-vh60-b-bez.jpg",
+"Belo": "lina-vh60-b-belo.jpg"
+},
+"VH80 B": {
+"Belo": "lina-vh80-b-belo.jpg",
+"Bež": "lina-vh80-b-bez.jpg"
+},
+"VU60": {
+"Belo": "lina-vu60-belo.jpg",
+"Bež": "lina-vu60-bez.jpg"
+}
+},
+"grupe": null
+},
+"Contempo": {
+"dezeni": [
+{
+"ime": "Pesak",
+"broj": 41
+},
+{
+"ime": "Sivo",
+"broj": 41
+},
+{
+"ime": "Belo",
+"broj": 41
+},
+{
+"ime": "Bež",
+"broj": 41
+}
+],
+"ukupno": 41,
+"elementi": {
+"D 60 R": {
+"Pesak": "contempo-d-60-r-pesak.jpg",
+"Sivo": "contempo-d-60-r-sivo.jpg",
+"Belo": "contempo-d-60-r-belo.jpg",
+"Bež": "contempo-d-60-r-bez.jpg"
+},
+"D20": {
+"Belo": "contempo-d20-belo.jpg",
+"Sivo": "contempo-d20-sivo.jpg",
+"Bež": "contempo-d20-bez.jpg",
+"Pesak": "contempo-d20-pesak.jpg"
+},
+"D30": {
+"Bež": "contempo-d30-bez.jpg",
+"Belo": "contempo-d30-belo.jpg",
+"Pesak": "contempo-d30-pesak.jpg",
+"Sivo": "contempo-d30-sivo.jpg"
+},
+"D40 3F B": {
+"Belo": "contempo-d40-3f-b-belo.jpg",
+"Bež": "contempo-d40-3f-b-bez.jpg",
+"Pesak": "contempo-d40-3f-b-pesak.jpg",
+"Sivo": "contempo-d40-3f-b-sivo.jpg"
+},
+"D40 K": {
+"Pesak": "contempo-d40-k-pesak.jpg",
+"Belo": "contempo-d40-k-belo.jpg",
+"Sivo": "contempo-d40-k-sivo.jpg",
+"Bež": "contempo-d40-k-bez.jpg"
+},
+"D45 KF B": {
+"Pesak": "contempo-d45-kf-b-pesak.jpg",
+"Sivo": "contempo-d45-kf-b-sivo.jpg",
+"Belo": "contempo-d45-kf-b-belo.jpg",
+"Bež": "contempo-d45-kf-b-bez.jpg"
+},
+"D50": {
+"Sivo": "contempo-d50-sivo.jpg",
+"Bež": "contempo-d50-bez.jpg",
+"Belo": "contempo-d50-belo.jpg",
+"Pesak": "contempo-d50-pesak.jpg"
+},
+"D60": {
+"Bež": "contempo-d60-bez.jpg",
+"Sivo": "contempo-d60-sivo.jpg",
+"Pesak": "contempo-d60-pesak.jpg",
+"Belo": "contempo-d60-belo.jpg"
+},
+"D60 1V": {
+"Pesak": "contempo-d60-1v-pesak.jpg",
+"Sivo": "contempo-d60-1v-sivo.jpg",
+"Belo": "contempo-d60-1v-belo.jpg",
+"Bež": "contempo-d60-1v-bez.jpg"
+},
+"D60 2F PL BOX": {
+"Sivo": "contempo-d60-2f-pl-box-sivo.jpg",
+"Pesak": "contempo-d60-2f-pl-box-pesak.jpg",
+"Bež": "contempo-d60-2f-pl-box-bez.jpg",
+"Belo": "contempo-d60-2f-pl-box-belo.jpg"
+},
+"D60 3F B": {
+"Pesak": "contempo-d60-3f-b-pesak.jpg",
+"Sivo": "contempo-d60-3f-b-sivo.jpg",
+"Belo": "contempo-d60-3f-b-belo.jpg",
+"Bež": "contempo-d60-3f-b-bez.jpg"
+},
+"D60 RV": {
+"Sivo": "contempo-d60-rv-sivo.jpg",
+"Belo": "contempo-d60-rv-belo.jpg",
+"Bež": "contempo-d60-rv-bez.jpg",
+"Pesak": "contempo-d60-rv-pesak.jpg"
+},
+"D80": {
+"Belo": "contempo-d80-belo.jpg",
+"Sivo": "contempo-d80-sivo.jpg",
+"Bež": "contempo-d80-bez.jpg",
+"Pesak": "contempo-d80-pesak.jpg"
+},
+"D80 3F B": {
+"Belo": "contempo-d80-3f-b-belo.jpg",
+"Bež": "contempo-d80-3f-b-bez.jpg",
+"Pesak": "contempo-d80-3f-b-pesak.jpg",
+"Sivo": "contempo-d80-3f-b-sivo.jpg"
+},
+"D80 S": {
+"Sivo": "contempo-d80-s-sivo.jpg",
+"Pesak": "contempo-d80-s-pesak.jpg",
+"Bež": "contempo-d80-s-bez.jpg",
+"Belo": "contempo-d80-s-belo.jpg"
+},
+"DU100": {
+"Bež": "contempo-du100-bez.jpg",
+"Belo": "contempo-du100-belo.jpg",
+"Sivo": "contempo-du100-sivo.jpg",
+"Pesak": "contempo-du100-pesak.jpg"
+},
+"DU2K": {
+"Belo": "contempo-du2k-belo.jpg",
+"Sivo": "contempo-du2k-sivo.jpg",
+"Pesak": "contempo-du2k-pesak.jpg",
+"Bež": "contempo-du2k-bez.jpg"
+},
+"Friz 2VB": {
+"Bež": "contempo-friz-2vb-bez.jpg",
+"Sivo": "contempo-friz-2vb-sivo.jpg",
+"Pesak": "contempo-friz-2vb-pesak.jpg",
+"Belo": "contempo-friz-2vb-belo.jpg"
+},
+"Friz 60B": {
+"Sivo": "contempo-friz-60b-sivo.jpg",
+"Pesak": "contempo-friz-60b-pesak.jpg",
+"Bež": "contempo-friz-60b-bez.jpg",
+"Belo": "contempo-friz-60b-belo.jpg"
+},
+"Maska 45x72": {
+"Sivo": "contempo-maska-45x72-sivo.jpg",
+"Pesak": "contempo-maska-45x72-pesak.jpg",
+"Belo": "contempo-maska-45x72-belo.jpg",
+"Bež": "contempo-maska-45x72-bez.jpg"
+},
+"V20K": {
+"Pesak": "contempo-v20k-pesak.jpg",
+"Bež": "contempo-v20k-bez.jpg",
+"Belo": "contempo-v20k-belo.jpg",
+"Sivo": "contempo-v20k-sivo.jpg"
+},
+"V30": {
+"Bež": "contempo-v30-bez.jpg",
+"Belo": "contempo-v30-belo.jpg",
+"Pesak": "contempo-v30-pesak.jpg",
+"Sivo": "contempo-v30-sivo.jpg"
+},
+"V40": {
+"Belo": "contempo-v40-belo.jpg",
+"Pesak": "contempo-v40-pesak.jpg",
+"Sivo": "contempo-v40-sivo.jpg",
+"Bež": "contempo-v40-bez.jpg"
+},
+"V45": {
+"Pesak": "contempo-v45-pesak.jpg",
+"Sivo": "contempo-v45-sivo.jpg",
+"Belo": "contempo-v45-belo.jpg",
+"Bež": "contempo-v45-bez.jpg"
+},
+"V50": {
+"Bež": "contempo-v50-bez.jpg",
+"Belo": "contempo-v50-belo.jpg",
+"Sivo": "contempo-v50-sivo.jpg",
+"Pesak": "contempo-v50-pesak.jpg"
+},
+"V60": {
+"Bež": "contempo-v60-bez.jpg",
+"Pesak": "contempo-v60-pesak.jpg",
+"Sivo": "contempo-v60-sivo.jpg",
+"Belo": "contempo-v60-belo.jpg"
+},
+"V60 1V": {
+"Belo": "contempo-v60-1v-belo.jpg",
+"Pesak": "contempo-v60-1v-pesak.jpg",
+"Bež": "contempo-v60-1v-bez.jpg",
+"Sivo": "contempo-v60-1v-sivo.jpg"
+},
+"V80": {
+"Pesak": "contempo-v80-pesak.jpg",
+"Belo": "contempo-v80-belo.jpg",
+"Sivo": "contempo-v80-sivo.jpg",
+"Bež": "contempo-v80-bez.jpg"
+},
+"V80S": {
+"Belo": "contempo-v80s-belo.jpg",
+"Bež": "contempo-v80s-bez.jpg",
+"Sivo": "contempo-v80s-sivo.jpg",
+"Pesak": "contempo-v80s-pesak.jpg"
+},
+"VA60-68 1V": {
+"Bež": "contempo-va60-68-1v-bez.jpg",
+"Pesak": "contempo-va60-68-1v-pesak.jpg",
+"Belo": "contempo-va60-68-1v-belo.jpg",
+"Sivo": "contempo-va60-68-1v-sivo.jpg"
+},
+"VH60-36 B": {
+"Pesak": "contempo-vh60-36-b-pesak.jpg",
+"Bež": "contempo-vh60-36-b-bez.jpg",
+"Belo": "contempo-vh60-36-b-belo.jpg",
+"Sivo": "contempo-vh60-36-b-sivo.jpg"
+},
+"VH80 B": {
+"Pesak": "contempo-vh80-b-pesak.jpg",
+"Belo": "contempo-vh80-b-belo.jpg",
+"Bež": "contempo-vh80-b-bez.jpg",
+"Sivo": "contempo-vh80-b-sivo.jpg"
+},
+"VU60": {
+"Sivo": "contempo-vu60-sivo.jpg",
+"Pesak": "contempo-vu60-pesak.jpg",
+"Bež": "contempo-vu60-bez.jpg",
+"Belo": "contempo-vu60-belo.jpg"
+},
+"D80 2F PL BOX": {
+"Pesak": "contempo-d80-2f-pl-box-pesak.jpg",
+"Sivo": "contempo-d80-2f-pl-box-sivo.jpg",
+"Belo": "contempo-d80-2f-pl-box-belo.jpg",
+"Bež": "contempo-d80-2f-pl-box-bez.jpg"
+},
+"Maska 60x60": {
+"Pesak": "contempo-maska-60x60-pesak.jpg",
+"Sivo": "contempo-maska-60x60-sivo.jpg",
+"Belo": "contempo-maska-60x60-belo.jpg",
+"Bež": "contempo-maska-60x60-bez.jpg"
+},
+"Maska 60x72": {
+"Pesak": "contempo-maska-60x72-pesak.jpg",
+"Sivo": "contempo-maska-60x72-sivo.jpg",
+"Belo": "contempo-maska-60x72-belo.jpg",
+"Bež": "contempo-maska-60x72-bez.jpg"
+},
+"VA50": {
+"Pesak": "contempo-va50-pesak.jpg",
+"Sivo": "contempo-va50-sivo.jpg",
+"Belo": "contempo-va50-belo.jpg",
+"Bež": "contempo-va50-bez.jpg"
+},
+"VA60 1V": {
+"Pesak": "contempo-va60-1v-pesak.jpg",
+"Sivo": "contempo-va60-1v-sivo.jpg",
+"Belo": "contempo-va60-1v-belo.jpg",
+"Bež": "contempo-va60-1v-bez.jpg"
+},
+"VH60 B": {
+"Pesak": "contempo-vh60-b-pesak.jpg",
+"Sivo": "contempo-vh60-b-sivo.jpg",
+"Belo": "contempo-vh60-b-belo.jpg",
+"Bež": "contempo-vh60-b-bez.jpg"
+},
+"VH80-36 B": {
+"Pesak": "contempo-vh80-36-b-pesak.jpg",
+"Sivo": "contempo-vh80-36-b-sivo.jpg",
+"Belo": "contempo-vh80-36-b-belo.jpg",
+"Bež": "contempo-vh80-36-b-bez.jpg"
+},
+"VH80-36 S": {
+"Pesak": "contempo-vh80-36-s-pesak.jpg",
+"Sivo": "contempo-vh80-36-s-sivo.jpg",
+"Belo": "contempo-vh80-36-s-belo.jpg",
+"Bež": "contempo-vh80-36-s-bez.jpg"
+}
+},
+"grupe": null
+},
+"IN": {
+"dezeni": [
+{
+"ime": "Kašmir sjaj",
+"broj": 39
+},
+{
+"ime": "Belo sjaj",
+"broj": 38
+},
+{
+"ime": "Bež sjaj",
+"broj": 38
+},
+{
+"ime": "Sivi hrast",
+"broj": 35
+},
+{
+"ime": "Sivo",
+"broj": 35
+},
+{
+"ime": "Artisan",
+"broj": 35
+},
+{
+"ime": "Snežni hrast",
+"broj": 35
+},
+{
+"ime": "Pesak mat",
+"broj": 32
+}
+],
+"ukupno": 74,
+"elementi": {
+"D 20 Žica": {
+"Pesak mat": "in-d-20-zica-pesak-mat.jpg",
+"Sivi hrast": "in-d-20-zica-sivi-hrast.jpg",
+"Sivo": "in-d-20-zica-sivo.jpg",
+"Artisan": "in-d-20-zica-artisan.jpg",
+"Snežni hrast": "in-d-20-zica-snezni-hrast.jpg"
+},
+"D 30": {
+"Snežni hrast": "in-d-30-snezni-hrast.jpg",
+"Pesak mat": "in-d-30-pesak-mat.jpg",
+"Sivi hrast": "in-d-30-sivi-hrast.jpg",
+"Sivo": "in-d-30-sivo.jpg",
+"Artisan": "in-d-30-artisan.jpg"
+},
+"D 40 F": {
+"Pesak mat": "in-d-40-f-pesak-mat.jpg",
+"Artisan": "in-d-40-f-artisan.jpg",
+"Snežni hrast": "in-d-40-f-snezni-hrast.jpg",
+"Sivo": "in-d-40-f-sivo.jpg",
+"Sivi hrast": "in-d-40-f-sivi-hrast.jpg"
+},
+"D 40 K": {
+"Sivi hrast": "in-d-40-k-sivi-hrast.jpg",
+"Snežni hrast": "in-d-40-k-snezni-hrast.jpg",
+"Artisan": "in-d-40-k-artisan.jpg",
+"Pesak mat": "in-d-40-k-pesak-mat.jpg",
+"Sivo": "in-d-40-k-sivo.jpg"
+},
+"D 45 KF": {
+"Snežni hrast": "in-d-45-kf-snezni-hrast.jpg",
+"Artisan": "in-d-45-kf-artisan.jpg",
+"Sivo": "in-d-45-kf-sivo.jpg",
+"Pesak mat": "in-d-45-kf-pesak-mat.jpg",
+"Sivi hrast": "in-d-45-kf-sivi-hrast.jpg"
+},
+"D 60": {
+"Pesak mat": "in-d-60-pesak-mat.jpg",
+"Sivi hrast": "in-d-60-sivi-hrast.jpg",
+"Snežni hrast": "in-d-60-snezni-hrast.jpg",
+"Artisan": "in-d-60-artisan.jpg",
+"Sivo": "in-d-60-sivo.jpg"
+},
+"D 60 F": {
+"Sivi hrast": "in-d-60-f-sivi-hrast.jpg",
+"Snežni hrast": "in-d-60-f-snezni-hrast.jpg",
+"Sivo": "in-d-60-f-sivo.jpg",
+"Pesak mat": "in-d-60-f-pesak-mat.jpg",
+"Artisan": "in-d-60-f-artisan.jpg"
+},
+"D 60 R": {
+"Sivo": "in-d-60-r-sivo.jpg",
+"Artisan": "in-d-60-r-artisan.jpg",
+"Pesak mat": "in-d-60-r-pesak-mat.jpg",
+"Sivi hrast": "in-d-60-r-sivi-hrast.jpg",
+"Snežni hrast": "in-d-60-r-snezni-hrast.jpg"
+},
+"D 60 RV": {
+"Artisan": "in-d-60-rv-artisan.jpg",
+"Snežni hrast": "in-d-60-rv-snezni-hrast.jpg",
+"Pesak mat": "in-d-60-rv-pesak-mat.jpg",
+"Sivi hrast": "in-d-60-rv-sivi-hrast.jpg",
+"Sivo": "in-d-60-rv-sivo.jpg"
+},
+"D 80": {
+"Sivo": "in-d-80-sivo.jpg",
+"Snežni hrast": "in-d-80-snezni-hrast.jpg",
+"Pesak mat": "in-d-80-pesak-mat.jpg",
+"Sivi hrast": "in-d-80-sivi-hrast.jpg",
+"Artisan": "in-d-80-artisan.jpg"
+},
+"D 80 S": {
+"Sivo": "in-d-80-s-sivo.jpg",
+"Snežni hrast": "in-d-80-s-snezni-hrast.jpg",
+"Sivi hrast": "in-d-80-s-sivi-hrast.jpg",
+"Artisan": "in-d-80-s-artisan.jpg",
+"Pesak mat": "in-d-80-s-pesak-mat.jpg"
+},
+"DU 100": {
+"Snežni hrast": "in-du-100-snezni-hrast.jpg",
+"Sivi hrast": "in-du-100-sivi-hrast.jpg",
+"Pesak mat": "in-du-100-pesak-mat.jpg",
+"Sivo": "in-du-100-sivo.jpg",
+"Artisan": "in-du-100-artisan.jpg"
+},
+"DU 2K": {
+"Sivo": "in-du-2k-sivo.jpg",
+"Pesak mat": "in-du-2k-pesak-mat.jpg",
+"Sivi hrast": "in-du-2k-sivi-hrast.jpg",
+"Snežni hrast": "in-du-2k-snezni-hrast.jpg",
+"Artisan": "in-du-2k-artisan.jpg"
+},
+"Friz 2V": {
+"Sivo": "in-friz-2v-sivo.jpg",
+"Snežni hrast": "in-friz-2v-snezni-hrast.jpg",
+"Sivi hrast": "in-friz-2v-sivi-hrast.jpg",
+"Artisan": "in-friz-2v-artisan.jpg",
+"Pesak mat": "in-friz-2v-pesak-mat.jpg"
+},
+"Friz 60": {
+"Sivo": "in-friz-60-sivo.jpg",
+"Pesak mat": "in-friz-60-pesak-mat.jpg",
+"Snežni hrast": "in-friz-60-snezni-hrast.jpg",
+"Sivi hrast": "in-friz-60-sivi-hrast.jpg",
+"Artisan": "in-friz-60-artisan.jpg"
+},
+"MDF D 20 Žica": {
+"Belo sjaj": "in-mdf-d-20-zica-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-20-zica-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-20-zica-bez-sjaj.jpg"
+},
+"MDF D 30": {
+"Belo sjaj": "in-mdf-d-30-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-30-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-30-bez-sjaj.jpg"
+},
+"MDF D 40 3F B": {
+"Belo sjaj": "in-mdf-d-40-3f-b-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-40-3f-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-40-3f-b-bez-sjaj.jpg"
+},
+"MDF D 40 K": {
+"Belo sjaj": "in-mdf-d-40-k-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-40-k-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-40-k-bez-sjaj.jpg"
+},
+"MDF D 45 KF B": {
+"Bež sjaj": "in-mdf-d-45-kf-b-bez-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-45-kf-b-kasmir-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-45-kf-b-belo-sjaj.jpg"
+},
+"MDF D 60": {
+"Kašmir sjaj": "in-mdf-d-60-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-60-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-60-belo-sjaj.jpg"
+},
+"MDF D 60 1V": {
+"Kašmir sjaj": "in-mdf-d-60-1v-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-60-1v-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-60-1v-belo-sjaj.jpg"
+},
+"MDF D 60 3F B": {
+"Kašmir sjaj": "in-mdf-d-60-3f-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-60-3f-b-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-60-3f-b-belo-sjaj.jpg"
+},
+"MDF D 60 R": {
+"Belo sjaj": "in-mdf-d-60-r-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-60-r-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-60-r-bez-sjaj.jpg"
+},
+"MDF D 60 RV": {
+"Kašmir sjaj": "in-mdf-d-60-rv-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-60-rv-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-60-rv-belo-sjaj.jpg"
+},
+"MDF D 80": {
+"Belo sjaj": "in-mdf-d-80-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-d-80-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-80-bez-sjaj.jpg"
+},
+"MDF D 80 3F B": {
+"Kašmir sjaj": "in-mdf-d-80-3f-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-80-3f-b-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-80-3f-b-belo-sjaj.jpg"
+},
+"MDF D 80 S": {
+"Kašmir sjaj": "in-mdf-d-80-s-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-d-80-s-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-d-80-s-belo-sjaj.jpg"
+},
+"MDF DU 100": {
+"Bež sjaj": "in-mdf-du-100-bez-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-du-100-kasmir-sjaj.jpg",
+"Belo sjaj": "in-mdf-du-100-belo-sjaj.jpg"
+},
+"MDF DU 2K": {
+"Belo sjaj": "in-mdf-du-2k-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-du-2k-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-du-2k-bez-sjaj.jpg"
+},
+"MDF Dekorativna stranica D222": {
+"Bež sjaj": "in-mdf-dekorativna-stranica-d222-bez-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-dekorativna-stranica-d222-kasmir-sjaj.jpg",
+"Belo sjaj": "in-mdf-dekorativna-stranica-d222-belo-sjaj.jpg"
+},
+"MDF Dekorativna stranica D82": {
+"Kašmir sjaj": "in-mdf-dekorativna-stranica-d82-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-dekorativna-stranica-d82-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-dekorativna-stranica-d82-belo-sjaj.jpg"
+},
+"MDF Dekorativna stranica V72": {
+"Kašmir sjaj": "in-mdf-dekorativna-stranica-v72-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-dekorativna-stranica-v72-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-dekorativna-stranica-v72-belo-sjaj.jpg"
+},
+"MDF Friz 2V B": {
+"Belo sjaj": "in-mdf-friz-2v-b-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-friz-2v-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-friz-2v-b-bez-sjaj.jpg"
+},
+"MDF Friz 60 B": {
+"Belo sjaj": "in-mdf-friz-60-b-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-friz-60-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-friz-60-b-bez-sjaj.jpg"
+},
+"MDF Maska 45x72": {
+"Kašmir sjaj": "in-mdf-maska-45x72-kasmir-sjaj.jpg"
+},
+"MDF Maska 60x60": {
+"Kašmir sjaj": "in-mdf-maska-60x60-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-maska-60x60-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-maska-60x60-belo-sjaj.jpg"
+},
+"MDF Maska 60x72": {
+"Bež sjaj": "in-mdf-maska-60x72-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-maska-60x72-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-maska-60x72-kasmir-sjaj.jpg"
+},
+"MDF V 30": {
+"Belo sjaj": "in-mdf-v-30-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-v-30-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-v-30-bez-sjaj.jpg"
+},
+"MDF V 40": {
+"Kašmir sjaj": "in-mdf-v-40-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-v-40-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-v-40-belo-sjaj.jpg"
+},
+"MDF V 45": {
+"Kašmir sjaj": "in-mdf-v-45-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-v-45-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-v-45-belo-sjaj.jpg"
+},
+"MDF V 60": {
+"Kašmir sjaj": "in-mdf-v-60-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-v-60-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-v-60-belo-sjaj.jpg"
+},
+"MDF V 60 1V": {
+"Bež sjaj": "in-mdf-v-60-1v-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-v-60-1v-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-v-60-1v-kasmir-sjaj.jpg"
+},
+"MDF V 80": {
+"Belo sjaj": "in-mdf-v-80-belo-sjaj.jpg",
+"Bež sjaj": "in-mdf-v-80-bez-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-v-80-kasmir-sjaj.jpg"
+},
+"MDF V 80 S": {
+"Kašmir sjaj": "in-mdf-v-80-s-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-v-80-s-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-v-80-s-belo-sjaj.jpg"
+},
+"MDF VA 50": {
+"Kašmir sjaj": "in-mdf-va-50-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-va-50-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-va-50-belo-sjaj.jpg"
+},
+"MDF VA 60 1V": {
+"Bež sjaj": "in-mdf-va-60-1v-bez-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-va-60-1v-kasmir-sjaj.jpg",
+"Belo sjaj": "in-mdf-va-60-1v-belo-sjaj.jpg"
+},
+"MDF VA 60/68 1V": {
+"Kašmir sjaj": "in-mdf-va-60-68-1v-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-va-60-68-1v-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-va-60-68-1v-belo-sjaj.jpg"
+},
+"MDF VH 60 B": {
+"Bež sjaj": "in-mdf-vh-60-b-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-vh-60-b-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-vh-60-b-kasmir-sjaj.jpg"
+},
+"MDF VH 60/36 B": {
+"Belo sjaj": "in-mdf-vh-60-36-b-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-vh-60-36-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-vh-60-36-b-bez-sjaj.jpg"
+},
+"MDF VH 80 B": {
+"Bež sjaj": "in-mdf-vh-80-b-bez-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-vh-80-b-kasmir-sjaj.jpg",
+"Belo sjaj": "in-mdf-vh-80-b-belo-sjaj.jpg"
+},
+"MDF VH 80/36 B": {
+"Belo sjaj": "in-mdf-vh-80-36-b-belo-sjaj.jpg",
+"Kašmir sjaj": "in-mdf-vh-80-36-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-vh-80-36-b-bez-sjaj.jpg"
+},
+"MDF VH 80/36 S B": {
+"Kašmir sjaj": "in-mdf-vh-80-36-s-b-kasmir-sjaj.jpg",
+"Bež sjaj": "in-mdf-vh-80-36-s-b-bez-sjaj.jpg",
+"Belo sjaj": "in-mdf-vh-80-36-s-b-belo-sjaj.jpg"
+},
+"MDF VU 60": {
+"Kašmir sjaj": "in-mdf-vu-60-kasmir-sjaj.jpg",
+"Belo sjaj": "in-mdf-vu-60-belo-sjaj.jpg",
+"Bež sjaj": "in-mdf-vu-60-bez-sjaj.jpg"
+},
+"Maska 45x72": {
+"Artisan": "in-maska-45x72-artisan.jpg",
+"Sivo": "in-maska-45x72-sivo.jpg",
+"Pesak mat": "in-maska-45x72-pesak-mat.jpg",
+"Snežni hrast": "in-maska-45x72-snezni-hrast.jpg",
+"Sivi hrast": "in-maska-45x72-sivi-hrast.jpg"
+},
+"Maska 60x60": {
+"Sivo": "in-maska-60x60-sivo.jpg",
+"Artisan": "in-maska-60x60-artisan.jpg",
+"Pesak mat": "in-maska-60x60-pesak-mat.jpg",
+"Snežni hrast": "in-maska-60x60-snezni-hrast.jpg",
+"Sivi hrast": "in-maska-60x60-sivi-hrast.jpg"
+},
+"Maska 60x72": {
+"Sivo": "in-maska-60x72-sivo.jpg",
+"Artisan": "in-maska-60x72-artisan.jpg",
+"Snežni hrast": "in-maska-60x72-snezni-hrast.jpg",
+"Sivi hrast": "in-maska-60x72-sivi-hrast.jpg",
+"Pesak mat": "in-maska-60x72-pesak-mat.jpg"
+},
+"Ukrasna stranica D222": {
+"Snežni hrast": "in-ukrasna-stranica-d222-snezni-hrast.jpg",
+"Sivi hrast": "in-ukrasna-stranica-d222-sivi-hrast.jpg",
+"Artisan": "in-ukrasna-stranica-d222-artisan.jpg",
+"Sivo": "in-ukrasna-stranica-d222-sivo.jpg"
+},
+"Ukrasna stranica D82": {
+"Artisan": "in-ukrasna-stranica-d82-artisan.jpg",
+"Sivo": "in-ukrasna-stranica-d82-sivo.jpg",
+"Snežni hrast": "in-ukrasna-stranica-d82-snezni-hrast.jpg",
+"Sivi hrast": "in-ukrasna-stranica-d82-sivi-hrast.jpg"
+},
+"Ukrasna stranica V72": {
+"Sivo": "in-ukrasna-stranica-v72-sivo.jpg",
+"Snežni hrast": "in-ukrasna-stranica-v72-snezni-hrast.jpg",
+"Sivi hrast": "in-ukrasna-stranica-v72-sivi-hrast.jpg",
+"Artisan": "in-ukrasna-stranica-v72-artisan.jpg"
+},
+"V 30": {
+"Artisan": "in-v-30-artisan.jpg",
+"Snežni hrast": "in-v-30-snezni-hrast.jpg",
+"Sivi hrast": "in-v-30-sivi-hrast.jpg",
+"Pesak mat": "in-v-30-pesak-mat.jpg",
+"Sivo": "in-v-30-sivo.jpg"
+},
+"V 40": {
+"Pesak mat": "in-v-40-pesak-mat.jpg",
+"Snežni hrast": "in-v-40-snezni-hrast.jpg",
+"Artisan": "in-v-40-artisan.jpg",
+"Sivo": "in-v-40-sivo.jpg",
+"Sivi hrast": "in-v-40-sivi-hrast.jpg"
+},
+"V 45": {
+"Artisan": "in-v-45-artisan.jpg",
+"Snežni hrast": "in-v-45-snezni-hrast.jpg",
+"Sivi hrast": "in-v-45-sivi-hrast.jpg",
+"Sivo": "in-v-45-sivo.jpg",
+"Pesak mat": "in-v-45-pesak-mat.jpg"
+},
+"V 60": {
+"Snežni hrast": "in-v-60-snezni-hrast.jpg",
+"Sivo": "in-v-60-sivo.jpg",
+"Artisan": "in-v-60-artisan.jpg",
+"Pesak mat": "in-v-60-pesak-mat.jpg",
+"Sivi hrast": "in-v-60-sivi-hrast.jpg"
+},
+"V 80": {
+"Sivo": "in-v-80-sivo.jpg",
+"Snežni hrast": "in-v-80-snezni-hrast.jpg",
+"Artisan": "in-v-80-artisan.jpg",
+"Sivi hrast": "in-v-80-sivi-hrast.jpg",
+"Pesak mat": "in-v-80-pesak-mat.jpg"
+},
+"V 80 S": {
+"Sivo": "in-v-80-s-sivo.jpg",
+"Pesak mat": "in-v-80-s-pesak-mat.jpg",
+"Sivi hrast": "in-v-80-s-sivi-hrast.jpg",
+"Snežni hrast": "in-v-80-s-snezni-hrast.jpg",
+"Artisan": "in-v-80-s-artisan.jpg"
+},
+"VA 50": {
+"Sivi hrast": "in-va-50-sivi-hrast.jpg",
+"Snežni hrast": "in-va-50-snezni-hrast.jpg",
+"Sivo": "in-va-50-sivo.jpg",
+"Artisan": "in-va-50-artisan.jpg",
+"Pesak mat": "in-va-50-pesak-mat.jpg"
+},
+"VA 60": {
+"Snežni hrast": "in-va-60-snezni-hrast.jpg",
+"Sivi hrast": "in-va-60-sivi-hrast.jpg",
+"Sivo": "in-va-60-sivo.jpg",
+"Artisan": "in-va-60-artisan.jpg",
+"Pesak mat": "in-va-60-pesak-mat.jpg"
+},
+"VA 60/68": {
+"Sivi hrast": "in-va-60-68-sivi-hrast.jpg",
+"Snežni hrast": "in-va-60-68-snezni-hrast.jpg",
+"Sivo": "in-va-60-68-sivo.jpg",
+"Artisan": "in-va-60-68-artisan.jpg",
+"Pesak mat": "in-va-60-68-pesak-mat.jpg"
+},
+"VH 60 B": {
+"Artisan": "in-vh-60-b-artisan.jpg",
+"Sivi hrast": "in-vh-60-b-sivi-hrast.jpg",
+"Pesak mat": "in-vh-60-b-pesak-mat.jpg",
+"Snežni hrast": "in-vh-60-b-snezni-hrast.jpg",
+"Sivo": "in-vh-60-b-sivo.jpg"
+},
+"VH 60/36 B": {
+"Artisan": "in-vh-60-36-b-artisan.jpg",
+"Pesak mat": "in-vh-60-36-b-pesak-mat.jpg",
+"Sivo": "in-vh-60-36-b-sivo.jpg",
+"Snežni hrast": "in-vh-60-36-b-snezni-hrast.jpg",
+"Sivi hrast": "in-vh-60-36-b-sivi-hrast.jpg"
+},
+"VH 80 B": {
+"Pesak mat": "in-vh-80-b-pesak-mat.jpg",
+"Artisan": "in-vh-80-b-artisan.jpg",
+"Snežni hrast": "in-vh-80-b-snezni-hrast.jpg",
+"Sivi hrast": "in-vh-80-b-sivi-hrast.jpg",
+"Sivo": "in-vh-80-b-sivo.jpg"
+},
+"VH 80/36 B": {
+"Snežni hrast": "in-vh-80-36-b-snezni-hrast.jpg",
+"Sivi hrast": "in-vh-80-36-b-sivi-hrast.jpg",
+"Sivo": "in-vh-80-36-b-sivo.jpg",
+"Artisan": "in-vh-80-36-b-artisan.jpg",
+"Pesak mat": "in-vh-80-36-b-pesak-mat.jpg"
+},
+"VU 60": {
+"Sivi hrast": "in-vu-60-sivi-hrast.jpg",
+"Pesak mat": "in-vu-60-pesak-mat.jpg",
+"Sivo": "in-vu-60-sivo.jpg",
+"Snežni hrast": "in-vu-60-snezni-hrast.jpg",
+"Artisan": "in-vu-60-artisan.jpg"
+}
+},
+"grupe": [
+{
+"materijal": "Medijapan",
+"dezeni": [
+"Kašmir sjaj",
+"Belo sjaj",
+"Bež sjaj"
+]
+},
+{
+"materijal": "Univer",
+"dezeni": [
+"Sivi hrast",
+"Sivo",
+"Artisan",
+"Snežni hrast",
+"Pesak mat"
+]
+}
+]
+},
+"Dečija soba Kinder": {
+"dezeni": [
+{
+"ime": "Belo - Pesak",
+"broj": 3
+},
+{
+"ime": "Belo - Plavo",
+"broj": 2
+},
+{
+"ime": "Belo - Violet",
+"broj": 1
+},
+{
+"ime": "Belo - Zeleno",
+"broj": 8
+},
+{
+"ime": "Kinder - Premium hrast",
+"broj": 1
+},
+{
+"ime": "Premium hrast",
+"broj": 2
+},
+{
+"ime": "Premium hrast - Pesak",
+"broj": 1
+},
+{
+"ime": "Premium hrast - Plavo",
+"broj": 2
+}
+],
+"ukupno": 13,
+"elementi": {
+"Fiokar 2F": {
+"Premium hrast - Plavo": "dc-kinder-fiokar-2f-premium-hrast-plavo.jpg",
+"Premium hrast - Pesak": "dc-kinder-fiokar-2f-premium-hrast-pesak.jpg",
+"Belo - Pesak": "dc-kinder-fiokar-2f-belo-pesak.jpg",
+"Belo - Plavo": "dc-kinder-fiokar-2f-belo-plavo.jpg"
+},
+"Krevet 120": {
+"Belo - Zeleno": "dc-kinder-krevet-120-belo-zeleno.jpg",
+"Premium hrast": "dc-kinder-krevet-120-premium-hrast.jpg",
+"Belo - Violet": "dc-kinder-krevet-120-belo-violet.jpg"
+},
+"Krevet Bok": {
+"Kinder - Premium hrast": "dc-kinder-krevet-bok-kinder-premium-hrast.jpg"
+},
+"Ormar 2V2F": {
+"Premium hrast - Plavo": "dc-kinder-ormar-2v2f-premium-hrast-plavo.jpg"
+},
+"Bočni stočić": {
+"Belo - Zeleno": "dc-kinder-bocni-stocic-belo-zeleno.jpg"
+},
+"Krevet 90": {
+"Belo - Zeleno": "dc-kinder-krevet-90-belo-zeleno.jpg",
+"Premium hrast": "dc-kinder-krevet-90-premium-hrast.jpg",
+"Belo - Pesak": "dc-kinder-krevet-90-belo-pesak.jpg"
+},
+"Most kreveta": {
+"Belo - Pesak": "dc-kinder-most-kreveta-belo-pesak.jpg",
+"Belo - Zeleno": "dc-kinder-most-kreveta-belo-zeleno.jpg"
+},
+"Ormar 1V1F": {
+"Belo - Zeleno": "dc-kinder-ormar-1v1f-belo-zeleno.jpg"
+},
+"Ormar ugao": {
+"Belo - Zeleno": "dc-kinder-ormar-ugao-belo-zeleno.jpg"
+},
+"Radni sto": {
+"Belo - Zeleno": "dc-kinder-radni-sto-belo-zeleno.jpg"
+},
+"Viseća polica 1V": {
+"Belo - Zeleno": "dc-kinder-viseca-polica-1v-belo-zeleno.jpg",
+"Belo - Plavo": "dc-kinder-viseca-polica-1v-belo-plavo.jpg"
+}
+},
+"grupe": null
+},
+"Dečija soba Numero": {
+"dezeni": [
+{
+"ime": "Kameno sivo",
+"broj": 2
+},
+{
+"ime": "Ljubičasta",
+"broj": 1
+},
+{
+"ime": "Pink",
+"broj": 2
+},
+{
+"ime": "Plavo",
+"broj": 2
+},
+{
+"ime": "Zeleno",
+"broj": 2
+}
+],
+"ukupno": 5,
+"elementi": {
+"Komoda 3F Niša": {
+"Ljubičasta": "dc-numero-komoda-3f-nisa-ljubicasta.jpg"
+},
+"Most radnog stola": {
+"Plavo": "dc-numero-most-radnog-stola-plavo.jpg",
+"Zeleno": "dc-numero-most-radnog-stola-zeleno.jpg",
+"Kameno sivo": "dc-numero-most-radnog-stola-kameno-sivo.jpg"
+},
+"Polica brojevi": {
+"Kameno sivo": "dc-numero-polica-brojevi-kameno-sivo.jpg",
+"Pink": "dc-numero-polica-brojevi-pink.jpg"
+},
+"Viseća Niša": {
+"Plavo": "dc-numero-viseca-nisa-plavo.jpg",
+"Zeleno": "dc-numero-viseca-nisa-zeleno.jpg",
+"Pink": "dc-numero-viseca-nisa-pink.jpg"
+}
+},
+"grupe": null
+}
+}

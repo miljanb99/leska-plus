@@ -1,0 +1,339 @@
+{
+ "dasa-garnitura-alvaro.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Alvaro",
+   "file": "el-tdf-dasa-garnitura-alvaro-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/alvaro-trosed",
+   "mere": "205 × 95 × 80 cm",
+   "nota": "( Deo za spavanje: 180 × 95 cm. )"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Alvaro",
+   "file": "el-dasa-dvosed-alvaro.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/alvaro-dvosed",
+   "mere": "165 × 95 × 80 cm",
+   "nota": "( Deo za spavanje: 140 × 95 cm. )"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Alvaro",
+   "file": "el-dasa-fotelja-alvaro.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/alvaro-fotelja",
+   "mere": "86 × 90 × 85 cm"
+  },
+  {
+   "kod": "Tabure",
+   "name": "Tabure Alvaro",
+   "file": "el-dasa-tabure-alvaro.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/alvaro-tabure"
+  }
+ ],
+ "dasa-garnitura-anja.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Anja",
+   "file": "el-tdf-dasa-garnitura-anja-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/anja-trosed",
+   "mere": "240 × 110 × 78 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Anja",
+   "file": "el-tdf-dasa-garnitura-anja-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/anja-dvosed",
+   "mere": "153 × 95 × 85 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Anja",
+   "file": "el-tdf-dasa-garnitura-anja-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/anja-fotelja",
+   "mere": "88 × 90 × 73 cm"
+  }
+ ],
+ "dasa-garnitura-doris.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Doris",
+   "file": "el-tdf-dasa-garnitura-doris-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/doris-trosed",
+   "mere": "230 × 102 × 76 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Doris",
+   "file": "el-tdf-dasa-garnitura-doris-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/doris-dvosed",
+   "mere": "193 × 102 × 73 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Doris",
+   "file": "el-tdf-dasa-garnitura-doris-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/doris-fotelja",
+   "mere": "88 × 92 × 82 cm"
+  },
+  {
+   "kod": "Tabure",
+   "name": "Tabure Doris",
+   "file": "el-dasa-tabure-doris.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/doris-tabure"
+  }
+ ],
+ "dasa-garnitura-emanuela.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Emanuela",
+   "file": "el-tdf-dasa-garnitura-emanuela-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/emanuela-trosed",
+   "mere": "245 × 108 × 90 cm",
+   "nota": "( Deo za spavanje: 190 × 126 cm. )"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Emanuela",
+   "file": "el-tdf-dasa-garnitura-emanuela-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/emanuela-dvosed",
+   "mere": "200 × 108 × 90 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Emanuela",
+   "file": "el-tdf-dasa-garnitura-emanuela-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/emanuela-fotelja",
+   "mere": "116 × 108 × 90 cm"
+  }
+ ],
+ "dasa-garnitura-grosso.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Grosso",
+   "file": "el-tdf-dasa-garnitura-grosso-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/grosso-trosed",
+   "mere": "225 × 95 × 85 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Grosso",
+   "file": "el-tdf-dasa-garnitura-grosso-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/grosso-dvosed",
+   "mere": "204 × 107 × 69 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Grosso",
+   "file": "el-tdf-dasa-garnitura-grosso-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/grosso-fotelja",
+   "mere": "85 × 92 × 75 cm"
+  },
+  {
+   "kod": "Tabure",
+   "name": "Tabure Grosso",
+   "file": "el-dasa-tabure-grosso.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/grosso-tabure",
+   "mere": "83 × 60 × 38 cm"
+  }
+ ],
+ "dasa-garnitura-kongo.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Kongo",
+   "file": "el-tdf-dasa-garnitura-kongo-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/kongo-trosed",
+   "mere": "220 × 97 × 95 cm",
+   "nota": "Deo za spavanje: 190 × 120 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Kongo",
+   "file": "el-tdf-dasa-garnitura-kongo-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/kongo-dvosed",
+   "mere": "167 × 97 × 95 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Kongo",
+   "file": "el-dasa-fotelja-kongo.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/kongo-fotelja",
+   "mere": "85 × 97 × 95 cm"
+  }
+ ],
+ "dasa-garnitura-nada.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Nađa",
+   "file": "el-tdf-dasa-garnitura-nada-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/nada-garnitura",
+   "mere": "230 × 102 × 76 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Nađa",
+   "file": "el-dasa-dvosed-nada.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/nada-dvosed",
+   "mere": "193 × 102 × 73 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Nađa",
+   "file": "el-dasa-fotelja-nada.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/nada-fotelja",
+   "mere": "74 × 90 × 96 cm"
+  }
+ ],
+ "dasa-garnitura-nansy.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Nansy",
+   "file": "el-tdf-dasa-garnitura-nansy-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/nansy-garnitura",
+   "mere": "235 × 103 × 97 cm",
+   "nota": "193 × 120 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Nansy",
+   "file": "el-tdf-dasa-garnitura-nansy-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/nansy-dvosed",
+   "mere": "176 × 103 × 97 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Nansy",
+   "file": "el-dasa-fotelja-nansy.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/nansy-fotelja",
+   "mere": "87 × 85 × 97 cm"
+  }
+ ],
+ "dasa-garnitura-orlando.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Orlando",
+   "file": "el-tdf-dasa-garnitura-orlando-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/orlando-garnitura",
+   "mere": "237 × 103 × 68 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Orlando",
+   "file": "el-tdf-dasa-garnitura-orlando-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/orlando-dvosed",
+   "mere": "195 × 103 × 68 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Orlando",
+   "file": "el-tdf-dasa-garnitura-orlando-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/orlando-fotelja",
+   "mere": "127 × 103 × 68 cm"
+  }
+ ],
+ "dasa-garnitura-qubo.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Qubo",
+   "file": "el-tdf-dasa-garnitura-qubo-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/qubo-garnitura",
+   "mere": "223 × 85 × 74 cm",
+   "nota": "sa jastukom 84, sa glavonaslonom 104 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Qubo",
+   "file": "el-tdf-dasa-garnitura-qubo-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/qubo-dvosed",
+   "mere": "168 × 85 × 74 cm",
+   "nota": "sa jastukom 84, sa glavonaslonom 104 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Qubo",
+   "file": "el-tdf-dasa-garnitura-qubo-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/qubo-fotelja",
+   "mere": "93 × 85 × 74 cm",
+   "nota": "sa jastukom 84, sa glavonaslonom 104 cm"
+  },
+  {
+   "kod": "Tabure",
+   "name": "Tabure Qubo",
+   "file": "el-dasa-tabure-qubo.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/qubo-tabure",
+   "mere": "83 × 60 × 38 cm"
+  }
+ ],
+ "dasa-garnitura-sintija.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Sintija",
+   "file": "el-tdf-dasa-garnitura-sintija-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/sintija-garnitura",
+   "mere": "215 × 95 × 70 cm",
+   "nota": "( Deo za spavanje: 190 × 74 cm. )"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Sintija",
+   "file": "el-tdf-dasa-garnitura-sintija-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/sintija-dvosed",
+   "mere": "175 × 95 × 70 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Sintija",
+   "file": "el-tdf-dasa-garnitura-sintija-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/sintija-garnitura",
+   "mere": "80 × 95 × 70 cm"
+  }
+ ],
+ "dasa-garnitura-tipo.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Tipo",
+   "file": "el-tdf-dasa-garnitura-tipo-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/tipo-garnitura",
+   "mere": "208 × 95 × 94 cm",
+   "nota": "182 × 192 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Tipo",
+   "file": "el-tdf-dasa-garnitura-tipo-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/tipo-garnitura",
+   "mere": "137 × 95 × 94 cm",
+   "nota": "110 × 192 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Tipo",
+   "file": "el-tdf-dasa-garnitura-tipo-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/tipo-garnitura",
+   "mere": "93 × 95 × 94 cm",
+   "nota": "68 × 192 cm"
+  }
+ ],
+ "dasa-garnitura-ultra.jpg": [
+  {
+   "kod": "Trosed",
+   "name": "Trosed Ultra",
+   "file": "el-tdf-dasa-garnitura-ultra-trosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/ultra-garnitura",
+   "mere": "240 × 105 × 85 cm"
+  },
+  {
+   "kod": "Dvosed",
+   "name": "Dvosed Ultra",
+   "file": "el-tdf-dasa-garnitura-ultra-dvosed.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/ultra-garnitura",
+   "mere": "200 × 105 × 85 cm"
+  },
+  {
+   "kod": "Fotelja",
+   "name": "Fotelja Ultra",
+   "file": "el-tdf-dasa-garnitura-ultra-fotelja.jpg",
+   "ref": "https://dasa-namestaj.rs/proizvod/ultra-garnitura",
+   "mere": "100 × 80 × 88 cm"
+  }
+ ]
+}

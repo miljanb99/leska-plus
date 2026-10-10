@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="sr-Latn-RS">
+<head>
+<!-- Osvežavanje strane pregledač ne smatra prelaskom, pa prelaza nema i strana
+     bane. Klasa se postavlja pre prvog crtanja, da se ne vidi treptaj. -->
+<script>try{
+/* Pregledačevo vraćanje položaja je pravilo; samo kad ga mi preuzmemo
+   (osvežavanje ili strelica nazad/napred na mesto gde je kupac stao) ono se
+   isključuje. Podešavanje se pamti uz korak u istoriji, pa se svaki put
+   postavlja iznova. */
+try{ history.scrollRestoration='auto' }catch(e){}
+var _t=(performance.getEntriesByType('navigation')[0]||{}).type;
+/* Nazad i napred se ponašaju tačno kao osvežavanje (vlasnik, 1.10.2026).
+   Strana se pri povratku učitava iznova — čuvanje u memoriji pregledača je
+   isključeno u app.js — pa je ovo već „sveže" učitavanje; samo se Chromeov tip
+   dolaska („navigate" i za povratak) ispravi u „back_forward", da krene ista
+   staza kao pri osvežavanju. Ranije se ovde tražilo još jedno učitavanje: ono
+   je pokazivalo zatečenu stranu pa je brisalo (snimak 19:24). */
+var _trav=false; try{ _trav = !!(window.navigation && navigation.activation
+  && navigation.activation.navigationType==='traverse'); }catch(e){}
+if(_trav) _t='back_forward';
+var _tiho=matchMedia('(prefers-reduced-motion:reduce)').matches;
+/* Ako se uz stranu vraća i otvoren prozor (upit ili poruka), strana iza njega
+   ne sme ništa da radi — kupac gleda formu, a ona ima svoj ulazak. Uvodno
+   pretapanje se zato preskače; sakrivanje zbog vraćanja položaja ostaje, ono
+   nije animacija nego čekanje da se strana namesti. */
+var _prozor=false; try{ _prozor = !!sessionStorage.getItem('upit-otvoren:'+location.pathname)
+ || !!sessionStorage.getItem('poruka-otvorena:'+location.pathname)
+ || /[#&](p|u)=/.test(location.hash) }catch(e){}
+if(_prozor) _tiho=true;
+if(_t==='reload'||_t==='back_forward'){
+/* Strana se otvara tamo gde je kupac stao. Sadržaj crta program tek kad stigne
+   katalog, pa pregledač sam ne može da vrati položaj — mi ga vraćamo, a dok se
+   to ne desi strana stoji sakrivena, da se ne vidi kako kreće od vrha.
+   Uvodno pretapanje ide samo kad se vraćamo na sam vrh. */
+var _p=0; try{var _z=JSON.parse(sessionStorage.getItem('polozaj:'+location.pathname)||'0');
+_p=(typeof _z==='number')?_z:(_z&&_z.y)||0}catch(e){}
+/* Prag je namerno nizak: i pomeraj od par piksela mora da vratimo mi. Kad se
+   oslonimo na pregledač, on prvi kadar ume da nacrta na vrhu pa tek onda da
+   vrati položaj — i taj jedan kadar se vidi kao bljesak ljubičaste trake. */
+if(_p>2){ document.documentElement.classList.add('vracam');
+/* položaj vraćamo mi — pregledač ne sme da radi to isto, jer njegov i naš
+   broj se razlikuju za koji piksel pa strana na svakom osvežavanju poskoči */
+try{ history.scrollRestoration='manual' }catch(e){}
+/* Sidro u adresi (#kontakt i sl.) pregledač bi sam odvukao na vrh te sekcije — i
+   posle našeg vraćanja položaja, pa strana završi malo više nego gde si stao
+   (snimak 23:05). Mesto vraćamo mi, pa sidro tu nema posla i skida se iz
+   adrese. U ponudi hes nosi stanje prikaza (kategorija, proizvod) — ne dira se. */
+try{ if(location.hash && !/ponuda\.html$/.test(location.pathname) && /^#[A-Za-z][\w-]*$/.test(location.hash))
+  history.replaceState(history.state,'',location.pathname+location.search); }catch(e){} }
+else if(!_tiho) document.documentElement.classList.add('uvod');
+}
+/* Nalepljena adresa, zabeleška ili dolazak spolja: nema prethodne strane pa
+   nema ni prelaza između strana — zato strana dobija isti uvod kao pri
+   osvežavanju. Klik sa naše strane se ne dira: tamo prelaz radi pregledač. */
+else if(!_tiho && (!document.referrer || document.referrer.indexOf(location.origin+'/')!==0))
+document.documentElement.classList.add('uvod');
+/* Ako se strana otvara pravo na proizvodu, zaglavlje ne sme da ima svoje ime u
+   prelazu strana: imenovani deo se tokom prelaza crta iznad svega, pa bi traka
+   sa znakom i menijem na tren stajala preko panela proizvoda. */
+if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-panelom');
+}catch(e){}</script>
+<meta charset="utf-8">
+<script>/* sat za pozadinu: mreža (70 s tamo-nazad) i svetlo (44 s) nastavljaju odakle su bili */try{var _s=Date.now(),_h=document.documentElement.style;_h.setProperty("--sat-mreza",-(_s%140000)+"ms");_h.setProperty("--sat-svetlo",-(_s%88000)+"ms");/* blokovi sakriveni već pri prvom crtanju — app.js skida oznaku čim preuzme */document.documentElement.classList.add("pre-skripte")}catch(e){}</script>
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="img/ikona-32.png?v=7" sizes="32x32">
+<link rel="icon" href="img/ikona-512.png?v=7" sizes="512x512">
+<link rel="apple-touch-icon" href="img/ikona-180.png?v=7">
+<title>Ponuda nameštaja — Leska, Aranđelovac</title>
+<meta name="description" content="Ponuda salona Leska plus u Aranđelovcu: dnevne i spavaće sobe, kuhinje, trpezarije, dušeci, dečije sobe, predsoblja, kancelarija i bašta. Programi Matis, DaSa, RelaxSan i Andrijašević. Prevoz i montaža.">
+<meta name="theme-color" content="#9B2F86">
+<!-- „optional" umesto „swap": sa swap-om pregledač prvo iscrta stranu
+     sistemskim pismom pa je posle zameni pravim, a pošto slova nisu iste širine
+     ceo sadržaj se u tom trenutku pomeri za koji piksel — to je bilo ono cimanje
+     pri svakom osvežavanju. Sa „optional" zamene nema: prvi put se možda vidi
+     sistemsko pismo, a od tada je pravo pismo u kešu i koristi se odmah. -->
+<!-- Pisma koja nose ceo tekst — tela strane i naslova. Bez najave bi pregledač
+     za njih saznao tek iz stila, pa bi ih ponekad propustio (font-display je
+     „optional": šta ne stigne na prvi kadar, ne ulazi u tu posetu) i cela strana
+     bi se ispisala sistemskim pismom — deblje i drugačije. -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-sans-400-latin.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-sans-400-latin-ext.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin-ext.woff2">
+<link rel="stylesheet" href="css/style.css?v=1084">
+<link rel="stylesheet" href="css/nova2.css?v=1084">
+</head>
+<body>
+
+<svg class="ik-izvor" aria-hidden="true" focusable="false"><defs>
+<symbol id="ik-pin" viewBox="0 0 24 24">
+  <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
+</symbol>
+<symbol id="ik-tel" viewBox="0 0 24 24">
+  <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.37 2.3.57 3.5.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C11.3 21 3 12.7 3 2.5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.57 3.5a1 1 0 0 1-.25 1l-2.2 2.2z"/>
+</symbol>
+<symbol id="ik-mail" viewBox="0 0 24 24">
+  <path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 8.1L4.3 7H19.7L12 13.1zM4 17h16V8.7l-7.4 5.9a1 1 0 0 1-1.2 0L4 8.7V17z"/>
+</symbol>
+<symbol id="ik-mapa" viewBox="0 0 24 24">
+  <path d="M9 2.6 3.6 4.4A1 1 0 0 0 3 5.3v14.2c0 .7.7 1.2 1.4.9L9 18.6l6 2.8 5.4-1.8a1 1 0 0 0 .6-.9V4.5c0-.7-.7-1.2-1.4-.9L15 5.4 9 2.6zm0 2.2 6 2.8v11.6l-6-2.8V4.8zM5 6l2-.7v11.6l-2 .7V6zm12 .3 2-.7v11.6l-2 .7V6.3z"/>
+</symbol>
+<symbol id="ik-viber" viewBox="0 0 24 24">
+  <path d="M11.4 1.01C9.47 1.04 5.32 1.35 3 3.48 1.27 5.2.67 7.74.6 10.88c-.06 3.14-.14 9.02 5.53 10.62v2.44s-.04.98.61 1.18c.79.25 1.25-.5 2-1.31l1.4-1.58c3.88.32 6.86-.42 7.2-.53.78-.25 5.2-.82 5.92-6.69.74-6.05-.36-9.87-2.34-11.6-.6-.55-3-2.29-8.37-2.31 0 0-.4-.02-1.15-.09zm.1 1.75c.64.05.98.06.98.06 4.54.02 6.57 1.47 7.08 1.93 1.67 1.44 2.53 4.88 1.9 9.93-.6 4.9-4.19 5.21-4.85 5.42-.28.09-2.91.73-6.22.52l-2.47 2.8c-.39.39-.8.31-.8-.45v-2.85c-4.8-1.33-4.52-6.33-4.47-8.95.06-2.62.54-4.77 2-6.21 1.96-1.78 5.49-2.04 7.13-2.06.36-.01.61-.02.72-.02z"/>
+  <path d="M11.98 5.31a.55.55 0 0 0 0 1.1c1.72.01 3.14.57 4.2 1.6 1.06 1.04 1.6 2.42 1.61 4.14a.55.55 0 0 0 1.1 0c-.01-1.98-.66-3.65-1.94-4.9-1.28-1.25-2.96-1.93-4.97-1.94zm.04 1.83a.55.55 0 0 0 0 1.1c1.2.02 2.06.4 2.65 1.01.6.62.94 1.48.95 2.68a.55.55 0 0 0 1.1 0c-.01-1.42-.44-2.57-1.25-3.42-.82-.85-1.97-1.34-3.45-1.37zm.08 1.88a.55.55 0 0 0-.05 1.1c.53.03.88.18 1.11.42.23.24.37.6.4 1.15a.55.55 0 0 0 1.1-.06c-.04-.73-.25-1.35-.7-1.82-.46-.48-1.09-.72-1.86-.79z"/>
+  <path d="M8.6 6.85c-.28-.05-.58.01-.83.16h-.01c-.62.36-1.17.83-1.6 1.43-.36.5-.55 1-.6 1.5-.02.19 0 .38.06.56l.2.01c.15.44.35.86.58 1.27a11.6 11.6 0 0 0 2.14 2.92 11.7 11.7 0 0 0 2.93 2.14h.01c.4.23.83.43 1.27.58l.1.02c.18.06.37.08.56.06.5-.05 1-.24 1.5-.6.6-.43 1.07-.98 1.43-1.6.15-.25.21-.55.16-.83a1.2 1.2 0 0 0-.5-.75 9.7 9.7 0 0 0-1.7-1.07c-.35-.18-.7-.06-.85.13l-.3.38c-.15.2-.44.17-.44.17-2.17-.55-2.75-2.75-2.75-2.75s-.03-.29.17-.44l.38-.3c.19-.15.31-.5.13-.85a9.7 9.7 0 0 0-1.07-1.7 1.2 1.2 0 0 0-.75-.5z"/>
+</symbol>
+<symbol id="ik-whatsapp" viewBox="0 0 24 24">
+  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/>
+  <path d="M16.56 13.99c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/>
+</symbol>
+</defs></svg>
+
+<div class="v2-pozadina" aria-hidden="true">
+  <img width="1600" height="1292" src="img/veliko/matis-spavaca-soba-malaga-a1.jpg" alt="">
+</div>
+
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<div class="v2-vrh-omot">
+<div class="topbar">
+  <div class="wrap">
+    <span>Salon nameštaja &middot; Kralja Petra I bb, Aranđelovac</span>
+    <span class="topbar-info">
+      <span class="radno" id="radno" hidden></span>
+      <span class="topbar-radno">Pon&ndash;pet <b>08&ndash;19</b> &middot; Sub <b>08&ndash;16</b></span>
+      <span>
+        <a href="tel:+38134723007">034 723 007</a>
+        <span class="topbar-sep">&nbsp;•&nbsp;</span>
+        <a href="tel:+381641187264">064 1187 264</a>
+      </span>
+    </span>
+  </div>
+</div>
+
+<header class="site-header v2-glava">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">
+        <img src="img/logo-700.png?v=2" alt="Leska — salon nameštaja, Aranđelovac" width="760" height="255">
+      </span>
+      <span class="brand-txt">Salon<br>nameštaja</span>
+    </a>
+
+    <form class="v2-trazi" action="ponuda.html" method="get" role="search">
+      <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <label class="sr" for="q">Traži po ponudi</label>
+      <input id="q" name="q" type="search" placeholder="Traži model — npr. Emanuela, Rustik, dušek" autocomplete="off">
+      <button type="submit">Traži</button>
+    </form>
+
+    <div class="v2-glava-desno">
+      <button class="btn btn-primary btn-sm" type="button" data-upit-pop>Pošalji upit</button>
+      <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="mmenu" aria-label="Otvori meni">
+        <svg class="otvori" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="zatvori" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="v2-nav" aria-label="Glavna navigacija">
+    <div class="wrap">
+      <a href="index.html">Početna</a>
+      <button class="nav-btn" type="button" id="ponuda-btn" aria-expanded="false" aria-controls="mega" aria-current="page">
+        Ponuda <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <a href="po-meri.html">Kreveti i dušeci po meri</a>
+      <a href="index.html#usluge">Usluge</a>
+      <a href="index.html#salon">Salon</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </div>
+  </nav>
+  <div class="mega" id="mega" hidden></div>
+</header>
+</div>
+
+<div class="mmenu" id="mmenu" hidden></div>
+
+<main>
+<section style="padding-block:clamp(1.4rem,3vw,2.1rem) 0">
+  <div class="wrap naslov-tackice">
+    <p class="eyebrow">Ponuda</p>
+    <h1 style="font-size:var(--t-3xl);max-width:26ch">Modeli koje najčešće <span class="akc">naručujemo</span></h1>
+    <div class="uvod-dvokolona">
+      <p class="prose">
+        Kliknite proizvod za veću sliku i dugme za upit.
+        Ovo nije cela ponuda — programi su veći, a mi nabavljamo sve iz njih.
+        Ako ne vidite ono što tražite, <a href="tel:+38134723007">pozovite</a>.
+      </p>
+      <p class="note">
+        <strong>Cene se dogovaraju.</strong> Zavise od štofa ili dekora, dimenzija, broja elemenata
+        i prevoza do vaše adrese — pa bi svaka cena na sajtu bila pogrešna.
+        Pošaljite upit i dobijate tačnu cenu, sa prevozom i montažom.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="filters" id="filteri">
+  <div class="wrap alatka">
+    <label class="pretraga">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20.5 20.5L16 16"/></svg>
+      <input id="trazi" type="search" placeholder="Traži model — npr. Emanuela, Rustik, dušek" aria-label="Traži model">
+    </label>
+    <div class="birac" id="birac-kat"></div>
+    <div class="birac" id="birac-tip"></div>
+    <div class="birac" id="birac-brend"></div>
+    <button class="ocisti" id="ocisti" type="button" hidden>Očisti filtere</button>
+  </div>
+  <div class="wrap aktivni" id="aktivni" aria-label="Izabrani filteri" hidden></div>
+</div>
+
+<section class="wrap" style="padding-bottom:clamp(3rem,7vw,5rem)">
+  <div class="prod-grid" id="grid" data-needs-catalog></div>
+  <div id="strazar" aria-hidden="true" style="height:1px"></div>
+  <div class="more-wrap">
+    <span id="stanje" class="ucitavam" aria-live="polite"></span>
+    <button class="btn btn-outline btn-lg" id="dalje" hidden>Prikaži još</button>
+  </div>
+</section>
+
+<section class="band band--wash">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <p class="eyebrow">Kad kataloška dimenzija ne odgovara</p>
+        <h2>Radi se i po meri</h2>
+        <p class="prose" style="margin-top:1rem">
+          Drveni kreveti, tapacirani francuski ležajevi i dušeci naručuju se
+          i u dimenziji koje nema u katalogu. Vi kažete meru, mi je poručimo.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="po-meri.html">Kreveti i dušeci po meri &rarr;</a>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:var(--t-xl)">Uz kupovinu se dogovara i</h3>
+        <ul class="taglist" style="margin-top:1rem">
+          <li>Prevoz</li><li>Unošenje</li><li>Montaža</li>
+          <li>Iznošenje starog</li><li>Savet pri izboru</li>
+        </ul>
+        <p class="prose prose--sitno">
+          Sve radimo sami — svojim kombijem i svojim ljudima. Šta ulazi u cenu
+          a šta se doplaćuje zavisi od porudžbine i adrese, pa se dogovara uz upit.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer v2-pod">
+
+  <!-- traka: znak levo, kontakt desno — ono zbog čega se i dolazi do dna -->
+  <div class="wrap v2-pod-vrh">
+    <a class="v2-pod-znak" href="index.html">
+      <img src="img/logo-700.png?v=2" alt="Leska — salon nameštaja" width="760" height="255" loading="lazy">
+    </a>
+    <div class="v2-pod-veze">
+      <a class="tel" href="tel:+38134723007">034 723 007</a>
+      <a class="tel" href="tel:+381641187264">064 1187 264</a>
+      <a class="mail" href="mailto:leskaplus@gmail.com">leskaplus@gmail.com</a>
+      <a class="pilula" href="viber://chat?number=%2B381641187264"><svg class="ik ik--viber" aria-hidden="true"><use href="#ik-viber"/></svg>Viber</a>
+      <a class="pilula" href="https://wa.me/381641187264" target="_blank" rel="noopener"><svg class="ik ik--wa" aria-hidden="true"><use href="#ik-whatsapp"/></svg>WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="v2-pod-mreza">
+
+      <nav class="v2-pod-kol v2-pod-ponuda" aria-label="Ponuda">
+        <b>Ponuda</b>
+        <ul>
+          <li><a href="ponuda.html#dnevne">Dnevne sobe</a></li>
+          <li><a href="ponuda.html#spavace">Spavaće sobe</a></li>
+          <li><a href="ponuda.html#kuhinje">Kuhinje</a></li>
+          <li><a href="ponuda.html#trpezarije">Trpezarije</a></li>
+          <li><a href="ponuda.html#duseci">Dušeci i posteljina</a></li>
+          <li><a href="ponuda.html#decije">Dečije sobe</a></li>
+          <li><a href="ponuda.html#predsoblja">Predsoblja</a></li>
+          <li><a href="ponuda.html#kancelarija">Kancelarija</a></li>
+          <li><a href="ponuda.html#basta">Bašta i terasa</a></li>
+          <li><a href="ponuda.html#rasveta">Rasveta</a></li>
+          <li><a href="ponuda.html#dekoracija">Tepisi</a></li>
+          <li><a class="v2-pod-sve" href="ponuda.html">Cela ponuda &rarr;</a></li>
+        </ul>
+      </nav>
+
+      <nav class="v2-pod-kol" aria-label="Salon">
+        <b>Salon</b>
+        <ul>
+          <li><a href="po-meri.html">Kreveti i dušeci po meri</a></li>
+          <li><a href="index.html#usluge">Prevoz i montaža</a></li>
+          <li><a href="index.html#usluge">Mera na adresi</a></li>
+          <li><a href="index.html#salon">O salonu</a></li>
+          <li><a href="index.html#kontakt" data-upit-pop>Pošalji upit</a></li>
+        </ul>
+      </nav>
+
+      <div class="v2-pod-kol v2-pod-gde">
+        <b>Gde smo i kad</b>
+        <a class="v2-pod-adr" href="https://www.google.com/maps/place/Salon+name%C5%A1taja+%22Leska+plus%22/@44.301239,20.5694942,17z/data=!4m6!3m5!1s0x47574d18dd2f813f:0x200a3d9369e7e64e!8m2!3d44.301239!4d20.5694942!16s%2Fg%2F11bzr6km6x" target="_blank" rel="noopener">
+          Kralja Petra I bb, 34300 Aranđelovac
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+        </a>
+        <table class="v2-pod-sati">
+          <tr><th scope="row">Ponedeljak &ndash; petak</th><td>08:00 &ndash; 19:00</td></tr>
+          <tr><th scope="row">Subota</th><td>08:00 &ndash; 16:00</td></tr>
+          <tr class="zatvoreno"><th scope="row">Nedelja</th><td>zatvoreno</td></tr>
+        </table>
+        <p class="v2-pod-placanje">Plaćanje gotovinom ili odloženo, čekovima.
+          Prevoz i montaža po celoj Srbiji.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="v2-pod-traka">
+    <div class="wrap v2-pod-dno">
+      <p class="legal">&copy; <span class="god">2026</span> T.R. Leska plus &middot;
+        fotografije proizvoda iz kataloga proizvođača Matis, DaSa, RelaxSan i Andrijašević</p>
+      <p class="legal">Cene i raspoloživost proveravaju se u salonu &middot; sajt nije prodavnica</p>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a class="btn btn-primary" href="tel:+38134723007">Pozovi</a>
+  <a class="btn btn-outline" href="viber://chat?number=%2B381641187264"><svg class="ik ik--viber" aria-hidden="true"><use href="#ik-viber"/></svg>Viber</a>
+  <a class="btn btn-outline" href="https://wa.me/381641187264" target="_blank" rel="noopener"><svg class="ik ik--wa" aria-hidden="true"><use href="#ik-whatsapp"/></svg>WhatsApp</a>
+  <a class="btn btn-outline" href="index.html#kontakt" data-upit-pop>Upit</a>
+</div>
+
+<div class="lb" id="lb" hidden></div>
+
+<script src="js/app.js?v=1084"></script>
+<script src="js/nova2.js?v=1084"></script>
+<script>
+(function(){
+  const pb = document.getElementById('progress');
+  const hd = document.querySelector('.site-header');
+  let cek = false;
+
+  /* Zaglavlje se skuplja čim se strana pomeri. Na osvežavanju se položaj vraća
+     tek posle učitavanja, pa bi se to skupljanje videlo: traka prvo stoji puna
+     pa se stegne, a pošto je lepljiva i u toku, za njom skoči naviše i sve
+     ispod nje — sve do podnožja. Zato se odmah, pre prvog crtanja, uzme onaj
+     položaj na koji strana tek treba da se vrati (ili na koji je vodi sidro iz
+     adrese), pa zaglavlje odmah stoji onako kako će i ostati. */
+  function zapisPolozaja(){
+    try{
+      if ((performance.getEntriesByType('navigation')[0] || {}).type !== 'reload') return null;
+      const z = JSON.parse(sessionStorage.getItem('polozaj:' + location.pathname) || 'null');
+      if (!z) return null;
+      return (typeof z === 'number') ? { y:z } : z;
+    }catch(e){ return null; }
+  }
+  function polazniY(){
+    const z = zapisPolozaja();
+    let y = Math.max(scrollY, (z && z.y) || 0);
+    try{
+      if (location.hash.length > 1){
+        const c = document.getElementById(decodeURIComponent(location.hash.slice(1)).split('&')[0]);
+        if (c) y = Math.max(y, c.getBoundingClientRect().top + scrollY);
+      }
+    }catch(e){}
+    return y;
+  }
+  /* Kakvo je zaglavlje bilo kad je strana napuštena — to se i pamti uz položaj.
+     Visina nije dovoljna: granica skupljanja je na 40px, a upravo oko nje se
+     strana i zaustavlja kad je zaglavlje „na pola". Pogodi li se s jedne pa s
+     druge strane granice, raspored se svaki put razlikuje za onih 13px koliko
+     zaglavlje niže ili više zauzima — pa strana pri osvežavanju poskoči.
+     Zapamćeno stanje uklanja nagađanje: vraća se tačno onakvo kakvo je bilo. */
+  const zapis = zapisPolozaja();
+  const ciljY = polazniY();
+  /* Zaglavlju se menja samo veličina loga, a visina trake ostaje ista (vidi
+     style.css). Zato ovde nema nikakvog nadoknađivanja skrola ni merenja: samo
+     se postavi klasa, a meko smanjivanje odradi prelaz u stilu. Raspored strane
+     se ne menja, pa nema ni čega da poskoči — ni pri pomeranju, ni pri
+     osvežavanju. */
+  let zbito = (zapis && zapis.z != null) ? !!zapis.z : ciljY > 48;
+  let prvi = true;
+
+  function osvezi(){
+    const h = document.documentElement;
+    /* dva praga, da se logo ne prevrće tamo-amo oko same granice */
+    if (!(prvi || h.classList.contains('vracam'))){
+      if (scrollY > 48) zbito = true;
+      else if (scrollY < 24) zbito = false;
+    }
+    prvi = false;
+    const max = h.scrollHeight - innerHeight;
+    if (pb){
+      /* Prvi upis: traka se lagano popuni od nule do mesta gde si stao, umesto
+         da banne. Posle toga prelaz je kratak, da prati skrol bez kašnjenja. */
+      const prvi = !pb.dataset.krenula;
+      if (prvi) pb.style.transition = 'width .6s cubic-bezier(.22,.85,.3,1)';
+      pb.style.width = (max > 0 ? (scrollY / max) * 100 : 0) + '%';
+      if (prvi){
+        pb.dataset.krenula = '1';
+        setTimeout(() => { pb.style.transition = ''; }, 640);
+      }
+    }
+    if (hd) hd.classList.toggle('zbito', zbito);
+    cek = false;
+  }
+
+  addEventListener('scroll', () => { if (!cek){ cek = true; requestAnimationFrame(osvezi); } }, {passive:true});
+  osvezi();
+  /* meko smanjivanje se uključuje tek kad je prvi kadar nacrtan */
+  if (hd) requestAnimationFrame(() => requestAnimationFrame(() => hd.classList.add('meko')));
+})();
+</script>
+<script>document.querySelectorAll(".god").forEach(e=>e.textContent=new Date().getFullYear());</script>
+</body>
+</html>

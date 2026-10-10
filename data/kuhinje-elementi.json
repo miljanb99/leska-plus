@@ -1,0 +1,3287 @@
+{
+ "Comfort": [
+  {
+   "kod": "Comfort 120 · artisan",
+   "name": "Kuhinja Comfort 120",
+   "file": "el-comfort-120-artisan.jpg",
+   "ref": "https://matis.rs/kuhinja-comfort-120.html",
+   "mere": "Širina 120 cm"
+  },
+  {
+   "kod": "Comfort 120 · snežni hrast",
+   "name": "Kuhinja Comfort 120",
+   "file": "el-comfort-120-sne-ni-hrast.jpg",
+   "ref": "https://matis.rs/kuhinja-comfort-120-713146.html",
+   "mere": "Širina 120 cm"
+  },
+  {
+   "kod": "Comfort 200 · artisan",
+   "name": "Kuhinja Comfort 200",
+   "file": "el-comfort-200-artisan.jpg",
+   "ref": "https://matis.rs/kuhinja-comfort-200.html",
+   "mere": "Širina 200 cm"
+  },
+  {
+   "kod": "Comfort 200 · snežni hrast",
+   "name": "Kuhinja Comfort 200",
+   "file": "el-comfort-200-sne-ni-hrast.jpg",
+   "ref": "https://matis.rs/kuhinja-comfort-200-n710246.html",
+   "mere": "Širina 200 cm"
+  },
+  {
+   "kod": "V60 A · viseći element",
+   "name": "Kuhinja Comfort V60 A",
+   "file": "el-v60-a-vise-i-element.jpg",
+   "ref": "https://matis.rs/kuhinja-comfort-v60-a.html",
+   "mere": "Širina 60 cm · Dubina 30 cm · Visina 51 cm"
+  }
+ ],
+ "IN": [
+  {
+   "kod": "D 20 Žica",
+   "name": "Kuhinja IN D 20 Žica",
+   "file": "el-kuhinja-in-d-20-zica.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-20-zica.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Donji element IN D 20, jedan je od najpraktičnijih i najomiljenijih kuhinjskih elemenata naših kupaca. Element IN D 20 izrađen je po najvišim standardima kompanije Matis; sastavljen od oplemenjenog 18"
+  },
+  {
+   "kod": "D 30",
+   "name": "Kuhinja IN D 30",
+   "file": "el-kuhinja-in-d-30.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D 40 F",
+   "name": "Kuhinja IN D 40 F",
+   "file": "el-kuhinja-in-d-40-f.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-40-f.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D 40 K",
+   "name": "Kuhinja IN D 40 K",
+   "file": "el-kuhinja-in-d-40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-40-k-in-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kupovinom donjeg kuhinjskog elementa IN D 40 K, dobijate skladišni prostor pogodan za odlaganje veće količine tanjira i ostalih kuhinjskih posuda. Kuhinjski element D 40 K izrađen je od univera 18 mm "
+  },
+  {
+   "kod": "D 45 KF",
+   "name": "Kuhinja IN D 45 KF",
+   "file": "el-kuhinja-in-d-45-kf.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-45-kf-in-d45-kf.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kuhinjski elementi širine 45cm su najnoviji dodatak proizvodnoj liniji Matis kuhinja. Specijalno su dizajnirani prema željama kupaca, sa osnovnim ciljem što potpunijeg iskorišćenja dostupnog kuhinjsko"
+  },
+  {
+   "kod": "D 60",
+   "name": "Kuhinja IN D 60",
+   "file": "el-kuhinja-in-d-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-60-in-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Veoma prostran donji kuhinjski element, široke namene. IN D 60 je kuhinjski element u kojem se na najbolji način ogledaju kvalitet izrade, stabilnost i trajnost. Saznajte zašto su kupci širom zemlje i"
+  },
+  {
+   "kod": "D 60 F",
+   "name": "Kuhinja IN D 60 F",
+   "file": "el-kuhinja-in-d-60-f.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-60-f-in-d60-f.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Najprostraniji fiokar iz asortimana Matis kuhinja, kuhinjski element IN D 60 F pravi je izbor za perfekcioniste koji žele da njihovi sudovi uvek budu savršeno i pregledno odloženi. Fioke ovog donjeg k"
+  },
+  {
+   "kod": "D 60 R",
+   "name": "Kuhinja IN D 60 R",
+   "file": "el-kuhinja-in-d-60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-60-r-in-d60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Prateći savremene svetske trendove, kompanija Matis donosi vam donji kuhinjski element IN D 60 R. Osnovna svrha ovog elementa je obezbeđivanje prostora za montažu ugradne peći. Maska elementa IN D 60 "
+  },
+  {
+   "kod": "D 60 RV",
+   "name": "Kuhinja IN D 60 RV",
+   "file": "el-kuhinja-in-d-60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-60-rv-in-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Kao jedan od najunikatnijih kuhinjskih elemenata, sa najširom primenom, svakako se ističe IN D 60 RV. Kupovinom ovog elementa, obezbedićete ne samo značajan skladišni prostor, već i prostor za ugradnu"
+  },
+  {
+   "kod": "D 80",
+   "name": "Kuhinja IN D 80",
+   "file": "el-kuhinja-in-d-80.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-80-in-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D 80 S",
+   "name": "Kuhinja IN D 80 S",
+   "file": "el-kuhinja-in-d-80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-in-d-80-s-in-d80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "Kuhinjski element IN D 80/S je element čija je osnovna namena ugradnja nasadne i usadne sudopere. Osim toga, ovaj element poseduje izuzetno prostranu unutrašnjost, koja omogućava instaliranje svih vrs"
+  },
+  {
+   "kod": "DU 100",
+   "name": "Kuhinja IN DU 100",
+   "file": "el-kuhinja-in-du-100.jpg",
+   "ref": "https://matis.rs/kuhinja-in-du-100-in-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Ugaoni kuhinjski elementi predstavljaju najefikasnije rešenje za potpunu upotrebu kuhinjskog prostora. Element IN DU 100 sadrži jedna krilna vrata i na njega se direktno može nadovezati bilo koji od d"
+  },
+  {
+   "kod": "DU 2K",
+   "name": "Kuhinja IN DU 2K",
+   "file": "el-kuhinja-in-du-2k.jpg",
+   "ref": "https://matis.rs/kuhinja-in-du-2k-in-du-2k.html",
+   "mere": "Širina 100 cm · Dubina 100 cm · Visina 85 cm",
+   "opis": "Eliminišite \"mrtve uglove\" u vašoj kuhinji. Ugaoni element IN DU 2K, ne samo da na estetski lep način premošćava uglove unutar kuhinjskog prostora, već pruža i unapređen sistem pristupa skladišnim kap"
+  },
+  {
+   "kod": "Friz 2V",
+   "name": "Kuhinja IN Friz 2V",
+   "file": "el-kuhinja-in-friz-2v.jpg",
+   "ref": "https://matis.rs/kuhinja-in-friz-2v-in-friz-2v.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Trend koji je sve više prisutan u savremenim domovima je diskretna ugradnja tehničkih uređaja, sa posebnim akcentom na elemente kuhinjske tehnike. Element IN FRIZ 2V, omogućava instaliranje ugradnog f"
+  },
+  {
+   "kod": "Friz 60",
+   "name": "Kuhinja IN Friz 60",
+   "file": "el-kuhinja-in-friz-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-friz-60-in-friz-60.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Ugradnjom frižidera unutar elementa IN FRIZ 60, postiže se kontinuitet u liniji vaše kuhinje i neprevaziđeni estetski efekat. Unutrašnjost elementa je dizajnirana tako da je unutar njega moguće ugradi"
+  },
+  {
+   "kod": "MDF D 20 Žica",
+   "name": "Kuhinja IN MDF D 20 Žica",
+   "file": "el-kuhinja-in-mdf-d-20-zica.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-20-zica-mdf-d20.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "IN MDF D 20 je donji kuhinjski element koji zauzima veoma malo prostora, a poseduje izuzetnu upotrebnu vrednost. U pitanju je komad nameštaja izrađen od kvalitetnog medijapana, sa izuzetnom hromiranom"
+  },
+  {
+   "kod": "MDF D 30",
+   "name": "Kuhinja IN MDF D 30",
+   "file": "el-kuhinja-in-mdf-d-30.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-30-mdf-d30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Većina kupaca će se složiti kako su najbitnije karakteristike nameštaja kvalitet, dizajn i funkcionalnost. Sve te tri osobine sjedinjene su u donjem kuhinjskom elementu IN MDF D 30, kompanije Matis, d"
+  },
+  {
+   "kod": "MDF D 40 3F B",
+   "name": "Kuhinja IN MDF D 40 3F B",
+   "file": "el-kuhinja-in-mdf-d-40-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-40-3f-b-mdf-d40-3f.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kuhinjski fiokari su prvi izbor korisnika koji preferiraju uredno složen i pažljivo sortiran kuhinjski pribor. Donji kuhinjski element IN MDF D 40 3F B izrađen je od oplemenjenog univera debljine 18mm"
+  },
+  {
+   "kod": "MDF D 40 K",
+   "name": "Kuhinja IN MDF D 40 K",
+   "file": "el-kuhinja-in-mdf-d-40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-40-k-mdf-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Element IN MDF D 40 K je standardni donji kuhinjski element prisutan u gotovo svakoj modernoj i tradicionalnoj kuhinji. Iza krilnih vrata sa oborenim ivicama krije se prostor sa policama, dovoljan za "
+  },
+  {
+   "kod": "MDF D 45 KF B",
+   "name": "Kuhinja IN MDF D 45 KF B",
+   "file": "el-kuhinja-in-mdf-d-45-kf-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-45-kf-b-mdf-d45-kf.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kuhinjski element IN MDF D 45 KF B sadrži fioku i deo sa policama i pruža do sada neviđene mogućnosti kombinovanja elemenata i maksimalnog iskorišćenja svakog dostupnog centimetra kuhinjskog prostora."
+  },
+  {
+   "kod": "MDF D 60",
+   "name": "Kuhinja IN MDF D 60",
+   "file": "el-kuhinja-in-mdf-d-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-60-mdf-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Vrhunski element za vašu kuhinju, IN MDF D 60 odlikuju čvrstina i elegancija, funkcionalnost i dugovečnost. Svi elementi IN MDF kuhinja, proizvode se po najvišim standardima kompanije Matis, od najkva"
+  },
+  {
+   "kod": "MDF D 60 1V",
+   "name": "Kuhinja IN MDF D 60 1V",
+   "file": "el-kuhinja-in-mdf-d-60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-60-1v-mdf-d60-1v.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Vrhunski element za vašu kuhinju, IN MDF D 60 1V odlikuju čvrstina i elegancija, funkcionalnost i dugovečnost. Svi elementi IN MDF kuhinja, proizvode se po najvišim standardima kompanije Matis, od naj"
+  },
+  {
+   "kod": "MDF D 60 3F B",
+   "name": "Kuhinja IN MDF D 60 3F B",
+   "file": "el-kuhinja-in-mdf-d-60-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-60-3f-b-mdf-d60-3f.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Za prave kuhinjske majstore, kompanija Matis je obezbedila element IN MDF D 60 3F B, sa dve duboke i jednom plitkom fiokom i dovoljno prostora da zadovolji potrebe i najzahtevnijih korisnika. Zbog svo"
+  },
+  {
+   "kod": "MDF D 60 R",
+   "name": "Kuhinja IN MDF D 60 R",
+   "file": "el-kuhinja-in-mdf-d-60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-60-r-mdf-d60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kako istraživanja pokazuju da se sve više potrošača opredeljuje za kupovinu ugradne peći, kompanija Matis je svojim kupcima izašla u susret izradom elementa IN MDF D 60 R - PEÄ†. Izborom ugradne peći "
+  },
+  {
+   "kod": "MDF D 60 RV",
+   "name": "Kuhinja IN MDF D 60 RV",
+   "file": "el-kuhinja-in-mdf-d-60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-60-rv-mdf-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Pored veoma široke primene, u vidu skladišnog prostora, i prostora za montažu ugradne rerne, kuhinjski element IN MDF D 60 RV se perfektno uklapa kao početna ili krajnja tačka u vašoj kuhinji, predsta"
+  },
+  {
+   "kod": "MDF D 80",
+   "name": "Kuhinja IN MDF D 80",
+   "file": "el-kuhinja-in-mdf-d-80.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-80-mdf-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Predviđen kao osnovni deo svake velike kuhinje, donji element IN MDF D 80 je najbolji prijatelj kulinarskih majstora koji ne žele ograničenja. Radna površina elementa IN MDF D 80 idealna je za simulta"
+  },
+  {
+   "kod": "MDF D 80 3F B",
+   "name": "Kuhinja IN MDF D 80 3F B",
+   "file": "el-kuhinja-in-mdf-d-80-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-80-3f-b-mdf-d80-3f.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Za prave kuhinjske majstore, kompanija Matis je obezbedila element IN MDF D 80 3F B, sa dve duboke i jednom plitkom fiokom i dovoljno prostora da zadovolji potrebe i najzahtevnijih korisnika. Zbog svo"
+  },
+  {
+   "kod": "MDF D 80 S",
+   "name": "Kuhinja IN MDF D 80 S",
+   "file": "el-kuhinja-in-mdf-d-80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-d-80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "Namenjen ugradnji usadne sudopere, kuhinjski element IN MDF D 80/S je izuzetno prostran kuhinjski element sa praznom unutrašnjošću kako bi ugradnja svih vrsta cevi ili mini-bojlera bila maksimalno ola"
+  },
+  {
+   "kod": "MDF DU 100",
+   "name": "Kuhinja IN MDF DU 100",
+   "file": "el-kuhinja-in-mdf-du-100.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-du-100-mdf-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "U savremenim domovima, sve više na važnosti dobija princip maksimalne funkcionalnosti. Da bi kuhinja mogla da zadovolji sve potrebe korisnika, zadržavajući pritom visoke estetske kvalitete, neophodno "
+  },
+  {
+   "kod": "MDF DU 2K",
+   "name": "Kuhinja IN MDF DU 2K",
+   "file": "el-kuhinja-in-mdf-du-2k.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-du-2k-mdf-du-2k.html",
+   "mere": "Širina 100 cm · Dubina 100 cm · Visina 85 cm",
+   "opis": "Duplo krilo elementa IN MDF DU 2K, pruža korisniku potpuni pristup policama i olakšava upotrebu i slaganje skladištenih posuda. IN MDF DU 2K omogućava najpotpunije iskorišćavanje uglova u vašoj kuhinj"
+  },
+  {
+   "kod": "MDF Dekorativna stranica D222",
+   "name": "Kuhinja IN MDF Dekorativna stranica D222",
+   "file": "el-kuhinja-in-mdf-dekorativna-stranica-d222.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-dekorativna-stranica-d222.html",
+   "mere": "Širina 56,4 cm · Visina 222 cm",
+   "opis": "Kuhinja IN MDF Dekorativna stranica D222"
+  },
+  {
+   "kod": "MDF Dekorativna stranica D82",
+   "name": "Kuhinja IN MDF Dekorativna stranica D82",
+   "file": "el-kuhinja-in-mdf-dekorativna-stranica-d82.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-dekorativna-stranica-d82.html",
+   "mere": "Širina 56,4 cm · Visina 82 cm",
+   "opis": "Kuhinja IN MDF Dekorativna stranica D82"
+  },
+  {
+   "kod": "MDF Dekorativna stranica V72",
+   "name": "Kuhinja IN MDF Dekorativna stranica V72",
+   "file": "el-kuhinja-in-mdf-dekorativna-stranica-v72.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-dekorativna-stranica-v72.html",
+   "mere": "Širina 30,4 cm · Visina 72 cm",
+   "opis": "Kuhinja IN MDF Dekorativna stranica V72"
+  },
+  {
+   "kod": "MDF Friz 2V B",
+   "name": "Kuhinja IN MDF Friz 2V B",
+   "file": "el-kuhinja-in-mdf-friz-2v-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-friz-2v-b-mdf-friz-2v.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Kuhinja uniformnog izgleda, nesumnjivo će odavati utisak visokog stila i urednosti. Element IN MDF FRIZ 2V B, omogućava korisniku montažu ugradnog frižidera unutar kuhinjskog elementa, čime se izbegav"
+  },
+  {
+   "kod": "MDF Friz 60 B",
+   "name": "Kuhinja IN MDF Friz 60 B",
+   "file": "el-kuhinja-in-mdf-friz-60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-friz-60-b-mdf-friz-60.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Element IN MDF FRIZ 60 B, projektovan kao prostor za ugradni frižider, omogućava savršeno uklapanje frižidera sa ostatkom kuhinje. Kao poseban dodatak izdvaja se vitrina sa gasnim amortizerima, namenj"
+  },
+  {
+   "kod": "MDF Maska 45x72",
+   "name": "Kuhinja IN MDF Maska 45x72",
+   "file": "el-kuhinja-in-mdf-maska-45x72.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-maska-45x72-maska-45.html",
+   "mere": "Širina 45 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MDF MASKA 45x72 namenjen je pokrivanju sudomašine. Izrađena je od medijapana, prekrivena zaštitnom PVC folijom. **NAPOMENA** Svi elementi iz programa Kuhinja IN MDF projektovani s"
+  },
+  {
+   "kod": "MDF Maska 60x60",
+   "name": "Kuhinja IN MDF Maska 60x60",
+   "file": "el-kuhinja-in-mdf-maska-60x60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-maska-60x60-mdf-maska-60.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 60 cm",
+   "opis": "Kuhinjski element IN MDF MASKA 60x60 namenjen je pokrivanju sudomašine. Izrađena je od medijapana, prekrivena zaštitnom PVC folijom. **NAPOMENA** Svi elementi iz programa Kuhinja IN MDF projektovani s"
+  },
+  {
+   "kod": "MDF Maska 60x72",
+   "name": "Kuhinja IN MDF Maska 60x72",
+   "file": "el-kuhinja-in-mdf-maska-60x72.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-maska-60x72-mdf-maska-60x72.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MDF MASKA 60x72 namenjen je pokrivanju sudomašine. Izrađena je od medijapana, prekrivena zaštitnom PVC folijom. **NAPOMENA** Svi elementi iz programa Kuhinja IN MDF projektovani s"
+  },
+  {
+   "kod": "MDF V 30",
+   "name": "Kuhinja IN MDF V 30",
+   "file": "el-kuhinja-in-mdf-v-30.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-30-mdf-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Prilikom odabira visećih kuhinjskih elemenata, ključna odlika koji potrošači traže je kvalitet. Viseći elementi su u velikoj meri izloženi pari od kuvanja, stoga je kompanija Matis u svoju ponudu uvrs"
+  },
+  {
+   "kod": "MDF V 40",
+   "name": "Kuhinja IN MDF V 40",
+   "file": "el-kuhinja-in-mdf-v-40.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-40-mdf-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "IN MDF V 40 je viseći kuhinjski element, širine 40cm, u koji možete odložiti čaše, šolje i tacne, kao i plitke i duboke tanjire. Prilikom odabira kuhinjskih elemenata, poželjno je da donji i gornji ku"
+  },
+  {
+   "kod": "MDF V 45",
+   "name": "Kuhinja IN MDF V 45",
+   "file": "el-kuhinja-in-mdf-v-45.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-45-mdf-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Kako bismo sprečili mogućnost da deo vašeg kuhinjskog prostora bude nemoguće iskorisititi, projektovali smo za vas element IN MDF V 45. Ovaj viseći kuhinjski element, od najkvalitetnijeg medijapana, n"
+  },
+  {
+   "kod": "MDF V 60",
+   "name": "Kuhinja IN MDF V 60",
+   "file": "el-kuhinja-in-mdf-v-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-60-mdf-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Dvokrilni viseći element IN MDF V 60, sa elegantnim oborenim ivicama, izrađen je od visokokvalitetnog medijapana, presvučenog PVC folijom. Vrhunski kvalitet izrade po standardima kompanije Matis koji "
+  },
+  {
+   "kod": "MDF V 60 1V",
+   "name": "Kuhinja IN MDF V 60 1V",
+   "file": "el-kuhinja-in-mdf-v-60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-60-1v-mdf-v60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Viseći element IN MDF V 60 1V, sa elegantnim oborenim ivicama, izrađen je od visokokvalitetnog medijapana, presvučenog PVC folijom. Vrhunski kvalitet izrade po standardima kompanije Matis koji garantu"
+  },
+  {
+   "kod": "MDF V 80",
+   "name": "Kuhinja IN MDF V 80",
+   "file": "el-kuhinja-in-mdf-v-80.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-80-mdf-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Najprostraniji viseći kuhinjski element. IN MDF V 80 predviđen je za odlaganje veće količine plitkih i dubokih tanjira, čaša, kao i ostalih vrsta malih i velikih posuda. Izrađen je od oplemenjenog uni"
+  },
+  {
+   "kod": "MDF V 80 S",
+   "name": "Kuhinja IN MDF V 80 S",
+   "file": "el-kuhinja-in-mdf-v-80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-v-80-s-mdf-v80-s.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Atraktivnost kuhinjskog elementa IN MDF V 80/S ogleda se u duplim staklenim vratima u ramu od medijapana. Idealan je za odlaganje ukrasnog kuhinjskog pribora, porcelana i čaša. **NAPOMENA** Svi elemen"
+  },
+  {
+   "kod": "MDF VA 50",
+   "name": "Kuhinja IN MDF VA 50",
+   "file": "el-kuhinja-in-mdf-va-50.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-va-50-mdf-va50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "Ukoliko unutar vaše kuhinje želite da imate standardni šporet, širine 50cm, IN MDF VA 50 je idealni komplementarni viseći element. Ovaj element predviđen je za montažu podugradnog i nadgradnog aspirat"
+  },
+  {
+   "kod": "MDF VA 60 1V",
+   "name": "Kuhinja IN MDF VA 60 1V",
+   "file": "el-kuhinja-in-mdf-va-60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-va-60-1v-mdf-va60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "IN MDF VA 60 je viseći kuhinjski element predviđen za montažu podugradnog i nadgradnog aspiratora. Kako bismo proširili upotrebnu vrednost ovog elementa, dodali smo i jednu poprečnu policu, pa se elem"
+  },
+  {
+   "kod": "MDF VA 60/68 1V",
+   "name": "Kuhinja IN MDF VA 60/68 1V",
+   "file": "el-kuhinja-in-mdf-va-60-68-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-va-60-68-1v-mdf-va60-68-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm",
+   "opis": "Iznad šporeta i ugradnih ploča neophodno je obezbediti adekvatnu ventilaciju, kako biste mogli da uživate u spremanju specijaliteta za vaše goste ne brinući pritom o mirisima koji dolaze iz vaše kuhin"
+  },
+  {
+   "kod": "MDF VH 60 B",
+   "name": "Kuhinja IN MDF VH 60 B",
+   "file": "el-kuhinja-in-mdf-vh-60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-vh-60-b-mdf-vh60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Kombinovani viseći element IN MDF VH 60 B, spada u red najatraktivnijih kuhinjskih elemenata zbog svog dizajna. Sastoji se od kabineta koji se pokreće gasnim amortizerima. Kako jedan od kabineta ima s"
+  },
+  {
+   "kod": "MDF VH 60/36 B",
+   "name": "Kuhinja IN MDF VH 60/36 B",
+   "file": "el-kuhinja-in-mdf-vh-60-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-vh-60-36-b-mdf-vh-60-36.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Prednost elementa IN MDF VH 60/36 B nalazi se upravo u njegovoj visini od 36cm, što je upola manje od visine standardnog visećeg kuhinjskog elementa kompanije Matis. Na ovaj način su korisnicima ostav"
+  },
+  {
+   "kod": "MDF VH 80 B",
+   "name": "Kuhinja IN MDF VH 80 B",
+   "file": "el-kuhinja-in-mdf-vh-80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-vh-80-b-mdf-vh-80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Preporuka naših dizajnera je da se iznad elemenata sa sudoperom montiraju viseći kuhinjski elementi sa staklenim vratima, kako bi se postigao maksimalni estetski efekat. Element IN MDF VH 80 B posebno"
+  },
+  {
+   "kod": "MDF VH 80/36 B",
+   "name": "Kuhinja IN MDF VH 80/36 B",
+   "file": "el-kuhinja-in-mdf-vh-80-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-vh-80-36-b-mdf-vh-80-36.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Viseći kuhinjski element IN MDF VH 80/36 B obezbeđuje korisnicima velike mogućnosti kombinovanja visećih kuhinjskih elemenata. Kako je njegova visina 36cm, što je polovina visine standardnih Matis vis"
+  },
+  {
+   "kod": "MDF VH 80/36 S B",
+   "name": "Kuhinja IN MDF VH 80/36 S B",
+   "file": "el-kuhinja-in-mdf-vh-80-36-s-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-vh-80-36-s-b-mdf-vh-80-36-s.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Preporuka naših dizajnera je da se iznad elemenata sa sudoperom montiraju viseći kuhinjski elementi sa staklenim vratima, kako bi se postigao maksimalni estetski efekat. Front kabineta izrađen je od s"
+  },
+  {
+   "kod": "MDF VU 60",
+   "name": "Kuhinja IN MDF VU 60",
+   "file": "el-kuhinja-in-mdf-vu-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-mdf-vu-60-mdf-vu60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 72 cm",
+   "opis": "Ugaoni viseći element IN MDF VU 60, dizajniran je tako da se na njega sa obe strane savršeno nadovezuje bilo koji drugi viseći element kompanije Matis. Unutrašnji deo je podeljen policama i veoma je p"
+  },
+  {
+   "kod": "Maska 45x72",
+   "name": "Kuhinja IN Maska 45x72",
+   "file": "el-kuhinja-in-maska-45x72.jpg",
+   "ref": "https://matis.rs/kuhinja-in-maska-45x72-in-maska-45.html",
+   "mere": "Širina 45 cm · Dubina 1,8 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MASKA 45x72 namenjen je pokrivanju sudomašine. Izrađena je od 18mm Univera, zaštićena 1mm ABS trakom. **NAPOMENA** Svi elementi iz programa Kuhinja IN projektovani su tako da se m"
+  },
+  {
+   "kod": "Maska 60x60",
+   "name": "Kuhinja IN Maska 60x60",
+   "file": "el-kuhinja-in-maska-60x60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-maska-60x60-in-maska-60.html",
+   "mere": "Širina 60 cm · Dubina 1,8 cm · Visina 60 cm",
+   "opis": "Kuhinjski element IN MASKA 60x60 namenjen je pokrivanju sudomašine. Izrađena je od 18mm Univera, zaštićena 1mm ABS trakom. **NAPOMENA** Svi elementi iz programa Kuhinja IN projektovani su tako da se m"
+  },
+  {
+   "kod": "Maska 60x72",
+   "name": "Kuhinja IN Maska 60x72",
+   "file": "el-kuhinja-in-maska-60x72.jpg",
+   "ref": "https://matis.rs/kuhinja-in-maska-60x72-in-maska-60x72.html",
+   "mere": "Širina 60 cm · Dubina 1,8 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MASKA 60x72 namenjen je pokrivanju sudomašine. Izrađena je od 18mm Univera, zaštićena 1mm ABS trakom. **NAPOMENA** Svi elementi iz programa Kuhinja IN projektovani su tako da se m"
+  },
+  {
+   "kod": "Ukrasna stranica D222",
+   "name": "Kuhinja IN Ukrasna stranica D222",
+   "file": "el-kuhinja-in-ukrasna-stranica-d222.jpg",
+   "ref": "https://matis.rs/kuhinja-in-ukrasna-stranica-d222.html",
+   "mere": "Širina 56,4 cm · Dubina 1,8 cm · Visina 222 cm",
+   "opis": "Kuhinja IN Ukrasna stranica D222"
+  },
+  {
+   "kod": "Ukrasna stranica D82",
+   "name": "Kuhinja IN Ukrasna stranica D82",
+   "file": "el-kuhinja-in-ukrasna-stranica-d82.jpg",
+   "ref": "https://matis.rs/kuhinja-in-ukrasna-stranica-d82.html",
+   "mere": "Širina 56,4 cm · Visina 82 cm",
+   "opis": "Kuhinja IN Ukrasna stranica D82"
+  },
+  {
+   "kod": "Ukrasna stranica V72",
+   "name": "Kuhinja IN Ukrasna stranica V72",
+   "file": "el-kuhinja-in-ukrasna-stranica-v72.jpg",
+   "ref": "https://matis.rs/kuhinja-in-ukrasna-stranica-v72.html",
+   "mere": "Širina 30,4 cm · Visina 72 cm",
+   "opis": "Kuhinja IN Ukrasna stranica V72"
+  },
+  {
+   "kod": "V 30",
+   "name": "Kuhinja IN V 30",
+   "file": "el-kuhinja-in-v-30.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v-30-in-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Viseći elementi su najistaknutiji deo vaše kuhinje. Element IN V 30 sadrži dve police i veoma je praktičan za odlaganje čaša i drugog kuhinjskog pribora. Najkompatibilniji je sa donjim kuhinjskim elem"
+  },
+  {
+   "kod": "V 40",
+   "name": "Kuhinja IN V 40",
+   "file": "el-kuhinja-in-v-40.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v-40-in-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Zbog svojih dimenzija, viseći kuhinjski element IN V 40 pogodan je, ne samo za skladištenje čaša, već se u njega mogu odložiti i tanjiri i tacne. Materijal od kojeg su izrađeni viseći elementi Kuhinja"
+  },
+  {
+   "kod": "V 45",
+   "name": "Kuhinja IN V 45",
+   "file": "el-kuhinja-in-v-45.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v-45-in-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Dizajnerski tim kompanije Matis pred sebe je postavio cilj da svojim potrošačima omogući potpuno iskorišćenje dostupnog kuhinjskog prostora, zbog toga je kreiran element IN V 45. Zbog svoje specifične"
+  },
+  {
+   "kod": "V 60",
+   "name": "Kuhinja IN V 60",
+   "file": "el-kuhinja-in-v-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v-60-in-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Donji kuhinjski elementi najčešće su manje istaknuti od visećih. Zbog toga su dizajn i funkcionalnost jako bitna odlika visećih kuhinjskih elemenata, a dvokrilni viseći element IN V 60 objedinjuje ove"
+  },
+  {
+   "kod": "V 80",
+   "name": "Kuhinja IN V 80",
+   "file": "el-kuhinja-in-v-80.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v-80-in-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Viseći element IN V 80 ističe se velikim skladišnim kapacitetima. Predviđen je za odlaganje najrazličitijeg kuhinjskog inventara. Kuhinjski element IN V 80 izrađen je od oplemenjenog univera debljine "
+  },
+  {
+   "kod": "V 80 S",
+   "name": "Kuhinja IN V 80 S",
+   "file": "el-kuhinja-in-v-80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v-80-s-in-v80-s.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN V 80/S, sa duplim staklenim vratima, posebno dolazi do izražaja skladištenjem dekorativnog kuhinjskog pribora, setova čaša ili porcelana. Izrađen je od oplemenjenog univera deblji"
+  },
+  {
+   "kod": "V20",
+   "name": "Kuhinja IN V20",
+   "file": "el-kuhinja-in-v20.jpg",
+   "ref": "https://matis.rs/kuhinja-in-v20.html",
+   "mere": "Širina 20 cm · Dubina 29 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VA 50",
+   "name": "Kuhinja IN VA 50",
+   "file": "el-kuhinja-in-va-50.jpg",
+   "ref": "https://matis.rs/kuhinja-in-va-50-in-va50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "Većina korisnika se prilikom kupovine nove kuhinje odlučuje za ugradnju podugradnog i nadgradnog aspiratora. Element IN VA 50 izrađen je na širini od 50cm, što je širina standardnog šporeta i nudi pro"
+  },
+  {
+   "kod": "VA 60",
+   "name": "Kuhinja IN VA 60",
+   "file": "el-kuhinja-in-va-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-va-60-in-va-60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "Zbog sve veće potrebe za aspiratorima u modernim kuhinjama, izradili smo za vas element IN VA 60. Namenjen je, pre svega, instalaciji podugradnog i nadgradnog aspiratora, ali kako poseduje i jednu pop"
+  },
+  {
+   "kod": "VA 60/68",
+   "name": "Kuhinja IN VA 60/68",
+   "file": "el-kuhinja-in-va-60-68.jpg",
+   "ref": "https://matis.rs/kuhinja-in-va-60-68-in-va-60-68.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm",
+   "opis": "Ugradni aspiratori (aspiratori sa ravnim panelima) su najdiskretnije rešenje za obezbeđivanje ventilacije u vašoj kuhinji. Zahvaljujući elementu IN VA 60/68, unutar Matis kuhinja sada je moguće instal"
+  },
+  {
+   "kod": "VH 60 B",
+   "name": "Kuhinja IN VH 60 B",
+   "file": "el-kuhinja-in-vh-60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-vh-60-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Izuzetna praktičnost visećeg kuhinjskog elementa IN VH 60 postignuta je podelom samog elementa na dva kabineta koja se nezavisno pokreću gasnim amortizerima. Jedan od kabineta konstruisan je sa fronto"
+  },
+  {
+   "kod": "VH 60/36 B",
+   "name": "Kuhinja IN VH 60/36 B",
+   "file": "el-kuhinja-in-vh-60-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-vh-60-36-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Bilo da želite da zaobiđete potencijalne prepreke ili jednostavno imate potrebu za više slobodnog prostora, kako biste kuhinju dodatno obogatili instaliranjem držača za kuhinjski pribor, viseći elemen"
+  },
+  {
+   "kod": "VH 80 B",
+   "name": "Kuhinja IN VH 80 B",
+   "file": "el-kuhinja-in-vh-80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-vh-80-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Sa značajnim skladišnim kapacitetima, viseći element IN VH 80 spada u red najpraktičnijih elemenata za odlaganje veće količine escajga. Oba krila elementa IN VH 80 podržana su gasnim amortizerima. Don"
+  },
+  {
+   "kod": "VH 80/36 B",
+   "name": "Kuhinja IN VH 80/36 B",
+   "file": "el-kuhinja-in-vh-80-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-in-vh-80-36-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Kompanija Matis je oduvek bila usmerena na prilagođavanje zahtevima svojih kupaca. Dizajnirali smo element IN VH 80/36, kako bismo vam pružili veće mogućnosti za kombinovanje naših kuhinjkih elemenata"
+  },
+  {
+   "kod": "VU 60",
+   "name": "Kuhinja IN VU 60",
+   "file": "el-kuhinja-in-vu-60.jpg",
+   "ref": "https://matis.rs/kuhinja-in-vu-60-in-vu60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 72 cm",
+   "opis": "Da neiskorišćeni uglovi u vašoj kuhinji postanu prošlost, pobrinuo se dizajnerski tim kompanije Matis. Ugaoni viseći element IN VU 60 je u potpunosti pregledan i pristupačan, tako da nećete izgubiti n"
+  }
+ ],
+ "Contempo": [
+  {
+   "kod": "D 60 R",
+   "name": "Kuhinja Contempo D 60 R",
+   "file": "el-kuhinja-contempo-d-60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d-60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kako istraživanja pokazuju da se sve više potrošača opredeljuje za kupovinu ugradne peći, kompanija Matis je svojim kupcima izašla u susret izradom elementa CONTEMPO D 60 R - PEÄ†. Izborom ugradne peć"
+  },
+  {
+   "kod": "D20",
+   "name": "Kuhinja Contempo D20",
+   "file": "el-kuhinja-contempo-d20.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d20.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D30",
+   "name": "Kuhinja Contempo D30",
+   "file": "el-kuhinja-contempo-d30.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D40 3F B",
+   "name": "Kuhinja Contempo D40 3F B",
+   "file": "el-kuhinja-contempo-d40-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d40-3f-b.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D40 K",
+   "name": "Kuhinja Contempo D40 K",
+   "file": "el-kuhinja-contempo-d40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D45 KF B",
+   "name": "Kuhinja Contempo D45 KF B",
+   "file": "el-kuhinja-contempo-d45-kf-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d45-kf-b.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D50",
+   "name": "Kuhinja Contempo D50",
+   "file": "el-kuhinja-contempo-d50.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d50.html",
+   "mere": "Širina 50 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D60",
+   "name": "Kuhinja Contempo D60",
+   "file": "el-kuhinja-contempo-d60.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D60 1V",
+   "name": "Kuhinja Contempo D60 1V",
+   "file": "el-kuhinja-contempo-d60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d60-1v.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D60 2F PL BOX",
+   "name": "Kuhinja Contempo D60 2F PL BOX",
+   "file": "el-kuhinja-contempo-d60-2f-pl-box.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d60-2f-pl-box.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 3F B",
+   "name": "Kuhinja Contempo D60 3F B",
+   "file": "el-kuhinja-contempo-d60-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d60-3f-b.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 RV",
+   "name": "Kuhinja Contempo D60 RV",
+   "file": "el-kuhinja-contempo-d60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D80",
+   "name": "Kuhinja Contempo D80",
+   "file": "el-kuhinja-contempo-d80.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "D80 2F PL BOX",
+   "name": "Kuhinja Contempo D80 2F PL BOX",
+   "file": "el-kuhinja-contempo-d80-2f-pl-box.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d80-2f-pl-box-kd802fplb69.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 3F B",
+   "name": "Kuhinja Contempo D80 3F B",
+   "file": "el-kuhinja-contempo-d80-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d80-3f-b.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 S",
+   "name": "Kuhinja Contempo D80 S",
+   "file": "el-kuhinja-contempo-d80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-d80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "DU100",
+   "name": "Kuhinja Contempo DU100",
+   "file": "el-kuhinja-contempo-du100.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "DU2K",
+   "name": "Kuhinja Contempo DU2K",
+   "file": "el-kuhinja-contempo-du2k.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-du2k.html",
+   "mere": "Širina 100 cm · Dubina 100 cm · Visina 82 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "Friz 2VB",
+   "name": "Kuhinja Friz 2VB Contempo",
+   "file": "el-kuhinja-friz-2vb-contempo.jpg",
+   "ref": "https://matis.rs/kuhinja-friz-2vb-contempo.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO. NAPOMENA: Radna ploča nije uklj"
+  },
+  {
+   "kod": "Friz 60B",
+   "name": "Kuhinja Friz 60B Contempo",
+   "file": "el-kuhinja-friz-60b-contempo.jpg",
+   "ref": "https://matis.rs/kuhinja-friz-60b-contempo.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "Maska 45x72",
+   "name": "Kuhinja Maska 45x72 Contempo",
+   "file": "el-kuhinja-maska-45x72-contempo.jpg",
+   "ref": "https://matis.rs/kuhinja-maska-45x72-contempo.html",
+   "mere": "Širina 45 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MASKA 45Ă—72 CONTEMPO namenjen je pokrivanju sudomašine. Izrađena je od medijapana 19mm. **NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kom"
+  },
+  {
+   "kod": "Maska 60x60",
+   "name": "Kuhinja Maska 60x60 Contempo",
+   "file": "el-kuhinja-maska-60x60-contempo.jpg",
+   "ref": "https://matis.rs/kuhinja-maska-60x60-contempo-kmas606069.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 60 cm",
+   "opis": "Kuhinjski element IN MASKA 60x60 CONTEMPO namenjen je pokrivanju sudomašine. Izrađena je od medijapana 19mm. **NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu komb"
+  },
+  {
+   "kod": "Maska 60x72",
+   "name": "Kuhinja Maska 60x72 Contempo",
+   "file": "el-kuhinja-maska-60x72-contempo.jpg",
+   "ref": "https://matis.rs/kuhinja-maska-60x72-contempo-kmas607269.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MASKA 60x72 CONTEMPO namenjen je pokrivanju sudomašine. Izrađena je od medijapana 19mm. **NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu komb"
+  },
+  {
+   "kod": "V20K",
+   "name": "Kuhinja Contempo V20K",
+   "file": "el-kuhinja-contempo-v20k.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v20k.html",
+   "mere": "Širina 20 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V30",
+   "name": "Kuhinja Contempo V30",
+   "file": "el-kuhinja-contempo-v30.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V40",
+   "name": "Kuhinja Contempo V40",
+   "file": "el-kuhinja-contempo-v40.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V45",
+   "name": "Kuhinja Contempo V45",
+   "file": "el-kuhinja-contempo-v45.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V50",
+   "name": "Kuhinja Contempo V50",
+   "file": "el-kuhinja-contempo-v50.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V60",
+   "name": "Kuhinja Contempo V60",
+   "file": "el-kuhinja-contempo-v60.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V60 1V",
+   "name": "Kuhinja Contempo V60 1V",
+   "file": "el-kuhinja-contempo-v60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V80",
+   "name": "Kuhinja Contempo V80",
+   "file": "el-kuhinja-contempo-v80.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "V80S",
+   "name": "Kuhinja Contempo V80S",
+   "file": "el-kuhinja-contempo-v80s.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-v80s.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VA50",
+   "name": "Kuhinja Contempo VA50",
+   "file": "el-kuhinja-contempo-va50.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-va50-kva5069.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VA60 1V",
+   "name": "Kuhinja Contempo VA60 1V",
+   "file": "el-kuhinja-contempo-va60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-va60-1v-kva601v69.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VA60-68 1V",
+   "name": "Kuhinja Contempo VA60-68 1V",
+   "file": "el-kuhinja-contempo-va60-68-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-va60-68-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VH60 B",
+   "name": "Kuhinja Contempo VH60 B",
+   "file": "el-kuhinja-contempo-vh60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-vh60-b-kvh60b69.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VH60-36 B",
+   "name": "Kuhinja Contempo VH60-36 B",
+   "file": "el-kuhinja-contempo-vh60-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-vh60-36-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VH80 B",
+   "name": "Kuhinja Contempo VH80 B",
+   "file": "el-kuhinja-contempo-vh80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-vh80-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VH80-36 B",
+   "name": "Kuhinja Contempo VH80-36 B",
+   "file": "el-kuhinja-contempo-vh80-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-vh80-36-b-kvh8036b69.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VH80-36 S",
+   "name": "Kuhinja Contempo VH80-36 S",
+   "file": "el-kuhinja-contempo-vh80-36-s.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-vh80-36-s-kvh8036s69.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  },
+  {
+   "kod": "VU60",
+   "name": "Kuhinja Contempo VU60",
+   "file": "el-kuhinja-contempo-vu60.jpg",
+   "ref": "https://matis.rs/kuhinja-contempo-vu60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja CONTEMPO projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja CONTEMPO."
+  }
+ ],
+ "Rustik": [
+  {
+   "kod": "D20",
+   "name": "Kuhinja Rustik D20",
+   "file": "el-kuhinja-rustik-d20.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d20.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kuhinjski elementi IN RUSTIK, najnoviji su dodatak Matis proizvodnoj liniji kuhinjskog nameštaja. Element IN D 20 RUSTIK pruža korisnicima višestruke mogućnosti upotrebe. Kvalitetna hromirana konstruk"
+  },
+  {
+   "kod": "D2K",
+   "name": "Kuhinja Rustik D2K",
+   "file": "el-kuhinja-rustik-d2k.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d2k.html"
+  },
+  {
+   "kod": "D30",
+   "name": "Kuhinja Rustik D30",
+   "file": "el-kuhinja-rustik-d30.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Razlog zbog kojeg kuhinjski elementi proizvodne linije IN RUSTIK čine posebnu kategoriju u Matis ponudi kuhinjskog nameštaja, leži u njihovom specifičnom dizajnu koji predstavlja spoj tradicionalnog i"
+  },
+  {
+   "kod": "D40 3F B",
+   "name": "Kuhinja Rustik D40 3F B",
+   "file": "el-kuhinja-rustik-d40-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d40-3f-b.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Sa tri fioke, element IN D 40 3F B RUSTIK jedan je od najčešće biranih kuhinjskih elemenata naših kupaca. Pored jedne plitke fioke, namenjene odlaganju sitnog kuhinjskog pribora, kuhinjskih krpa i kes"
+  },
+  {
+   "kod": "D40 K",
+   "name": "Kuhinja Rustik D40 K",
+   "file": "el-kuhinja-rustik-d40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Jedinstvena odlika proizvodne linije kuhinjskog nameštaja IN RUSTIK su specijalno dizajnirane ručice za sve elemente, koje u potpunosti održavaju kombinaciju tradicionalnog duha i savremene kuhinje, š"
+  },
+  {
+   "kod": "D45 KF",
+   "name": "Kuhinja Rustik D45 KF",
+   "file": "el-kuhinja-rustik-d45-kf.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d45-kf.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Među elementima iz programa Kuhinja RUSTIK, IN D 45 KF B RUSTIK izdvaja se svojim atipičnim dimenzijama i dodatkom jedne fioke na klasičan deo sa policama i krilnim vratima. Nestandardna dimezija omog"
+  },
+  {
+   "kod": "D60",
+   "name": "Kuhinja Rustik D60",
+   "file": "el-kuhinja-rustik-d60.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Postoji nešto neodoljivo šarmantno u izgledu tradicionalnih kuhinja naših baka i deka. Kompanija Matis donosi vam Kuhinje RUSTIK – savršeni spoj modernih kuhinja i topline starog porodičnog doma. Kuhi"
+  },
+  {
+   "kod": "D60 1V",
+   "name": "Kuhinja Rustik D60 1V",
+   "file": "el-kuhinja-rustik-d60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d60-1v.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Postoji nešto neodoljivo šarmantno u izgledu tradicionalnih kuhinja naših baka i deka. Kompanija Matis donosi vam Kuhinje RUSTIK – savršeni spoj modernih kuhinja i topline starog porodičnog doma. Kuhi"
+  },
+  {
+   "kod": "D60 3F B",
+   "name": "Kuhinja Rustik D60 3F B",
+   "file": "el-kuhinja-rustik-d60-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d60-3f-b.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Prava kombinacija retro stila i vrhunske moderne tehnologije. Donji kuhinjski element IN D 60 3F B RUSTIK izrađen je od najkvalitetnijeg medijapana (MDF-a), sa fiokama na metalnim klizačima, a svojim "
+  },
+  {
+   "kod": "D60 R",
+   "name": "Kuhinja Rustik D60 R",
+   "file": "el-kuhinja-rustik-d60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Malo je kuhinjskih elemenata na tržištu koji ovako uspešno spajaju tradicionalno i moderno. IN D 60 R – PEĆ RUSTIK je element namenjen instaliranju ugradne peći, dok je na radnu površinu moguće montir"
+  },
+  {
+   "kod": "D60 RV",
+   "name": "Kuhinja Rustik D60 RV",
+   "file": "el-kuhinja-rustik-d60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "IN D 60 RV RUSTIK je kuhinjski element koji omogućava maksimalno upotrebu dostupnog prostora. Središnji deo predviđen je za ugradnu rernu, što je posebna pogodnost jer je na taj način omogućen uvid u "
+  },
+  {
+   "kod": "D80",
+   "name": "Kuhinja Rustik D80",
+   "file": "el-kuhinja-rustik-d80.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Kuhinje su oduvek bile centralni deo svakog doma; mesto gde spremate porodični ručak ili pripremate koktele sa vašim prijateljima. Kuhinje RUSTIK donose vam jedinstveni spoj moderne tehnike izrade i š"
+  },
+  {
+   "kod": "D80 3F",
+   "name": "Kuhinja Rustik D80 3F",
+   "file": "el-kuhinja-rustik-d80-3f.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d80-3f.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Prava kombinacija retro stila i vrhunske moderne tehnologije. Donji kuhinjski element IN D 80 3F B RUSTIK izrađen je od najkvalitetnijeg medijapana (MDF-a), sa fiokama na metalnim klizačima, a svojim "
+  },
+  {
+   "kod": "D80 S",
+   "name": "Kuhinja Rustik D80 S",
+   "file": "el-kuhinja-rustik-d80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-d80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "IN RUSTIK kuhinje pružaju osećaj kao da ste na trenutak pobegli od gradske vreve i zaglušujuće buke urbanih sredina. IN D 80/S RUSTIK je kuhinjski element namenjen ugradnji sudopere. Izrađen od opleme"
+  },
+  {
+   "kod": "DU100",
+   "name": "Kuhinja Rustik DU100",
+   "file": "el-kuhinja-rustik-du100.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "Svaki element Kuhinja RUSTIK pruža gostima u vašem domu osećaj topline i dobrodošlice. IN DU 100 RUSTIK je element namenjen kompletnom iskorišćavanju uglova u vašoj kuhinji, koji odlikuju veliki smešt"
+  },
+  {
+   "kod": "Friz 2V B",
+   "name": "Kuhinja Rustik Friz 2V B",
+   "file": "el-kuhinja-rustik-friz-2v-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-friz-2v-b.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "IN FRIZ 2V RUSTIK je rustični kuhinjski kabinet namenjen ugradnji modernog frižidera. Pravi izbor za sladokusce koji žele da njihova kuhinja ima tradicionalni izgled, a da uvek miriše na novo. Element"
+  },
+  {
+   "kod": "Friz 60 B",
+   "name": "Kuhinja Rustik Friz 60 B",
+   "file": "el-kuhinja-rustik-friz-60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-friz-60-b.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "Beli kuhinjski elementi koji odišu tradicionalnim duhom sa ugrađenom modernom tehnologijom, doneće u vaš dom neverovatnu kombinaciju starog i novog. IN FRIZ 60 RUSTIK je kuhinjski element, namenjen ug"
+  },
+  {
+   "kod": "Maska 45x72",
+   "name": "Kuhinja Rustik Maska 45x72",
+   "file": "el-kuhinja-rustik-maska-45x72.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-maska-45x72.html",
+   "mere": "Širina 45 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MASKA 45×72 RUSTIK namenjen je pokrivanju sudomašine. Izrađena je od medijapana 18mm, prekrivena zaštitnom PVC folijom. **NAPOMENA** Svi elementi iz programa Kuhinja IN RUSTIK pro"
+  },
+  {
+   "kod": "Maska 60x60",
+   "name": "Kuhinja Rustik Maska 60x60",
+   "file": "el-kuhinja-rustik-maska-60x60.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-maska-60x60.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 60 cm",
+   "opis": "Kuhinjski element IN MASKA 60×60 RUSTIK namenjen je pokrivanju sudomašine. Izrađena je od medijapana 18mm, prekrivena zaštitnom PVC folijom. **NAPOMENA** Svi elementi iz programa Kuhinja IN RUSTIK pro"
+  },
+  {
+   "kod": "Maska 60x72",
+   "name": "Kuhinja Rustik Maska 60x72",
+   "file": "el-kuhinja-rustik-maska-60x72.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-maska-60x72.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "Kuhinjski element IN MASKA 60×72 RUSTIK namenjen je pokrivanju sudomašine. Izrađena je od medijapana 18mm, prekrivena zaštitnom PVC folijom. **NAPOMENA** Svi elementi iz programa Kuhinja IN RUSTIK pro"
+  },
+  {
+   "kod": "Ukrasna stranica D222",
+   "name": "Kuhinja Rustik Ukrasna stranica D222",
+   "file": "el-kuhinja-rustik-ukrasna-stranica-d222.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-ukrasna-stranica-d222.html",
+   "mere": "Širina 56,4 cm · Visina 222 cm",
+   "opis": "Kuhinja Rustik Ukrasna stranica D222"
+  },
+  {
+   "kod": "Ukrasna stranica D82",
+   "name": "Kuhinja Rustik Ukrasna stranica D82",
+   "file": "el-kuhinja-rustik-ukrasna-stranica-d82.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-ukrasna-stranica-d82.html",
+   "mere": "Širina 56,4 cm · Visina 82 cm",
+   "opis": "Kuhinja Rustik Ukrasna stranica D82"
+  },
+  {
+   "kod": "Ukrasna stranica V72",
+   "name": "Kuhinja Rustik Ukrasna stranica V72",
+   "file": "el-kuhinja-rustik-ukrasna-stranica-v72.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-ukrasna-stranica-v72.html",
+   "mere": "Širina 30,4 cm · Visina 72 cm",
+   "opis": "Kuhinja Rustik Ukrasna stranica V72"
+  },
+  {
+   "kod": "V30",
+   "name": "Kuhinja Rustik V30",
+   "file": "el-kuhinja-rustik-v30.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Kuhinje RUSTIK kompanije Matis razvijene su u kombinaciji vrhunskog kvaliteta i efikasnosti. Estetika koja se može meriti sa prelepo ostarelim kuhinjama od punog drveta i vrhunski kvalitet Matis proiz"
+  },
+  {
+   "kod": "V40",
+   "name": "Kuhinja Rustik V40",
+   "file": "el-kuhinja-rustik-v40.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Čisto beli korpusi, koji garantuju elegantan i uredan izgled vaše kuhinje, kombinovani sa frontovima od medijapana šarmantnog rustičnog izgleda, zajedno čine element IN V 40 RUSTIK. Izrađen je od ople"
+  },
+  {
+   "kod": "V45",
+   "name": "Kuhinja Rustik V45",
+   "file": "el-kuhinja-rustik-v45.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Većina dizajnera će se složiti da su aksesoari i sitni detalji ključ za razbijanje monotonije i održavanje dizajna u granicama dobrog ukusa. Kuhinje RUSTIK opremljene su specijalno stilizovanim ručica"
+  },
+  {
+   "kod": "V60",
+   "name": "Kuhinja Rustik V60",
+   "file": "el-kuhinja-rustik-v60.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Dizajnerski tim kompanije Matis donosi vam kombinaciju moderne tehnologije i tradicionalnog šarma. IN V 60 RUSTIK je viseći kuhinjski element namenjen odlaganju veće količine posuda različitih veličin"
+  },
+  {
+   "kod": "V60 1V",
+   "name": "Kuhinja Rustik V60 1V",
+   "file": "el-kuhinja-rustik-v60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Dizajnerski tim kompanije Matis donosi vam kombinaciju moderne tehnologije i tradicionalnog šarma. IN V 60 1V RUSTIK je viseći kuhinjski element namenjen odlaganju veće količine posuda različitih veli"
+  },
+  {
+   "kod": "V60 B",
+   "name": "Kuhinja Rustik V60 B",
+   "file": "el-kuhinja-rustik-v60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v60-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Uprkos neospornom šarmu kuhinjskih elemenata iz programa Kuhinja RUSTIK, viseći element IN VH 60 B RUSTIK dolazi kao savršeno rešenje za razbijanje monotonije u kuhinjskoj liniji. Donji kabinet sa sta"
+  },
+  {
+   "kod": "V60/36 B",
+   "name": "Kuhinja Rustik V60/36 B",
+   "file": "el-kuhinja-rustik-v60-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v60-36-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Kuhinje RUSTIK odlikuju se suptilnom lepotom i šarmom, kao i posebnom energijom specifičnom za ovu liniju proizvoda. Kako bismo Kuhinje RUSTIK približili svakom domu, dizajniran je element IN VH 60/36"
+  },
+  {
+   "kod": "V60/68 1V",
+   "name": "Kuhinja Rustik V60/68 1V",
+   "file": "el-kuhinja-rustik-v60-68-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v60-68-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm",
+   "opis": "Ugradni aspiratori, čiji je veći deo površine skriven unutar kuhinjskog elementa, savršeno će se uklopiti sa idejom Kuhinje RUSTIK. IN VA 60/68 1V RUSTIK projektivan je tako da otkriva samo ravnu ploč"
+  },
+  {
+   "kod": "V80",
+   "name": "Kuhinja Rustik V80",
+   "file": "el-kuhinja-rustik-v80.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Pravi je raritet otkriti nameštaj koji verno oslikava duh tradicionalnih vremena. Matis vam stoga donosi liniju kuhinjskih elemenata IN RUSTIK. IN V 80 RUSTIK izdvaja se kao najmasivniji viseći kuhinj"
+  },
+  {
+   "kod": "V80 B",
+   "name": "Kuhinja Rustik V80 B",
+   "file": "el-kuhinja-rustik-v80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v80-b.html"
+  },
+  {
+   "kod": "V80 S",
+   "name": "Kuhinja Rustik V80 S",
+   "file": "el-kuhinja-rustik-v80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v80-s.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "Da bi se jedna rustična kuhinja uklopila u savremeni dom, ona mora izgedati otvoreno i moderno. IN V 80/S je viseći element IN RUSTIK kuhinjskog programa sa duplim staklenim vratima, koji posebno lepo"
+  },
+  {
+   "kod": "V80/36 B",
+   "name": "Kuhinja Rustik V80/36 B",
+   "file": "el-kuhinja-rustik-v80-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-v80-36-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "Odabirom elemenata iz programa Kuhinja RUSTIK, u potpunosti ćete redefinisati stil vašeg doma. Bez obzira na ostale komade nameštaja, kuhinje RUSTIK se jednostavno nameću svojim diskretnim šarmom i ne"
+  },
+  {
+   "kod": "VA50",
+   "name": "Kuhinja Rustik VA50",
+   "file": "el-kuhinja-rustik-va50.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-va50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "Tajna Kuhinja RUSTIK je u sitnim detaljima koji im daju neprolazni šarm starih aristokratskih kuhinja. Element IN VA 50 RUSTIK dizajniran je na širini od 50cm, kako bi se savršeno uklopio iznad šporet"
+  },
+  {
+   "kod": "VA60 1V",
+   "name": "Kuhinja Rustik VA60 1V",
+   "file": "el-kuhinja-rustik-va60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-va60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "Ako želite da vaša RUSTIK Kuhinja sadrži istaknute delove savremene tehnike, element IN VA 60 1V RUSTIK je pravo rešenje za vas. Namenjen je instalaciji podugradnog aspiratora, čime se tradicionalnom "
+  },
+  {
+   "kod": "VH80 B",
+   "name": "Kuhinja Rustik VH80 B",
+   "file": "el-kuhinja-rustik-vh80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-vh80-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "U proizvodnom programu kompanije Matis, kuhinje RUSTIK izdvajaju se kao komadi nameštaja koji pružaju najautentičniji osećaj topline porodičnog doma. Iz nenametljivih kontura svakog elementa Kuhinja R"
+  },
+  {
+   "kod": "VU60",
+   "name": "Kuhinja Rustik VU60",
+   "file": "el-kuhinja-rustik-vu60.jpg",
+   "ref": "https://matis.rs/kuhinja-rustik-vu60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 72 cm",
+   "opis": "Osnovni kvalitet ugaonih kuhinjskih elemenata nalazi se u potpunom iskorišćenju prostora. IN VU 60 RUSTIK je potpuno pregledan i pristupačan ugaoni kuhinjski element, na koji se nadovezuje bilo koji d"
+  }
+ ],
+ "Lina": [
+  {
+   "kod": "D 60 R",
+   "name": "Kuhinja Lina D 60 R",
+   "file": "el-kuhinja-lina-d-60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d-60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D20",
+   "name": "Kuhinja Lina D20",
+   "file": "el-kuhinja-lina-d20.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d20.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D30",
+   "name": "Kuhinja Lina D30",
+   "file": "el-kuhinja-lina-d30.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D40 3F B",
+   "name": "Kuhinja Lina D40 3F B",
+   "file": "el-kuhinja-lina-d40-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d40-3f-b.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D40 K",
+   "name": "Kuhinja Lina D40 K",
+   "file": "el-kuhinja-lina-d40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D45 KF B",
+   "name": "Kuhinja Lina D45 KF B",
+   "file": "el-kuhinja-lina-d45-kf-b.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d45-kf-b.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D50",
+   "name": "Kuhinja Lina D50",
+   "file": "el-kuhinja-lina-d50.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d50.html",
+   "mere": "Širina 50 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60",
+   "name": "Kuhinja Lina D60",
+   "file": "el-kuhinja-lina-d60.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 1V",
+   "name": "Kuhinja Lina D60 1V",
+   "file": "el-kuhinja-lina-d60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d60-1v.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 2F PL BOX",
+   "name": "Kuhinja Lina D60 2F PL BOX",
+   "file": "el-kuhinja-lina-d60-2f-pl-box.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d60-2f-pl-box.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 3F B",
+   "name": "Kuhinja Lina D60 3F B",
+   "file": "el-kuhinja-lina-d60-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d60-3f-b.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 RV",
+   "name": "Kuhinja Lina D60 RV",
+   "file": "el-kuhinja-lina-d60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80",
+   "name": "Kuhinja Lina D80",
+   "file": "el-kuhinja-lina-d80.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 2F PL BOX",
+   "name": "Kuhinja Lina D80 2F PL BOX",
+   "file": "el-kuhinja-lina-d80-2f-pl-box.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d80-2f-pl-box.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 3F B",
+   "name": "Kuhinja Lina D80 3F B",
+   "file": "el-kuhinja-lina-d80-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d80-3f-b.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 S",
+   "name": "Kuhinja Lina D80 S",
+   "file": "el-kuhinja-lina-d80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-d80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "DU100",
+   "name": "Kuhinja Lina DU100",
+   "file": "el-kuhinja-lina-du100.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "DU2K",
+   "name": "Kuhinja Lina DU2K",
+   "file": "el-kuhinja-lina-du2k.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-du2k.html",
+   "mere": "Širina 100 cm · Dubina 100 cm · Visina 82 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Friz 2VB",
+   "name": "Kuhinja Friz 2VB Lina",
+   "file": "el-kuhinja-friz-2vb-lina.jpg",
+   "ref": "https://matis.rs/kuhinja-friz-2vb-lina.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Friz 60B",
+   "name": "Kuhinja Friz 60B Lina",
+   "file": "el-kuhinja-friz-60b-lina.jpg",
+   "ref": "https://matis.rs/kuhinja-friz-60b-lina.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "MASKA 45x72",
+   "name": "Kuhinja MASKA 45x72 Lina",
+   "file": "el-kuhinja-maska-45x72-lina.jpg",
+   "ref": "https://matis.rs/kuhinja-maska-45x72-lina.html",
+   "mere": "Širina 45 cm · Dubina 1,9 cm · Visina 72 cm"
+  },
+  {
+   "kod": "MASKA 60x60",
+   "name": "Kuhinja MASKA 60x60 Lina",
+   "file": "el-kuhinja-maska-60x60-lina.jpg",
+   "ref": "https://matis.rs/kuhinja-maska-60x60-lina.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 60 cm"
+  },
+  {
+   "kod": "MASKA 60x72",
+   "name": "Kuhinja MASKA 60x72 Lina",
+   "file": "el-kuhinja-maska-60x72-lina.jpg",
+   "ref": "https://matis.rs/kuhinja-maska-60x72-lina.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V20K",
+   "name": "Kuhinja Lina V20K",
+   "file": "el-kuhinja-lina-v20k.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v20k.html",
+   "mere": "Širina 20 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V30",
+   "name": "Kuhinja Lina V30",
+   "file": "el-kuhinja-lina-v30.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V40",
+   "name": "Kuhinja Lina V40",
+   "file": "el-kuhinja-lina-v40.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V45",
+   "name": "Kuhinja Lina V45",
+   "file": "el-kuhinja-lina-v45.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V50",
+   "name": "Kuhinja Lina V50",
+   "file": "el-kuhinja-lina-v50.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V60",
+   "name": "Kuhinja Lina V60",
+   "file": "el-kuhinja-lina-v60.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V60 1V",
+   "name": "Kuhinja Lina V60 1V",
+   "file": "el-kuhinja-lina-v60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V80",
+   "name": "Kuhinja Lina V80",
+   "file": "el-kuhinja-lina-v80.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VA50",
+   "name": "Kuhinja Lina VA50",
+   "file": "el-kuhinja-lina-va50.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-va50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VA60 1V",
+   "name": "Kuhinja Lina VA60 1V",
+   "file": "el-kuhinja-lina-va60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-va60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm"
+  },
+  {
+   "kod": "VA60-68 1V",
+   "name": "Kuhinja Lina VA60-68 1V",
+   "file": "el-kuhinja-lina-va60-68-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-va60-68-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm"
+  },
+  {
+   "kod": "VH60 B",
+   "name": "Kuhinja Lina VH60 B",
+   "file": "el-kuhinja-lina-vh60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-vh60-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VH80 B",
+   "name": "Kuhinja Lina VH80 B",
+   "file": "el-kuhinja-lina-vh80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-vh80-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VU60",
+   "name": "Kuhinja Lina VU60",
+   "file": "el-kuhinja-lina-vu60.jpg",
+   "ref": "https://matis.rs/kuhinja-lina-vu60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  }
+ ],
+ "Alba": [
+  {
+   "kod": "D 60 R",
+   "name": "Kuhinja Alba D 60 R",
+   "file": "el-kuhinja-alba-d-60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d-60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D20",
+   "name": "Kuhinja Alba D20",
+   "file": "el-kuhinja-alba-d20.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d20.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D30",
+   "name": "Kuhinja Alba D30",
+   "file": "el-kuhinja-alba-d30.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D40 3F B",
+   "name": "Kuhinja Alba D40 3F B",
+   "file": "el-kuhinja-alba-d40-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d40-3f-b.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D40 K",
+   "name": "Kuhinja Alba D40 K",
+   "file": "el-kuhinja-alba-d40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D45 KF B",
+   "name": "Kuhinja Alba D45 KF B",
+   "file": "el-kuhinja-alba-d45-kf-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d45-kf-b.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D50",
+   "name": "Kuhinja Alba D50",
+   "file": "el-kuhinja-alba-d50.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d50.html",
+   "mere": "Širina 50 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60",
+   "name": "Kuhinja Alba D60",
+   "file": "el-kuhinja-alba-d60.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 1V",
+   "name": "Kuhinja Alba D60 1V",
+   "file": "el-kuhinja-alba-d60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d60-1v.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 2F PL BOX",
+   "name": "Kuhinja Alba D60 2F PL BOX",
+   "file": "el-kuhinja-alba-d60-2f-pl-box.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d60-2f-pl-box.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 3F B",
+   "name": "Kuhinja Alba D60 3F B",
+   "file": "el-kuhinja-alba-d60-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d60-3f-b.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D60 RV",
+   "name": "Kuhinja Alba D60 RV",
+   "file": "el-kuhinja-alba-d60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80",
+   "name": "Kuhinja Alba D80",
+   "file": "el-kuhinja-alba-d80.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 2F PL BOX",
+   "name": "Kuhinja Alba D80 2F PL BOX",
+   "file": "el-kuhinja-alba-d80-2f-pl-box.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d80-2f-pl-box.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 3F B",
+   "name": "Kuhinja Alba D80 3F B",
+   "file": "el-kuhinja-alba-d80-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d80-3f-b.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "D80 S",
+   "name": "Kuhinja Alba D80 S",
+   "file": "el-kuhinja-alba-d80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-d80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "DU100",
+   "name": "Kuhinja Alba DU100",
+   "file": "el-kuhinja-alba-du100.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 82 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "DU2K",
+   "name": "Kuhinja Alba DU2K",
+   "file": "el-kuhinja-alba-du2k.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-du2k.html",
+   "mere": "Širina 100 cm · Dubina 100 cm · Visina 82 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Friz 2VB",
+   "name": "Kuhinja Friz 2VB Alba",
+   "file": "el-kuhinja-friz-2vb-alba.jpg",
+   "ref": "https://matis.rs/kuhinja-friz-2vb-alba.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Friz 60B",
+   "name": "Kuhinja Alba Friz 60B",
+   "file": "el-kuhinja-alba-friz-60b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-friz-60b.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Maska 45x72",
+   "name": "Kuhinja Alba Maska 45x72",
+   "file": "el-kuhinja-alba-maska-45x72.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-maska-45x72.html",
+   "mere": "Širina 45 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Maska 60x60",
+   "name": "Kuhinja Alba Maska 60x60",
+   "file": "el-kuhinja-alba-maska-60x60.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-maska-60x60.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 60 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "Maska 60x72",
+   "name": "Kuhinja Alba Maska 60x72",
+   "file": "el-kuhinja-alba-maska-60x72.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-maska-60x72.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "NAPOMENA: Radna ploča nije uključena u cenu kuhinjskog elementa i kupuje se zasebno."
+  },
+  {
+   "kod": "V20K",
+   "name": "Kuhinja Alba V20K",
+   "file": "el-kuhinja-alba-v20k.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v20k.html",
+   "mere": "Širina 20 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V30",
+   "name": "Kuhinja Alba V30",
+   "file": "el-kuhinja-alba-v30.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V40",
+   "name": "Kuhinja Alba V40",
+   "file": "el-kuhinja-alba-v40.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V45",
+   "name": "Kuhinja Alba V45",
+   "file": "el-kuhinja-alba-v45.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V50",
+   "name": "Kuhinja Alba V50",
+   "file": "el-kuhinja-alba-v50.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V60",
+   "name": "Kuhinja Alba V60",
+   "file": "el-kuhinja-alba-v60.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V60 1V",
+   "name": "Kuhinja Alba V60 1V",
+   "file": "el-kuhinja-alba-v60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V80",
+   "name": "Kuhinja Alba V80",
+   "file": "el-kuhinja-alba-v80.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "V80S",
+   "name": "Kuhinja Alba V80S",
+   "file": "el-kuhinja-alba-v80s.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-v80s.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VA50",
+   "name": "Kuhinja Alba VA50",
+   "file": "el-kuhinja-alba-va50.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-va50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 57 cm"
+  },
+  {
+   "kod": "VA60 1V",
+   "name": "Kuhinja Alba VA60 1V",
+   "file": "el-kuhinja-alba-va60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-va60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm"
+  },
+  {
+   "kod": "VA60-68 1V",
+   "name": "Kuhinja Alba VA60-68 1V",
+   "file": "el-kuhinja-alba-va60-68-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-va60-68-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm"
+  },
+  {
+   "kod": "VH60 B",
+   "name": "Kuhinja Alba VH60 B",
+   "file": "el-kuhinja-alba-vh60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-vh60-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VH60-36 B",
+   "name": "Kuhinja Alba VH60-36 B",
+   "file": "el-kuhinja-alba-vh60-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-vh60-36-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 36 cm"
+  },
+  {
+   "kod": "VH80 B",
+   "name": "Kuhinja Alba VH80 B",
+   "file": "el-kuhinja-alba-vh80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-vh80-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm"
+  },
+  {
+   "kod": "VH80-36 B",
+   "name": "Kuhinja Alba VH80-36 B",
+   "file": "el-kuhinja-alba-vh80-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-vh80-36-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm"
+  },
+  {
+   "kod": "VU60",
+   "name": "Kuhinja Alba VU60",
+   "file": "el-kuhinja-alba-vu60.jpg",
+   "ref": "https://matis.rs/kuhinja-alba-vu60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm"
+  }
+ ],
+ "Aura": [
+  {
+   "kod": "D20 Žica",
+   "name": "Kuhinja Aura D20 Žica",
+   "file": "el-kuhinja-aura-d20-zica.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d20-zica.html",
+   "mere": "Širina 20 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D30",
+   "name": "Kuhinja Aura D30",
+   "file": "el-kuhinja-aura-d30.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d30.html",
+   "mere": "Širina 30 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D40 3F B",
+   "name": "Kuhinja Aura D40 3F B",
+   "file": "el-kuhinja-aura-d40-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d40-3f-b.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D40 K",
+   "name": "Kuhinja Aura D40 K",
+   "file": "el-kuhinja-aura-d40-k.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d40-k.html",
+   "mere": "Širina 40 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D45 KF B",
+   "name": "Kuhinja Aura D45 KF B",
+   "file": "el-kuhinja-aura-d45-kf-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d45-kf-b.html",
+   "mere": "Širina 45 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D50",
+   "name": "Kuhinja Aura D50",
+   "file": "el-kuhinja-aura-d50.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d50.html",
+   "mere": "Širina 50 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D60",
+   "name": "Kuhinja Aura D60",
+   "file": "el-kuhinja-aura-d60.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d60.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D60 1V",
+   "name": "Kuhinja Aura D60 1V",
+   "file": "el-kuhinja-aura-d60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d60-1v.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D60 3F B",
+   "name": "Kuhinja Aura D60 3F B",
+   "file": "el-kuhinja-aura-d60-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d60-3f-b.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D60 R",
+   "name": "Kuhinja Aura D60 R",
+   "file": "el-kuhinja-aura-d60-r.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d60-r.html",
+   "mere": "Širina 60 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D60 RV",
+   "name": "Kuhinja Aura D60 RV",
+   "file": "el-kuhinja-aura-d60-rv.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d60-rv.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D80",
+   "name": "Kuhinja Aura D80",
+   "file": "el-kuhinja-aura-d80.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d80.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D80 3F B",
+   "name": "Kuhinja Aura D80 3F B",
+   "file": "el-kuhinja-aura-d80-3f-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d80-3f-b.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "D80 S",
+   "name": "Kuhinja Aura D80 S",
+   "file": "el-kuhinja-aura-d80-s.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-d80-s.html",
+   "mere": "Širina 80 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "DU100",
+   "name": "Kuhinja Aura DU100",
+   "file": "el-kuhinja-aura-du100.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-du100.html",
+   "mere": "Širina 100 cm · Dubina 60 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "DU2K",
+   "name": "Kuhinja Aura DU2K",
+   "file": "el-kuhinja-aura-du2k.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-du2k.html",
+   "mere": "Širina 100 cm · Dubina 100 cm · Visina 85 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "Dekorativna stranica D222",
+   "name": "Kuhinja Aura Dekorativna stranica D222",
+   "file": "el-kuhinja-aura-dekorativna-stranica-d222.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-dekorativna-stranica-d222.html",
+   "mere": "Širina 56,4 cm · Dubina 1,8 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "Dekorativna stranica D82",
+   "name": "Kuhinja Aura Dekorativna stranica D82",
+   "file": "el-kuhinja-aura-dekorativna-stranica-d82.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-dekorativna-stranica-d82.html",
+   "mere": "Širina 56,4 cm · Dubina 1,8 cm · Visina 82 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "Dekorativna stranica V72",
+   "name": "Kuhinja Aura Dekorativna stranica V72",
+   "file": "el-kuhinja-aura-dekorativna-stranica-v72.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-dekorativna-stranica-v72.html",
+   "mere": "Širina 30,4 cm · Dubina 1,8 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "Friz 2VB",
+   "name": "Kuhinja Aura Friz 2VB",
+   "file": "el-kuhinja-aura-friz-2vb.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-friz-2vb.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura. NAPOMENA: Radna ploča nije uključena u "
+  },
+  {
+   "kod": "Friz 60B",
+   "name": "Kuhinja Aura Friz 60B",
+   "file": "el-kuhinja-aura-friz-60b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-friz-60b.html",
+   "mere": "Širina 60 cm · Dubina 57 cm · Visina 222 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "MASKA 45×72",
+   "name": "Kuhinja Aura MASKA 45×72",
+   "file": "el-kuhinja-aura-maska-45-72.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-maska-45-72.html",
+   "mere": "Širina 45 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "Maska 60×60",
+   "name": "Kuhinja Aura Maska 60×60",
+   "file": "el-kuhinja-aura-maska-60-60.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-maska-60-60.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 60 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "Maska 60×72",
+   "name": "Kuhinja Aura Maska 60×72",
+   "file": "el-kuhinja-aura-maska-60-72.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-maska-60-72.html",
+   "mere": "Širina 60 cm · Dubina 1,9 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V30",
+   "name": "Kuhinja Aura V30",
+   "file": "el-kuhinja-aura-v30.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v30.html",
+   "mere": "Širina 30 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V40",
+   "name": "Kuhinja Aura V40",
+   "file": "el-kuhinja-aura-v40.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v40.html",
+   "mere": "Širina 40 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V45",
+   "name": "Kuhinja Aura V45",
+   "file": "el-kuhinja-aura-v45.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v45.html",
+   "mere": "Širina 45 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V50",
+   "name": "Kuhinja Aura V50",
+   "file": "el-kuhinja-aura-v50.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V60",
+   "name": "Kuhinja Aura V60",
+   "file": "el-kuhinja-aura-v60.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V60 1V",
+   "name": "Kuhinja Aura V60 1V",
+   "file": "el-kuhinja-aura-v60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "V80",
+   "name": "Kuhinja Aura V80",
+   "file": "el-kuhinja-aura-v80.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-v80.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VA50",
+   "name": "Kuhinja Aura VA50",
+   "file": "el-kuhinja-aura-va50.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-va50.html",
+   "mere": "Širina 50 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VA60 1V",
+   "name": "Kuhinja Aura VA60 1V",
+   "file": "el-kuhinja-aura-va60-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-va60-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 57 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VA60-68 1V",
+   "name": "Kuhinja Aura VA60-68 1V",
+   "file": "el-kuhinja-aura-va60-68-1v.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-va60-68-1v.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 68 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VH60 B",
+   "name": "Kuhinja Aura VH60 B",
+   "file": "el-kuhinja-aura-vh60-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-vh60-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VH60-36 B",
+   "name": "Kuhinja Aura VH60-36 B",
+   "file": "el-kuhinja-aura-vh60-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-vh60-36-b.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VH80 B",
+   "name": "Kuhinja Aura VH80 B",
+   "file": "el-kuhinja-aura-vh80-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-vh80-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VH80-36 B",
+   "name": "Kuhinja Aura VH80-36 B",
+   "file": "el-kuhinja-aura-vh80-36-b.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-vh80-36-b.html",
+   "mere": "Širina 80 cm · Dubina 31 cm · Visina 36 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  },
+  {
+   "kod": "VU60",
+   "name": "Kuhinja Aura VU60",
+   "file": "el-kuhinja-aura-vu60.jpg",
+   "ref": "https://matis.rs/kuhinja-aura-vu60.html",
+   "mere": "Širina 60 cm · Dubina 31 cm · Visina 72 cm",
+   "opis": "**NAPOMENA** Svi elementi iz programa Kuhinja Aura projektovani su tako da se mogu kombinovati u postavkama kuhinja sa bilo kojim drugim elementom Kuhinja Aura."
+  }
+ ],
+ "Attrium univer": [
+  {
+   "kod": "DE 20cm žičani element",
+   "name": "DE 20cm žičani element",
+   "file": "el-attrium-de-20cm-zicani-element.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3443"
+  },
+  {
+   "kod": "DE 40cm 1K",
+   "name": "DE 40cm 1K",
+   "file": "el-attrium-de-40cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3436"
+  },
+  {
+   "kod": "DE 40cm 1K 1F",
+   "name": "DE 40cm 1K 1F",
+   "file": "el-attrium-de-40cm-1k-1f.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3440"
+  },
+  {
+   "kod": "DE 40cm 4F",
+   "name": "DE 40cm 4F",
+   "file": "el-attrium-de-40cm-4f.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3437"
+  },
+  {
+   "kod": "DE 50 CM 1K",
+   "name": "DE 50 CM 1K",
+   "file": "el-attrium-de-50-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=5718"
+  },
+  {
+   "kod": "DE 60cm 1K",
+   "name": "DE 60cm 1K",
+   "file": "el-attrium-de-60cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3441"
+  },
+  {
+   "kod": "DE 80cm 2K radni deo",
+   "name": "DE 80cm 2K radni deo",
+   "file": "el-attrium-de-80cm-2k-radni-deo.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3439"
+  },
+  {
+   "kod": "DE 80cm 2K za sudoperu",
+   "name": "DE 80cm 2K za sudoperu",
+   "file": "el-attrium-de-80cm-2k-za-sudoperu.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3438"
+  },
+  {
+   "kod": "DE30CM1K",
+   "name": "DE30CM1K - medijapan",
+   "file": "el-attrium-de30cm1k-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=5717"
+  },
+  {
+   "kod": "Donji ugaoni element 90x90",
+   "name": "Donji ugaoni element 90x90",
+   "file": "el-attrium-donji-ugaoni-element-90x90.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3442"
+  },
+  {
+   "kod": "GE 30 CM 1K",
+   "name": "GE 30 CM 1K",
+   "file": "el-attrium-ge-30-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=5720"
+  },
+  {
+   "kod": "GE 40cm 1K",
+   "name": "GE 40cm 1K",
+   "file": "el-attrium-ge-40cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3450"
+  },
+  {
+   "kod": "GE 40cm 1K glass",
+   "name": "GE 40cm 1K glass  medijapan",
+   "file": "el-attrium-ge-40cm-1k-glass-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3473"
+  },
+  {
+   "kod": "GE 50 CM 1K",
+   "name": "GE 50 CM 1K",
+   "file": "el-attrium-ge-50-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=5722"
+  },
+  {
+   "kod": "GE 60cm 1K",
+   "name": "GE 60cm 1K",
+   "file": "el-attrium-ge-60cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3451"
+  },
+  {
+   "kod": "GE 60cm 1K za aspirator",
+   "name": "GE 60cm 1K za aspirator",
+   "file": "el-attrium-ge-60cm-1k-za-aspirator.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3448"
+  },
+  {
+   "kod": "GE 60cm 1K za ugradni aspirator",
+   "name": "GE 60cm 1K za ugradni aspirator",
+   "file": "el-attrium-ge-60cm-1k-za-ugradni-aspirator.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3444"
+  },
+  {
+   "kod": "GE 80cm 2K",
+   "name": "GE 80cm 2K",
+   "file": "el-attrium-ge-80cm-2k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3449"
+  },
+  {
+   "kod": "GE 80cm 2K glass",
+   "name": "GE 80cm 2K glass medijapan",
+   "file": "el-attrium-ge-80cm-2k-glass-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3474"
+  },
+  {
+   "kod": "GE 80cm KIP",
+   "name": "GE 80cm  KIP",
+   "file": "el-attrium-ge-80cm-kip.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3453"
+  },
+  {
+   "kod": "GE 80cm KIP glass",
+   "name": "GE 80cm  KIP glass medijapan",
+   "file": "el-attrium-ge-80cm-kip-glass-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3475"
+  },
+  {
+   "kod": "GE20cm otvorena polica",
+   "name": "GE20cm otvorena polica",
+   "file": "el-attrium-ge20cm-otvorena-polica.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3454"
+  },
+  {
+   "kod": "Gornji ugaoni element 70x70",
+   "name": "Gornji ugaoni element 70x70",
+   "file": "el-attrium-gornji-ugaoni-element-70x70.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_173&product_id=3452"
+  }
+ ],
+ "Attrium medijapan": [
+  {
+   "kod": "DE 20 cm žičani element",
+   "name": "DE 20cm žičani element  medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3465",
+   "file": "el-at-std-medijapan-de-20cm-zicani-element.jpg",
+   "mere": "20 × 60 × 82 cm",
+   "nota": "+ 28 mm radna ploča"
+  },
+  {
+   "kod": "DE 40 cm 1K 1F",
+   "name": "DE 40cm 1K 1F medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3462",
+   "file": "el-at-std-medijapan-de-40cm-1k-1f.jpg",
+   "mere": "40 × 60 × 82 cm",
+   "nota": "+ 28 mm radna ploča"
+  },
+  {
+   "kod": "DE 40 cm 1K",
+   "name": "DE 40cm 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3458",
+   "file": "el-at-std-medijapan-de-40cm-1k.jpg",
+   "mere": "40 × 60 × 82 cm",
+   "nota": "+ 3 cm radna ploča"
+  },
+  {
+   "kod": "DE 40 cm 4F",
+   "name": "DE 40cm 4F medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3459",
+   "file": "el-at-std-medijapan-de-40cm-4f.jpg",
+   "mere": "40 × 60 × 82 cm",
+   "nota": "+ 3 cm radna ploča"
+  },
+  {
+   "kod": "DE 50 cm 1K",
+   "name": "DE 50 CM 1K - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5719",
+   "file": "el-at-std-medijapan-de-50-cm-1k.jpg",
+   "mere": "50 × 52 × 72 cm",
+   "nota": "+ nogice"
+  },
+  {
+   "kod": "DE 60 cm 1K",
+   "name": "DE 60cm 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3463",
+   "file": "el-at-std-medijapan-de-60cm-1k.jpg",
+   "mere": "60 × 60 × 82 cm",
+   "nota": "+ 3 cm radna ploča"
+  },
+  {
+   "kod": "DE 80 cm 2K radni deo",
+   "name": "DE 80cm 2K radni deo medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3461",
+   "file": "el-at-std-medijapan-de-80cm-2k-radni-deo.jpg",
+   "mere": "80 × 60 × 82 cm",
+   "nota": "+ 3 cm radna ploča"
+  },
+  {
+   "kod": "DE 80 cm 2K za sudoperu",
+   "name": "DE 80cm 2K za sudoperu medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3460",
+   "file": "el-at-std-medijapan-de-80cm-2k-za-sudoperu.jpg",
+   "mere": "80 × 60 × 82 cm"
+  },
+  {
+   "kod": "DE 30 cm 1K",
+   "name": "DE30CM1K - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5717",
+   "file": "el-at-std-medijapan-de30cm1k.jpg",
+   "mere": "30 × 52 × 72 cm",
+   "nota": "+ nogice"
+  },
+  {
+   "kod": "Donji ugaoni element 90×90",
+   "name": "Donji ugaoni element 90x90 medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3464",
+   "file": "el-at-std-medijapan-donji-ugaoni-element-90x90.jpg",
+   "mere": "90 × 60 × 82 cm",
+   "nota": "+ 3 cm radna ploča"
+  },
+  {
+   "kod": "GE 30 cm 1K",
+   "name": "GE 30 CM 1K - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5721",
+   "file": "el-at-std-medijapan-ge-30-cm-1k.jpg",
+   "mere": "30 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 40 cm 1K glass",
+   "name": "GE 40cm 1K glass  medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3473",
+   "file": "el-at-std-medijapan-ge-40cm-1k-glass.jpg",
+   "mere": "40 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 40 cm 1K",
+   "name": "GE 40cm 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3468",
+   "file": "el-at-std-medijapan-ge-40cm-1k.jpg",
+   "mere": "40 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 50 cm 1K",
+   "name": "GE 50 CM 1K - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5723",
+   "file": "el-at-std-medijapan-ge-50-cm-1k.jpg",
+   "mere": "50 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K",
+   "name": "GE 60cm 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3469",
+   "file": "el-at-std-medijapan-ge-60cm-1k.jpg",
+   "mere": "60 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K za aspirator",
+   "name": "GE 60cm 1K za aspirator medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3466",
+   "file": "el-at-std-medijapan-ge-60cm-1k-za-aspirator.jpg",
+   "mere": "60 × 30 × 46.8 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K za ugradni aspirator",
+   "name": "GE 60cm 1K za ugradni aspirator medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3445",
+   "file": "el-at-std-medijapan-ge-60cm-1k-za-ugradni-aspirator.jpg",
+   "mere": "60 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 80 cm KIP glass",
+   "name": "GE 80cm  KIP glass medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3475",
+   "file": "el-at-std-medijapan-ge-80cm-kip-glass.jpg",
+   "mere": "80 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 80 cm KIP",
+   "name": "GE 80cm  KIP medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3471",
+   "file": "el-at-std-medijapan-ge-80cm-kip.jpg",
+   "mere": "80 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 80 cm 2K glass",
+   "name": "GE 80cm 2K glass medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3474",
+   "file": "el-at-std-medijapan-ge-80cm-2k-glass.jpg",
+   "mere": "80 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 80 cm 2K",
+   "name": "GE 80cm 2K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3467",
+   "file": "el-at-std-medijapan-ge-80cm-2k.jpg",
+   "mere": "80 × 30 × 60 cm"
+  },
+  {
+   "kod": "GE 20 cm otvorena polica",
+   "name": "GE20cm otvorena polica medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3472",
+   "file": "el-at-std-medijapan-ge20cm-otvorena-polica.jpg",
+   "mere": "20 × 30 × 60 cm"
+  },
+  {
+   "kod": "Gornji ugaoni element 70×70",
+   "name": "Gornji ugaoni element 70x70 medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=3470",
+   "file": "el-at-std-medijapan-gornji-ugaoni-element-70x70.jpg",
+   "mere": "70 × 30 × 60 cm"
+  }
+ ],
+ "Attrium LUX univer": [
+  {
+   "kod": "DE 20 cm - žičani",
+   "name": "LUX DE 20 cm - žičani",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4128",
+   "file": "el-at-lux-univer-de-20-cm-zicani.jpg",
+   "mere": "20 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 30 cm 1K",
+   "name": "LUX DE 30 CM 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5728",
+   "file": "el-at-lux-univer-de-30-cm-1k.jpg",
+   "mere": "30 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 40 cm 1K",
+   "name": "LUX DE 40 CM 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5726",
+   "file": "el-at-lux-univer-de-40-cm-1k.jpg",
+   "mere": "40 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 50 cm 1K",
+   "name": "LUX DE 50 CM 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5724",
+   "file": "el-at-lux-univer-de-50-cm-1k.jpg",
+   "mere": "50 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 1F za rernu",
+   "name": "LUX DE 60 cm 1F za rernu",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4132",
+   "file": "el-at-lux-univer-de-60-cm-1f-za-rernu.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 1K",
+   "name": "LUX DE 60 cm 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4137",
+   "file": "el-at-lux-univer-de-60-cm-1k.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 1K - sudopera",
+   "name": "LUX DE 60 cm 1K - sudopera",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4135",
+   "file": "el-at-lux-univer-de-60-cm-1k-sudopera.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 3F",
+   "name": "LUX DE 60cm 3F",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4120",
+   "file": "el-at-lux-univer-de-60cm-3f.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 80 cm 2K - sudopera",
+   "name": "LUX DE 80cm 2K - sudopera",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4133",
+   "file": "el-at-lux-univer-de-80cm-2k-sudopera.jpg",
+   "mere": "80 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 80 cm 2K radni",
+   "name": "LUX DE 80cm 2K radni",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4121",
+   "file": "el-at-lux-univer-de-80cm-2k-radni.jpg",
+   "mere": "80 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "Donji ugaoni element 90×90",
+   "name": "LUX Donji ugaoni element 90x90",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4169",
+   "file": "el-at-lux-univer-donji-ugaoni-element-90x90.jpg",
+   "mere": "90 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "GE 20 cm otvorena polica",
+   "name": "LUX GE 20 cm otvorena polica",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4126",
+   "file": "el-at-lux-univer-ge-20-cm-otvorena-polica.jpg",
+   "mere": "20 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 30 cm 1K",
+   "name": "LUX GE 30 CM 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5732",
+   "file": "el-at-lux-univer-ge-30-cm-1k.jpg",
+   "mere": "30 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 40 1K",
+   "name": "LUX GE 40 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4167",
+   "file": "el-at-lux-univer-ge-40-1k.jpg",
+   "mere": "40 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 50 cm 1K",
+   "name": "LUX GE 50CM 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5730",
+   "file": "el-at-lux-univer-ge-50cm-1k.jpg",
+   "mere": "50 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K",
+   "name": "LUX GE 60 cm 1K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4124",
+   "file": "el-at-lux-univer-ge-60-cm-1k.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K glass",
+   "name": "LUX GE 60 cm 1K glass",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4127",
+   "file": "el-at-lux-univer-ge-60-cm-1k-glass.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm 2K kip",
+   "name": "LUX GE 60 cm 2K kip",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4122",
+   "file": "el-at-lux-univer-ge-60-cm-2k-kip.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm za aspitaror",
+   "name": "LUX GE 60 cm za aspitaror",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4131",
+   "file": "el-at-lux-univer-ge-60-cm-za-aspitaror.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 80 cm 2K",
+   "name": "LUX GE 80 cm 2K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4125",
+   "file": "el-at-lux-univer-ge-80-cm-2k.jpg",
+   "mere": "80 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 80 cm KIP GLASS/OTVORENA POLICA",
+   "name": "LUX GE 80cm KIP GLASS/OTVORENA POLICA",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5734",
+   "file": "el-at-lux-univer-ge-80cm-kip-glass-otvorena-polica.jpg",
+   "mere": "80 × 30 × 72 cm"
+  },
+  {
+   "kod": "Gornji ugaoni element 70×70",
+   "name": "LUX Gornji ugaoni element 70x70",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4165",
+   "file": "el-at-lux-univer-gornji-ugaoni-element-70x70.jpg",
+   "mere": "70 × 30 × 72 cm"
+  },
+  {
+   "kod": "Vertikala VE 60 2K",
+   "name": "LUX Vertikala VE60 2K",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4130",
+   "file": "el-at-lux-univer-vertikala-ve60-2k.jpg",
+   "mere": "Širina 60 cm"
+  },
+  {
+   "kod": "Vertikala VE 60 3F 1K rerna",
+   "name": "LUX Vertikala VE60 3F 1K rerna",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4129",
+   "mere": "Širina 60 cm"
+  }
+ ],
+ "Attrium LUX medijapan": [
+  {
+   "kod": "Gornji ugaoni element 70×70",
+   "name": "LUX  Gornji ugaoni element 70x70 - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4166",
+   "file": "el-at-lux-medijapan-gornji-ugaoni-element-70x70.jpg",
+   "mere": "70 × 30 × 72 cm"
+  },
+  {
+   "kod": "DE 20 cm - žičani",
+   "name": "LUX DE 20 cm - žičani medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4161",
+   "file": "el-at-lux-medijapan-de-20-cm-zicani.jpg",
+   "mere": "20 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 30 cm 1K",
+   "name": "LUX DE 30 CM 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5729",
+   "file": "el-at-lux-medijapan-de-30-cm-1k.jpg",
+   "mere": "30 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 40 cm 1K",
+   "name": "LUX DE 40 CM 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5727",
+   "file": "el-at-lux-medijapan-de-40-cm-1k.jpg",
+   "mere": "40 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 50 cm 1K",
+   "name": "LUX DE 50 CM 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5725",
+   "file": "el-at-lux-medijapan-de-50-cm-1k.jpg",
+   "mere": "50 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 1F za rernu",
+   "name": "LUX DE 60 cm 1F za rernu - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4154",
+   "file": "el-at-lux-medijapan-de-60-cm-1f-za-rernu.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 1K - radni deo",
+   "name": "LUX DE 60 cm 1K - radni deo medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4159",
+   "file": "el-at-lux-medijapan-de-60-cm-1k-radni-deo.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 1K - sudopera",
+   "name": "LUX DE 60 cm 1K - sudopera medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4156",
+   "file": "el-at-lux-medijapan-de-60-cm-1k-sudopera.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 60 cm 3F",
+   "name": "LUX DE 60cm 3F - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4160",
+   "file": "el-at-lux-medijapan-de-60cm-3f.jpg",
+   "mere": "60 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 80 cm 2K - sudopera",
+   "name": "LUX DE 80cm 2K - sudopera medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4155",
+   "file": "el-at-lux-medijapan-de-80cm-2k-sudopera.jpg",
+   "mere": "80 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "DE 80 cm 2K radni",
+   "name": "LUX DE 80cm 2K radni - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4158",
+   "file": "el-at-lux-medijapan-de-80cm-2k-radni.jpg",
+   "mere": "80 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "Donji ugaoni element 90×90",
+   "name": "LUX Donji ugaoni element  90x90 - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4170",
+   "file": "el-at-lux-medijapan-donji-ugaoni-element-90x90.jpg",
+   "mere": "90 × 56 × 82 cm",
+   "nota": "+ 4 cm radna ploča"
+  },
+  {
+   "kod": "GE 20 cm otvorena polica",
+   "name": "LUX GE 20 cm otvorena polica - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4144",
+   "file": "el-at-lux-medijapan-ge-20-cm-otvorena-polica.jpg",
+   "mere": "20 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 30 cm 1K",
+   "name": "LUX GE 30 CM 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5733",
+   "file": "el-at-lux-medijapan-ge-30-cm-1k.jpg",
+   "mere": "30 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 40 1K",
+   "name": "LUX GE 40 1K - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4168",
+   "file": "el-at-lux-medijapan-ge-40-1k.jpg",
+   "mere": "40 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 50 cm 1K",
+   "name": "LUX GE 50CM 1K medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5731",
+   "file": "el-at-lux-medijapan-ge-50cm-1k.jpg",
+   "mere": "50 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K",
+   "name": "LUX GE 60 cm 1K  - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4145",
+   "file": "el-at-lux-medijapan-ge-60-cm-1k.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm 1K glass",
+   "name": "LUX GE 60 cm 1K glass - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4151",
+   "file": "el-at-lux-medijapan-ge-60-cm-1k-glass.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm 2K kip",
+   "name": "LUX GE 60 cm 2K kip - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4149",
+   "file": "el-at-lux-medijapan-ge-60-cm-2k-kip.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 60 cm za aspitaror",
+   "name": "LUX GE 60 cm za  aspitaror - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4148",
+   "file": "el-at-lux-medijapan-ge-60-cm-za-aspitaror.jpg",
+   "mere": "60 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 80 cm 2K",
+   "name": "LUX GE 80 cm 2K   - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4146",
+   "file": "el-at-lux-medijapan-ge-80-cm-2k.jpg",
+   "mere": "80 × 30 × 72 cm"
+  },
+  {
+   "kod": "GE 80 cm KIP GLASS/OTVORENA POLICA",
+   "name": "LUX GE 80CM KIP GLASS/OTVORENA POLICA medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=5735",
+   "file": "el-at-lux-medijapan-ge-80cm-kip-glass-otvorena-polica.jpg",
+   "mere": "80 × 30 × 72 cm"
+  },
+  {
+   "kod": "Vertikala VE 60 3F 1K rerna",
+   "name": "LUX Vertikala VE60 3F 1K rerna - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4153",
+   "file": "el-at-lux-medijapan-vertikala-ve60-3f-1k-rerna.jpg",
+   "mere": "Širina 60 cm"
+  },
+  {
+   "kod": "Vertikala VE 60 cm 2K za rernu",
+   "name": "LUX Vertikala VE60cm 2K za rernu - medijapan",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&product_id=4152",
+   "file": "el-at-lux-medijapan-vertikala-ve60cm-2k-za-rernu.jpg",
+   "mere": "Širina 60 cm"
+  }
+ ],
+ "Dečija soba Kinder": [
+  {
+   "kod": "Fiokar 2F",
+   "name": "Dečija soba Kinder - Fiokar 2F",
+   "ref": "https://matis.rs/decija-soba-kinder-fiokar-2f.html",
+   "file": "el-decija-kinder-fiokar-2f.jpg",
+   "mere": "40 × 42 × 63,8 cm"
+  },
+  {
+   "kod": "Klub sto",
+   "name": "Dečija soba Kinder - Klub sto",
+   "ref": "https://matis.rs/decija-soba-kinder-klub-sto.html",
+   "file": "el-decija-kinder-klub-sto.jpg",
+   "mere": "43 × 45 × 45 cm"
+  },
+  {
+   "kod": "Krevet 120",
+   "name": "Dečija soba Kinder - Krevet 120",
+   "ref": "https://matis.rs/decija-soba-kinder-krevet-120.html",
+   "file": "el-decija-kinder-krevet-120.jpg",
+   "mere": "206 × 120 × 91 cm"
+  },
+  {
+   "kod": "Krevet Bok",
+   "name": "Dečija soba Kinder - Krevet Bok",
+   "ref": "https://matis.rs/decija-soba-kinder-krevet-bok.html",
+   "file": "el-decija-kinder-krevet-bok.jpg",
+   "mere": "206 × 96 × 75 cm"
+  },
+  {
+   "kod": "Ormar 2V2F",
+   "name": "Dečija soba Kinder- Ormar 2V2F",
+   "ref": "https://matis.rs/decija-soba-kinder-ormar-2v2f.html",
+   "file": "el-decija-kinder-ormar-2v2f.jpg",
+   "mere": "96,1 × 52 × 203 cm"
+  },
+  {
+   "kod": "Radni sto",
+   "name": "Dečija soba Kinder - Radni sto",
+   "ref": "https://matis.rs/decija-soba-kinder-radni-sto.html",
+   "file": "el-decija-kinder-radni-sto.jpg",
+   "mere": "120 × 60 × 74 cm"
+  },
+  {
+   "kod": "Bočni stočić",
+   "name": "KINDER BELO Bočni stočić",
+   "ref": "https://matis.rs/kinder-belo-bocni-stocic.html",
+   "file": "el-decija-kinder-bocni-stocic.jpg",
+   "mere": "50 × 35 × 62 cm"
+  },
+  {
+   "kod": "Krevet 90",
+   "name": "KINDER BELO Krevet 90",
+   "ref": "https://matis.rs/kinder-belo-krevet-90.html",
+   "file": "el-decija-kinder-krevet-90.jpg",
+   "mere": "206 × 100,5 × 91 cm"
+  },
+  {
+   "kod": "Most kreveta",
+   "name": "KINDER BELO Most kreveta",
+   "ref": "https://matis.rs/kinder-belo-most-kreveta.html",
+   "file": "el-decija-kinder-most-kreveta.jpg",
+   "mere": "206 × 42 × 50 cm"
+  },
+  {
+   "kod": "Ormar 1V1F",
+   "name": "KINDER BELO Ormar 1V1F",
+   "ref": "https://matis.rs/kinder-belo-ormar-1v1f.html",
+   "file": "el-decija-kinder-ormar-1v1f.jpg",
+   "mere": "50 × 52 × 203 cm"
+  },
+  {
+   "kod": "Ormar ugao",
+   "name": "KINDER BELO Ormar ugao",
+   "ref": "https://matis.rs/kinder-belo-ormar-ugao.html",
+   "file": "el-decija-kinder-ormar-ugao.jpg",
+   "mere": "97,8 × 97,8 × 203 cm"
+  },
+  {
+   "kod": "Viseća polica 1V",
+   "name": "KINDER BELO Viseća polica 1V",
+   "ref": "https://matis.rs/kinder-belo-viseca-polica-1v.html",
+   "file": "el-decija-kinder-viseca-polica-1v.jpg",
+   "mere": "60 × 42 × 50 cm"
+  }
+ ],
+ "Dečija soba Marta": [
+  {
+   "kod": "Krevet Marta",
+   "name": "Krevet Marta",
+   "ref": "https://matis.rs/krevet-marta.html",
+   "file": "el-decija-marta-krevet-marta.jpg",
+   "mere": "98 × 69,5 cm"
+  },
+  {
+   "kod": "Fioka za krevet samac",
+   "name": "Spavaća soba Marta - Fioka za krevet samac",
+   "ref": "https://matis.rs/spavaca-soba-marta-fioka-za-krevet-samac.html",
+   "file": "el-decija-marta-fioka-za-krevet-samac.jpg",
+   "mere": "93,6 × 19,5 cm"
+  },
+  {
+   "kod": "Krevet na sprat",
+   "name": "Spavaća soba Marta - Krevet na sprat",
+   "ref": "https://matis.rs/spavaca-soba-marta-krevet-na-sprat.html",
+   "file": "el-decija-marta-krevet-na-sprat.jpg",
+   "mere": "98 × 160 cm"
+  },
+  {
+   "kod": "Krevet samac",
+   "name": "Spavaća soba Marta - Krevet samac",
+   "ref": "https://matis.rs/spavaca-soba-marta-krevet-samac.html",
+   "file": "el-decija-marta-krevet-samac.jpg",
+   "mere": "97,8 × 71,3 cm"
+  },
+  {
+   "kod": "Noćni ormarić",
+   "name": "Spavaća soba Marta - Noćni ormarić",
+   "ref": "https://matis.rs/spavaca-soba-marta-nocni-ormaric.html",
+   "file": "el-decija-marta-nocni-ormaric.jpg",
+   "mere": "40 × 40 × 54,6 cm"
+  },
+  {
+   "kod": "Plakar 2K",
+   "name": "Spavaća soba Marta - Plakar 2K",
+   "ref": "https://matis.rs/spavaca-soba-marta-plakar-2k.html",
+   "file": "el-decija-marta-plakar-2k.jpg",
+   "mere": "80 × 50 × 200 cm"
+  },
+  {
+   "kod": "Plakar 3K",
+   "name": "Spavaća soba Marta - Plakar 3K",
+   "ref": "https://matis.rs/spavaca-soba-marta-plakar-3k.html",
+   "file": "el-decija-marta-plakar-3k.jpg",
+   "mere": "120 × 50 × 200 cm"
+  },
+  {
+   "kod": "Plakar 4K",
+   "name": "Spavaća soba Marta - Plakar 4K",
+   "ref": "https://matis.rs/spavaca-soba-marta-plakar-4k.html",
+   "file": "el-decija-marta-plakar-4k.jpg",
+   "mere": "160 × 50 × 200 cm"
+  },
+  {
+   "kod": "Radni sto",
+   "name": "Spavaća soba Marta - Radni sto",
+   "ref": "https://matis.rs/spavaca-soba-marta-radni-sto.html",
+   "file": "el-decija-marta-radni-sto.jpg",
+   "mere": "110 × 60 × 76,5 cm"
+  },
+  {
+   "kod": "Toaletno ogledalo",
+   "name": "Spavaća soba Marta - Toaletno ogledalo",
+   "ref": "https://matis.rs/spavaca-soba-marta-toaletno-ogledalo.html",
+   "file": "el-decija-marta-toaletno-ogledalo.jpg",
+   "mere": "110 × 15 × 65 cm"
+  }
+ ],
+ "Dečija soba Milles": [
+  {
+   "kod": "komoda 2V",
+   "name": "Dečija soba Milles komoda 2V",
+   "ref": "https://matis.rs/decija-soba-milles-komoda-2v.html",
+   "file": "el-decija-milles-komoda-2v.jpg",
+   "mere": "103,9 × 41,5 × 124,8 cm"
+  },
+  {
+   "kod": "noćni ormarić",
+   "name": "Dečija soba Milles noćni ormarić",
+   "ref": "https://matis.rs/decija-soba-milles-nocni-ormaric.html",
+   "file": "el-decija-milles-nocni-ormaric.jpg",
+   "mere": "48,9 × 41,5 × 48 cm"
+  },
+  {
+   "kod": "ormar 2V2F",
+   "name": "Dečija soba Milles ormar 2V2F",
+   "ref": "https://matis.rs/decija-soba-milles-ormar-2v2f.html",
+   "file": "el-decija-milles-ormar-2v2f.jpg",
+   "mere": "168,4 × 52,9 × 201,6 cm"
+  },
+  {
+   "kod": "radni sto",
+   "name": "Dečija soba Milles radni sto",
+   "ref": "https://matis.rs/decija-soba-milles-radni-sto.html",
+   "file": "el-decija-milles-radni-sto.jpg",
+   "mere": "124,8 × 53,1 × 77,3 cm"
+  },
+  {
+   "kod": "visoka vitrina",
+   "name": "Dečija soba Milles visoka vitrina",
+   "ref": "https://matis.rs/decija-soba-milles-visoka-vitrina.html",
+   "file": "el-decija-milles-visoka-vitrina.jpg",
+   "mere": "58,9 × 41,5 × 201,6 cm"
+  }
+ ],
+ "Dečija soba Numero": [
+  {
+   "kod": "Komoda 3F Niša",
+   "name": "NUMERO Komoda 3F Niša",
+   "ref": "https://matis.rs/numero-komoda-3f-nisa.html",
+   "file": "el-decija-numero-komoda-3f-nisa.jpg",
+   "mere": "80 × 42 × 75 cm"
+  },
+  {
+   "kod": "Most radnog stola",
+   "name": "NUMERO Most radnog stola",
+   "ref": "https://matis.rs/numero-most-radnog-stola.html",
+   "file": "el-decija-numero-most-radnog-stola.jpg",
+   "mere": "120 × 42 × 57,5 cm"
+  },
+  {
+   "kod": "Polica brojevi",
+   "name": "NUMERO Polica brojevi",
+   "ref": "https://matis.rs/numero-polica-brojevi.html",
+   "file": "el-decija-numero-polica-brojevi.jpg",
+   "mere": "120 × 22 × 54 cm"
+  },
+  {
+   "kod": "Viseća Niša",
+   "name": "NUMERO Viseća Niša",
+   "ref": "https://matis.rs/numero-viseca-nisa.html",
+   "file": "el-decija-numero-viseca-nisa.jpg",
+   "mere": "36,5 × 40 × 35 cm"
+  },
+  {
+   "kod": "Ogradica kreveta",
+   "name": "Ogradica kreveta",
+   "ref": "https://matis.rs/ogradica-kreveta.html",
+   "file": "el-decija-numero-ogradica-kreveta.jpg",
+   "mere": "Širina 160 cm · Visina 30 cm"
+  }
+ ],
+ "Dečija soba Surfino": [
+  {
+   "kod": "komoda 3F",
+   "name": "Dečija soba Surfino komoda 3F",
+   "ref": "https://matis.rs/decija-soba-surfino-komoda-3f.html",
+   "file": "el-decija-surfino-komoda-3f.jpg",
+   "mere": "98,9 × 41,3 × 85,9 cm"
+  },
+  {
+   "kod": "noćni ormarić",
+   "name": "Dečija soba Surfino noćni ormarić",
+   "ref": "https://matis.rs/decija-soba-surfino-nocni-ormaric.html",
+   "file": "el-decija-surfino-nocni-ormaric.jpg",
+   "mere": "48,6 × 41,3 × 44,1 cm"
+  },
+  {
+   "kod": "ormar 3V",
+   "name": "Dečija soba Surfino ormar 3V",
+   "ref": "https://matis.rs/decija-soba-surfino-ormar-3v.html",
+   "file": "el-decija-surfino-ormar-3v.jpg",
+   "mere": "108,3 × 58,7 × 194,3 cm"
+  },
+  {
+   "kod": "ormar 5V",
+   "name": "Dečija soba Surfino ormar 5V",
+   "ref": "https://matis.rs/decija-soba-surfino-ormar-5v.html",
+   "file": "el-decija-surfino-ormar-5v.jpg",
+   "mere": "158 × 58,7 × 194,3 cm"
+  },
+  {
+   "kod": "radni sto",
+   "name": "Dečija soba Surfino radni sto",
+   "ref": "https://matis.rs/decija-soba-surfino-radni-sto.html",
+   "file": "el-decija-surfino-radni-sto.jpg",
+   "mere": "120 × 58,7 × 73,5 cm"
+  },
+  {
+   "kod": "visoka vitrina",
+   "name": "Dečija soba Surfino visoka vitrina",
+   "ref": "https://matis.rs/decija-soba-surfino-visoka-vitrina.html",
+   "file": "el-decija-surfino-visoka-vitrina.jpg",
+   "mere": "58,6 × 41,3 × 194,3 cm"
+  }
+ ],
+ "Attrium LUX": [
+  {
+   "kod": "DE 20 cm - žičani",
+   "name": "LUX DE 20 cm - žičani",
+   "file": "el-attrium-lux-de-20-cm-zicani.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4128"
+  },
+  {
+   "kod": "DE 30 CM 1K",
+   "name": "LUX DE 30 CM 1K",
+   "file": "el-attrium-lux-de-30-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=5728"
+  },
+  {
+   "kod": "DE 40 CM 1K",
+   "name": "LUX DE 40 CM 1K",
+   "file": "el-attrium-lux-de-40-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=5726"
+  },
+  {
+   "kod": "DE 50 CM 1K",
+   "name": "LUX DE 50 CM 1K",
+   "file": "el-attrium-lux-de-50-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=5724"
+  },
+  {
+   "kod": "DE 60 cm 1F za rernu",
+   "name": "LUX DE 60 cm 1F za rernu",
+   "file": "el-attrium-lux-de-60-cm-1f-za-rernu.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4132"
+  },
+  {
+   "kod": "DE 60 cm 1K",
+   "name": "LUX DE 60 cm 1K",
+   "file": "el-attrium-lux-de-60-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4137"
+  },
+  {
+   "kod": "DE 60 cm 1K - radni deo",
+   "name": "LUX DE 60 cm 1K - radni deo medijapan",
+   "file": "el-attrium-lux-de-60-cm-1k-radni-deo-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4159"
+  },
+  {
+   "kod": "DE 60 cm 1K - sudopera",
+   "name": "LUX DE 60 cm 1K - sudopera",
+   "file": "el-attrium-lux-de-60-cm-1k-sudopera.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4135"
+  },
+  {
+   "kod": "DE 60cm 3F",
+   "name": "LUX DE 60cm 3F",
+   "file": "el-attrium-lux-de-60cm-3f.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4120"
+  },
+  {
+   "kod": "DE 80cm 2K - sudopera",
+   "name": "LUX DE 80cm 2K - sudopera",
+   "file": "el-attrium-lux-de-80cm-2k-sudopera.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4133"
+  },
+  {
+   "kod": "DE 80cm 2K radni",
+   "name": "LUX DE 80cm 2K radni",
+   "file": "el-attrium-lux-de-80cm-2k-radni.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4121"
+  },
+  {
+   "kod": "Donji ugaoni element 90x90",
+   "name": "LUX Donji ugaoni element  90x90 - medijapan",
+   "file": "el-attrium-lux-donji-ugaoni-element-90x90-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4170"
+  },
+  {
+   "kod": "GE 20 cm otvorena polica",
+   "name": "LUX GE 20 cm otvorena polica",
+   "file": "el-attrium-lux-ge-20-cm-otvorena-polica.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4126"
+  },
+  {
+   "kod": "GE 30 CM 1K",
+   "name": "LUX GE 30 CM 1K",
+   "file": "el-attrium-lux-ge-30-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=5732"
+  },
+  {
+   "kod": "GE 40 1K",
+   "name": "LUX GE 40 1K",
+   "file": "el-attrium-lux-ge-40-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4167"
+  },
+  {
+   "kod": "GE 50CM 1K",
+   "name": "LUX GE 50CM 1K",
+   "file": "el-attrium-lux-ge-50cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=5730"
+  },
+  {
+   "kod": "GE 60 cm 1K",
+   "name": "LUX GE 60 cm 1K",
+   "file": "el-attrium-lux-ge-60-cm-1k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4124"
+  },
+  {
+   "kod": "GE 60 cm 1K glass",
+   "name": "LUX GE 60 cm 1K glass",
+   "file": "el-attrium-lux-ge-60-cm-1k-glass.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4127"
+  },
+  {
+   "kod": "GE 60 cm 2K kip",
+   "name": "LUX GE 60 cm 2K kip",
+   "file": "el-attrium-lux-ge-60-cm-2k-kip.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4122"
+  },
+  {
+   "kod": "GE 60 cm za aspitaror",
+   "name": "LUX GE 60 cm za  aspitaror - medijapan",
+   "file": "el-attrium-lux-ge-60-cm-za-aspitaror-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4148"
+  },
+  {
+   "kod": "GE 80 cm 2K",
+   "name": "LUX GE 80 cm 2K",
+   "file": "el-attrium-lux-ge-80-cm-2k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4125"
+  },
+  {
+   "kod": "GE 80CM KIP GLASS/OTVORENA POLICA",
+   "name": "LUX GE 80CM KIP GLASS/OTVORENA POLICA medijapan",
+   "file": "el-attrium-lux-ge-80cm-kip-glass-otvorena-polica-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=5735"
+  },
+  {
+   "kod": "Gornji ugaoni element 70x70",
+   "name": "LUX  Gornji ugaoni element 70x70 - medijapan",
+   "file": "el-attrium-lux-gornji-ugaoni-element-70x70-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4166"
+  },
+  {
+   "kod": "Vertikala VE60 2K",
+   "name": "LUX Vertikala VE60 2K",
+   "file": "el-attrium-lux-vertikala-ve60-2k.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4130"
+  },
+  {
+   "kod": "Vertikala VE60 3F 1K rerna",
+   "name": "LUX Vertikala VE60 3F 1K rerna",
+   "file": "el-attrium-lux-vertikala-ve60-3f-1k-rerna.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4129"
+  },
+  {
+   "kod": "Vertikala VE60cm 2K za rernu",
+   "name": "LUX Vertikala VE60cm 2K za rernu - medijapan",
+   "file": "el-attrium-lux-vertikala-ve60cm-2k-za-rernu-medijapan.jpg",
+   "ref": "https://www.attriumcacak.rs/home-center/index.php?route=product/product&path=18_174&product_id=4152"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "dimenzije": [
+  "120 cm",
+  "200 cm"
+ ],
+ "dekori": [
+  {
+   "kod": "Artisan",
+   "boja": "#b28f78"
+  },
+  {
+   "kod": "Snežni hrast",
+   "boja": "#dadada"
+  }
+ ],
+ "slike": {
+  "120 cm|Artisan": "comfort-120-artisan.jpg",
+  "120 cm|Snežni hrast": "comfort-120-snezni-hrast.jpg",
+  "200 cm|Artisan": "comfort-200-artisan.jpg",
+  "200 cm|Snežni hrast": "comfort-200-snezni-hrast.jpg"
+ },
+ "dodatni": [
+  {
+   "kod": "V60 A · viseći element",
+   "name": "Kuhinja Comfort V60 A",
+   "mere": "60 × 30 × 51 cm",
+   "ref": "https://matis.rs/kuhinja-comfort-v60-a.html",
+   "slike": {
+    "Artisan": "el-comfort-v60a-artisan.jpg",
+    "Snežni hrast": "el-comfort-v60a-snezni-hrast.jpg"
+   }
+  }
+ ]
+}
