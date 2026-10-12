@@ -2211,6 +2211,38 @@ function nacrtajMegaMeni(k, naSajtu){
 }
 
 /* ---------- meni na telefonu ---------- */
+/* (12.10.2026, v1085) sletanje na sekciju iste strane na telefonu — zajedničko za
+   klik iz menija i za dolazak sa druge strane sa sidrom (#kontakt). Zaglavlje se
+   skloni, naslovni blok sekcije stane 44 px od vrha, a do 8 s se prati promena
+   visine strane (karusel i slike stižu kasnije) i sekcija vraća na mesto; prekida
+   se čim kupac dodirne ekran. */
+window.__sletiNaSidro = function(sidro){
+  const t0 = document.querySelector(sidro); if (!t0) return;
+  document.documentElement.classList.add('skrol-dole');
+  window.__drziZaglavlje = Date.now() + 1500;
+  if (window.__adresaCuti) window.__adresaCuti(1600);
+  const idi = () => {
+    const t = document.querySelector(sidro); if (!t) return;
+    const glava = t.querySelector('.band-head') || t;
+    window.scrollTo({ top: Math.max(0, glava.getBoundingClientRect().top + scrollY - 44) });
+  };
+  requestAnimationFrame(idi);
+  const start = Date.now();
+  let prekinuto = false, zadnjiY = Math.round(t0.getBoundingClientRect().top + scrollY), ro = null;
+  const prekini = () => { prekinuto = true; if (ro) ro.disconnect(); };
+  ['touchstart', 'wheel', 'keydown'].forEach(n => addEventListener(n, prekini, { once:true, passive:true }));
+  const proveri = () => {
+    if (prekinuto) return;
+    const t = document.querySelector(sidro); if (!t) return;
+    const y = Math.round(t.getBoundingClientRect().top + scrollY);
+    if (y !== zadnjiY){ zadnjiY = y; idi(); }
+    if (Date.now() - start > 8000) prekini();
+  };
+  if (window.ResizeObserver){ ro = new ResizeObserver(() => requestAnimationFrame(proveri)); ro.observe(document.querySelector('main') || document.body); }
+  const popravi = () => { proveri(); if (!prekinuto && Date.now() - start < 8000) setTimeout(popravi, 250); };
+  setTimeout(popravi, 120);
+};
+
 function nacrtajMobilniMeni(k, naSajtu){
   const men = document.getElementById('mmenu');
   const dug = document.getElementById('burger');
@@ -2274,44 +2306,7 @@ function nacrtajMobilniMeni(k, naSajtu){
         const ovde = !put || put === (location.pathname.split('/').pop() || 'index.html');
         if (ovde && sidro.length > 1 && !a.hasAttribute('data-upit-pop') && document.querySelector(sidro)){
           e.preventDefault(); e.stopPropagation(); zatvori();
-          /* zaglavlje ostaje vidljivo posle skoka (ne sklanja se zbog programskog
-             skrola), a sekcija sleće tačno ispod njega — ništa nije odsečeno */
-          /* zaglavlje se odmah skloni (kao da je kupac skrolovao naniže) i tako
-             ostaje dok sam ne krene naviše; sekcija sleće uz sam vrh ekrana */
-          document.documentElement.classList.add('skrol-dole');
-          window.__drziZaglavlje = Date.now() + 1500;
-          if (window.__adresaCuti) window.__adresaCuti(1600);   /* adresa ne piše dok traje skok */
-          /* Sleće se tako da je naslovni blok sekcije (ikonica + natpis) 12 px od
-             vrha ekrana — ne vrh sekcije sa njenim unutrašnjim razmakom, jer je
-             tada natpis padao oko 100 px niže nego što vlasnik hoće. */
-          const idi = () => {
-            const t = document.querySelector(sidro); if (!t) return;
-            const glava = t.querySelector('.band-head') || t;
-            window.scrollTo({ top: Math.max(0, glava.getBoundingClientRect().top + scrollY - 44) });   /* ikonica cela, sa vazduhom iznad */
-          };
-          requestAnimationFrame(idi);
-          /* sadržaj iznad (slike, blokovi koji ulaze) još menja visinu — zato se
-             poravnanje ponavlja do 2,5 s, ali samo ako je cilj pobegao */
-          /* Sadržaj iznad sekcije ume da naraste i posle skoka — karusel kategorija
-             se crta tek kad stigne katalog (~300 px), slike legnu kasnije — pa bi
-             sekcija „otišla" naniže. Zato se do 8 s posle skoka, na svaku promenu
-             visine strane, sekcija vrati na vrh; prekida se čim kupac sam dodirne
-             ekran ili zavrti točkić. Kupčev skrol sam po sebi ne pokreće vraćanje. */
-          const t0 = Date.now();
-          let prekinuto = false, zadnjiY = Math.round((document.querySelector(sidro) || {}).getBoundingClientRect?.().top + scrollY || 0);
-          const prekini = () => { prekinuto = true; if (ro) ro.disconnect(); };
-          ['touchstart', 'wheel', 'keydown'].forEach(n => addEventListener(n, prekini, { once:true, passive:true }));
-          const proveri = () => {
-            if (prekinuto) return;
-            const t = document.querySelector(sidro); if (!t) return;
-            const y = Math.round(t.getBoundingClientRect().top + scrollY);
-            if (y !== zadnjiY){ zadnjiY = y; idi(); }
-            if (Date.now() - t0 > 8000){ prekinuto = true; if (ro) ro.disconnect(); }
-          };
-          let ro = null;
-          if (window.ResizeObserver){ ro = new ResizeObserver(() => requestAnimationFrame(proveri)); ro.observe(document.querySelector('main') || document.body); }
-          const popravi = () => { proveri(); if (!prekinuto && Date.now() - t0 < 8000) setTimeout(popravi, 250); };
-          setTimeout(popravi, 120);
+          window.__sletiNaSidro(sidro);
           try { history.pushState(null, '', sidro); } catch (err) {}
           return;
         }
@@ -3989,6 +3984,13 @@ function namestiSidro(){
   ['wheel','touchstart','keydown','pointerdown'].forEach(d =>
     addEventListener(d, dira, { once:true, passive:true }));
 
+  /* (telefon, v1085) sekcije početne sleću isto kao iz menija — naslovni blok
+     44 px od vrha, zaglavlje sklonjeno, praćenje dok se strana slaže. */
+  if (matchMedia('(max-width:760px)').matches && window.__sletiNaSidro && /^(usluge|salon|kontakt)$/.test(id)){
+    setTimeout(() => { if (!dirao) window.__sletiNaSidro('#' + id); }, 0);
+    return;
+  }
+
   /* klizanje, ne skok — isto kao kad se sidro klikne unutar strane */
   const tiho = matchMedia('(prefers-reduced-motion:reduce)').matches;
   const namesti = () => {
@@ -4234,7 +4236,6 @@ function sakrijRano(){
    ili panelom ništa se ne sakriva — strana iza stoji mirno i vidljivo. */
 function sakrijNoveKartice(grid){
   if (matchMedia('(prefers-reduced-motion:reduce)').matches) return;
-  if (matchMedia('(max-width:760px)').matches) return;   /* (v1083) na telefonu kartice se menjaju odmah, bez ulaska redom */
   if (!('IntersectionObserver' in window)) return;
   if (prozorPreko()) return;
   grid.querySelectorAll('.prod:not(.otkrij)').forEach(e => e.classList.add('otkrij', 'rano'));
@@ -4283,6 +4284,11 @@ sakrijRano();
   addEventListener('resize', () => { visina(); sredi(); });
   visina();
 })();
+/* (telefon, v1085) prelaz između strana (view transition) je isključen — pregledač
+   za njega slika celu staru stranu pa je pretapa, što je na telefonu zapinjalo. */
+if (matchMedia('(max-width:760px)').matches){
+  const st = document.createElement('style'); st.textContent = '@view-transition{navigation:none}'; document.head.appendChild(st);
+}
 /* od sada blokove krije „otkrij" — stil iz zaglavlja više ne treba */
 document.documentElement.classList.remove('pre-skripte');
 

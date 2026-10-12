@@ -1752,3 +1752,29 @@ main h1,main h2{color:#241c28}
   .el-str[hidden]{display:none}
   .lb-el{padding-inline:1.1rem}
 }
+
+/* ---------- v1085: telefon, treći krug (12.10.2026) ----------
+   Meni klizi i pri zatvaranju, odziv na dodir, kartice posle filtera ulaze redom, logotip u meniju odvojen od vrha. Samo ≤760 px. */
+@media (max-width:760px){
+  /* 1) MENI: nema više „hidden = nestane"; panel je uvek složen, samo klizi — i pri otvaranju i pri zatvaranju */
+  .mmenu{animation:none!important;transition:transform .24s cubic-bezier(.2,.8,.3,1),visibility 0s linear 0s!important}
+  .mmenu[hidden]{display:flex!important;visibility:hidden;transform:translateX(100%);
+    transition:transform .2s cubic-bezier(.4,0,.8,.4),visibility 0s linear .2s!important;pointer-events:none}
+  /* 2) logotip u meniju odvojen od vrha ekrana */
+  .mmenu{padding-top:calc(1.4rem + env(safe-area-inset-top))!important}
+  .mmenu-top{padding-bottom:.9rem;margin-bottom:.4rem}
+  /* 3) jasan odziv na dodir: stavka se oboji i blago skupi dok je prst na njoj */
+  .mmenu a.glavni{transition:background-color .08s,color .08s;border-radius:10px;padding-inline:.6rem!important;margin-inline:-.6rem}
+  .mmenu a.glavni:active{background:var(--plum-wash);color:var(--plum-dark)}
+  .mmenu .mkat a{transition:transform .08s,background-color .08s,color .08s}
+  .mmenu .mkat a:active{transform:scale(.96);background:var(--plum);color:#fff}
+  .mmenu .mkat a:active svg{background:rgba(255,255,255,.2);stroke:#fff}
+  .btn:active,.mobile-bar .btn:active,.lupa-dugme:active,#burger:active{transform:scale(.95);transition:transform .06s}
+  .prod:active{transform:scale(.985);transition:transform .08s}
+  .birac-dug:active{background:var(--plum-wash)}
+  .cv-slide:active{filter:brightness(.96)}
+  /* 4) PONUDA: kartice posle promene filtera ulaze redom kao na desktopu, samo brže */
+  /* (pravilo iz v1083 ima !important, pa i ovde mora) */
+  #grid .prod.otkrij{opacity:0!important;transform:translateY(10px)!important;transition:opacity .38s ease var(--redom,0ms),transform .42s cubic-bezier(.16,.84,.28,1) var(--redom,0ms)!important}
+  #grid .prod.otkrij.vidljiv{opacity:1!important;transform:none!important}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Leska plus — salon nameštaja",
+  "short_name": "Leska plus",
+  "start_url": "index.html",
+  "display": "browser",
+  "background_color": "#FBF7FA",
+  "theme_color": "#9B2F86",
+  "icons": [
+    { "src": "img/ikona-192.png?v=8", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/ikona-512.png?v=8", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/ikona-512.png?v=8", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
