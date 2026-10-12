@@ -11,12 +11,18 @@
   .mmenu-top{padding:.2rem .2rem .9rem!important;margin:0!important;border-bottom:0!important}
   .mmenu-top img{height:30px}
   .mmenu-top .burger{background:#fff;box-shadow:0 2px 10px rgba(46,39,51,.08)}
-  /* glavne stavke kao bela kartica sa tankim linijama */
-  .mmenu-glavno{background:#fff;border-radius:16px;padding:.15rem 1rem;box-shadow:0 6px 20px rgba(122,33,104,.07)}
-  .mmenu a.glavni{border-bottom:1px solid #f0e6ec;padding:.85rem 0!important;margin:0!important;border-radius:0;font-size:1rem}
-  .mmenu a.glavni:last-child{border-bottom:0}
-  .mmenu a.glavni::after{border-color:var(--plum-light)}
-  .mmenu a.glavni:active{background:transparent;color:var(--plum)}
+  /* pretraga na vrhu menija */
+  .mtrazi{display:flex;align-items:center;gap:.5rem;margin:.1rem 0 .9rem;padding:.2rem .4rem .2rem .95rem;background:#fff;
+    border-radius:999px;box-shadow:0 4px 14px rgba(122,33,104,.07)}
+  .mtrazi svg{width:1.1rem;height:1.1rem;flex:none;fill:none;stroke:var(--plum);stroke-width:2;stroke-linecap:round}
+  .mtrazi input{flex:1;min-width:0;border:0;background:none;font:inherit;font-size:16px;min-height:2.7rem;color:var(--ink);outline:none}
+  .mtrazi input::placeholder{color:var(--ink-faint)}
+  /* glavne stavke: krupno, čisto, bez kutije i linija — samo tekst i strelica */
+  .mmenu-glavno{background:none;border-radius:0;padding:0 .2rem;box-shadow:none}
+  .mmenu a.glavni{font-family:"Nunito",sans-serif;font-size:1.18rem;font-weight:800;color:var(--ink);
+    border:0!important;padding:.62rem 0!important;margin:0!important;min-height:2.8rem}
+  .mmenu a.glavni::after{width:.55rem;height:.55rem;border-color:var(--plum)}
+  .mmenu a.glavni:active{color:var(--plum)}
   /* kategorije: bele pločice sa senkom */
   .mmenu .mgrupa{padding:1.1rem .2rem .2rem}
   .mmenu .mkat a{background:#fff;border:0;box-shadow:0 4px 14px rgba(122,33,104,.06);border-radius:14px;padding:.75rem .8rem}

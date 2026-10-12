@@ -607,7 +607,20 @@ function crtajSliku(){
   }
   /* kratko pretapanje pri promeni slike — bez njega prelaz „seče" */
   if (im.src && im.getAttribute('src') !== _lbSlike[_lbTekuca]) prelijSliku(im);
-  im.src = _lbSlike[_lbTekuca];
+  /* PROBA (telefon): velika slika proizvoda (100–300 KB) je kočila otvaranje panela.
+     Prvo se pokaže sličica koja je već u kešu sa kartice, a velika je zameni čim stigne. */
+  {
+    const cilj = _lbSlike[_lbTekuca];
+    if (matchMedia('(max-width:760px)').matches && /img\/products\//.test(cilj || '')){
+      const velika = new Image(); velika.src = cilj;
+      if (velika.complete) im.src = cilj;
+      else {
+        im.src = cilj.replace('img/products/', 'img/thumbs/');
+        velika.onload = () => { if (_lbSlike[_lbTekuca] === cilj) im.src = cilj; };
+        velika.onerror = () => { if (_lbSlike[_lbTekuca] === cilj) im.src = cilj; };
+      }
+    } else im.src = cilj;
+  }
   const pod = _lbPodaci[_lbTekuca] || {};
   const em = document.getElementById('lb-mere');
   if (em){
@@ -2259,6 +2272,10 @@ function nacrtajMobilniMeni(k, naSajtu){
         <svg viewBox="0 0 24 24" aria-hidden="true" style="width:1.3rem;height:1.3rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round"><path d="M6 6l12 12M18 6L6 18"/></svg>
       </button>
     </div>
+    <form class="mtrazi" action="ponuda.html" method="get" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input name="q" type="search" placeholder="Traži model — npr. Emanuela, dušek" aria-label="Traži po ponudi" autocomplete="off">
+    </form>
     <nav class="mmenu-glavno" aria-label="Glavni meni">
       <a class="glavni" href="${naSajtu ? 'index.html' : '#pocetna'}">Početna</a>
       <a class="glavni" href="${naSajtu ? 'ponuda.html' : '#ponuda'}">Cela ponuda</a>
@@ -4228,6 +4245,9 @@ function sakrijRano(){
      sakrivaju ni pre prvog crtanja — „pojavljivanje" bi ih ionako odmah
      vratilo, a prvo crtanje tako odmah liči na pregledačev snimak. */
   if (prozorPreko()) return;
+  /* PROBA (telefon): pri osvežavanju i povratku blokovi se ne sakrivaju — strana je
+     stajala prazna dok skripta i katalog ne stignu, a onda tek ulazila. */
+  if (matchMedia('(max-width:760px)').matches && document.documentElement.classList.contains('vracam')) return;
   document.querySelectorAll(IZBOR_POJAVE.join(','))
     .forEach(e => { if (!e.closest('.lb, .mega')) e.classList.add('otkrij', 'rano'); });
 }
