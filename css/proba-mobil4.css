@@ -1,0 +1,30 @@
+/* PROBA (12.10.2026): telefon, četvrti krug — meni brži i moderniji, katalog lakši pri skrolu. Samo ≤760 px. */
+@media (max-width:760px){
+  /* MENI: sloj je stalno nacrtan (nema visibility koje ga briše pa crta iznova pri otvaranju),
+     ravna podloga umesto preliva (jeftinije crtanje), klizi transformom */
+  .mmenu{background:#f7eff4!important;transition:transform .26s cubic-bezier(.2,.8,.3,1)!important;
+    will-change:transform;contain:paint;padding:1.1rem 1rem calc(1.4rem + env(safe-area-inset-bottom))!important}
+  .mmenu[hidden]{display:flex!important;visibility:visible!important;transform:translateX(102%);pointer-events:none;
+    transition:transform .22s cubic-bezier(.4,0,.8,.4)!important}
+  .mmenu:not([hidden]){transform:none}
+  /* vrh: logotip i X u jednom redu, malo vazduha, bez linije — razmak daje kartica ispod */
+  .mmenu-top{padding:.2rem .2rem .9rem!important;margin:0!important;border-bottom:0!important}
+  .mmenu-top img{height:30px}
+  .mmenu-top .burger{background:#fff;box-shadow:0 2px 10px rgba(46,39,51,.08)}
+  /* glavne stavke kao bela kartica sa tankim linijama */
+  .mmenu-glavno{background:#fff;border-radius:16px;padding:.15rem 1rem;box-shadow:0 6px 20px rgba(122,33,104,.07)}
+  .mmenu a.glavni{border-bottom:1px solid #f0e6ec;padding:.85rem 0!important;margin:0!important;border-radius:0;font-size:1rem}
+  .mmenu a.glavni:last-child{border-bottom:0}
+  .mmenu a.glavni::after{border-color:var(--plum-light)}
+  .mmenu a.glavni:active{background:transparent;color:var(--plum)}
+  /* kategorije: bele pločice sa senkom */
+  .mmenu .mgrupa{padding:1.1rem .2rem .2rem}
+  .mmenu .mkat a{background:#fff;border:0;box-shadow:0 4px 14px rgba(122,33,104,.06);border-radius:14px;padding:.75rem .8rem}
+  .mmenu .mkat a svg{background:var(--plum-wash)}
+  /* kontakt: bela kartica */
+  .mmenu .mtel{background:#fff;border-radius:16px;padding:1rem!important;margin-top:1rem!important;border-top:0!important;
+    box-shadow:0 6px 20px rgba(122,33,104,.07)}
+  .mmenu .mtel .btn-outline{background:#fff}
+  /* KATALOG: kartice van ekrana se ne crtaju dok ne dođu u blizinu — skrol lakši dok slike stižu */
+  #grid .prod{content-visibility:auto;contain-intrinsic-size:auto 290px}
+}
