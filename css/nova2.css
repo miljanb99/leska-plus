@@ -1761,8 +1761,8 @@ main h1,main h2{color:#241c28}
   .mmenu[hidden]{display:flex!important;visibility:hidden;transform:translateX(100%);
     transition:transform .2s cubic-bezier(.4,0,.8,.4),visibility 0s linear .2s!important;pointer-events:none}
   /* 2) logotip u meniju odvojen od vrha ekrana */
-  .mmenu{padding-top:calc(1.4rem + env(safe-area-inset-top))!important}
-  .mmenu-top{padding-bottom:.9rem;margin-bottom:.4rem}
+  .mmenu{padding-top:calc(2.6rem + env(safe-area-inset-top))!important}
+  .mmenu-top{padding-bottom:1rem;margin-bottom:.6rem;border-bottom:1.5px solid var(--line-2)!important}
   /* 3) jasan odziv na dodir: stavka se oboji i blago skupi dok je prst na njoj */
   .mmenu a.glavni{transition:background-color .08s,color .08s;border-radius:10px;padding-inline:.6rem!important;margin-inline:-.6rem}
   .mmenu a.glavni:active{background:var(--plum-wash);color:var(--plum-dark)}
