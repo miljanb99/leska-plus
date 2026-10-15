@@ -61,20 +61,26 @@ document.documentElement.classList.add('uvod');
 if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-panelom');
 }catch(e){}</script>
 <meta charset="utf-8">
-<script>/* sat za pozadinu: mreža (70 s tamo-nazad) i svetlo (44 s) nastavljaju odakle su bili */try{var _s=Date.now(),_h=document.documentElement.style;_h.setProperty("--sat-mreza",-(_s%140000)+"ms");_h.setProperty("--sat-svetlo",-(_s%88000)+"ms");/* blokovi sakriveni već pri prvom crtanju — app.js skida oznaku čim preuzme */document.documentElement.classList.add("pre-skripte")}catch(e){}</script>
+<script>/* sat za pozadinu: mreža (70 s tamo-nazad) i svetlo (44 s) nastavljaju odakle su bili; (v1087) telefon bez „pre-skripte" — tamo nema ulaznih animacija */try{var _s=Date.now(),_h=document.documentElement.style;_h.setProperty("--sat-mreza",-(_s%140000)+"ms");_h.setProperty("--sat-svetlo",-(_s%88000)+"ms");if(innerWidth>760)document.documentElement.classList.add("pre-skripte")}catch(e){}</script>
+<style>/* (v1087, 15.10.2026) loader na telefonu — prekrivka stoji dok se prvi ekran ne složi */
+@media (max-width:760px){#ucitavanje{position:fixed;inset:0;z-index:2147483000;background:#f7eff4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.6rem;transition:opacity .32s ease}
+#ucitavanje img{width:min(54vw,230px);height:auto;animation:ucDise 1.6s ease-in-out infinite}
+#ucitavanje.gotovo{opacity:0;pointer-events:none}
+@keyframes ucDise{0%,100%{opacity:.55;transform:scale(.97)}50%{opacity:1;transform:scale(1)}}}
+@media (min-width:761px){#ucitavanje{display:none}}</style>
+<script>/* (v1087) loader — bez pretapanja strana na telefonu (prekrivka je ono što se vidi); rezerva: skloni se sama posle 7 s */try{window.__ucStart=Date.now();if(innerWidth<=760){var _u=document.createElement("style");_u.textContent="@view-transition{navigation:none}";document.head.appendChild(_u);setTimeout(function(){var u=document.getElementById("ucitavanje");if(u){u.classList.add("gotovo");setTimeout(function(){u.remove()},600)}},7000)}}catch(e){}</script>
 <meta name="color-scheme" content="light">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<link rel="icon" href="img/ikona-32.png?v=9" sizes="32x32">
-<link rel="icon" href="img/ikona-192.png?v=9" sizes="192x192">
-<link rel="icon" href="img/ikona-512.png?v=9" sizes="512x512">
-<link rel="apple-touch-icon" href="img/ikona-180.png?v=9">
-<link rel="manifest" href="manifest.json?v=9">
+<link rel="icon" href="img/ikona-192.png?v=10" sizes="192x192">
+<link rel="icon" href="img/ikona-512.png?v=10" sizes="512x512">
+<link rel="apple-touch-icon" href="img/ikona-180.png?v=10">
+<link rel="manifest" href="manifest.json?v=10">
 <title>Kreveti i dušeci po meri — Leska, Aranđelovac</title>
 <meta name="description" content="Kreveti, francuski ležajevi, uzglavlja i dušeci u dimenziji koju tražite — Aranđelovac. Mera na adresi po dogovoru, izbor štofa i drveta u salonu, prevoz i montaža. Salon Leska plus, Kralja Petra I bb.">
 <meta name="theme-color" content="#9B2F86">
 <meta property="og:title" content="Kreveti i dušeci po meri — Leska, Aranđelovac">
-<meta property="og:image" content="https://leskaplus.rs/img/ikona-512.png">
+<meta property="og:image" content="https://miljanb99.github.io/leska-plus/img/ikona-512.png?v=10">
 <meta property="og:description" content="Krevet i dušek u dimenziji koju tražite, po vašoj meri. Izađemo i izmerimo po dogovoru, štof i drvo birate u salonu.">
 <meta property="og:type" content="website">
 <!-- „optional" umesto „swap": sa swap-om pregledač prvo iscrta stranu
@@ -90,8 +96,8 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-sans-400-latin-ext.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin-ext.woff2">
-<link rel="stylesheet" href="css/style.css?v=1086">
-<link rel="stylesheet" href="css/nova2.css?v=1086">
+<link rel="stylesheet" href="css/style.css?v=1087">
+<link rel="stylesheet" href="css/nova2.css?v=1087">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -115,6 +121,7 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 </script>
 </head>
 <body>
+<div id="ucitavanje" aria-hidden="true"><img src="img/logo-700.webp?v=2" alt="" decoding="sync"></div>
 
 <svg class="ik-izvor" aria-hidden="true" focusable="false"><defs>
 <symbol id="ik-pin" viewBox="0 0 24 24">
@@ -141,7 +148,7 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 </defs></svg>
 
 <div class="v2-pozadina" aria-hidden="true">
-  <img width="1600" height="1292" src="img/veliko/matis-spavaca-soba-malaga-a1.jpg" alt="">
+  <img width="1600" height="1292" src="img/veliko/matis-spavaca-soba-malaga-a1.jpg" srcset="img/m/matis-spavaca-soba-malaga-a1.jpg 820w, img/veliko/matis-spavaca-soba-malaga-a1.jpg 1600w" sizes="100vw" alt="">
 </div>
 
 <div class="progress" id="progress" aria-hidden="true"></div>
@@ -166,7 +173,7 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
   <div class="wrap">
     <a class="brand" href="index.html">
       <span class="brand-mark">
-        <img src="img/logo-700.png?v=2" alt="Leska — salon nameštaja, Aranđelovac" width="760" height="255">
+        <img src="img/logo-700.webp?v=2" alt="Leska — salon nameštaja, Aranđelovac" width="760" height="255">
       </span>
       <span class="brand-txt">Salon<br>nameštaja</span>
     </a>
@@ -231,47 +238,47 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
       <figure class="pm-vrh-foto pm-slajd" aria-label="Preseci dušeka Relax-San">
         <div class="pm-traka">
           <div class="pm-presek">
-            <img width="1600" height="742" src="img/veliko/presek-relaxsan-classic.webp?v=6" alt="Presek dušeka Classic">
+            <img width="1600" height="742" src="img/veliko/presek-relaxsan-classic.webp?v=6" srcset="img/m/presek-relaxsan-classic.webp?v=6 820w, img/veliko/presek-relaxsan-classic.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Classic">
             <div class="pm-presek-tekst"><b>Classic</b><ul class="pm-slojevi"><li>Žičano jezgro</li><li>Filc</li><li>Sunđer <b>1 cm</b></li><li>Koflin</li><li>Damast</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="742" src="img/veliko/presek-relaxsan-elegant.webp?v=6" alt="Presek dušeka Elegant">
+            <img width="1600" height="742" src="img/veliko/presek-relaxsan-elegant.webp?v=6" srcset="img/m/presek-relaxsan-elegant.webp?v=6 820w, img/veliko/presek-relaxsan-elegant.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Elegant">
             <div class="pm-presek-tekst"><b>Elegant</b><ul class="pm-slojevi"><li>Žičano jezgro</li><li>Filc</li><li>Sunđer <b>2 cm</b> S20</li><li>Koflin</li><li>Damast</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="748" src="img/veliko/presek-relaxsan-extra.webp?v=6" alt="Presek dušeka Extra">
+            <img width="1600" height="748" src="img/veliko/presek-relaxsan-extra.webp?v=6" srcset="img/m/presek-relaxsan-extra.webp?v=6 820w, img/veliko/presek-relaxsan-extra.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Extra">
             <div class="pm-presek-tekst"><b>Extra</b><ul class="pm-slojevi"><li>Žičano jezgro</li><li>Filc</li><li>Sunđer <b>3 cm</b> S20</li><li>Koflin</li><li>Damast</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="748" src="img/veliko/presek-relaxsan-extra-lux.webp?v=6" alt="Presek dušeka Extra Lux">
+            <img width="1600" height="748" src="img/veliko/presek-relaxsan-extra-lux.webp?v=6" srcset="img/m/presek-relaxsan-extra-lux.webp?v=6 820w, img/veliko/presek-relaxsan-extra-lux.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Extra Lux">
             <div class="pm-presek-tekst"><b>Extra Lux</b><ul class="pm-slojevi"><li>Žičano jezgro</li><li>Filc</li><li>Sunđer <b>3 cm</b> S25</li><li>Koflin</li><li>Damast</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="748" src="img/veliko/presek-relaxsan-premijum.webp?v=6" alt="Presek dušeka Premijum">
+            <img width="1600" height="748" src="img/veliko/presek-relaxsan-premijum.webp?v=6" srcset="img/m/presek-relaxsan-premijum.webp?v=6 820w, img/veliko/presek-relaxsan-premijum.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Premijum">
             <div class="pm-presek-tekst"><b>Premijum</b><ul class="pm-slojevi"><li>Žičano jezgro</li><li>Filc</li><li>Sunđer <b>3 cm</b> S25</li><li>Sunđer piling</li><li>Koflin</li><li>Premium platno</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="748" src="img/veliko/presek-relaxsan-medisan.webp?v=6" alt="Presek dušeka Medisan Aloevera">
+            <img width="1600" height="748" src="img/veliko/presek-relaxsan-medisan.webp?v=6" srcset="img/m/presek-relaxsan-medisan.webp?v=6 820w, img/veliko/presek-relaxsan-medisan.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Medisan Aloevera">
             <div class="pm-presek-tekst"><b>Medisan Aloevera</b><ul class="pm-slojevi"><li>Žičano jezgro</li><li>Filc</li><li>Sunđer <b>3 cm</b> S25</li><li>Sunđer piling</li><li>Platno Aloevera</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="748" src="img/veliko/presek-relaxsan-king.webp?v=6" alt="Presek dušeka King">
+            <img width="1600" height="748" src="img/veliko/presek-relaxsan-king.webp?v=6" srcset="img/m/presek-relaxsan-king.webp?v=6 820w, img/veliko/presek-relaxsan-king.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka King">
             <div class="pm-presek-tekst"><b>King</b><ul class="pm-slojevi"><li>Žičano jezgro sa duplim flahom</li><li>Filc</li><li>Sunđer <b>3 cm</b> S25</li><li>Sunđer <b>2 cm</b> S35</li><li>Koflin</li><li>Damast</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="742" src="img/veliko/presek-relaxsan-soft.webp?v=6" alt="Presek dušeka Soft">
+            <img width="1600" height="742" src="img/veliko/presek-relaxsan-soft.webp?v=6" srcset="img/m/presek-relaxsan-soft.webp?v=6 820w, img/veliko/presek-relaxsan-soft.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Soft">
             <div class="pm-presek-tekst"><b>Soft</b><ul class="pm-slojevi"><li>Jezgro od sunđera S25 <b>14 cm</b></li><li>Memori pena <b>3 cm</b></li><li>Skidajuća navlaka Aloevera</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="742" src="img/veliko/presek-relaxsan-duo.webp?v=6" alt="Presek dušeka Duo">
+            <img width="1600" height="742" src="img/veliko/presek-relaxsan-duo.webp?v=6" srcset="img/m/presek-relaxsan-duo.webp?v=6 820w, img/veliko/presek-relaxsan-duo.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Duo">
             <div class="pm-presek-tekst"><b>Duo</b><ul class="pm-slojevi"><li>Jezgro od sunđera S25 <b>14 cm</b></li><li>Memori pena <b>3 cm</b></li><li>HR pena <b>4 cm</b></li><li>Skidajuća navlaka Aloevera</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="761" src="img/veliko/presek-relaxsan-premijer.webp?v=6" alt="Presek dušeka Premijer">
+            <img width="1600" height="761" src="img/veliko/presek-relaxsan-premijer.webp?v=6" srcset="img/m/presek-relaxsan-premijer.webp?v=6 820w, img/veliko/presek-relaxsan-premijer.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Premijer">
             <div class="pm-presek-tekst"><b>Premijer</b><ul class="pm-slojevi"><li>Džepičasto jezgro sa duplim flahom</li><li>Filc</li><li>Sunđer <b>2 cm</b> S35</li><li>Sunđer piling</li><li>Platno Aloevera</li></ul></div>
           </div>
           <div class="pm-presek" fetchpriority="low">
-            <img width="1600" height="761" src="img/veliko/presek-relaxsan-premijer-plus.webp?v=6" alt="Presek dušeka Premijer Plus">
+            <img width="1600" height="761" src="img/veliko/presek-relaxsan-premijer-plus.webp?v=6" srcset="img/m/presek-relaxsan-premijer-plus.webp?v=6 820w, img/veliko/presek-relaxsan-premijer-plus.webp?v=6 1600w" sizes="(max-width:760px) 100vw, 48vw" alt="Presek dušeka Premijer Plus">
             <div class="pm-presek-tekst"><b>Premijer Plus</b><ul class="pm-slojevi"><li>Džepičasto jezgro sa duplim flahom</li><li>Filc</li><li>Sunđer <b>3 cm</b> S25</li><li>Memori pena <b>3 cm</b></li><li>HR pena <b>4 cm</b></li><li>Sunđer piling</li><li>Skidajuća navlaka Aloevera</li></ul></div>
           </div>
         </div>
@@ -426,7 +433,7 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
   <!-- traka: znak levo, kontakt desno — ono zbog čega se i dolazi do dna -->
   <div class="wrap v2-pod-vrh">
     <a class="v2-pod-znak" href="index.html">
-      <img src="img/logo-700.png?v=2" alt="Leska — salon nameštaja" width="760" height="255" loading="lazy">
+      <img src="img/logo-700.webp?v=2" alt="Leska — salon nameštaja" width="760" height="255" loading="lazy">
     </a>
     <div class="v2-pod-veze">
       <a class="tel" href="tel:+38134723007">034 723 007</a>
@@ -505,8 +512,9 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 
 <div class="lb" id="lb" hidden></div>
 
-<script src="js/app.js?v=1086"></script>
-<script src="js/nova2.js?v=1086"></script>
+<link rel="preload" as="fetch" href="data/katalog.json?v=1087" crossorigin>
+<script src="js/app.js?v=1087"></script>
+<script src="js/nova2.js?v=1087"></script>
 <script>
 (function(){
   const pb = document.getElementById('progress');
