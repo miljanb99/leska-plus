@@ -1,0 +1,180 @@
+<!doctype html><html lang="sr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proba — izbor menija na telefonu</title>
+<style>
+@font-face{font-family:'Nunito';font-weight:800;src:url(fonts/nunito-800-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F}
+@font-face{font-family:'Nunito';font-weight:800;src:url(fonts/nunito-800-latin.woff2) format('woff2')}
+@font-face{font-family:'Nunito';font-weight:700;src:url(fonts/nunito-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F}
+@font-face{font-family:'Nunito';font-weight:700;src:url(fonts/nunito-700-latin.woff2) format('woff2')}
+@font-face{font-family:'Nunito Sans';font-weight:400;src:url(fonts/nunito-sans-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F}
+@font-face{font-family:'Nunito Sans';font-weight:400;src:url(fonts/nunito-sans-400-latin.woff2) format('woff2')}
+@font-face{font-family:'Nunito Sans';font-weight:600;src:url(fonts/nunito-sans-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F}
+@font-face{font-family:'Nunito Sans';font-weight:600;src:url(fonts/nunito-sans-600-latin.woff2) format('woff2')}
+@font-face{font-family:'Nunito Sans';font-weight:700;src:url(fonts/nunito-sans-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-024F}
+@font-face{font-family:'Nunito Sans';font-weight:700;src:url(fonts/nunito-sans-700-latin.woff2) format('woff2')}
+:root{--plum:#9B2F86;--plum-dark:#7A2168;--wash:#FCF2F9;--wash2:#F7E6F2;--tint:#F6EFF5;--ink:#2E2733;--soft:#6B6270;--faint:#9A919F;--line:#E9DEE6}
+body{margin:0;background:#1d1a1f;color:#eee;font:15px/1.4 -apple-system,system-ui,sans-serif;padding:18px}
+h1{font-size:17px;font-weight:600;margin:0 0 4px}p.uv{margin:0 0 16px;opacity:.75;font-size:13px}
+.red{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-start}
+.tel{width:300px}.tel b{display:block;font-weight:600;margin:0 0 4px;font-size:13px}.tel small{display:block;opacity:.6;font-size:11px;min-height:44px;margin-bottom:6px}
+.ekran{position:relative;width:300px;height:640px;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.5);font-family:'Nunito Sans',sans-serif;color:var(--ink);font-size:13px}
+.ekran *{box-sizing:border-box}
+.ekran a{color:inherit;text-decoration:none}
+.logo{height:24px;width:auto;display:block}
+.x{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--tint)}
+.x svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.vrh{display:flex;align-items:center;justify-content:space-between;padding:14px 16px 8px}
+.trazi{display:flex;align-items:center;gap:8px;margin:6px 16px 10px;padding:0 10px 0 14px;height:40px;border-radius:999px;background:#fff;box-shadow:0 4px 14px rgba(122,33,104,.07);color:var(--faint)}
+.trazi svg{width:15px;height:15px;fill:none;stroke:var(--plum);stroke-width:2;stroke-linecap:round;flex:none}
+.glavno{padding:0 16px}
+.glavno a{display:flex;align-items:center;justify-content:space-between;font-family:'Nunito',sans-serif;font-weight:800;font-size:16.5px;padding:9px 0}
+.glavno a::after{content:"";width:7px;height:7px;border-right:2px solid var(--plum);border-bottom:2px solid var(--plum);transform:rotate(-45deg);margin-right:4px}
+.nasl{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);font-weight:700;padding:12px 16px 6px}
+.kat{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:0 16px}
+.kat a{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:13px;background:#fff;box-shadow:0 4px 14px rgba(122,33,104,.06);font-weight:600;font-size:12.5px;line-height:1.15}
+.kat svg{width:26px;height:26px;padding:5px;border-radius:50%;background:var(--wash);fill:none;stroke:var(--plum);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.kontakt{margin:14px 16px 0;background:#fff;border-radius:16px;padding:12px;box-shadow:0 6px 20px rgba(122,33,104,.07);display:flex;flex-direction:column;gap:7px}
+.btn{display:flex;align-items:center;justify-content:center;height:40px;border-radius:999px;font-weight:700;font-size:13.5px;border:1.5px solid var(--plum);color:var(--plum);background:#fff}
+.btn.p{background:var(--plum);color:#fff}
+.okr{display:flex;justify-content:center;gap:12px}.okr span{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-size:10px;font-weight:700}
+.okr .v{color:#7360f2}.okr .w{color:#25d366}
+.radno{text-align:center;font-size:11px;color:var(--soft);margin:4px 0 0}
+
+/* ===== A: sadašnji ===== */
+.a{background:#f7eff4}
+
+/* ===== B: belo, vazdušasto ===== */
+.b{background:#fff}
+.b .vrh{padding:16px 20px 6px}
+.b .trazi{margin:8px 20px 14px;background:var(--tint);box-shadow:none;height:42px}
+.b .glavno{padding:0 20px}
+.b .glavno a{font-family:'Nunito Sans',sans-serif;font-weight:600;font-size:19px;padding:11px 0;border-bottom:1px solid var(--line)}
+.b .glavno a::after{border-color:var(--faint)}
+.b .nasl{padding:18px 20px 8px}
+.b .kat{padding:0 20px;gap:8px}
+.b .kat a{background:var(--tint);box-shadow:none}
+.b .kat svg{background:#fff}
+.b .dno{position:absolute;left:0;right:0;bottom:0;padding:12px 20px 16px;background:#fff;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr 40px 40px;gap:8px;align-items:center}
+.b .dno .btn{height:40px;font-size:13px}
+.b .dno span{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-size:9px;font-weight:700}
+
+/* ===== C: ljubičasti vrh ===== */
+.c{background:#fff}
+.c .glava{background:linear-gradient(160deg,#A6399A,#7A2168);padding:16px 18px 36px;color:#fff}
+.c .glava .vrh{padding:0 0 10px}
+.c .glava .x{background:rgba(255,255,255,.18);color:#fff}
+.c .glava .logo{filter:brightness(0) invert(1)}
+.c .glava .trazi{margin:6px 0 0;background:rgba(255,255,255,.95);color:var(--faint)}
+.c .glava .podnasl{font-size:12px;opacity:.85;margin:10px 0 0}
+.c .telo{margin-top:-22px;background:#fff;border-radius:22px 22px 0 0;padding-top:8px;position:relative}
+.c .glavno a{font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:16px;padding:9px 0;gap:10px;justify-content:flex-start}
+.c .glavno a::after{margin-left:auto}
+.c .glavno a i{width:28px;height:28px;border-radius:9px;background:var(--wash);display:grid;place-items:center;flex:none}
+.c .glavno a i svg{width:15px;height:15px;fill:none;stroke:var(--plum);stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.c .kat a{background:var(--tint);box-shadow:none}
+.c .kat svg{background:#fff}
+.c .dno{margin:12px 16px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+
+/* ===== D: foto kategorije ===== */
+.d{background:#fff}
+.d .glavno{display:flex;flex-wrap:wrap;gap:6px;padding:4px 16px 2px}
+.d .glavno a{font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:12.5px;padding:7px 12px;border-radius:999px;background:var(--tint);color:var(--ink)}
+.d .glavno a::after{content:none}
+.d .glavno a.akt{background:var(--plum);color:#fff}
+.d .kat{gap:8px}
+.d .kat a{position:relative;height:72px;padding:0;border-radius:14px;overflow:hidden;background:#ddd center/cover no-repeat;box-shadow:none;color:#fff;align-items:flex-end}
+.d .kat a::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(30,20,35,.78),rgba(30,20,35,.1) 60%)}
+.d .kat a span{position:relative;padding:8px 10px;font-weight:700;font-size:12.5px;text-shadow:0 1px 3px rgba(0,0,0,.4)}
+.d .kat svg{display:none}
+.d .dno{margin:12px 16px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+
+/* ===== E: tipografski ===== */
+.e{background:#fff}
+.e .vrh{padding:18px 22px 4px}
+.e .glavno{padding:8px 22px 0}
+.e .glavno a{font-family:'Nunito',sans-serif;font-weight:800;font-size:26px;line-height:1.05;padding:7px 0;letter-spacing:-.01em}
+.e .glavno a::after{content:none}
+.e .glavno a.akt{color:var(--plum)}
+.e .nasl{padding:20px 22px 4px}
+.e .kat{display:block;padding:0 22px;columns:2;column-gap:18px}
+.e .kat a{display:block;padding:6px 0;border-radius:0;box-shadow:none;background:none;border-bottom:1px solid var(--line);font-weight:600;font-size:13px;break-inside:avoid}
+.e .kat svg{display:none}
+.e .trazi{margin:8px 22px 0;background:none;box-shadow:none;border-bottom:1.5px solid var(--ink);border-radius:0;padding:0;color:var(--faint)}
+.e .dno{position:absolute;left:0;right:0;bottom:0;padding:12px 22px 16px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.e .dno .btn{border-radius:10px}
+.e .radno{grid-column:1/-1}
+</style></head><body>
+<h1>Meni na telefonu — varijante</h1><p class="uv">Statični prikazi otvorenog menija, u bojama i fontovima sajta. Kategorije su iste u svima (menja se samo kutija).</p>
+<div class="red">
+
+<div class="tel"><b>A — sadašnji</b><small>lila podloga, pretraga u piluli, krupne stavke, bele pločice, bela kartica sa kontaktom</small>
+<div class="ekran a">
+ <div class="vrh"><img class="logo" src="img/logo-700.webp" alt=""><span class="x"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+ <div class="trazi"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Traži model — npr. Emanuela, dušek</div>
+ <nav class="glavno"><a>Početna</a><a>Cela ponuda</a><a>Kreveti i dušeci po meri</a><a>Usluge</a><a>O nama</a><a>Kontakt</a></nav>
+ <div class="nasl">Kategorije</div><div class="kat" data-kat></div>
+ <div class="kontakt"><span class="btn p">Pozovi 034 723 007</span><span class="btn">Pošalji upit</span><div class="okr"><span class="v">Viber</span><span class="w">WA</span></div><p class="radno">Pon–pet 08–19 · Sub 08–16</p></div>
+</div></div>
+
+<div class="tel"><b>B — belo i vazdušasto</b><small>bela podloga, tanje stavke sa linijama, kategorije u lila pločicama, kontakt stalno na dnu ekrana</small>
+<div class="ekran b">
+ <div class="vrh"><img class="logo" src="img/logo-700.webp" alt=""><span class="x"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+ <div class="trazi"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Traži model…</div>
+ <nav class="glavno"><a>Početna</a><a>Cela ponuda</a><a>Kreveti i dušeci po meri</a><a>Usluge</a><a>O nama</a><a>Kontakt</a></nav>
+ <div class="nasl">Kategorije</div><div class="kat" data-kat></div>
+ <div class="dno"><span class="btn p">Pozovi</span><span class="btn">Pošalji upit</span><span style="color:#7360f2">Viber</span><span style="color:#25d366">WA</span></div>
+</div></div>
+
+<div class="tel"><b>C — ljubičasti vrh</b><small>vrh u boji brenda sa belim logotipom i pretragom, belo „platno" ispod sa ikonicama uz stavke — kao moderne aplikacije prodavnica</small>
+<div class="ekran c">
+ <div class="glava"><div class="vrh"><img class="logo" src="img/logo-700.webp" alt=""><span class="x"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+  <div class="trazi"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Traži model — npr. Emanuela</div>
+  <p class="podnasl">Salon nameštaja · Aranđelovac · otvoreno do 19h</p></div>
+ <div class="telo">
+ <nav class="glavno">
+  <a><i><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></i>Početna</a>
+  <a><i><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 10h16M9 6v12"/></svg></i>Cela ponuda</a>
+  <a><i><svg viewBox="0 0 24 24"><path d="M3 18v-7h18v7M3 14h18M5 11V7h14v4"/></svg></i>Kreveti i dušeci po meri</a>
+  <a><i><svg viewBox="0 0 24 24"><path d="M14 7l3 3-8 8H6v-3zM13 8l3 3"/></svg></i>Usluge</a>
+  <a><i><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 20a8 8 0 0 1 16 0"/></svg></i>O nama</a>
+  <a><i><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zM12 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg></i>Kontakt</a>
+ </nav>
+ <div class="nasl">Kategorije</div><div class="kat" data-kat></div>
+ <div class="dno"><span class="btn p">Pozovi</span><span class="btn">Pošalji upit</span></div>
+ </div>
+</div></div>
+
+<div class="tel"><b>D — fotografije</b><small>glavne stavke kao pilule, kategorije kao fotografije ambijenata sa imenom — najbogatije, slike se učitavaju tek kad se meni otvori</small>
+<div class="ekran d">
+ <div class="vrh"><img class="logo" src="img/logo-700.webp" alt=""><span class="x"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+ <div class="trazi" style="background:var(--tint);box-shadow:none"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Traži model…</div>
+ <nav class="glavno"><a class="akt">Početna</a><a>Cela ponuda</a><a>Po meri</a><a>Usluge</a><a>O nama</a><a>Kontakt</a></nav>
+ <div class="nasl">Kategorije</div><div class="kat" data-kat data-foto></div>
+ <div class="dno"><span class="btn p">Pozovi</span><span class="btn">Pošalji upit</span></div>
+</div></div>
+
+<div class="tel"><b>E — tipografski</b><small>bez ikonica i kutija: krupan naslovni font, kategorije kao dva stupca teksta, pretraga kao linija — najminimalnije, „editorial" stil</small>
+<div class="ekran e">
+ <div class="vrh"><img class="logo" src="img/logo-700.webp" alt=""><span class="x"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+ <nav class="glavno"><a class="akt">Početna</a><a>Ponuda</a><a>Po meri</a><a>Usluge</a><a>O nama</a><a>Kontakt</a></nav>
+ <div class="nasl">Kategorije</div><div class="kat" data-kat></div>
+ <div class="trazi"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Traži model…</div>
+ <div class="dno"><span class="btn p">Pozovi</span><span class="btn">Pošalji upit</span><p class="radno">Pon–pet 08–19 · Sub 08–16 · Viber · WhatsApp</p></div>
+</div></div>
+
+</div>
+<script>
+const K=[['dnevne','Dnevne sobe','matis-dnevna-soba-malaga-3.jpg','M3 12v6h18v-6M3 12a2 2 0 0 1 4 0v3h10v-3a2 2 0 0 1 4 0M6 12V8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4'],
+['spavace','Spavaće sobe','matis-spavaca-soba-malaga-a1.jpg','M3 18v-7h18v7M3 14h18M5 11V7h14v4M8 11V9h8v2'],
+['kuhinje','Kuhinje','matis-amb-kuhinja-aura.jpg','M4 10h16v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM2 10h20M9 6v2M12 5v3M15 6v2'],
+['trpezarije','Trpezarije','matis-trpezarijski-set-heba-sto-4-stolice.jpg','M3 9h18M12 9v10M7 19h10M5 9V7h14v2'],
+['duseci','Dušeci i posteljina','andrijasevic-dusek-antialergico.jpg','M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9H3zM3 13h18M7 6v11M17 6v11'],
+['decije','Dečije sobe','matis-decija-soba-kinder-ambijent.jpg','M4 13h7v7H4zM13 13h7v7h-7zM8.5 5h7v7h-7z'],
+['predsoblja','Predsoblja','matis-predsoblje-malaga-3.jpg','M12 4a2 2 0 0 1 2 2c0 1.5-2 2-2 3.5M4 18l8-6 8 6H4z'],
+['kancelarija','Kancelarija','matis-kancelarijska-stolica-iena-3.jpg','M4 6h16v10H4zM2 19h20M9 19v-3M15 19v-3'],
+['basta','Bašta i terasa','matis-bastenska-garnitura-nina-2-1-2.jpg','M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4M8 12a4 4 0 1 0 8 0 4 4 0 1 0-8 0'],
+['rasveta','Rasveta','attrium-eglo-dundee-podna-lampa-49342-2.jpg','M9 18h6M10 21h4M12 3a6 6 0 0 1 3.5 10.9c-.4.3-.5.7-.5 1.1H9c0-.4-.1-.8-.5-1.1A6 6 0 0 1 12 3z'],
+['dekoracija','Tepisi','matis-tepih-toscana-01-ddd.jpg','M4 17h13l3-9H7zM7.6 14.4h9.6M9 11.4h9.2M17 17c2.3 0 3.6-1.4 3.6-3.3V8']];
+document.querySelectorAll('[data-kat]').forEach(el=>{const foto=el.hasAttribute('data-foto');
+ el.innerHTML=K.map(([id,n,sl,p])=>`<a${foto?` style="background-image:url(img/m/${sl})"`:''}><svg viewBox="0 0 24 24"><path d="${p}"/></svg><span>${n}</span></a>`).join('');});
+</script>
+</body></html>
