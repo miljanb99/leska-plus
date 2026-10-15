@@ -66,6 +66,7 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 @media (max-width:760px){#ucitavanje{position:fixed;inset:0;z-index:59;background:#f7eff4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.6rem;transition:opacity .32s ease}
 #ucitavanje img{width:min(54vw,230px);height:auto;animation:ucDise 1.6s ease-in-out infinite}
 #ucitavanje.gotovo{opacity:0;pointer-events:none}
+html:has(#ucitavanje) .v2-vrh-omot,html:has(#ucitavanje) .mobile-bar{transition:none!important}
 @keyframes ucDise{0%,100%{opacity:.55;transform:scale(.97)}50%{opacity:1;transform:scale(1)}}}
 @media (min-width:761px){#ucitavanje{display:none}}</style>
 <script>/* (v1087) loader — rezerva: skloni se sama posle 7 s (prelaz strana ostaje; prekrivka stoji ispod zaglavlja i donje trake) */try{window.__ucStart=Date.now();if(innerWidth<=760){setTimeout(function(){var u=document.getElementById("ucitavanje");if(u){u.classList.add("gotovo");setTimeout(function(){u.remove()},600)}},7000)}}catch(e){}</script>
@@ -96,8 +97,8 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-sans-400-latin-ext.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin-ext.woff2">
-<link rel="stylesheet" href="css/style.css?v=1092">
-<link rel="stylesheet" href="css/nova2.css?v=1092">
+<link rel="stylesheet" href="css/style.css?v=1094">
+<link rel="stylesheet" href="css/nova2.css?v=1094">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -512,9 +513,9 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 
 <div class="lb" id="lb" hidden></div>
 
-<link rel="preload" as="fetch" href="data/katalog.json?v=1092" crossorigin>
-<script src="js/app.js?v=1092"></script>
-<script src="js/nova2.js?v=1092"></script>
+<link rel="preload" as="fetch" href="data/katalog.json?v=1094" crossorigin>
+<script src="js/app.js?v=1094"></script>
+<script src="js/nova2.js?v=1094"></script>
 <script>
 (function(){
   const pb = document.getElementById('progress');
