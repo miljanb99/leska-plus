@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="sr-Latn-RS">
 <head>
+<meta charset="utf-8">
+<!-- (v1103) širina ekrana mora biti poznata pre prve skripte: bez ovoga telefon u skriptama zaglavlja ima innerWidth 980 (kao računar), pa grane „samo telefon" nisu radile -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
 <!-- Osvežavanje strane pregledač ne smatra prelaskom, pa prelaza nema i strana
      bane. Klasa se postavlja pre prvog crtanja, da se ne vidi treptaj. -->
 <script>try{
@@ -60,7 +64,6 @@ document.documentElement.classList.add('uvod');
    sa znakom i menijem na tren stajala preko panela proizvoda. */
 if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-panelom');
 }catch(e){}</script>
-<meta charset="utf-8">
 <script>/* sat za pozadinu: mreža (70 s tamo-nazad) i svetlo (44 s) nastavljaju odakle su bili; (v1087) telefon bez „pre-skripte" — tamo nema ulaznih animacija */try{var _s=Date.now(),_h=document.documentElement.style;_h.setProperty("--sat-mreza",-(_s%140000)+"ms");_h.setProperty("--sat-svetlo",-(_s%88000)+"ms");if(innerWidth>760)document.documentElement.classList.add("pre-skripte")}catch(e){}</script>
 <style>/* (v1087, 15.10.2026) loader na telefonu — prekrivka preko svega (i zaglavlja) stoji dok se prvi ekran ne složi */
 @media (max-width:760px){#ucitavanje{position:fixed;inset:0;z-index:2147483000;background:#f7eff4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.6rem;transition:opacity .32s ease}
@@ -69,10 +72,8 @@ if(/[#&]p=/.test(location.hash)) document.documentElement.classList.add('sa-pane
 html:has(#ucitavanje) .v2-vrh-omot,html:has(#ucitavanje) .mobile-bar{transition:none!important}
 @keyframes ucDise{0%,100%{opacity:.55;transform:scale(.97)}50%{opacity:1;transform:scale(1)}}}
 @media (min-width:761px){#ucitavanje{display:none}}</style>
-<script>/* (v1087) loader — rezerva: skloni se sama posle 7 s (na telefonu se stara strana pretapa u prekrivku; zaglavlje nema svoj sloj u prelazu — stil iza nova2.css) */try{window.__ucStart=Date.now();if(innerWidth<=760){setTimeout(function(){var u=document.getElementById("ucitavanje");if(u){u.classList.add("gotovo");setTimeout(function(){u.remove()},600)}},7000)}}catch(e){}</script>
+<script>/* (v1087) loader — rezerva: skloni se sama posle 7 s (na telefonu se stara strana pretapa u prekrivku; zaglavlje nema svoj sloj u prelazu — stil iza nova2.css) */try{window.__ucStart=Date.now();if(innerWidth<=760){/* (v1102) dolazak klikom na sekciju (#kontakt…): sidro se skida iz adrese da pregledač ne skoči sam ispod prekrivke — sletanje kreće kad prekrivka nestane (app.js) */var _nt=(performance.getEntriesByType("navigation")[0]||{}).type,_tr=false;try{_tr=navigation.activation.navigationType==="traverse"}catch(e){}var _sd=null;try{_sd=sessionStorage.getItem("sidro-dolazak");sessionStorage.removeItem("sidro-dolazak")}catch(e){}if(_nt==="navigate"&&!_tr){if(_sd)window.__sidroDolazak=_sd;else if(/^#(usluge|salon|kontakt)$/.test(location.hash)){window.__sidroDolazak=location.hash;history.replaceState(history.state,"",location.pathname+location.search)}}setTimeout(function(){var u=document.getElementById("ucitavanje");if(u){u.classList.add("gotovo");setTimeout(function(){u.remove()},600)}},7000)}}catch(e){}</script>
 <meta name="color-scheme" content="light">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="img/ikona-192.png?v=10" sizes="192x192">
 <link rel="icon" href="img/ikona-512.png?v=10" sizes="512x512">
 <link rel="apple-touch-icon" href="img/ikona-180.png?v=10">
@@ -93,8 +94,8 @@ html:has(#ucitavanje) .v2-vrh-omot,html:has(#ucitavanje) .mobile-bar{transition:
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-sans-400-latin-ext.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin.woff2">
 <link rel="preload" as="font" type="font/woff2" crossorigin href="fonts/nunito-800-latin-ext.woff2">
-<link rel="stylesheet" href="css/style.css?v=1101">
-<link rel="stylesheet" href="css/nova2.css?v=1101">
+<link rel="stylesheet" href="css/style.css?v=1104">
+<link rel="stylesheet" href="css/nova2.css?v=1104">
 <style>/* (v1098) telefon: pretapanje strana ostaje (stara strana se meko pretopi u prekrivku sa logotipom), ali zaglavlje, traka i donja traka na telefonu nemaju svoje slojeve u prelazu — kad su ih imali, crtali su se iznad prekrivke pa se 0,22 s videlo zaglavlje sa pozadinom bez sadržaja (snimci 15.10). Bez pretapanja je prekrivka iskakala naglo (snimak 14:47). Mora iza style.css, gde su imena zadata. */@media (max-width:760px){.topbar,.site-header,.mobile-bar{view-transition-name:none}}</style>
 </head>
 <body>
@@ -347,9 +348,9 @@ html:has(#ucitavanje) .v2-vrh-omot,html:has(#ucitavanje) .mobile-bar{transition:
 
 <div class="lb" id="lb" hidden></div>
 
-<link rel="preload" as="fetch" href="data/katalog.json?v=1101" crossorigin>
-<script src="js/app.js?v=1101"></script>
-<script src="js/nova2.js?v=1101"></script>
+<link rel="preload" as="fetch" href="data/katalog.json?v=1104" crossorigin>
+<script src="js/app.js?v=1104"></script>
+<script src="js/nova2.js?v=1104"></script>
 <script>
 (function(){
   const pb = document.getElementById('progress');
